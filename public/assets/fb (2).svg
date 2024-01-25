@@ -1,0 +1,16 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Component 784" opacity="0.6">
+<g id="Ellipse 7" filter="url(#filter0_b_1152_2004)">
+<path d="M29.2671 15C29.2671 23.0118 22.8237 29.5 14.8836 29.5C6.94341 29.5 0.5 23.0118 0.5 15C0.5 6.98819 6.94341 0.5 14.8836 0.5C22.8237 0.5 29.2671 6.98819 29.2671 15Z" stroke="white"/>
+</g>
+<path id="Vector" d="M17.2039 10.0773H18.5391V7.73367C18.3087 7.70174 17.5165 7.62988 16.5939 7.62988C14.6689 7.62988 13.3502 8.85021 13.3502 11.0931V13.1573H11.2258V15.7773H13.3502V22.3696H15.9547V15.7779H17.9931L18.3167 13.1579H15.9541V11.3529C15.9547 10.5956 16.157 10.0773 17.2039 10.0773Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_b_1152_2004" x="-10" y="-10" width="49.7671" height="50" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="5"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1152_2004"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1152_2004" result="shape"/>
+</filter>
+</defs>
+</svg>
