@@ -1572,6 +1572,7 @@
             <div
               class="col-xl-7 col-lg-5 col-12 order-lg-2 order-1 available-slots d-flex flex-column p-4 gap-xl-1 gap-3"
               style="background-color: #0d3642">
+              
               <div class="d-flex justify-content-end align-items-center">
                 <svg style="cursor: pointer" xmlns="http://www.w3.org/2000/svg" width="27" height="27"
                   viewBox="0 0 27 27" fill="none" class="close-modal">
