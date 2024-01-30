@@ -1,0 +1,921 @@
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap);
+
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    padding: 0;
+    margin: 0
+}
+
+.nav-items a,
+body {
+    font-family: Manrope;
+    font-style: normal
+}
+
+*,
+.View-More-btn,
+.bannerSection a,
+.f-location a,
+.main-nav .navButton,
+.text-deco,
+a {
+    text-decoration: none
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    list-style: none;
+    color: #000
+}
+
+.container {
+    max-width: 1240px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important
+}
+
+.pt-100 {
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+
+.main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: 0 0;
+    transition: .3s linear;
+    border-bottom: 1px solid #0f4757;
+    z-index: 1000
+}
+
+.business-Process,
+.serviceCardColor {
+    background-color: #0d3642
+}
+
+.main-nav.bgchange {
+    background: #0f4757;
+    transition: .3s linear
+}
+
+.main-nav .navbar {
+    height: 80px;
+    flex-wrap: nowrap;
+    position: unset;
+    transition: .3s linear;
+    padding: 22px 12px
+}
+
+.pt-80 {
+    padding-top: 80px
+}
+
+.main-nav .nav-items {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.nav-items a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 6px
+}
+
+.Partner-button button,
+.View-More-btn {
+    color: var(--p, #fb7a00);
+    border: 1.5px solid var(--p, #fb7a00)
+}
+
+.Partner-button button,
+.main-nav .navButton {
+    padding: 12px 30px;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Manrope;
+    font-style: normal;
+    line-height: normal
+}
+
+.nav-items .nav-res {
+    display: none !important
+}
+
+.main-nav .navButton {
+    display: flex;
+    align-items: flex-start;
+    color: #fff
+}
+
+.main-nav #nav-toggler {
+    display: none
+}
+
+.hero-section {
+    background-image: url(../assets/HOMEBANNER.webp);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh
+}
+
+.hero-section .hero-content {
+    padding: 76px 0 70px
+}
+
+.hero-section .hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 74px;
+    max-width: 930px;
+    margin: 0 auto
+}
+
+.hero-section .hero-content .business-p {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-top: 18px
+}
+
+.Partner-button {
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+.Partner-button button {
+    display: flex;
+    align-items: flex-start;
+    background: 0 0
+}
+
+.Partner-button button:hover {
+    background-color: var(--p, #fb7a00);
+    color: #fff
+}
+
+.social-iconheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-top: 20px
+}
+
+.social-iconheader a:hover svg path,
+.social-iconheader a:hover svg rect {
+    stroke: #FB7A00
+}
+
+.cardsSection {
+    width: 100%;
+    padding: 100px 0px 30px 0px;
+}
+
+.contentSection h2 {
+    padding-top: 10px;
+    color: #232323;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal
+}
+
+.contentSection .provide-business {
+    width: 100%;
+    max-width: 931px;
+    padding-top: 24px;
+    color: #636363;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 0
+}
+
+.business-Process {
+    padding: 14px 24px
+}
+
+.business-Process h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-top: 10px;
+    margin-bottom: 0
+}
+
+.main-services-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 48px;
+}
+.business-Process h2{
+    white-space: nowrap;
+}
+
+.serviceCard1 {
+    width: 100%;
+    max-width: 387px;
+    position: relative;
+    transition: transform .5s
+}
+
+.serviceCard1::after {
+    position: absolute;
+    background-color: rgba(12, 11, 11, .57);
+    backdrop-filter: blur(1px);
+    width: 100%;
+    height: 100%;
+    content: "";
+    opacity: 0;
+    transition: .4s
+}
+
+.serviceCard1:hover {
+    transform: scale(1.02)
+}
+
+.serviceCard1:hover::after {
+    opacity: 1
+}
+
+.services-card p {
+    color: #636363;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px
+}
+
+.View-More-btn,
+.contect-office h5,
+.serviceCard1 .know-more {
+    font-weight: 500;
+    font-family: Manrope;
+    font-style: normal
+}
+
+.services-card {
+    padding: 16px 24px
+}
+
+.serviceCard1 .know-more {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    border: 1.5px solid #fb7a00;
+    color: #fb7a00;
+    font-size: 16px;
+    line-height: normal;
+    width: 137px;
+    height: 46px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 990
+}
+
+.View-More-btn:hover,
+.services-card .know-more:hover {
+    background-color: #fb7a00;
+    color: #fff
+}
+
+.serviceCard1:hover .know-more {
+    display: flex
+}
+
+.View-More-btn {
+    max-width: 142px;
+    font-size: 16px;
+    line-height: normal;
+    padding: 12px 30px;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.swiper-slide.swiper-slide-active {
+    z-index: 11
+}
+
+.frm-info-bg {
+    width: 100%;
+    background-image: url(../assets/contact.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 97px 40px
+}
+
+.frm-info-bg .contect-office {
+    width: 100%;
+    max-width: 340px
+}
+
+.contect-office h5 {
+    color: var(--White, #fff);
+    font-size: 24px;
+    line-height: 28.8px;
+    padding-top: 40px;
+    margin-bottom: 0
+}
+
+.frm-info-bg .contect-office a,
+.frm-info-bg .contect-office p {
+    color: var(--Stroke, #dfdfdf);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    padding-top: 8px;
+    margin-bottom: 0
+}
+
+#myForm2 label.error {
+    position: absolute;
+    bottom: -15px;
+    font-size: 12px
+}
+
+#bookconsultform label.error,
+#companyNameselect label.error,
+#repnameselect label.error,
+.becomepartform label.error {
+    color: red !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    position: absolute
+}
+
+#bookconsultform label.error {
+    top: calc(100% + 1px);
+    left: 0
+}
+
+.becomepartform label.error {
+    top: calc(100% + 4px)
+}
+
+.fadeSwiper .swiper-wrapper .swiper-slide {
+    opacity: 0 !important
+}
+
+.fadeSwiper .swiper-wrapper .swiper-slide.swiper-slide-active {
+    opacity: 1 !important
+}
+
+.fadeSwiper .sw-slide1 .section-1,
+.fadeSwiper .sw-slide2 .section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 74px
+}
+
+path.kutbay-img {
+    fill: gray
+}
+
+.slideUse svg {
+    filter: grayscale(100%) !important
+}
+
+.slideUse svg:hover {
+    filter: grayscale(0%) !important
+}
+
+.slideUse svg:hover path.kutbay-img {
+    fill: white
+}
+
+.ui-section {
+    padding-top: 100px;
+    background-color: #efefef;
+    padding-bottom: 100px
+}
+
+.ui-section .grid-process .process-content .content-header img,
+.ui-section .grid-process .process-illustration img,
+.vision-image img,
+.zapta-grid .zapta-building img {
+    width: 100% !important;
+    height: auto !important
+}
+
+.ui-section .grid-process .process-illustration {
+    text-align: center
+}
+
+.ui-section .ui-design {
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 5.2rem;
+    color: var(--white)
+}
+
+.ui-section .timeline-container {
+    margin-top: 5.1rem;
+    display: flex;
+    flex-direction: column
+}
+
+.ui-section .grid-process {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    opacity: 1
+}
+
+.ui-section .grid-process .process-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 334px;
+    padding: 72px 32px;
+    background: #0d3642;
+    border-radius: 8px
+}
+
+.ui-section .grid-process .process-content .content-header {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 1rem;
+    align-items: center
+}
+
+.ui-section .grid-process .process-content .content-header .content-title {
+    color: var(--White, #fff);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    font-family: Manrope;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0
+}
+
+.ui-section .grid-process .process-content .process-list {
+    margin-top: 2rem;
+    margin-bottom: 0
+}
+
+.ui-section .grid-process .process-content .process-list .list-item {
+    list-style: decimal;
+    color: var(--Grey-Shades-04, #d9d9d9);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px
+}
+
+.ui-section .grid-process+.row .col-12 img {
+    clip-path: polygon(100% 0, 100% 0, 0 0, 0 0);
+    transition: 2s;
+    object-fit: contain
+}
+
+.outcomes-section {
+    background-color: #153743;
+    padding: 100px 0
+}
+
+.outcomes-section .outcome-card {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr 1fr
+}
+
+.outcomes-section .outcome-card .outcom-p {
+    background-color: #fff;
+    padding: 24px;
+    display: flex;
+    gap: 24px
+}
+
+.out-ul h3 {
+    color: #153743;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px
+}
+
+.out-ul li {
+    color: #636363;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    list-style: disc
+}
+
+.cont-frm button a {
+    color: #fb7a00 !important
+}
+
+.bannerSection a h4 {
+    margin-bottom: 0
+}
+
+#succesmodel .modal-dialog {
+    max-width: 416px
+}
+
+.table-responsive table {
+    width: 100%
+}
+
+.table-responsive table p {
+    white-space: nowrap
+}
+
+.table-responsive table tr td,
+.table-responsive table tr th {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+@media screen and (max-width:1024px) {
+    .row {
+        --bs-gutter-x: 0 !important
+    }
+}
+
+@media screen and (max-width:991px) {
+    .ui-section .grid-process .process-illustration img {
+        margin-top: -22px
+    }
+
+    .main-nav {
+        background: #0f4757
+    }
+
+    .main-nav #nav-toggler {
+        display: block;
+        font-size: 20px;
+        color: #110f13
+    }
+
+    .main-nav .nav-items {
+        position: absolute;
+        top: 104%;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 100%;
+        background: #0f4757;
+        flex-direction: column;
+        align-items: start;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: .3s linear;
+        padding: 10px 26px 30px
+    }
+
+    .main-nav .nav-items.show {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        border-radius: 0 0 30px 30px;
+        transition: .5s linear
+    }
+
+    .main-btn {
+        display: none !important
+    }
+
+    .nav-items .nav-res {
+        display: block !important
+    }
+
+    .contentSection h2,
+    .hero-section .hero-content h1 {
+        font-size: 40px;
+        line-height: 50px
+    }
+}
+
+@media screen and (max-width:992px) {
+    .navbar-collapse.show {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)
+    }
+
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, .55);
+        padding: 0;
+        border: none;
+        outline: 0;
+        box-shadow: none
+    }
+}
+
+@media (max-width:991px) {
+    .ui-section .grid-process .process-content {
+        min-height: unset;
+        order: 2
+    }
+
+    .ui-section .grid-process+.row .col-12 img {
+        clip-path: polygon(100% 0px, 100% 100%, 0px 100%, 0px 0px) !important
+    }
+
+    .ui-section .grid-process .process-content,
+    .ui-section .grid-process .process-illustration {
+        max-width: 625px
+    }
+
+    .ui-section .timeline-container {
+        margin-top: 5rem;
+        gap: 10px;
+        align-items: center
+    }
+
+    .ui-section .grid-process {
+        grid-template-columns: 1fr;
+        justify-content: center
+    }
+
+    .ui-section .grid-process .row .col-12 img {
+        clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0)
+    }
+
+    .pr-about-image,
+    .ui-section .grid-process .process-illustration {
+        order: 1
+    }
+}
+
+@media screen and (max-width:786px) {
+
+    .contentSection h2,
+    .hero-section .hero-content h1 {
+        font-size: 30px;
+        line-height: 50px
+    }
+
+    .cardsSection {
+        padding: 70px 0
+    }
+
+    .ui-section .timeline-container {
+        margin-top: 0
+    }
+
+    .ui-section {
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+
+    .outcomes-section .outcome-card {
+        grid-template-columns: 1fr
+    }
+}
+
+@media (min-width:576px) {
+    #contectUs .modal-dialog {
+        max-width: 1120px;
+        margin: 1.75rem auto
+    }
+
+    .pt-100 {
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+}
+
+@media screen and (max-width:550px) {
+
+    .contentSection h2,
+    .hero-section .hero-content h1 {
+        font-size: 20px;
+        line-height: 30px
+    }
+
+    .hero-section .hero-content .business-p {
+        font-size: 14px;
+        line-height: 22px
+    }
+
+    .Partner-button,
+    .outcomes-section .outcome-card .outcom-p {
+        flex-wrap: wrap
+    }
+
+    .cardsSection {
+        padding: 50px 0
+    }
+
+    .frm-info-bg {
+        padding: 0 10px 10px
+    }
+
+    .wireframe img {
+        width: 100px;
+        height: 100px
+    }
+
+    .ui-section .grid-process {
+        gap: 10px
+    }
+
+    .home-links a {
+        font-size: 12px
+    }
+
+    .out-ul h3 {
+        font-size: 18px
+    }
+
+    .out-ul li {
+        font-size: 14px;
+        line-height: 20px
+    }
+
+    .pt-100 {
+        padding-top: 30px;
+        padding-bottom: 30px
+    }
+
+    .fadeSwiper .sw-slide1 .section-1,
+    .fadeSwiper .sw-slide2 .section-1 {
+        gap: 34px;
+        padding-bottom: 20px
+    }
+
+    .View-More-btn {
+        font-size: 14px;
+        padding: 10px 16px;
+        width: fit-content;
+        white-space: nowrap
+    }
+
+    .main-services-cards {
+        padding-top: 15px
+    }
+
+    .partner-title span {
+        font-size: 14px !important
+    }
+}
+
+@media (max-width:520px) {
+    .ui-section .grid-process .process-content .content-header {
+        grid-template-columns: 37px 1fr;
+        gap: .6rem
+    }
+
+    .ui-section .grid-process .process-content .process-list {
+        margin-top: 1rem
+    }
+    .outcomes-section{
+        padding: 50px 0px;
+    }
+    .ui-section .grid-process {
+        opacity: 1
+    }
+
+    .ui-section .grid-process .process-content {
+        padding: 30px 12px
+    }
+
+    .fadeSwiper .sw-slide1 .section-1 img,
+    .fadeSwiper .sw-slide2 .section-1 img {
+        width: 100px;
+        height: fit-content;
+    }
+
+    #succesmodel p {
+        font-size: 14px !important;
+        padding-top: 5px !important
+    }
+
+    #succesmodel button {
+        margin-bottom: 10px !important;
+        width: 109px !important;
+        height: 40px !important;
+        margin-top: 0 !important
+    }
+
+    .contentSection h2,
+    .hero-section .hero-content h1 {
+        font-size: 18px;
+        line-height: 30px
+    }
+    .contentSection{
+        margin-bottom: 30px;
+    }
+
+    .expertContent p {
+        text-align: justify !important
+    }
+
+    .Partner-button button {
+        padding: 10px 15px;
+        font-size: 14px
+    }
+
+    .prt-sect {
+        padding-bottom: 30px !important
+    }
+
+    .partner-title h2 {
+        line-height: normal !important
+    }
+}
+
+@media screen and (max-width:420px) {
+
+    .table-responsive table tr td,
+    .table-responsive table tr th {
+        display: table-row
+    }
+
+    .services-card p {
+        font-size: 14px;
+        line-height: 22px
+    }
+
+    .business-Process h2 {
+        font-size: 16px;
+        line-height: 20px
+    }
+
+    .ui-section .grid-process .process-content .content-header .content-title {
+        font-size: 14px
+    }
+
+    .ui-section .grid-process .process-content .process-list .list-item {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 7px
+    }
+
+    .ui-section {
+        padding-top: 30px;
+        padding-bottom: 30px
+    }
+
+    .fadeSwiper .sw-slide1 .section-1 img,
+    .fadeSwiper .sw-slide2 .section-1 img {
+        width: 70px;
+        gap: 20px
+    }
+
+    .cardsSection,
+    .toolCardSection {
+        padding: 40px 0;
+        padding-bottom: 40px !important
+    }
+
+    .f-main-location,
+    .team-cards p {
+        padding-top: 0 !important
+    }
+
+    .team-cards h1 {
+        padding-top: 10px !important
+    }
+
+    #succesmodel .modal-body {
+        padding: 10px !important
+    }
+
+    #succesmodel img {
+        width: 50px
+    }
+
+    .contentSection .provide-business {
+        padding-top: 10px
+    }
+}
