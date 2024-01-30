@@ -173,7 +173,7 @@
       ">
       <div class="container">
         <div class="d-flex gap-2 align-items-center pb-3">
-          <a class="text-white m-0 text-decoration-none" href="./index.html">
+          <a class="text-white m-0 text-decoration-none" href="{{route('frontend.home')}}">
             HOME
           </a>
           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
@@ -181,13 +181,13 @@
               d="M5.46124 13.129L10.4142 8.19073C10.473 8.13194 10.5147 8.06826 10.5394 7.99967C10.5641 7.93108 10.5762 7.8576 10.5759 7.77921C10.5759 7.70083 10.5635 7.62734 10.5388 7.55875C10.5141 7.49017 10.4726 7.42648 10.4142 7.36769L5.46124 2.41474C5.32407 2.27757 5.1526 2.20898 4.94684 2.20898C4.74108 2.20898 4.56471 2.28247 4.41774 2.42944C4.27077 2.57641 4.19729 2.74788 4.19729 2.94384C4.19729 3.13981 4.27077 3.31127 4.41774 3.45824L8.73871 7.77921L4.41774 12.1002C4.28057 12.2374 4.21198 12.4065 4.21198 12.6075C4.21198 12.8086 4.28547 12.9824 4.43244 13.129C4.57941 13.276 4.75088 13.3494 4.94684 13.3494C5.1428 13.3494 5.31427 13.276 5.46124 13.129Z"
               fill="#ACACAC" />
           </svg>
-          <a class="text-orange text-decoration-none" href="aboutUs.html">ABOUT US
+          <a class="text-orange text-decoration-none" href="{{route('frontend.aboutUs')}}">ABOUT US
             <!-- <h4 class=" text-center pt-md-0 pt-1 mb-0 border-0"></h4> -->
           </a>
         </div>
-        <h1 class="text-white text-start fw-bold">
+        <h2 class="text-white text-start fw-bold">
           Get to Know Your Strategic Business Ally and Software Development Partner.
-        </h1>
+        </h2>
         <p class="text-start pt-2" style="color: #dfdfdf">
           Discover the Heart of Sync4Tech: A journey defined by team collaboration, and developing software and business solutions. Our commitment is to guide your business smoothly into the digital era.
     
@@ -201,15 +201,15 @@
     <div class="container">
       <div class="d-flex justify-content-lg-between flex-wrap justify-content-center gap-2">
         <div class="col-xl-6 col-lg-6 col-md-6 expertContent d-flex flex-column gap-lg-3 gap-2">
-          <h4 class="text-orange pt-md-0 pt-1 text-md-start text-center">
+          <h1 class="text-orange pt-md-0 pt-1 text-md-start text-center">
             ABOUT US
-          </h4>
-          <h1 class="dark-black fw-bold text-md-start text-center mt-0 mb-0">
+          </h1>
+          <h2 class="dark-black fw-bold text-md-start text-center mt-0 mb-0">
             Welcome to Sync4Tech
-          </h1>
-          <h1 class="dark-black fw-bold text-md-start text-center f23 mb-0">
+          </h2>
+          <h4 class="dark-black fw-bold text-md-start text-center f23 mb-0">
             Your Value-Driven Software Development Partner.
-          </h1>
+          </h4>
           <p class="content-color text-md-start text-center px-md-0 px-sm-5 mb-0">
             Our journey at Sync4Tech transcends the ordinary; it's a narrative crafted with collaboration, innovation, and values. As your dedicated software development partner, we are on a shared mission – to seamlessly guide your business into the digital era.
     
@@ -262,9 +262,9 @@
       ;">
         <div class="contentSection d-flex flex-column justify-content-center align-items-center gap-3">
           <p class="text-orange text-center mb-0">How We Make It Work?</p>
-          <h1 class="text-white text-center fw-bold">
+          <h3 class="text-white text-center fw-bold">
             Decoding Our Business Analysis Framework
-          </h1>
+          </h3>
         </div>
         <!-- <img src="./assets/howworks.png" alt="how we works" class="img-fluid" /> -->
       </div>
@@ -330,9 +330,9 @@
       <!-- <h4 class="text-orange pt-md-0 pt-1 text-md-start text-center">
       QUOTE
     </h4> -->
-      <h1 class="dark-black fw-bold text-md-start text-center">
+      <h2 class="dark-black fw-bold text-md-start text-center">
         CEO’s Message
-      </h1>
+      </h2>
       <div class="d-flex align-items-center ceoimage">
         <img loading="lazy" width="51" height="51" src="{{asset('assets/QuoteIcon.svg')}}" alt="quote" class="img-fluid" />
       </div>
@@ -374,9 +374,9 @@
       <div data-animation="fadeIn" data-animation-delay=".3s"
         class="contentSection d-flex flex-column justify-content-center align-items-center gap-3">
         <p class="text-orange text-center">OUR TEAM</p>
-        <h1 class="dark-black text-center fw-bold px-md-0 px-4">
+        <h3 class="dark-black text-center fw-bold px-md-0 px-4">
           Meet The Brilliant Minds Of Our Team
-        </h1>
+        </h3>
       </div>
       <!-- ------------CARDS SECTION---------------- -->
       <div data-animation="fadeIn" data-animation-delay=".3s"
@@ -386,7 +386,7 @@
         <div class="blogCard team-cards  d-flex flex-column p-lg-3 p-2 align-items-lg-start "
         style="max-width: 386px;width: 100%;">
         <img loading="lazy" width="355" height="355" src="{{asset('assets/ZH.webp')}}" alt="Team One" class="img-fluid m-auto" />
-        <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Zulqarnain Haider</h1>
+        <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Zulqarnain Haider</h3>
         <p style="color: #FB7A00; font-weight: 500">Technical Project Manager</p>
         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Technical Project Management / Program
           Management / Product Leadership</p>
@@ -395,7 +395,7 @@
         <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
           style="max-width: 386px;width: 100%;">
           <img loading="lazy" width="355" height="355" src="{{asset('assets/HN.webp')}}" alt="Team six" class="img-fluid m-auto" />
-          <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Hifza Nasreen</h1>
+          <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Hifza Nasreen</h3>
           <p style="color: #FB7A00; font-weight: 500">Senior Business Analyst</p>
           <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Process Optimization / Data-Driven /
             Decision Making / Software Proficiency</p>
@@ -404,7 +404,7 @@
         <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
           style="max-width: 386px;width: 100%;">
           <img loading="lazy" width="355" height="355" src="{{asset('assets/ZJ.webp')}}" alt="Team five" class="img-fluid m-auto" />
-          <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Zainab Jawad</h1>
+          <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Zainab Jawad</h3>
           <p style="color: #FB7A00; font-weight: 500">Software Business Analyst</p>
           <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Requirements Gathering / Analysis and
             Problem-Solving / Communication</p>
@@ -413,7 +413,7 @@
         <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
           style="max-width: 386px;width: 100%;">
           <img loading="lazy" width="355" height="355"  src="{{asset('assets/KN.webp')}}" alt="Team six" class="img-fluid m-auto" />
-          <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Khadija Naqvi</h1>
+          <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Khadija Naqvi</h3>
           <p style="color: #FB7A00; font-weight: 500">Requirement Engineer</p>
           <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Technical Documentation / Digital
             Adoption Strategies / Domain Analysis / Data Analysis</p>
@@ -421,7 +421,7 @@
         <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
         style="max-width: 386px;width: 100%;">
         <img loading="lazy" width="355" height="355" src="{{asset('assets/RN.webp')}}" alt="Team six" class="img-fluid m-auto" />
-        <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Rimsha Naz</h1>
+        <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Rimsha Naz</h3>
         <p style="color: #FB7A00; font-weight: 500">Associate Project Manager</p>
         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Project Management / Resource
           Management / Strategic Planning / Product Road Mapping</p>
@@ -429,7 +429,7 @@
         <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
         style="max-width: 386px;width: 100%;">
         <img loading="lazy" width="355" height="355" src="{{asset('assets/MA.webp')}}" alt="Team six" class="img-fluid m-auto" />
-        <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Muhammad Amjad</h1>
+        <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Muhammad Amjad</h3>
         <p style="color: #FB7A00; font-weight: 500">Associate Business Analyst</p>
         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Software Analysis / Software Competitor
           Analysis / Defining Business Processes</p>
@@ -450,7 +450,7 @@
   <div
     class="tellProjectSection flex-column gap-lg-4 gap-3 d-flex justify-content-center align-items-center flex-shrink-0">
     <h4 class="text-orange text-center">STAY CONNECTED</h4>
-    <h1 class="text-white text-center fw-bold">Tell Us About Your Project</h1>
+    <h2 class="text-white text-center fw-bold">Tell Us About Your Project</h2>
     <p class="text-center w-75 px-lg-2" style="color: #dfdfdf">
       Ready to get started on your project? We're here to listen! Tell us
       about your project, and together, let's bring your vision to life
@@ -471,7 +471,7 @@
       class="modal-dialog modal-dialog-centered modal-lg modal-dialog-centered d-flex justify-content-center align-items-center">
       <div class="flex-column modal-content scrollable-modal-content partnerForm px-lg-5 px-md-4 px-3 py-5 gap-3">
         <div class="d-flex w-100 justify-content-between align-items-center">
-          <h1 style="display: flex; justify-content: center;margin: 0 auto 16px;color:#FB7A00;">Become Our Partner</h1>
+          <h3 style="display: flex; justify-content: center;margin: 0 auto 16px;color:#FB7A00;">Become Our Partner</h3>
           <svg data-bs-dismiss="modal" class="cancelform" xmlns="http://www.w3.org/2000/svg" width="27" height="27"
             viewBox="0 0 27 27" fill="none"
             style="cursor: pointer;position: absolute;top: 0;right: 0;margin: 20px !important;">
@@ -801,9 +801,9 @@
                 <div
                   class="col-xl-5 order-lg-1 order-2 col-lg-7 d-flex flex-column align-items-start bookapp px-lg-5 px-2 py-3">
                   <div class="d-flex flex-column text-start w-100">
-                    <h1 style="color: #333" class="fw-bold">
+                    <h3 style="color: #333" class="fw-bold">
                       Select Date & Time
-                    </h1>
+                    </h3>
                     <div id="calendar" class=""></div>
                   </div>
                   <button type="submit" id="scrollToSection2"
@@ -823,7 +823,7 @@
                         fill="#0D3642" />
                     </svg>
                   </div>
-                  <h1 class="text-white text-start">Available Slots</h1>
+                  <h6 class="text-white text-start">Available Slots</h6>
                   <div
                     class="d-flex justify-content-center align-items-center gap-3 flex-shrink-0 flex-wrap availableslot"
                     style="height: 260px; overflow-y: scroll">
@@ -941,7 +941,7 @@
                       });
                     });
                   </script>
-                  <h1 class="text-white text-start">Time Zone</h1>
+                  <h6 class="text-white text-start">Time Zone</h6>
                   <div class="d-flex p-3 w-100 justify-content-between align-items-center align-self-stretch timezone"
                     style="background: #f6f6f6">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -967,9 +967,9 @@
                       d="M11.0671 23.0665L4.93377 16.9332C4.80044 16.7999 4.70577 16.6554 4.64977 16.4999C4.59377 16.3443 4.56666 16.1776 4.56844 15.9999C4.56844 15.8221 4.59644 15.6554 4.65244 15.4999C4.70844 15.3443 4.80222 15.1999 4.93377 15.0665L11.1004 8.89987C11.3449 8.65543 11.6449 8.5332 12.0004 8.5332C12.356 8.5332 12.6671 8.66654 12.9338 8.9332C13.1782 9.17765 13.3004 9.48876 13.3004 9.86654C13.3004 10.2443 13.1782 10.5554 12.9338 10.7999L9.06711 14.6665H26.6671C27.0449 14.6665 27.3618 14.7945 27.6178 15.0505C27.8738 15.3065 28.0013 15.623 28.0004 15.9999C28.0004 16.3776 27.8724 16.6945 27.6164 16.9505C27.3604 17.2065 27.044 17.3341 26.6671 17.3332H9.06711L12.9671 21.2332C13.2116 21.4776 13.3338 21.7776 13.3338 22.1332C13.3338 22.4888 13.2004 22.7999 12.9338 23.0665C12.6893 23.311 12.3782 23.4332 12.0004 23.4332C11.6227 23.4332 11.3116 23.311 11.0671 23.0665Z"
                       fill="#0D3642" />
                   </svg>
-                  <h1 style="color: #333" class="fw-bold mt-xl-2 mt-5" style="padding-top: 10px !important">
-                    Enter Details
-                  </h1>
+<h2 style="color: #333" class="fw-bold mt-5" style="padding-top: 10px !important">
+                  Enter Details
+                </h2>
                   <form action="#" id="bookconsultform" class="w-100 d-flex align-items-start flex-column gap-3">
                     <div class="d-flex flex-column gap-1 w-100 pos-rev">
                       <label for="name" class="text-start">Full Name <span class="text-orange">*</span>
@@ -1353,8 +1353,8 @@
               </div>
               <div style="padding-top: 30px;"
                 class="subDiv formSection d-flex flex-column gap-2 align-items-md-start align-items-center cont-frm">
-                <h1 class="dark-black text-center fw-bold"
-                  style="font-size: 24px !important;font-weight: 700 !important;">Let's Talk</h1>
+                <h6 class="dark-black text-center fw-bold"
+                  style="font-size: 24px !important;font-weight: 700 !important;">Let's Talk</h6>
 
                 <div class="d-flex justify-content-center gap-2 bottomImg">
                   <a href="https://join.skype.com/invite/yieEvlEL80O3" target="_blank"
@@ -1520,16 +1520,16 @@
   </div>
 </div>
   <!-- -------------------EXTERNAL JAVASCRIPT FILE------------------ -->
-  <script src="rolyart-calendar.js"></script>
-  <script src="app.js"></script>
-  <script src="./js/index.js"></script>
+  <script src="{{asset('js/rolyart-calendar.js')}}"></script>
+  <script src="{{asset('js/app.js')}}"></script>
+  <script src="{{asset('js/index.js')}}"></script>
+  <script src="{{asset('js/script.js')}}"></script>
+  <script src="{{asset('js/searchresult.js')}}"></script>
   <!-- -------------------BOOTSTRAP 5 JS CDN------------------ -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
   crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
-
-  <script src="./js/script.js"></script>
   <script>
     // $('.moreless-button').click(function () {
     //   $('.moretext').slideToggle();

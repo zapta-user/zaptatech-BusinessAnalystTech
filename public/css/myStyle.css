@@ -219,7 +219,7 @@ a {
     padding: 14px 24px
 }
 
-.business-Process h6 {
+.business-Process h2 {
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -235,7 +235,7 @@ a {
     justify-content: center;
     padding-top: 48px;
 }
-.business-Process h6{
+.business-Process h2{
     white-space: nowrap;
 }
 
@@ -866,7 +866,7 @@ path.kutbay-img {
         line-height: 22px
     }
 
-    .business-Process h6 {
+    .business-Process h2 {
         font-size: 16px;
         line-height: 20px
     }

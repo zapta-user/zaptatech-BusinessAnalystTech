@@ -97,7 +97,7 @@
   
   /* Background image for unchecked radio button */
   .radio-container input:not(:checked) + .radio-checkmark {
-    background-image: url('./assets/unchecked.svg') !important; /* Replace with the URL of your image */
+    background-image: url('{{asset('assets/unchecked.svg')}}') !important; /* Replace with the URL of your image */
     background-size: cover;
     width: 20px;
     height: 20px;
@@ -105,7 +105,7 @@
   
   /* Background image for checked radio button */
   .radio-container input:checked + .radio-checkmark {
-    background-image: url('./assets/checked.svg') !important; /* Replace with the URL of your image */
+    background-image: url('{{asset('assets/checked.svg')}}') !important; /* Replace with the URL of your image */
     background-size: cover;
     width: 24px;
     height: 24px;
@@ -172,8 +172,8 @@
   style="background-color: #ececec"
 >
   <div class="container-fluid px-xl-5 px-0">
-    <a class="navbar-brand" href="./index.html">
-       <img  loading="lazy" width="216" height="40" src="./assets/nav-logo.svg" alt="logo" class="img-fluid" />
+    <a class="navbar-brand" href="{{route('frontend.home')}}">
+       <img  loading="lazy" width="216" height="40" src="{{asset('assets/nav-logo.svg')}}" alt="logo" class="img-fluid" />
     </a>
     <button
       class="navbar-toggler"
@@ -195,32 +195,32 @@
           <a
             class="nav-link mx-2 link-color pb-2"
             aria-current="page"
-            href="./index.html"
+            href="{{route('frontend.home')}}"
             >Home</a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2 link-color pb-2" href="./aboutUs.html"
+          <a class="nav-link mx-2 link-color pb-2" href="{{route('frontend.aboutUs')}}"
             >About Us</a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2 link-color pb-2" href="./service.html"
+          <a class="nav-link mx-2 link-color pb-2" href="{{route('frontend.services')}}"
             >Services</a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2 link-color pb-2" href="./blogs.html"
+          <a class="nav-link mx-2 link-color pb-2" href="{{route('frontend.blogs')}}"
             >Blogs</a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2 link-color pb-2 active" href="./projects.html"
+          <a class="nav-link mx-2 link-color pb-2 active" href="{{route('frontend.projects')}}"
             >Projects</a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2 link-color pb-2" href="./partners.html"
+          <a class="nav-link mx-2 link-color pb-2" href="{{route('frontend.partners')}}"
             >Partners</a
           >
         </li>
@@ -244,11 +244,11 @@
   <div
     class="bannerSection flex-column gap-1 d-flex align-items-start justify-content-center  flex-shrink-0 ex-paddg"
     style="
-        background-image: url(./assets/Project\ Page.png);
+        background-image: url({{asset('assets/Project\ Page.png')}});
         background-size: cover;
       ">
     <div class="d-flex gap-2 align-items-center justify-content-center">
-      <a href="./index.html">
+      <a href="{{route('frontend.home')}}">
         <span class="text-white">HOME</span>
       </a>
       <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
@@ -256,7 +256,7 @@
           d="M5.46124 13.129L10.4142 8.19073C10.473 8.13194 10.5147 8.06826 10.5394 7.99967C10.5641 7.93108 10.5762 7.8576 10.5759 7.77921C10.5759 7.70083 10.5635 7.62734 10.5388 7.55875C10.5141 7.49017 10.4726 7.42648 10.4142 7.36769L5.46124 2.41474C5.32407 2.27757 5.1526 2.20898 4.94684 2.20898C4.74108 2.20898 4.56471 2.28247 4.41774 2.42944C4.27077 2.57641 4.19729 2.74788 4.19729 2.94384C4.19729 3.13981 4.27077 3.31127 4.41774 3.45824L8.73871 7.77921L4.41774 12.1002C4.28057 12.2374 4.21198 12.4065 4.21198 12.6075C4.21198 12.8086 4.28547 12.9824 4.43244 13.129C4.57941 13.276 4.75088 13.3494 4.94684 13.3494C5.1428 13.3494 5.31427 13.276 5.46124 13.129Z"
           fill="#ACACAC" />
       </svg>
-      <a href="./projects.html">
+      <a href="{{route('frontend.projects')}}">
         <span class="text-white">PROJECTS</span>
       </a>
       <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
@@ -264,7 +264,7 @@
           d="M5.46124 13.129L10.4142 8.19073C10.473 8.13194 10.5147 8.06826 10.5394 7.99967C10.5641 7.93108 10.5762 7.8576 10.5759 7.77921C10.5759 7.70083 10.5635 7.62734 10.5388 7.55875C10.5141 7.49017 10.4726 7.42648 10.4142 7.36769L5.46124 2.41474C5.32407 2.27757 5.1526 2.20898 4.94684 2.20898C4.74108 2.20898 4.56471 2.28247 4.41774 2.42944C4.27077 2.57641 4.19729 2.74788 4.19729 2.94384C4.19729 3.13981 4.27077 3.31127 4.41774 3.45824L8.73871 7.77921L4.41774 12.1002C4.28057 12.2374 4.21198 12.4065 4.21198 12.6075C4.21198 12.8086 4.28547 12.9824 4.43244 13.129C4.57941 13.276 4.75088 13.3494 4.94684 13.3494C5.1428 13.3494 5.31427 13.276 5.46124 13.129Z"
           fill="#ACACAC" />
       </svg>
-      <a href="./portfolio.html">
+      <a href="{{route('frontend.projects.revconductor')}}">
         <h4 class="text-orange text-center pt-md-0 pt-1">RevConductor</h4>
       </a>
     </div>
@@ -277,13 +277,13 @@
     <div class="container">
       <div class="pr-st-main">
         <div class="pro-st-txt">
-          <h1>Problem Statement</h1>
+          <h2>Problem Statement</h2>
           <p>
             Manufacturers grappled with manual, time-intensive bulk product import processes, potential data inaccuracies, and fragmented systems for customer and POS data management. The absence of streamlined communication channels and integrated features hindered efficient operations and data-driven decision-making. The complexity of functionalities, such as organization and user management, posed usability challenges, impacting user adoption. Moreover, the absence of customization options and ease of template creation added complexity to the process. 
           </p>
         </div>
         <div>
-            <img loading="lazy" width="480" height="380" src="./assets/RevConductorDetailPage.webp" alt="qme" class="img-fluid" style="cursor: pointer" alt="kutuby" class="img-fluid" />
+            <img loading="lazy" width="480" height="380" src="{{asset('assets/RevConductorDetailPage.webp')}}" alt="qme" class="img-fluid" style="cursor: pointer" alt="kutuby" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -294,22 +294,22 @@
     <div class="container">
       <div class="pr-st-main">
         <div>
-          <img loading="lazy" width="591" height="400" src="./assets/hidden_challenges.webp" alt="qme" class="img-fluid" style="cursor: pointer" alt="kutuby" class="img-fluid" />
+          <img loading="lazy" width="591" height="400" src="{{asset('assets/hidden_challenges.webp')}}" alt="qme" class="img-fluid" style="cursor: pointer" alt="kutuby" class="img-fluid" />
       </div>
         <div class="pro-st-txt">
-          <h1 class="hidden-title mb-4">Hidden Challenges</h1>
+          <h2 class="hidden-title mb-4">Hidden Challenges</h2>
           <div class="d-flex">
-            <img loading="lazy" width="25" height="25" src="./assets/iconamoon_arrow-up-2.svg" alt="">
+            <img loading="lazy" width="25" height="25" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
             <p class="hidden-text">
               Providing advanced tools for Point of Sale (POS) data analysis, addressing challenges related to data processing, visualization, and deriving meaningful insights.
             </p>
         </div>
         <div class="d-flex">
-          <img loading="lazy" width="25" height="25" src="./assets/iconamoon_arrow-up-2.svg" alt="">
+          <img loading="lazy" width="25" height="25" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
           <p class="hidden-text">Ensuring the user-friendliness of functionalities such as organization and user management, addressing potential challenges related to ease of use and user adoption.</p>
       </div>
       <div class="d-flex">
-        <img loading="lazy" width="25" height="25" src="./assets/iconamoon_arrow-up-2.svg" alt="">
+        <img loading="lazy" width="25" height="25" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
         <p class="hidden-text">Facilitating easy template creation for manufacturers, ensuring customization options, and addressing potential challenges related to template complexity.</p>
     </div> 
         </div>
@@ -322,10 +322,10 @@
     class="cardsSection toolCardSection projectdetails d-flex row justify-content-lg-between justify-content-center align-items-center gap-5"
     style="padding-bottom: 80px !important">
     <div class="col-xl-6 col-md-5 col-sm-8 col-10 d-flex justify-content-center align-items-center">
-      <img width="480" height="380" src="./assets/RevConductorMockup.webp" alt="kutuby" class="img-fluid" />
+      <img width="480" height="380" src="{{asset('assets/RevConductorMockup.webp')}}" alt="kutuby" class="img-fluid" />
     </div>
     <div class="col-md-5 d-flex flex-column gap-3 justify-content-center">
-      <h1 class="fw-bold text-md-start text-center">Proposed Solution</h1>
+      <h2 class="fw-bold text-md-start text-center">Proposed Solution</h2>
       <p class="brown pe-3 text-md-start text-center">
         RevConductor proposes advanced tools for thorough Point of Sale (POS) data analysis, facilitating a deeper understanding of market trends and customer behaviors. The platform is integrated with Google Maps for enhanced customer search and location-based insights. Additionally, it emphasizes an intuitive user interface for organization and user management, fostering ease of use and quick adoption. To further enhance adaptability, RevConductor offers customization options for template creation, catering to the diverse needs of manufacturers. 
 
@@ -362,7 +362,7 @@
   <!-- ------------TOOLS CONTENT SECTION---------------- -->
   <section class="key-fec-sec">
     <div class="container">
-      <h1 class="key-title">Key Features</h1>
+      <h2 class="key-title">Key Features</h2>
       <div class="key-fec-main">
         <div class="key-fec-txt">
           <h2>
@@ -375,7 +375,7 @@
         </div>
         
         <div>
-          <img src="./assets/specific.png" alt="kutuby" class="img-fluid" />
+          <img src="{{asset('assets/specific.png')}}" alt="kutuby" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -386,7 +386,7 @@
   <div class="container">
     <div class="key-fec-main">
       <div>
-        <img src="./assets/curr.svg" alt="kutuby" class="img-fluid" />
+        <img src="{{asset('assets/curr.svg')}}" alt="kutuby" class="img-fluid" />
       </div>
       <div class="key-fec-txt">
         <h2>
@@ -418,7 +418,7 @@
         </div>
         
         <div>
-          <img src="./assets/specific.png" alt="kutuby" class="img-fluid" />
+          <img src="{{asset('assets/specific.png')}}" alt="kutuby" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -428,7 +428,7 @@
   <div
   class="tellProjectSection flex-column gap-lg-4 gap-3 d-flex justify-content-center align-items-center flex-shrink-0">
   <h4 class="text-orange text-center">STAY CONNECTED</h4>
-  <h1 class="text-white text-center fw-bold">Tell Us About Your Project</h1>
+  <h2 class="text-white text-center fw-bold">Tell Us About Your Project</h2>
   <p class="text-center w-75 px-lg-2" style="color: #dfdfdf">
     Ready to get started on your project? We're here to listen! Tell us
     about your project, and together, let's bring your vision to life
@@ -449,7 +449,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
   class="modal-dialog modal-dialog-centered modal-lg modal-dialog-centered d-flex justify-content-center align-items-center">
   <div class="flex-column modal-content scrollable-modal-content partnerForm px-lg-5 px-md-4 px-3 py-5 gap-3">
     <div class="d-flex w-100 justify-content-between align-items-center">
-      <h1 style="display: flex; justify-content: center;margin: 0 auto 16px;color:#FB7A00;">Become Our Partner</h1>
+      <h3 style="display: flex; justify-content: center;margin: 0 auto 16px;color:#FB7A00;">Become Our Partner</h3>
       <svg data-bs-dismiss="modal" class="cancelform" xmlns="http://www.w3.org/2000/svg" width="27" height="27"
         viewBox="0 0 27 27" fill="none"
         style="cursor: pointer;position: absolute;top: 0;right: 0;margin: 20px !important;">
@@ -776,9 +776,9 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div
               class="col-xl-5 order-lg-1 order-2 col-lg-7 d-flex flex-column align-items-start bookapp px-lg-5 px-2 py-3">
               <div class="d-flex flex-column text-start w-100">
-                <h1 style="color: #333" class="fw-bold">
+                <h2 style="color: #333" class="fw-bold">
                   Select Date & Time
-                </h1>
+                </h2>
                 <div id="calendar" class=""></div>
               </div>
               <button type="submit" id="scrollToSection2"
@@ -798,7 +798,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     fill="#0D3642" />
                 </svg>
               </div>
-              <h1 class="text-white text-start">Available Slots</h1>
+              <h6 class="text-white text-start">Available Slots</h6>
               <div
                 class="d-flex justify-content-center align-items-center gap-3 flex-shrink-0 flex-wrap availableslot"
                 style="height: 260px; overflow-y: scroll">
@@ -916,7 +916,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
                   });
                 });
               </script>
-              <h1 class="text-white text-start">Time Zone</h1>
+              <h6 class="text-white text-start">Time Zone</h6>
               <div
                 class="d-flex p-3 w-100 justify-content-between align-items-center align-self-stretch timezone"
                 style="background: #f6f6f6">
@@ -943,9 +943,9 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
                   d="M11.0671 23.0665L4.93377 16.9332C4.80044 16.7999 4.70577 16.6554 4.64977 16.4999C4.59377 16.3443 4.56666 16.1776 4.56844 15.9999C4.56844 15.8221 4.59644 15.6554 4.65244 15.4999C4.70844 15.3443 4.80222 15.1999 4.93377 15.0665L11.1004 8.89987C11.3449 8.65543 11.6449 8.5332 12.0004 8.5332C12.356 8.5332 12.6671 8.66654 12.9338 8.9332C13.1782 9.17765 13.3004 9.48876 13.3004 9.86654C13.3004 10.2443 13.1782 10.5554 12.9338 10.7999L9.06711 14.6665H26.6671C27.0449 14.6665 27.3618 14.7945 27.6178 15.0505C27.8738 15.3065 28.0013 15.623 28.0004 15.9999C28.0004 16.3776 27.8724 16.6945 27.6164 16.9505C27.3604 17.2065 27.044 17.3341 26.6671 17.3332H9.06711L12.9671 21.2332C13.2116 21.4776 13.3338 21.7776 13.3338 22.1332C13.3338 22.4888 13.2004 22.7999 12.9338 23.0665C12.6893 23.311 12.3782 23.4332 12.0004 23.4332C11.6227 23.4332 11.3116 23.311 11.0671 23.0665Z"
                   fill="#0D3642" />
               </svg>
-              <h1 style="color: #333" class="fw-bold mt-xl-2 mt-5" style="padding-top: 10px !important">
-                Enter Details
-              </h1>
+<h2 style="color: #333" class="fw-bold mt-5" style="padding-top: 10px !important">
+                  Enter Details
+                </h2>
               <form action="#" id="bookconsultform" class="w-100 d-flex align-items-start flex-column gap-3">
                 <div class="d-flex flex-column gap-1 w-100 pos-rev">
                   <label for="name" class="text-start">Full Name <span class="text-orange">*</span>
@@ -1032,7 +1032,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 </svg>
               </div>
               <div class="d-flex flex-column justify-content-center align-items-center mt-4">
-                 <img loading="lazy" width="212" height="40" src="./assets/home-logo.svg" alt="logo" class="img-fluid" />
+                 <img loading="lazy" width="212" height="40" src="{{asset('assets/home-logo.svg')}}" alt="logo" class="img-fluid" />
               </div>
               <div class="d-flex flex-column align-items-start px-3 mt-5 gap-4">
                 <div class="d-flex gap-3 justify-content-center align-items-center">
@@ -1165,98 +1165,96 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="container">
       <div class="footer-main">
         <div class="f-location">
-          <a class="footerimg" href="index.html">
-             <img loading="lazy" width="212" height="40" src="./assets/home-logo.svg" alt="logo" class="img-fluid" />
+          <a class="footerimg" href="{{route('frontend.home')}}">
+            <img loading="lazy" src="{{asset('assets/home-logo.svg')}}" alt="logo" class="img-fluid" />
           </a>
-          <p style="text-align: justify;">Sync4Tech, your trusted tech business analyst partner thet empowers your business through insightful
+          <p style="text-align: justify;">Sync4Tech, your trusted tech business analyst partner thet empowers your
+            business through insightful
             analysis and innovative strategies.</p>
-            <div class="d-flex gap-lg-4 justify-content-sm-start justify-content-center gap-3 pt-3 bottomImg">
-              <a href="https://www.facebook.com/sync4tech.co" target="_blank">
-                <i class="fa-brands fa-facebook-f text-white p-2 rounded-circle border"
-                  style="opacity: 0.6;width: 34px;height: 34;text-align: center;"></i>
-              </a>
-              <a href="https://twitter.com/sync4tech" target="_blank">
-                <i class="fa-brands fa-x-twitter text-white p-2 rounded-circle border"
-                  style="opacity: 0.6;width: 34px;height: 34px;text-align: center;"></i>
-              </a>
-              <a href="https://www.instagram.com/sync4tech.co/" target="_blank">
-                <i class="fa-brands fa-instagram text-white p-2 rounded-circle border"
-                  style="opacity: 0.6;width: 34px;height: 34px;text-align: center;"></i>
-              </a>
-              <a href="https://www.linkedin.com/company/sync4tech-co/?viewAsMember=true" target="_blank">
-                <i class="fa-brands fa-linkedin-in text-white p-2 rounded-circle border"
-                  style="opacity: 0.6;width: 34px;height: 34px;text-align: center;"></i>
-              </a>
-            </div>
+          <div class="d-flex gap-lg-4 justify-content-sm-start justify-content-center gap-3 pt-3 bottomImg">
+            <a href="https://www.facebook.com/sync4tech.co" target="_blank">
+              <i class="fa-brands fa-facebook-f text-white p-2 rounded-circle border"
+                style="opacity: 0.6;width: 34px;height: 34;text-align: center;"></i>
+            </a>
+            <a href="https://twitter.com/sync4tech" target="_blank">
+              <i class="fa-brands fa-x-twitter text-white p-2 rounded-circle border"
+                style="opacity: 0.6;width: 34px;height: 34px;text-align: center;"></i>
+            </a>
+            <a href="https://www.instagram.com/sync4tech.co/" target="_blank">
+              <i class="fa-brands fa-instagram text-white p-2 rounded-circle border"
+                style="opacity: 0.6;width: 34px;height: 34px;text-align: center;"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/sync4tech-co/?viewAsMember=true" target="_blank">
+              <i class="fa-brands fa-linkedin-in text-white p-2 rounded-circle border"
+                style="opacity: 0.6;width: 34px;height: 34px;text-align: center;"></i>
+            </a>
+          </div>
         </div>
         <div class="quick-link">
           <h2>Services</h2>
           <div class="f-links">
-            <img loading="lazy" width="25" height="25" src="./assets/iconamoon_arrow-up-2.svg" alt="">
+            <img width="24" height="24" loading="lazy" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
             <p class="f-linkstag" style="line-height: 27px !important"> Software Business Analysis</p>
           </div>
           <div class="f-links">
-            <img loading="lazy" width="25" height="25" src="./assets/iconamoon_arrow-up-2.svg" alt="">
+           <img width="24" height="24" loading="lazy" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
             <p class="f-linkstag" style="line-height: 25px !important">Project Management</p>
           </div>
           <div class="f-links">
-            <img loading="lazy" width="25" height="25" src="./assets/iconamoon_arrow-up-2.svg" alt="">
+           <img width="24" height="24" loading="lazy" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
             <p class="f-linkstag" style="line-height: 25px !important">Solution Architecture Design</p>
           </div>
           <div class="f-links">
-            <img loading="lazy" width="25" height="25" src="./assets/iconamoon_arrow-up-2.svg" alt="">
+           <img width="24" height="24" loading="lazy" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
             <p class="f-linkstag" style="line-height: 25px !important">Technical Search and Development</p>
           </div>
           <div class="f-links">
-            <img loading="lazy" width="25" height="25" src="./assets/iconamoon_arrow-up-2.svg" alt="">
+           <img width="24" height="24" loading="lazy" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
             <p class="f-linkstag" style="line-height: 25px !important">Data Analysis</p>
           </div>
         </div>
         <div class="quick-link">
           <h2>Quick Links</h2>
           <div class="f-links">
-            <img loading="lazy" width="25" height="25" src="./assets/iconamoon_arrow-up-2.svg" alt="">
-            <a class="f-linkstag" href="./aboutUs.html">About Us</a>
+           <img width="24" height="24" loading="lazy" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
+            <a class="f-linkstag" href="{{route('frontend.aboutUs')}}">About Us</a>
           </div>
           <div class="f-links">
-            <img loading="lazy" width="25" height="25" src="./assets/iconamoon_arrow-up-2.svg" alt="">
-            <a class="f-linkstag" href="./blogs.html">Blog</a>
+           <img width="24" height="24" loading="lazy" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
+            <a class="f-linkstag" href="{{route('frontend.blogs')}}">Blog</a>
           </div>
           <div class="f-links">
-            <img loading="lazy" width="25" height="25" src="./assets/iconamoon_arrow-up-2.svg" alt="">
-            <a class="f-linkstag" href="./projects.html">Projects</a>
+           <img width="24" height="24" loading="lazy" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
+            <a class="f-linkstag" href="{{route('frontend.projects')}}">Projects</a>
           </div>
           <div class="f-links">
-            <img loading="lazy" width="25" height="25" src="./assets/iconamoon_arrow-up-2.svg" alt="">
-            <a class="f-linkstag" href="./partners.html">Partners</a>
+           <img width="24" height="24" loading="lazy" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
+            <a class="f-linkstag" href="{{route('frontend.partners')}}">Partners</a>
           </div>
           <div class="f-links">
-            <img loading="lazy" width="25" height="25" src="./assets/iconamoon_arrow-up-2.svg" alt="">
+           <img width="24" height="24" loading="lazy" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
             <a class="f-linkstag" data-bs-toggle="modal" data-bs-target="#staticBackdropcon" href="">Contact Us</a>
           </div>
         </div>
-        
-
-
         <div class="quick-link">
           <h2>Contact Us</h2>
           <div class="f-main-location"
             style="display: flex !important; align-items: end !important; padding-top: 10px;">
             <a href="tel:+923015892528" style="display: flex;">
-              <img loading="lazy" width="24" height="24" src="./assets/typcn_phone.svg" alt="typcn_phone" class="img-fluid" />
+              <img loading="lazy" src="{{asset('assets/typcn_phone.svg')}}" alt="typcn_phone" class="img-fluid" />
               <p style="padding-top: 0 !important;">+923015892528</p>
             </a>
           </div>
           <div class="f-main-location"
             style="display: flex !important; align-items: end !important; padding-top: 10px;">
             <a href="mailto:contact@zaptatech.com" style="display: flex;">
-               <img loading="lazy" width="24" height="24" src="./assets/fluent_mail-20-filled.svg" alt="fluent_mail-20-filled" class="img-fluid" />
+              <img loading="lazy" src="{{asset('assets/fluent_mail-20-filled.svg')}}" alt="fluent_mail-20-filled" class="img-fluid" />
               <p style="padding-left: 11px !important; padding-top: 0px !important;">info@sync4tech.co</p>
             </a>
           </div>
           <div class="f-main-location">
             <a href="https://maps.app.goo.gl/MaFm3ZZRrDGkxx3f6" target="_blank" style="display: flex;">
-              <img loading="lazy" width="24" height="38" src="./assets/mdi_location.svg" alt="mdi_location" class="img-fluid"
+              <img loading="lazy" src="{{asset('assets/mdi_location.svg')}}" alt="mdi_location" class="img-fluid"
                 style="margin-top: 10px !important;" />
               <p style="max-width: 274px;">144/2, Block B, Bankers Society Near DHA Phase 4, Lahore, 54792</p>
             </a>
@@ -1268,7 +1266,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
         style="margin-top: 40px !important;">
         <span class="smallTextFooter text-white pt-3 text-lg-center w-100 ps-lg-5 ms-lg-5" style="opacity: 0.6">© 2022
           Copyrights Sync4Tech All rights are reserved.</span>
-       
+
       </div>
     </div>
   </section>
@@ -1334,8 +1332,8 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
           </div>
           <div style="padding-top: 30px;"
             class="subDiv formSection d-flex flex-column gap-2 align-items-md-start align-items-center cont-frm">
-            <h1 class="dark-black text-center fw-bold"
-              style="font-size: 24px !important;font-weight: 700 !important;">Let's Talk</h1>
+            <h2 class="dark-black text-center fw-bold"
+              style="font-size: 24px !important;font-weight: 700 !important;">Let's Talk</h2>
 
             <div class="d-flex justify-content-center gap-2 bottomImg">
               <a href="https://join.skype.com/invite/yieEvlEL80O3" target="_blank"
@@ -1508,10 +1506,11 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <!-- validation -->
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
     <!-- -------------------EXTERNAL JAVASCRIPT FILE------------------ -->
-    <script src="./js/script.js"></script>
-    <script src="rolyart-calendar.js"></script>
-    <script src="app.js"></script>
-    <script src="./js/index.js"></script>
+    <script src="{{asset('js/rolyart-calendar.js')}}"></script>
+    <script src="{{asset('js/app.js')}}"></script>
+    <script src="{{asset('js/index.js')}}"></script>
+    <script src="{{asset('js/script.js')}}"></script>
+    <script src="{{asset('js/searchresult.js')}}"></script>
     <!-- <script>
       window.addEventListener('scroll', function() {
         var section = document.getElementById('animation-sec');

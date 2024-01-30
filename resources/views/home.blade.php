@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="./assets/fav-2.svg" />
+  <link rel="icon" type="image/x-icon" href="{{asset('assets/fav-2.svg')}}" />
   <!---------------------- Bootstrap Cdn---------------------->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -17,8 +17,8 @@
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
   <!----------------------- CSS ------------------------------->
-  <link rel="stylesheet" type="text/css" href="./css/style.css" async>
-  <link rel="stylesheet" type="text/css" href="./css/myStyle.css" async>
+  <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}" async>
+  <link rel="stylesheet" type="text/css" href="{{asset('css/myStyle.css')}}" async>
 
   <meta name="title" content="Sync4Tech: Global Software Development & Business Partner">
   <meta name="description" content="Digitize your business with Sync4Tech, a global business partner & business analyst in software development, We offer futuristic technology solutions for businesses enhancing efficiency and driving growth.">
@@ -137,7 +137,7 @@
             <div class="">
               <img loading="lazy" width="80" height="80" src="{{asset('assets/service1.svg')}}" alt="Research" class="img-fluid" />
             </div>
-            <h6>Software Business Analysis</h6>
+            <h2>Software Business Analysis</h2>
           </div>
           <div class="services-card">
             <p>
@@ -154,7 +154,7 @@
             <div class="">
               <img loading="lazy" width="80" height="80" src="{{asset('assets/service2.svg')}}" alt="Research" class="img-fluid" />
             </div>
-            <h6>Business Process Re-Engineering</h6>
+            <h2>Business Process Re-Engineering</h2>
           </div>
           <div class="services-card">
             <p> Revitalize your processes for enhanced efficiency. We analyze current workflows, redesign optimized
@@ -169,7 +169,7 @@
             <div class="">
               <img loading="lazy" width="80" height="80" src="{{asset('assets/service3.svg')}}" alt="Research" class="img-fluid" />
             </div>
-            <h6>Project Management</h6>
+            <h2>Project Management</h2>
           </div>
           <div class="services-card">
             <p>Project success, from initiation to closure. We define goals, create detailed plans, execute, monitor,
@@ -184,7 +184,7 @@
             <div class="">
               <img loading="lazy" width="80" height="80" src="{{asset('assets/service4.svg')}}" alt="Research" class="img-fluid" />
             </div>
-            <h6>Solution Architecture Design</h6>
+            <h2>Solution Architecture Design</h2>
           </div>
           <div class="services-card">
             <p>Crafting solutions aligned with business needs. We analyze requirements, design comprehensive
@@ -200,7 +200,7 @@
             <div class="">
               <img loading="lazy" width="80" height="80" src="{{asset('assets/service5.svg')}}" alt="Research" class="img-fluid" />
             </div>
-            <h6>Software Documentation</h6>
+            <h2>Software Documentation</h2>
           </div>
           <div class="services-card">
             <p>
@@ -215,7 +215,7 @@
             <div class="">
               <img loading="lazy" width="80" height="80" src="{{asset('assets/service6.svg')}}" alt="Research" class="img-fluid" />
             </div>
-            <h6>Data Analysis</h6>
+            <h2>Data Analysis</h2>
           </div>
           <div class="services-card">
             <p>Uncover insights through meticulous data analysis. We identify sources, collect data, and apply
@@ -240,7 +240,7 @@
       <!-- ------------TOOLS CONTENT SECTION---------------- -->
       <div class="contentSection d-flex flex-column justify-content-center align-items-center gap-3">
         <p class="text-orange text-center">TOOLS</p>
-        <h1 class="dark-black text-center fw-bold">Tools We Use</h1>
+        <h2 class="dark-black text-center fw-bold">Tools We Use</h2>
         <p class="content-color text-center px-xl-5 pb-5">
           Achieve success using the latest, advanced tools for peak performance.
         </p>
@@ -376,7 +376,7 @@
       <!-- ------------TOOLS CONTENT SECTION---------------- -->
       <div class="contentSection d-flex flex-column justify-content-center align-items-center gap-3">
         <p class="text-orange text-center">PORTFOLIO</p>
-        <h1 class="dark-black text-center fw-bold">Our Recent Projects</h1>
+        <h2 class="dark-black text-center fw-bold">Our Recent Projects</h2>
         <p class="content-color text-center px-xl-5 pb-lg-4 pb-3">
           Explore Our Recent Projects, Where Collaborative Excellence Drives Success Stories. Feel the influence of our custom solutions and commitment to delivering results.
         </p>
@@ -388,7 +388,7 @@
           <div class="position-relative w-100 viewprojectmain">
             <div class="viewproject d-flex justify-content-center align-items-center w-100" style="
             height: 315px;
-            background-image: url(./assets/Quick-Stepsport1.webp);
+            background-image: url({{asset('assets/Quick-Stepsport1.webp')}});
             background-position: center;
             background-size: cover;
           "></div>
@@ -403,7 +403,7 @@
           <div class="w-100 d-flex flex-sm-row flex-column gap-3 align-items-center" style="height: 315px">
             <div class="position-relative w-100 viewprojectmain mt-lg-3">
               <div class="viewproject w-100 d-flex justify-content-center align-items-center" style="
-              background-image: url(./assets/Quick-Stepsport3.webp);
+              background-image: url({{asset('assets/Quick-Stepsport3.webp')}});
               background-position: center;
               background-size: cover;
               height: 315px;
@@ -418,7 +418,7 @@
             </div>
             <div class="position-relative w-100 viewprojectmain mt-lg-3">
               <div class="viewproject w-100 d-flex justify-content-center align-items-center" style="
-              background-image: url(./assets/Quick-Stepsport4.webp);
+              background-image: url({{asset('assets/Quick-Stepsport4.webp')}});
               background-position: center;
               background-size: cover;
               height: 315px;
@@ -437,7 +437,7 @@
           <div class="position-relative w-100 viewprojectmain">
             <div class="viewproject d-flex w-100 justify-content-center align-items-center" style="
             height: 640px;
-            background-image: url(./assets/Quick-Stepsport2.webp);
+            background-image: url({{asset('assets/Quick-Stepsport2.webp')}});
             background-position: center;
             background-size: cover;
           "></div>
@@ -465,9 +465,9 @@
       <div data-animation="fadeIn" data-animation-delay=".1s"
         class="contentSection d-flex flex-column justify-content-center align-items-center gap-3">
         <p class="text-orange text-center">WHO TRUST US</p>
-        <h1 class="dark-black text-center fw-bold">
+        <h3 class="dark-black text-center fw-bold">
           Chosen by Customers Worldwide Where Trust Meets Excellence.
-        </h1>
+        </h3>
         <p class="content-color text-center px-xl-5">
           Join our global community of delighted customers, relying on Sync4Tech for innovative solutions and unmatched service excellence.
         </p>
@@ -614,7 +614,7 @@
       <div data-animation="fadeIn" data-animation-delay=".3s"
         class="contentSection d-flex flex-column justify-content-center align-items-center gap-3">
         <p class="text-orange text-center">BLOGS</p>
-        <h1 class="dark-black text-center fw-bold">Our Blog & Articles</h1>
+        <h2 class="dark-black text-center fw-bold">Our Blog & Articles</h2>
         <p class="content-color text-center px-xl-5 pb-3 ">
           Explore a world of knowledge with Sync4tech's compelling blogs and articles. Explore expert insights, industry trends, and invaluable tips that propel your path to success. 
         </p>
@@ -625,7 +625,7 @@
           <a href="{{route('frontend.blogs.agile-methodology-and-business-analysis')}}"
             class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
             <div class="position-relative w-100" style="
-                background-image: url(./assets/allblogone.webp);
+                background-image: url({{asset('assets/allblogone.webp')}});
                 background-size: cover;
                 background-position: center;
                 max-height: 400px;
@@ -637,7 +637,7 @@
               </button>
             </div>
   
-            <h1 class="dark-black text-start ">Agile Methodology and Business Analysis</h1>
+            <h3 class="dark-black text-start ">Agile Methodology and Business Analysis</h3>
   
             <h4 class="brown text-start ">
               Curious about how business analysis and agile development go hand-in-hand?...
@@ -664,7 +664,7 @@
         <div class="blogCard d-flex blogPost flex-column align-items-md-start align-items-center justify-content-center gap-md-3 gap-1 p-3">
           <a href="{{route('frontend.blogs.ensuring-project-success-in-software-development')}}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
           <div class="position-relative w-100" style="
-                background-image: url(./assets/allblogtwo.webp);
+                background-image: url({{asset('assets/allblogtwo.webp')}});
                 background-size: cover;
                 background-position: center;
                 max-height: 400px;
@@ -679,7 +679,7 @@
               <span style="color: #0d3642" class="fw-bold">Agile Development</span>
             </button>
           </div>
-            <h1 class="dark-black text-start ">Ensuring Project Success in Software Development</h1>
+            <h3 class="dark-black text-start ">Ensuring Project Success in Software Development</h3>
           <h4 class="brown text-start ">
             In the fast-paced world of software development, success hinges on many factors,..
             <span class="text-orange">Read More</span>
@@ -705,7 +705,7 @@
         <div class="blogCard d-flex blogPost flex-column align-items-md-start align-items-center justify-content-center gap-md-3 gap-1 p-3">
           <a href="{{route('frontend.blogs.the-benefits-of-docs-in-software-development')}}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
           <div class="position-relative w-100" style="
-                background-image: url(./assets/allblogthree.webp);
+                background-image: url({{asset('assets/allblogthree.webp')}});
                 background-size: cover;
                 background-position: center;
                 max-height: 400px;
@@ -721,7 +721,7 @@
             </button>
           </div>
           
-            <h1 class="dark-black text-start ">The Benefits of docs in Software Development</h1>
+            <h3 class="dark-black text-start ">The Benefits of docs in Software Development</h3>
         
           <h4 class="brown text-start ">
             Simply believing that software development is solely about writing code to solve...
@@ -796,7 +796,7 @@
     <div class="container">
       <div class="d-flex flex-column gap-lg-3 gap-2">
         <p class="text-orange text-center fw-medium">CONTACT US</p>
-        <h1 class="dark-black text-center fw-bold">Let's Talk</h1>
+        <h2 class="dark-black text-center fw-bold">Let's Talk</h2>
         <p class="content-color text-center px-xl-5 mx-xl-5 pb-lg-5 pb-3 contentsectioncontent">
           Get in touch with Sync4tech! Your inquiries matter to us. Contact our team for prompt and personalized assistance – turning your questions into solutions and ideas into action.
         </p>
@@ -1079,8 +1079,8 @@
               </div>
               <div style="padding-top: 30px;"
                 class="subDiv formSection d-flex flex-column gap-2 align-items-md-start align-items-center cont-frm">
-                <h1 class="dark-black text-center fw-bold"
-                  style="font-size: 24px !important;font-weight: 700 !important;">Let's Talk</h1>
+                <h3 class="dark-black text-center fw-bold"
+                  style="font-size: 24px !important;font-weight: 700 !important;">Let's Talk</h3>
 
                 <div class="d-flex justify-content-center gap-2 bottomImg">
                   <a href="https://join.skype.com/invite/yieEvlEL80O3" target="_blank"
@@ -1235,7 +1235,7 @@
       class="modal-dialog modal-dialog-centered modal-lg modal-dialog-centered d-flex justify-content-center align-items-center">
       <div class="flex-column modal-content scrollable-modal-content partnerForm px-lg-5 px-md-4 px-3 py-5 gap-3">
         <div class="d-flex w-100 justify-content-between align-items-center">
-          <h1 style="display: flex; justify-content: center;margin: 0 auto 16px;color:#FB7A00;">Become Our Partner</h1>
+          <h3 style="display: flex; justify-content: center;margin: 0 auto 16px;color:#FB7A00;">Become Our Partner</h3>
           <svg data-bs-dismiss="modal" class="cancelform" xmlns="http://www.w3.org/2000/svg" width="27" height="27"
             viewBox="0 0 27 27" fill="none"
             style="cursor: pointer;position: absolute;top: 0;right: 0;margin: 20px !important;">
@@ -1559,9 +1559,9 @@
             <div
               class="col-xl-5 order-lg-1 order-2 col-lg-7 d-flex flex-column align-items-start bookapp px-lg-5 px-2 py-3">
               <div class="d-flex flex-column text-start w-100">
-                <h1 style="color: #333" class="fw-bold">
+                <h2 style="color: #333" class="fw-bold">
                   Select Date & Time
-                </h1>
+                </h2>
                 <div id="calendar" class=""></div>
               </div>
               <button type="submit" id="scrollToSection2"
@@ -1581,7 +1581,7 @@
                     fill="#0D3642" />
                 </svg>
               </div>
-              <h1 class="text-white text-start">Available Slots</h1>
+              <h5 class="text-white text-start">Available Slots</h5>
               <div class="d-flex justify-content-center align-items-center gap-3 flex-shrink-0 flex-wrap availableslot"
                 style="height: 260px; overflow-y: scroll">
                 <div class="active d-flex justify-content-center align-items-center py-3 px-5 slot"
@@ -1698,7 +1698,7 @@
                   });
                 });
               </script>
-              <h1 class="text-white text-start">Time Zone</h1>
+              <h5 class="text-white text-start">Time Zone</h5>
               <div class="d-flex p-3 w-100 justify-content-between align-items-center align-self-stretch timezone"
                 style="background: #f6f6f6">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1724,9 +1724,9 @@
                   d="M11.0671 23.0665L4.93377 16.9332C4.80044 16.7999 4.70577 16.6554 4.64977 16.4999C4.59377 16.3443 4.56666 16.1776 4.56844 15.9999C4.56844 15.8221 4.59644 15.6554 4.65244 15.4999C4.70844 15.3443 4.80222 15.1999 4.93377 15.0665L11.1004 8.89987C11.3449 8.65543 11.6449 8.5332 12.0004 8.5332C12.356 8.5332 12.6671 8.66654 12.9338 8.9332C13.1782 9.17765 13.3004 9.48876 13.3004 9.86654C13.3004 10.2443 13.1782 10.5554 12.9338 10.7999L9.06711 14.6665H26.6671C27.0449 14.6665 27.3618 14.7945 27.6178 15.0505C27.8738 15.3065 28.0013 15.623 28.0004 15.9999C28.0004 16.3776 27.8724 16.6945 27.6164 16.9505C27.3604 17.2065 27.044 17.3341 26.6671 17.3332H9.06711L12.9671 21.2332C13.2116 21.4776 13.3338 21.7776 13.3338 22.1332C13.3338 22.4888 13.2004 22.7999 12.9338 23.0665C12.6893 23.311 12.3782 23.4332 12.0004 23.4332C11.6227 23.4332 11.3116 23.311 11.0671 23.0665Z"
                   fill="#0D3642" />
               </svg>
-              <h1 style="color: #333" class="fw-bold mt-xl-2 mt-5" style="padding-top: 10px !important">
-                Enter Details
-              </h1>
+<h2 style="color: #333" class="fw-bold mt-5" style="padding-top: 10px !important">
+                  Enter Details
+                </h2>
               <form action="#" id="bookconsultform" class="w-100 d-flex align-items-start flex-column gap-3">
                 <div class="d-flex flex-column gap-1 w-100 pos-rev">
                   <label for="name" class="text-start">Full Name <span class="text-orange">*</span>
@@ -2001,11 +2001,12 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
   <!------------------------------- Custom Js ---------------------------------->
   <!-- <script src="./js/script.js"></script> -->
-  <script src="./js/availableslot.js"></script>
-  <script src="rolyart-calendar.js"></script>
-  <script src="app.js"></script>
-  <script src="./js/index.js"></script>
-  <script src="./js/script.js"></script>
+  {{-- <script src="{{asset('js/availableslot.js')}}"></script> --}}
+  <script src="{{asset('js/rolyart-calendar.js')}}"></script>
+  <script src="{{asset('js/app.js')}}"></script>
+  <script src="{{asset('js/index.js')}}"></script>
+  <script src="{{asset('js/script.js')}}"></script>
+  <script src="{{asset('js/searchresult.js')}}"></script>
   <!------------------------------ Custom Js Ends --------------------->
 
   <!-- ******************************Scripts End Here******************************-->

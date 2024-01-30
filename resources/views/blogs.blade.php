@@ -195,7 +195,7 @@
   <div
     class="bannerSection focusBlog flex-column gap-1 d-flex align-items-start justify-content-center  flex-shrink-0"
     style="
-        background-image: url('./assets/blogBanner.png');
+        background-image: url('{{asset('assets/blogBanner.png')}}');
         background-size: cover;
         background-position: center;
       ">
@@ -222,9 +222,9 @@
     <div class="cardsSection d-flex flex-column justify-content-center gap-md-5 gap-3 ">
       <!-- ------------BLOG CONTENT SECTION---------------- -->
       <div class="contentSection d-flex px-5 flex-column gap-3 ">
-        <h1 class="dark-black text-lg-start text-center fw-bold" style="padding: 0px !important;">
+        <h2 class="dark-black text-lg-start text-center fw-bold" style="padding: 0px !important;">
           Recent Blogs
-        </h1>
+        </h2>
       </div>
       <!-- -----------BLOG POST------------ -->
       <div class="w-100 row d-flex align-items-lg-start justify-content-center gap-3">
@@ -235,7 +235,7 @@
               class="blogCard w-100 ms-lg-2 d-flex flex-column align-items-sm-start align-items-center justify-content-center gap-g-4 gap-3 p-3">
               <div class="position-relative w-100">
                 <div class="w-100 blogcardImage" style="
-                    background-image: url(./assets/blogImage.svg);
+                    background-image: url({{asset('assets/blogImage.svg')}});
                     background-size: cover;
                   "></div>
                 <button class="position-absolute py-2 px-4 border-0" style="
@@ -262,9 +262,9 @@
               </div>
   
   
-              <h1 class="dark-black text-sm-start text-center">
+              <h3 class="dark-black text-sm-start text-center">
                 Agile Methodology and Business Analysis
-              </h1>
+              </h3>
               <h4 class="brown text-sm-start text-center">
                 Curious about how business analysis and agile development go hand-in-hand? Don't fret! Our article is here
                 to unveil the mystery and provide you with a comprehensive guide.
@@ -292,7 +292,7 @@
               style="">
               <div class="position-relative w-100">
                 <div class="w-100 blogcardImage" style="
-                    background-image: url(./assets/Image.svg);
+                    background-image: url({{asset('assets/Image.svg')}});
                     background-size: cover;
                   "></div>
                 <button class="position-absolute py-2 px-4 border-0" style="
@@ -317,9 +317,9 @@
                   <p style="color: #828282">5 min read</p>
                 </div>
               </div>
-              <h1 class="dark-black text-sm-start text-center">
+              <h3 class="dark-black text-sm-start text-center">
                 Ensuring Project Success in Software Development
-              </h1>
+              </h3>
               <h4 class="brown text-sm-start text-center">
                 In the fast-paced world of software development, success hinges on many factors, and one of the most
                 critical is requirements gathering.
@@ -458,7 +458,7 @@
     style="background-color: #e7ebec">
     <!-- ------------BLOG CONTENT SECTION---------------- -->
     <div class="contentSection blogContentSection px-4 d-flex flex-column gap-3">
-      <h1 class="dark-black text-lg-start text-center fw-bold">All Blogs</h1>
+      <h2 class="dark-black text-lg-start text-center fw-bold">All Blogs</h2>
     </div>
     <!-- -----------BLOG POST------------ -->
     <div class="row d-flex  justify-content-center blogzoom flex-md-row flex-column gap-3 w-100">
@@ -466,7 +466,7 @@
         <a href="{{route('frontend.blogs.agile-methodology-and-business-analysis')}}"
           class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-2">
           <div class="position-relative w-100" style="
-              background-image: url(./assets/allblogone.webp);
+              background-image: url({{asset('assets/allblogone.webp')}});
               background-size: cover;
               background-position: center;
               max-height: 400px;
@@ -478,7 +478,7 @@
             </button>
           </div>
 
-          <h1 class="dark-black text-start">Agile Methodology and Business Analysis</h1>
+          <h3 class="dark-black text-start">Agile Methodology and Business Analysis</h3>
 
           <h4 class="brown text-start">
             Curious about how business analysis and agile development go hand-in-hand?...
@@ -505,7 +505,7 @@
       <div class="blogCard d-flex blogPost flex-column align-items-md-start align-items-center justify-content-center gap-lg-3 gap-1 p-3">
         <a href="{{route('frontend.blogs.ensuring-project-success-in-software-development')}}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-2">
         <div class="position-relative w-100" style="
-              background-image: url(./assets/allblogtwo.webp);
+              background-image: url({{asset('assets/allblogtwo.webp')}});
               background-size: cover;
               background-position: center;
               max-height: 400px;
@@ -520,7 +520,7 @@
             <span style="color: #0d3642" class="fw-bold">Agile Development</span>
           </button>
         </div>
-          <h1 class="dark-black text-start">Ensuring Project Success in Software Development</h1>
+          <h3 class="dark-black text-start">Ensuring Project Success in Software Development</h3>
         <h4 class="brown text-start">
           In the fast-paced world of software development, success hinges on many factors,..
           <span class="text-orange">Read More</span>
@@ -546,7 +546,7 @@
       <div class="blogCard d-flex blogPost flex-column align-items-md-start align-items-center justify-content-center gap-lg-3 gap-1 p-3">
         <a href="{{route('frontend.blogs.the-benefits-of-docs-in-software-development')}}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-2">
         <div class="position-relative w-100" style="
-              background-image: url(./assets/allblogthree.webp);
+              background-image: url({{asset('assets/allblogthree.webp')}});
               background-size: cover;
               background-position: center;
               max-height: 400px;
@@ -562,7 +562,7 @@
           </button>
         </div>
         
-          <h1 class="dark-black text-start">The Benefits of docs in Software Development</h1>
+          <h3 class="dark-black text-start">The Benefits of docs in Software Development</h3>
       
         <h4 class="brown text-start">
           Simply believing that software development is solely about writing code to solve...
@@ -591,7 +591,7 @@
         class="blogCard d-flex blogPost flex-column align-items-md-start align-items-center justify-content-center gap-lg-3 gap-1 p-3">
         <a href="{{route('frontend.blogs.the-power-of-business-analysis-in-accelerating')}}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-2">
         <div class="position-relative w-100" style="
-            background-image: url(./assets/allblogfour.webp);
+            background-image: url({{asset('assets/allblogfour.webp')}});
             background-size: cover;
             background-position: center;
             max-height: 400px;
@@ -607,7 +607,7 @@
           </button>
         </div>
        
-          <h1 class="dark-black text-start">The Power of Business Analysis in Accelerating </h1>
+          <h3 class="dark-black text-start">The Power of Business Analysis in Accelerating </h3>
        
         <h4 class="brown text-start">
           Digital transformation” may be the decade's buzzword; however, business...
@@ -635,7 +635,7 @@
         class="blogCard d-flex blogPost flex-column align-items-md-start align-items-center justify-content-center gap-lg-3 gap-1 p-3">
         <a href="{{route('frontend.blogs.how-to-create-effective-software-documentation')}}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-2">
         <div class="position-relative w-100" style="
-          background-image: url(./assets/allblogfive.webp);
+          background-image: url({{asset('assets/allblogfive.webp')}});
           background-size: cover;
           background-position: center;
           max-height: 400px;
@@ -644,7 +644,7 @@
             <span style="color: #0d3642" class="fw-bold">Agile Development</span>
           </button>
         </div>
-          <h1  class="dark-black text-start">How to Create Effective Software Documentation</h1>
+          <h3  class="dark-black text-start">How to Create Effective Software Documentation</h3>
         <h4 class="brown text-start">
           Effective software documentation is vital to successful software development,..
           <span class="text-orange">Read More</span>
@@ -671,7 +671,7 @@
         class="blogCard d-flex blogPost flex-column align-items-md-start align-items-center justify-content-center gap-lg-3 gap-1 p-3">
         <a href="{{route('frontend.blogs.how-to-implement-agile-requirement-gathering')}}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-2">
         <div class="position-relative w-100" style="
-        background-image: url(./assets/allblogsix.webp);
+        background-image: url({{asset('assets/allblogsix.webp')}});
         background-size: cover;
         background-position: center;
         max-height: 400px;
@@ -688,7 +688,7 @@
         </div>
        
         
-          <h1  class="dark-black text-start">How to Implement Agile Requirement Gathering</h1>
+          <h3  class="dark-black text-start">How to Implement Agile Requirement Gathering</h3>
       
         <h4 class="brown text-start">
           Whether you’re a project manager, a business analyst, or a Software Service...
@@ -761,7 +761,7 @@
   <div
     class="tellProjectSection flex-column gap-lg-4 gap-3 d-flex justify-content-center align-items-center flex-shrink-0">
     <h4 class="text-orange text-center">STAY CONNECTED</h4>
-    <h1 class="text-white text-center fw-bold">Tell Us About Your Project</h1>
+    <h2 class="text-white text-center fw-bold">Tell Us About Your Project</h2>
     <p class="text-center w-75 px-lg-2" style="color: #dfdfdf">
       Ready to get started on your project? We're here to listen! Tell us
       about your project, and together, let's bring your vision to life
@@ -783,7 +783,7 @@
        class="modal-dialog modal-dialog-centered modal-lg modal-dialog-centered d-flex justify-content-center align-items-center">
        <div class="flex-column modal-content scrollable-modal-content partnerForm px-lg-5 px-md-4 px-3 py-5 gap-3">
          <div class="d-flex w-100 justify-content-between align-items-center">
-           <h1 style="display: flex; justify-content: center;margin: 0 auto 16px;color:#FB7A00;">Become Our Partner</h1>
+           <h3 style="display: flex; justify-content: center;margin: 0 auto 16px;color:#FB7A00;">Become Our Partner</h3>
            <svg data-bs-dismiss="modal" class="cancelform" xmlns="http://www.w3.org/2000/svg" width="27" height="27"
              viewBox="0 0 27 27" fill="none"
              style="cursor: pointer;position: absolute;top: 0;right: 0;margin: 20px !important;">
@@ -1112,9 +1112,9 @@
                 <div
                   class="col-xl-5 order-lg-1 order-2 col-lg-7 d-flex flex-column align-items-start bookapp px-lg-5 px-2 py-3">
                   <div class="d-flex flex-column text-start w-100">
-                    <h1 style="color: #333" class="fw-bold">
+                    <h3 style="color: #333" class="fw-bold">
                       Select Date & Time
-                    </h1>
+                    </h3>
                     <div id="calendar" class=""></div>
                   </div>
                   <button type="submit" id="scrollToSection2"
@@ -1134,7 +1134,7 @@
                         fill="#0D3642" />
                     </svg>
                   </div>
-                  <h1 class="text-white text-start">Available Slots</h1>
+                  <h6 class="text-white text-start">Available Slots</h6>
                   <div
                     class="d-flex justify-content-center align-items-center gap-3 flex-shrink-0 flex-wrap availableslot"
                     style="height: 260px; overflow-y: scroll">
@@ -1252,7 +1252,7 @@
                       });
                     });
                   </script>
-                  <h1 class="text-white text-start">Time Zone</h1>
+                  <h6 class="text-white text-start">Time Zone</h6>
                   <div class="d-flex p-3 w-100 justify-content-between align-items-center align-self-stretch timezone"
                     style="background: #f6f6f6">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1278,9 +1278,9 @@
                       d="M11.0671 23.0665L4.93377 16.9332C4.80044 16.7999 4.70577 16.6554 4.64977 16.4999C4.59377 16.3443 4.56666 16.1776 4.56844 15.9999C4.56844 15.8221 4.59644 15.6554 4.65244 15.4999C4.70844 15.3443 4.80222 15.1999 4.93377 15.0665L11.1004 8.89987C11.3449 8.65543 11.6449 8.5332 12.0004 8.5332C12.356 8.5332 12.6671 8.66654 12.9338 8.9332C13.1782 9.17765 13.3004 9.48876 13.3004 9.86654C13.3004 10.2443 13.1782 10.5554 12.9338 10.7999L9.06711 14.6665H26.6671C27.0449 14.6665 27.3618 14.7945 27.6178 15.0505C27.8738 15.3065 28.0013 15.623 28.0004 15.9999C28.0004 16.3776 27.8724 16.6945 27.6164 16.9505C27.3604 17.2065 27.044 17.3341 26.6671 17.3332H9.06711L12.9671 21.2332C13.2116 21.4776 13.3338 21.7776 13.3338 22.1332C13.3338 22.4888 13.2004 22.7999 12.9338 23.0665C12.6893 23.311 12.3782 23.4332 12.0004 23.4332C11.6227 23.4332 11.3116 23.311 11.0671 23.0665Z"
                       fill="#0D3642" />
                   </svg>
-                  <h1 style="color: #333" class="fw-bold mt-xl-2 mt-5" style="padding-top: 10px !important">
-                    Enter Details
-                  </h1>
+<h2 style="color: #333" class="fw-bold mt-5" style="padding-top: 10px !important">
+                  Enter Details
+                </h2>
                   <form action="#" id="bookconsultform" class="w-100 d-flex align-items-start flex-column gap-3">
                     <div class="d-flex flex-column gap-1 w-100 pos-rev">
                       <label for="name" class="text-start">Full Name <span class="text-orange">*</span>
@@ -1840,12 +1840,12 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
        <!-- validation -->
        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
         <!-- -------------------EXTERNAL JAVASCRIPT FILE------------------ -->
-      <script src="./js/script.js"></script>
-      <script src="rolyart-calendar.js"></script>
-      <script src="app.js"></script>
-      <script src="./js/index.js"></script>
-      <script src="./js/searchresult.js"></script>
-      <script src="./js/pagination.js"></script>
+        <script src="{{asset('js/rolyart-calendar.js')}}"></script>
+        <script src="{{asset('js/app.js')}}"></script>
+        <script src="{{asset('js/index.js')}}"></script>
+        <script src="{{asset('js/script.js')}}"></script>
+        <script src="{{asset('js/searchresult.js')}}"></script>
+        <script src="{{asset('js/pagination.js')}}"></script>
   <script>
     var input = document.querySelector("#phoneNumber");
     var iti = window.intlTelInput(input, {
