@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -56,5 +57,7 @@ Route::name('frontend.')->group(function () {
 
 
     Route::view('partners', 'partners')->name('partners');
-    
+
+    // Contacts 
+    Route::post('contact-us', [ContactController::class, 'store'])->name('contacts.store');
 });
