@@ -1,6 +1,10 @@
 @extends('layouts.default')
-@section('title', 'Blogs')
+@section('title', 'Services')
 @section('section')
+@php
+ $meta_title ="Sync4Tech | Technical Research and Development";
+ $meta_description = "Sync4Tech's Technical Research and Development services is all about innovating and conducting in-depth research, developing cutting-edge solutions to keep your business at the forefront of technology.";
+@endphp
   <!-- --------------------BANNER SECTION----------------- -->
   <div
     class="bannerSection flex-column gap-lg-4 gap-3 d-flex align-items-start justify-content-center  flex-shrink-0"
