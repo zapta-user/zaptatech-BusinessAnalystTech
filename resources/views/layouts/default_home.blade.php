@@ -21,22 +21,22 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" async>
     <link rel="stylesheet" type="text/css" href="{{ asset('css/myStyle.css') }}" async>
 
-    <meta name="title" content="Sync4Tech: Global Software Development & Business Partner">
+    <meta name="title" content="Sync4Tech: Pre-Development Software Services">
     <meta name="description"
-        content="Digitize your business with Sync4Tech, a global business partner & business analyst in software development, We offer futuristic technology solutions for businesses enhancing efficiency and driving growth.">
+        content="Discover cutting edge tech business solutions at Sync4Tech, we offer innovative software development, IT consulting, and digital transformation expertise to boost your tech business. Explore now!">
     <link rel="canonical" href="https://www.sync4tech.co">
-    <meta property="og:title" content="Sync4Tech: Global Software Development & Business Partner">
+    <meta property="og:title" content="Sync4Tech: Pre-Development Software Services">
     <meta property="og:site_name" content="Sync4Tech">
     <meta property="og:url" content="https://www.sync4tech.co">
     <meta property="og:description"
-        content="Digitize your business with Sync4Tech, a global business partner & business analyst in software development, We offer futuristic technology solutions for businesses enhancing efficiency and driving growth.">
+        content="Discover cutting edge tech business solutions at Sync4Tech, we offer innovative software development, IT consulting, and digital transformation expertise to boost your tech business. Explore now!">
     <meta property="og:type" content="Organization">
     <meta property="og:image" content="https://i.ibb.co/r3ypC8y/twitter-meta-logo.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="Sync4Tech">
-    <meta name="twitter:title" content="Sync4Tech: Global Software Development & Business Partner">
+    <meta name="twitter:title" content="Sync4Tech: Pre-Development Software Services">
     <meta name="twitter:description"
-        content="Digitize your business with Sync4Tech, a global business partner & business analyst in software development, We offer futuristic technology solutions for businesses enhancing efficiency and driving growth.">
+        content="Discover cutting edge tech business solutions at Sync4Tech, we offer innovative software development, IT consulting, and digital transformation expertise to boost your tech business. Explore now!">
     <meta name="twitter:image" content="https://i.ibb.co/r3ypC8y/twitter-meta-logo.png">
 
     <title>Home Page | Sync4Tech</title>

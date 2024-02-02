@@ -1,6 +1,10 @@
 @extends('layouts.default')
-@section('title', 'Blogs')
+@section('title', 'Services')
 @section('section')
+@php
+ $meta_title ="Sync4Tech | Software Project Management Services";
+ $meta_description = "Our seasoned project managers precisely lead your software projects and strategically execute the software development lifecycle. Sync4tech empowers you to deliver quality results within time and budget constraints.";
+@endphp
   <!-- --------------------BANNER SECTION----------------- -->
   <div
     class="bannerSection flex-column gap-lg-4 gap-3 d-flex align-items-start justify-content-center  flex-shrink-0"
