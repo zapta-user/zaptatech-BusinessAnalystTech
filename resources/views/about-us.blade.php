@@ -1110,4 +1110,39 @@
         var phoneNumberInput = document.querySelector("#phnumber");
         phoneNumberInput.placeholder = "201-555-0123";
     </script>
+
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "{{config('app.full_name')}}",
+      "url": "{{url('/')}}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{asset('/assets/nav-logo.svg')}}",
+        "width": "216",
+        "height": "40"
+      },
+      "description": "Digitize your business with Sync4Tech, a global business partner & business analyst in software development, We offer futuristic technology solutions for businesses enhancing efficiency and driving growth.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "4th Floor, Plaza No. 144/2, Block B, Bankers Town, Lahore",
+        "addressLocality": "Lahore",
+        "addressRegion": "Punjab",
+        "postalCode": "54792",
+        "addressCountry": "Pakistan"
+      },
+      "sameAs": [
+        "https://www.facebook.com/sync4tech.co",
+        "https://twitter.com/sync4tech",
+        "https://www.instagram.com/sync4tech.co/",
+        "https://www.linkedin.com/company/sync4tech-co/"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+923015892528",
+        "contactType": "HR Contact"
+      }
+    }
+</script>
 @endpush
