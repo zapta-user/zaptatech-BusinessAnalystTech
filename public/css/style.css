@@ -3170,7 +3170,9 @@ form textarea {
     .tellProjectSection h1 {
         font-size: 33px
     }
-
+    .expertContent h2{
+        font-size: 20px;
+    }
     .tellProjectSection h1 {
         line-height: 74px
     }

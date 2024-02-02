@@ -36,34 +36,72 @@
 
     <section class="expert-section pt-100">
         <div class="container">
-            <div class="d-flex justify-content-lg-between flex-wrap justify-content-center gap-2">
-                <div class="col-xl-6 col-lg-6 col-md-6 expertContent d-flex flex-column gap-lg-3 gap-2">
-                    <h1 class="text-orange pt-md-0 pt-1 text-md-start text-center">
+            <div class="d-flex justify-content-lg-between flex-wrap justify-content-center gap-2 align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-6 expertContent d-flex flex-column gap-2">
+                    <h2 class="text-orange pt-md-0 pt-1 text-md-start text-center mb-0">
                         ABOUT US
-                    </h1>
-                    <h2 class="dark-black fw-bold text-md-start text-center mt-0 mb-0">
-                        Welcome to Sync4Tech
                     </h2>
-                    <h4 class="dark-black fw-bold text-md-start text-center f23 mb-0">
-                        Your Value-Driven Software Development Partner.
-                    </h4>
+                    <h3 class="dark-black fw-bold text-md-start text-center mt-0 mb-0">
+                        Journey of Sync4Tech
+                    </h3>
+                   
                     <p class="content-color text-md-start text-center px-md-0 px-sm-5 mb-0">
-                        Our journey at Sync4Tech transcends the ordinary; it's a narrative crafted with collaboration,
-                        innovation, and values. As your dedicated software development partner, we are on a shared mission –
-                        to seamlessly guide your business into the digital era.
+                        Welcome to Sync4Tech, where innovation meets dedication, and success is woven into every project. Our journey began in 2020 with a vision to redefine the landscape of software development.
 
                     </p>
                     <p class="content-color text-md-start text-center px-md-0 px-sm-5 mt-0">
-                        Navigating the intricacies of business analysis, process improvement, and data analysis, our
-                        collaborative spirit ensures that your unique needs are not only met but exceeded. Integrity,
-                        client-centricity are not abstract concepts but the pillars upon which we build partnerships.From
-                        software business analysis to business process reengineering, we cover the spectrum of your needs.
+                        Since our humble beginnings, Sync4Tech has grown into a dynamic force in the software industry. From our initial team, we have expanded our resources significantly, fostering a culture of collaboration and continuous learning. At the core of our success lies our commitment to providing unparalleled Software Business Analyst services. From intricate Software Documentation to meticulous Process Flows, robust Architecture, innovative Features, and dedicated Project Management, Sync4Tech has become synonymous with comprehensive solutions.
                     </p>
-                    <p class="content-color text-md-start text-center px-md-0 px-sm-5 mt-0">
-                        At Sync4Tech, our mission is clear – to be your trusted and value-driven software development
-                        partner.
-                        Explore the Sync4Tech difference – where value meets innovation, and success becomes a shared
-                        journey. Your business evolution starts here.
+                  
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-12 d-flex justify-content-center align-items-center">
+                    <img loading="lazy" width="515" height="445" src="{{ asset('assets/expertPic.webp') }}"
+                        alt="expert pic" class="img-fluid" />
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="expert-section pt-100">
+        <div class="container">
+            <div class="d-flex justify-content-lg-between flex-wrap justify-content-center gap-2 align-items-center">
+                <div class="col-xl-5 col-lg-5 col-md-5 col-12 d-flex justify-content-center align-items-center">
+                    <img loading="lazy" width="515" height="445" src="{{ asset('assets/expertPic.webp') }}"
+                        alt="expert pic" class="img-fluid" />
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 expertContent d-flex flex-column gap-2">
+                    <h2 class="text-orange pt-md-0 pt-1 text-md-start text-center mb-0">
+                        Our Vision
+                    </h2>
+                    <h3 class="dark-black fw-bold text-md-start text-center mt-0 mb-0">
+                        Revolutionizing Pre-Development
+                    </h3>
+                   
+                    <p class="content-color text-md-start text-center px-md-0 px-sm-5 mb-0">
+                        As we continue to grow and evolve, our vision remains clear—to be a driving force in the ever-evolving realm of software development. Sync4Tech is not just a company; it's a community of passionate individuals dedicated to crafting solutions that transcend expectations.
+
+                    </p>
+                   
+                </div>
+               
+            </div>
+            
+        </div>
+    </section>
+    <section class="expert-section pt-100">
+        <div class="container">
+            <div class="d-flex justify-content-lg-between flex-wrap justify-content-center gap-2 align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-6 expertContent d-flex flex-column gap-2">
+                    <h2 class="text-orange pt-md-0 pt-1 text-md-start text-center mb-0">
+                        Join Us in Shaping the Future
+                    </h2>
+                    <h3 class="dark-black fw-bold text-md-start text-center mt-0 mb-0">
+                        Shape the Future with Us
+                    </h3>
+                   
+                    <p class="content-color text-md-start text-center px-md-0 px-sm-5 mb-0">
+                        Explore Sync4Tech, where every line of code tells a story of innovation, collaboration, and success. Be a part of our journey as we continue to redefine possibilities and set new standards in the world of technology. Together, let's shape a future where your aspirations meet technological brilliance.
+
                     </p>
                 </div>
                 <div class="col-xl-5 col-lg-5 col-md-5 col-12 d-flex justify-content-center align-items-center">
@@ -71,11 +109,9 @@
                         alt="expert pic" class="img-fluid" />
                 </div>
             </div>
-
+            
         </div>
     </section>
-
-
     <div class="cardsSection d-flex flex-column justify-content-center align-items-center gap-3 howWork"
         style="
         background: linear-gradient(
@@ -171,8 +207,8 @@
         </div>
         <div class="col-lg-6 col-md-6 expertContent d-flex flex-column gap-1">
             <!-- <h4 class="text-orange pt-md-0 pt-1 text-md-start text-center">
-                          QUOTE
-                        </h4> -->
+                              QUOTE
+                            </h4> -->
             <h2 class="dark-black fw-bold text-md-start text-center">
                 CEO’s Message
             </h2>
@@ -244,7 +280,33 @@
                             Program
                             Management / Product Leadership</p>
                     </div>
-
+                    <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
+                        style="max-width: 386px;width: 100%;">
+                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/RN2.webp') }}"
+                            alt="Team six" class="img-fluid m-auto" />
+                        <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Rimsha Naz</h3>
+                        <p style="color: #FB7A00; font-weight: 500">Project Manager</p>
+                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Project Management / Resource
+                            Management / Strategic Planning / Product Road Mapping</p>
+                    </div>
+                    <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
+                        style="max-width: 386px;width: 100%;">
+                        <img loading="lazy" width="355" height="355"
+                            src="{{ asset('assets/amna-arif-project-manager-at-sync4tech.webp') }}" alt="Team six"
+                            class="img-fluid m-auto" />
+                        <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Amna Arif</h3>
+                        <p style="color: #FB7A00; font-weight: 500">Project Manager</p>
+                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Agile Practitioner / Client
+                            Management / Scope Management</p>
+                    </div>
+                    <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
+                        style="max-width: 386px;width: 100%;">
+                        <img src="./assets/AS2.webp" alt="Team six" class="img-fluid m-auto" />
+                        <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Arslan Shafiq</h1>
+                        <p style="color: #FB7A00; font-weight: 500">Associate Project Manager</p>
+                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Agile & Scrum Methodology / Strategic
+                            Project Planning / Team Leadership</p>
+                    </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
                         style="max-width: 386px;width: 100%;">
                         <img loading="lazy" width="355" height="355" src="{{ asset('assets/HN.webp') }}"
@@ -254,38 +316,9 @@
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Process Optimization / Data-Driven /
                             Decision Making / Software Proficiency</p>
                     </div>
-
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
                         style="max-width: 386px;width: 100%;">
-                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/ZJ.webp') }}"
-                            alt="Team five" class="img-fluid m-auto" />
-                        <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Zainab Jawad</h3>
-                        <p style="color: #FB7A00; font-weight: 500">Software Business Analyst</p>
-                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Requirements Gathering / Analysis and
-                            Problem-Solving / Communication</p>
-                    </div>
-
-                    <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
-                        style="max-width: 386px;width: 100%;">
-                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/KN.webp') }}"
-                            alt="Team six" class="img-fluid m-auto" />
-                        <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Khadija Naqvi</h3>
-                        <p style="color: #FB7A00; font-weight: 500">Requirement Engineer</p>
-                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Technical Documentation / Digital
-                            Adoption Strategies / Domain Analysis / Data Analysis</p>
-                    </div>
-                    <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
-                        style="max-width: 386px;width: 100%;">
-                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/RN.webp') }}"
-                            alt="Team six" class="img-fluid m-auto" />
-                        <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Rimsha Naz</h3>
-                        <p style="color: #FB7A00; font-weight: 500">Associate Project Manager</p>
-                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Project Management / Resource
-                            Management / Strategic Planning / Product Road Mapping</p>
-                    </div>
-                    <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
-                        style="max-width: 386px;width: 100%;">
-                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/MA.webp') }}"
+                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/MA2.webp') }}"
                             alt="Team six" class="img-fluid m-auto" />
                         <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Muhammad Amjad</h3>
                         <p style="color: #FB7A00; font-weight: 500">Associate Business Analyst</p>
@@ -917,10 +950,10 @@
                                                 <a class="text-white">Schedule Event</a>
                                             </button>
                                             <!-- <button id="scrollToSection2 discardButton" type="button"
-                                          class="btn navButton text-orange consultaion-button rounded-0 button-color py-2 px-lg-5 px-3 d-flex justify-content-center align-items-center gap-3"
-                                          data-bs-dismiss="modal">
-                                          <a class="text-orange">Discard</a>
-                                        </button> -->
+                                              class="btn navButton text-orange consultaion-button rounded-0 button-color py-2 px-lg-5 px-3 d-flex justify-content-center align-items-center gap-3"
+                                              data-bs-dismiss="modal">
+                                              <a class="text-orange">Discard</a>
+                                            </button> -->
                                         </div>
                                     </form>
                                 </div>
