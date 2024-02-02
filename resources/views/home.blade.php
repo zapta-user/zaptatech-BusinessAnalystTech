@@ -755,6 +755,7 @@
                     </div>
                 </div>
             </div>
+           
 
             <a class="View-More-btn" href="{{ route('frontend.blogs') }}" class="text-orange">View More</a>
 
