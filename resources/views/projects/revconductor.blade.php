@@ -1,6 +1,10 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+@php
+ $meta_title = "Sync4Tech | RevConductor";
+ $meta_description = "Elevate your manufacturing operations with RevConductor, a powerful web-based application for secure authentication and bulk product management, with advanced features like chatbot integration and Google Maps.";
+@endphp
   <!-- --------------------BANNER SECTION----------------- -->
   <div
     class="bannerSection flex-column gap-1 d-flex align-items-start justify-content-center  flex-shrink-0 ex-paddg"

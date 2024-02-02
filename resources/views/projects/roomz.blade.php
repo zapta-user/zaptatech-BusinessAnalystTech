@@ -1,6 +1,10 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+@php
+ $meta_title = "Sync4Tech | Roomz";
+ $meta_description = "Immerse yourself in the world of hospitality and travel with Roomz, a cutting-edge vacation rental application available on web and mobile platforms";
+@endphp
   <!-- --------------------BANNER SECTION----------------- -->
   <div
     class="bannerSection flex-column gap-1 d-flex align-items-start justify-content-center  flex-shrink-0 ex-paddg"
