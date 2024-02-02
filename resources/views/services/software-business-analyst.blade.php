@@ -320,7 +320,7 @@
             <div class="">
               <img src="{{asset('assets/service2.svg')}}" alt="Research" class="img-fluid" />
             </div>
-            <h6>Software Business Analyst</h6>
+            <h2>Software Business Analyst</h2>
           </div>
           <div class="services-card">
             <p> Tailored software business analysis to ensure your project's success. We identify stakeholder needs,
@@ -336,7 +336,7 @@
             <div class="">
               <img src="{{asset('assets/service3.svg')}}" alt="Research" class="img-fluid" />
             </div>
-            <h6>Business Process Re-Engineering</h6>
+            <h2>Business Process Re-Engineering</h2>
           </div>
           <div class="services-card">
             <p>Revitalize your processes for enhanced efficiency. We analyze current workflows, redesign optimized
@@ -350,7 +350,7 @@
             <div class="">
               <img src="{{asset('assets/service4.svg')}}" alt="Research" class="img-fluid" />
             </div>
-            <h6>Software Project Management</h6>
+            <h2>Software Project Management</h2>
           </div>
           <div class="services-card">
             <p>Project success, from initiation to closure. We define goals, create detailed plans, execute, monitor,
@@ -384,7 +384,7 @@
     <div
       class="d-flex w-100 flex-md-row flex-column mt-lg-3 mt-md-2 gap-lg-3 gap-2 justify-content-center align-items-center">
       <div class="button-wrap">
-        <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="scrollToSection2"
+        <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#staticBackdrop" 
           type="button"
           class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
           <a href="#" class="text-orange">Become Our Partner</a>
@@ -714,7 +714,7 @@
         </div>
       </div>
       <div class="button-wrap">
-        <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#bookapp" id="scrollToSection2"
+        <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#bookapp" 
           type="button"
           class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
           <a href="#" class="text-orange">Book A Consultation</a>
@@ -736,7 +736,7 @@
                     </h1>
                     <div id="calendar" class=""></div>
                   </div>
-                  <button type="submit" id="scrollToSection2"
+                  <button type="submit" 
                     class="btn partnerbutton mt-5 bookSubmit navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3">
                     <a class="text-white px-4" onclick="showSecondDiv()">Next</a>
                   </button>
@@ -962,11 +962,11 @@
                         "></textarea>
                     </div>
                     <div class="d-flex gap-3">
-                      <button type="submit" id="scrollToSection2 schedule"
+                      <button type="submit" id=" schedule"
                         class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-4 px-3 align-items-center gap-3">
                         <a class="text-white">Schedule Event</a>
                       </button>
-                      <!-- <button id="scrollToSection2 discardButton" type="button"
+                      <!-- <button id=" discardButton" type="button"
                       class="btn navButton text-orange consultaion-button rounded-0 button-color py-2 px-lg-5 px-3 d-flex justify-content-center align-items-center gap-3"
                       data-bs-dismiss="modal">
                       <a class="text-orange">Discard</a>
@@ -1047,10 +1047,7 @@
                   Thanks for booking the consultation. Our representative
                   will get back to you soon.
                 </p>
-                <button type="submit" id="scrollToSection2"
-                  class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3">
-                  <a class="text-white px-4" onclick="closeFour()">Ok</a>
-                </button>
+                <a class="text-white px-4" onclick="closeFour()">Ok</a>
               </div>
               <script>
                 function showSecondDiv() {
@@ -1124,7 +1121,7 @@
           <div class="d-flex gap-lg-4 justify-content-sm-start justify-content-center gap-3 pt-3 bottomImg">
             <a href="https://www.facebook.com/sync4tech.co" target="_blank">
               <i class="fa-brands fa-facebook-f text-white p-2 rounded-circle border"
-                style="opacity: 0.6;width: 34px;height: 34;text-align: center;"></i>
+                style="opacity: 0.6;width: 34px;height: 34px;text-align: center;"></i>
             </a>
             <a href="https://twitter.com/sync4tech" target="_blank">
               <i class="fa-brands fa-x-twitter text-white p-2 rounded-circle border"
@@ -1260,7 +1257,7 @@
                     <a href="https://www.facebook.com/sync4tech.co" target="_blank"
                       style="text-decoration: none !important; border: none;">
                       <i class="fa-brands fa-facebook-f text-white p-2 rounded-circle border"
-                        style="opacity: 0.6;width: 34px;height: 34;text-align: center;"></i>
+                        style="opacity: 0.6;width: 34px;height: 34px;text-align: center;"></i>
                     </a>
                     <a href="https://twitter.com/sync4tech" target="_blank"
                       style="text-decoration: none !important; border: none;">
@@ -1304,7 +1301,7 @@
                   <a href="https://zaptatechnologies.slack.com/" target="_blank"
                     style="text-decoration: none !important; border: none;">
                     <i class="fa-brands fa-slack p-2 rounded-circle"
-                      style="width: 34px;height: 34;text-align: center; border: 1px solid #727375; color:#727375 ;"></i>
+                      style="width: 34px;height: 34px;text-align: center; border: 1px solid #727375; color:#727375 ;"></i>
                   </a>
                 </div>
                 <!-- <form action="#" class="d-flex flex-column gap-2 align-items-md-start align-items-center ms-lg-2 w-100"
@@ -1437,7 +1434,7 @@
         <div class="modal-body p-0">
           
           <div class="text-center">
-            <img src="./assets/success.svg">
+            <img src="./assets/success.svg" alt="sucess_modal">
             <p style="font-size: 20px;color: #292929;padding-top: 20px; max-width: 356px;">Thank you for contacting Us.
               Our representative will get back to you soon.</p>
             <button style="background-color: #FB7A00; color: #fff; width: 144px;height: 46px; border: none;"

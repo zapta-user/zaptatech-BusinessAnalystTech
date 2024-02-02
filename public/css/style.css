@@ -125,6 +125,9 @@ p {
     overflow-y: auto;
     border-radius: 0 !important
 }
+#succesmodel .modal-content{
+    padding: 20px;
+}
 
 .activePagination,
 .image-overlay-text a:hover {
@@ -485,6 +488,12 @@ nav {
 
 .navButton a {
     color: var(--orange-color) !important
+}
+.navButton{
+    color: var(--orange-color) !important
+}
+.consultaion-button:hover, .navButton:hover{
+
 }
 .navButton{
     color: var(--orange-color) !important

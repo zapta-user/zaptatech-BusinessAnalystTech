@@ -254,7 +254,7 @@
           d="M5.46124 13.129L10.4142 8.19073C10.473 8.13194 10.5147 8.06826 10.5394 7.99967C10.5641 7.93108 10.5762 7.8576 10.5759 7.77921C10.5759 7.70083 10.5635 7.62734 10.5388 7.55875C10.5141 7.49017 10.4726 7.42648 10.4142 7.36769L5.46124 2.41474C5.32407 2.27757 5.1526 2.20898 4.94684 2.20898C4.74108 2.20898 4.56471 2.28247 4.41774 2.42944C4.27077 2.57641 4.19729 2.74788 4.19729 2.94384C4.19729 3.13981 4.27077 3.31127 4.41774 3.45824L8.73871 7.77921L4.41774 12.1002C4.28057 12.2374 4.21198 12.4065 4.21198 12.6075C4.21198 12.8086 4.28547 12.9824 4.43244 13.129C4.57941 13.276 4.75088 13.3494 4.94684 13.3494C5.1428 13.3494 5.31427 13.276 5.46124 13.129Z"
           fill="#ACACAC" />
       </svg>
-      <a href="{{route('frontend.home')}}">
+      <a href="{{route('frontend.projects')}}">
         <span class="text-white">PROJECTS</span>
       </a>
       <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
@@ -436,7 +436,7 @@
     <div
     class="d-flex w-100 flex-md-row flex-column mt-lg-5 mt-md-2 gap-lg-3 gap-2 justify-content-center align-items-center">
     <div class="button-wrap">
-      <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="scrollToSection2" type="button"
+      <button data-bs-toggle="modal" data-bs-target="#staticBackdrop"  type="button"
         class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
         <a href="#" class="text-orange">Become Our Partner</a>
       </button>
@@ -761,7 +761,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
 </div>
 </div>
     <div class="button-wrap">
-      <button data-bs-toggle="modal" data-bs-target="#bookapp" id="scrollToSection2" type="button"
+      <button data-bs-toggle="modal" data-bs-target="#bookapp"  type="button"
         class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
         <a href="#" class="text-orange">Book A Consultation</a>
       </button>
@@ -781,7 +781,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
                   </h3>
                   <div id="calendar" class=""></div>
                 </div>
-                <button type="submit" id="scrollToSection2"
+                <button type="submit" 
                   class="btn partnerbutton mt-5 bookSubmit navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3">
                   <a class="text-white px-4" onclick="showSecondDiv()">Next</a>
                 </button>
@@ -1009,11 +1009,11 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         "></textarea>
                   </div>
                   <div class="d-flex gap-3">
-                    <button type="submit" id="scrollToSection2 schedule"
+                    <button type="submit" id=" schedule"
                       class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-4 px-3 align-items-center gap-3">
                       <a class="text-white">Schedule Event</a>
                     </button>
-                    <!-- <button id="scrollToSection2 discardButton" type="button"
+                    <!-- <button id=" discardButton" type="button"
                       class="btn navButton text-orange consultaion-button rounded-0 button-color py-2 px-lg-5 px-3 d-flex justify-content-center align-items-center gap-3"
                       data-bs-dismiss="modal">
                       <a class="text-orange">Discard</a>
@@ -1098,10 +1098,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 Thanks for booking the consultation. Our representative
                 will get back to you soon.
               </p>
-              <button type="submit" id="scrollToSection2"
-                class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3">
-                <a class="text-white px-4" onclick="closeFour()">Ok</a>
-              </button>
+<a class="text-white px-4" onclick="closeFour()">Ok</a>
             </div>
             <script>
               function showSecondDiv() {
@@ -1174,7 +1171,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="d-flex gap-lg-4 justify-content-sm-start justify-content-center gap-3 pt-3 bottomImg">
             <a href="https://www.facebook.com/sync4tech.co" target="_blank">
               <i class="fa-brands fa-facebook-f text-white p-2 rounded-circle border"
-                style="opacity: 0.6;width: 34px;height: 34;text-align: center;"></i>
+                style="opacity: 0.6;width: 34px;height: 34px;text-align: center;"></i>
             </a>
             <a href="https://twitter.com/sync4tech" target="_blank">
               <i class="fa-brands fa-x-twitter text-white p-2 rounded-circle border"
@@ -1310,7 +1307,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
                  <a href="https://www.facebook.com/sync4tech.co" target="_blank"
                    style="text-decoration: none !important; border: none;">
                    <i class="fa-brands fa-facebook-f text-white p-2 rounded-circle border"
-                     style="opacity: 0.6;width: 34px;height: 34;text-align: center;"></i>
+                     style="opacity: 0.6;width: 34px;height: 34px;text-align: center;"></i>
                  </a>
                  <a href="https://twitter.com/sync4tech" target="_blank"
                    style="text-decoration: none !important; border: none;">
@@ -1354,7 +1351,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
                <a href="https://zaptatechnologies.slack.com/" target="_blank"
                  style="text-decoration: none !important; border: none;">
                  <i class="fa-brands fa-slack p-2 rounded-circle"
-                   style="width: 34px;height: 34;text-align: center; border: 1px solid #727375; color:#727375 ;"></i>
+                   style="width: 34px;height: 34px;text-align: center; border: 1px solid #727375; color:#727375 ;"></i>
                </a>
              </div>
              <!-- <form action="#" class="d-flex flex-column gap-2 align-items-md-start align-items-center ms-lg-2 w-100"
@@ -1487,7 +1484,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-body p-0">
         
         <div class="text-center">
-          <img src="./assets/success.svg">
+          <img src="./assets/success.svg" alt="sucess_modal">
           <p style="font-size: 20px;color: #292929;padding-top: 20px; max-width: 356px;">Thank you for contacting Us.
             Our representative will get back to you soon.</p>
           <button style="background-color: #FB7A00; color: #fff; width: 144px;height: 46px; border: none;"
