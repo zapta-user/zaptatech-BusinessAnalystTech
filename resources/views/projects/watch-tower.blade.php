@@ -1,6 +1,10 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+@php
+ $meta_title = "Sync4Tech | WatchTower";
+ $meta_description = " Elevate your risk management capabilities with The Watchtower Application, a powerful web-based system";
+@endphp
   <!-- --------------------BANNER SECTION----------------- -->
   <div
     class="bannerSection flex-column gap-1 d-flex align-items-start justify-content-center  flex-shrink-0 ex-paddg"

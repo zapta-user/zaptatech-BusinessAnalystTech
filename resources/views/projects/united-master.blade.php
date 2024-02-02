@@ -1,6 +1,10 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+@php
+ $meta_title = "Sync4Tech | United Master";
+ $meta_description = "Empower your musical journey with UnitedMasters, a revolutionary web application dedicated to artists seamlessly distributing your music on top platforms like Spotify.";
+@endphp
   <!-- --------------------BANNER SECTION----------------- -->
   <div
     class="bannerSection flex-column gap-1 d-flex align-items-start justify-content-center  flex-shrink-0 ex-paddg"
