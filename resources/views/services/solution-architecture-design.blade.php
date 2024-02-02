@@ -1,6 +1,10 @@
 @extends('layouts.default')
-@section('title', 'Blogs')
+@section('title', 'Services')
 @section('section')
+@php
+ $meta_title ="Sync4Tech | Software Architecture Design Services";
+ $meta_description = "Build a robust foundation for your software solutions with Sync4Tech’s software architecture design solutions. We blend innovation with functionality creating scalable and efficient systems.";
+ @endphp
   <!-- --------------------BANNER SECTION----------------- -->
   <div
     class="bannerSection flex-column gap-lg-4 gap-3 d-flex align-items-start justify-content-center  flex-shrink-0"

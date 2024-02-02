@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@yield('title', 'Sync4Tech')</title>
     <meta name="csrf-token" content="{{ csrf_token() }}" />
-    <meta name="description"
-        content=" Explore Sync4Tech's journey as a premier tech business analyst services provider. Join us in driving innovation and delivering expert solutions to propel your business toward unparalleled success. " />
-    <link rel="icon" type="image/x-icon" href="./assets/fav-2.svg" />
+    <meta name="title" content="<?php echo $meta_title ?? ''; ?>">
+    <meta name="Description" content="<?php echo $meta_description ?? ''; ?>">
     <meta name="keywords"
         content="Business Analysis, Data Analysis, Data-driven Decision Making, Business Insights,Market Intelligence Consulting" />
     <meta name="robots" content="index, follow" />

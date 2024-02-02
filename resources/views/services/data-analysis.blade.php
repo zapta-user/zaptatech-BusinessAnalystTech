@@ -1,6 +1,10 @@
 @extends('layouts.default')
-@section('title', 'Blogs')
+@section('title', 'Services')
 @section('section')
+@php
+ $meta_title = 'Sync4Tech | Data Analysis Services';
+ $meta_description = 'Discover Sync4Tech data analysis services where our expert team employs advanced analytics tools to extract insights, optimize decision making, and drive business growth. We transform your data into a strategic asset to meet your business needs.';
+@endphp
   <!-- --------------------BANNER SECTION----------------- -->
   <div
     class="bannerSection flex-column gap-lg-4 gap-3 d-flex align-items-start justify-content-center  flex-shrink-0"

@@ -1,6 +1,10 @@
 @extends('layouts.default')
-@section('title', 'Blogs')
+@section('title', 'Services')
 @section('section')
+@php
+ $meta_title = 'Sync4Tech | Requirement Gathering';
+ $meta_description = "Empower your project with Sync4Tech's Requirement Gathering Services. Our meticulous approach ensures a thorough understanding of your needs, capturing essential requirements for seamless project execution.";
+@endphp
   <!-- --------------------BANNER SECTION----------------- -->
   <div
     class="bannerSection flex-column gap-lg-4 gap-3 d-flex align-items-start justify-content-center  flex-shrink-0"
