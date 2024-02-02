@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 // });
 Route::name('frontend.')->group(function () {
 
-    Route::view('home', 'home')->name('home');
+    Route::view('/', 'home')->name('home');
     Route::view('about-us', 'about-us')->name('aboutUs');
     Route::view('our-team', 'our-team')->name('ourTeam');
     Route::view('services', 'services')->name('services');
