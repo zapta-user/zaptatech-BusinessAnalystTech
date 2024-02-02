@@ -1,6 +1,10 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+@php
+ $meta_title = "Sync4Tech | Lahebo";
+ $meta_description = "Lahebo, designed with modules for Internal Audit, Inspection, and Document Templates, Lahebo offers a seamless and efficient auditing solution";
+@endphp
   <!-- --------------------BANNER SECTION----------------- -->
   <div
     class="bannerSection flex-column gap-1 d-flex align-items-start justify-content-center  flex-shrink-0 ex-paddg"
