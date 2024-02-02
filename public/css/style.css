@@ -386,7 +386,7 @@ textarea:focus {
 }
 
 .homeBanner {
-    background-image: url(../assets/HOMEBANNER.webp);
+    background-image: url(../assets/homepage-banner-welcome-to-sync4tech-your-global-business-and-software-development-partner.webp);
     background-size: cover;
     background-position: center;
     height: 740px;
@@ -607,7 +607,7 @@ footer {
 }
 
 .tellProjectSection {
-    background-image: url("../assets/CTA-Image.webp");
+    background-image: url("../assets/stay-connected.webp");
     background-size: cover;
     height: 421px
 }

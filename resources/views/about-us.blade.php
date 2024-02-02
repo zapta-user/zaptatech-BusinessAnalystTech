@@ -4,7 +4,7 @@
     <!-- --------------------BANNER SECTION----------------- -->
     <section class="bannerSection flex-column gap-lg-4 gap-3 d-flex align-items-start justify-content-center  flex-shrink-0"
         style="
-        background-image: url(./assets/About-Us.webp);
+        background-image: url(./assets/sync4tech-about-us-your-global-business-ally-and-software-development-partner.webp);
         background-size: cover;
       ">
         <div class="container">
@@ -25,9 +25,7 @@
                 Get to Know Your Strategic Business Ally and Software Development Partner.
             </h2>
             <p class="text-start pt-2" style="color: #dfdfdf">
-                Discover the Heart of Sync4Tech: A journey defined by team collaboration, and developing software and
-                business solutions. Our commitment is to guide your business smoothly into the digital era.
-
+                An Insight into Our Story and Journey. Explore the unique blend of creativity and precision that defines our journey. Let's shape the future of your business together.
             </p>
         </div>
 
@@ -55,7 +53,7 @@
                   
                 </div>
                 <div class="col-xl-5 col-lg-5 col-md-5 col-12 d-flex justify-content-center align-items-center">
-                    <img loading="lazy" width="515" height="445" src="{{ asset('assets/expertPic.webp') }}"
+                    <img loading="lazy" width="515" height="445" src="{{ asset('assets/JourneyofSync4Tech.webp') }}"
                         alt="expert pic" class="img-fluid" />
                 </div>
             </div>
@@ -66,7 +64,7 @@
         <div class="container">
             <div class="d-flex justify-content-lg-between flex-wrap justify-content-center gap-2 align-items-center">
                 <div class="col-xl-5 col-lg-5 col-md-5 col-12 d-flex justify-content-center align-items-center">
-                    <img loading="lazy" width="515" height="445" src="{{ asset('assets/expertPic.webp') }}"
+                    <img loading="lazy" width="515" height="445" src="{{ asset('assets/RevolutionizingPre-Development.webp') }}"
                         alt="expert pic" class="img-fluid" />
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 expertContent d-flex flex-column gap-2">
@@ -105,7 +103,7 @@
                     </p>
                 </div>
                 <div class="col-xl-5 col-lg-5 col-md-5 col-12 d-flex justify-content-center align-items-center">
-                    <img loading="lazy" width="515" height="445" src="{{ asset('assets/expertPic.webp') }}"
+                    <img loading="lazy" width="515" height="445" src="{{ asset('assets/ShapetheFuturewithUs.webp') }}"
                         alt="expert pic" class="img-fluid" />
                 </div>
             </div>

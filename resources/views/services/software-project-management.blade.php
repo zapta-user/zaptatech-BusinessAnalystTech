@@ -9,7 +9,7 @@
   <div
     class="bannerSection flex-column gap-lg-4 gap-3 d-flex align-items-start justify-content-center  flex-shrink-0"
     style="
-        background-image: url('{{asset('assets/services-banner.png')}}');
+        background-image: url('{{asset('assets/services-detail-banner.webp')}}');
         background-size: cover;
         background-position: center;
       ">

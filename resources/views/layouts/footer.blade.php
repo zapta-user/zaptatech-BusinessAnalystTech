@@ -108,7 +108,7 @@
                     <a href="https://maps.app.goo.gl/MaFm3ZZRrDGkxx3f6" target="_blank" style="display: flex;">
                         <img loading="lazy" src="{{ asset('assets/mdi_location.svg') }}" alt="mdi_location"
                             class="img-fluid" style="margin-top: 10px !important;" />
-                        <p style="max-width: 274px;">144/2, Block B, Bankers Society Near DHA Phase 4, Lahore, 54792
+                        <p style="max-width: 274px;">4th Floor, Plaza No. 144/2, Block B, Bankers Town, Lahore
                         </p>
                     </a>
                 </div>
@@ -143,7 +143,7 @@
                             <div class="frm-info-bg">
                                 <div class="contect-office">
                                     <h5>Pakistan Office</h5>
-                                    <p> 240 FF, DHA Phase 4, Lahore, Pakistan</p>
+                                    <p> 4th Floor, Plaza No. 144/2, Block B, Bankers Town, Lahore</p>
                                     <a class="text-deco" href="mailto:Info.pk@zaptatech.com">Info.pk@sync4tech.co</a>
                                 </div>
                                 <div class="contect-office">

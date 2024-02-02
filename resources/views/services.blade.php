@@ -4,7 +4,7 @@
     <!-- --------------------BANNER SECTION----------------- -->
     <div class="bannerSection flex-column gap-lg-4 gap-3 d-flex align-items-start justify-content-center  flex-shrink-0"
         style="
-        background-image: url('{{ asset('assets/HOMEBANNER.webp') }}');
+        background-image: url('{{ asset('assets/services-banner.webp') }}');
         background-size: cover;
         background-position: center;
       ">
@@ -56,7 +56,7 @@
                         <div class="">
                             <img src="{{ asset('assets/service1.svg') }}" alt="Research" class="img-fluid" />
                         </div>
-                        <h6>Software Business Analyst</h6>
+                        <h2>Software Business Analyst</h2>
                     </div>
                     <div class="services-card">
                         <p>
@@ -74,7 +74,7 @@
                         <div class="">
                             <img src="{{ asset('assets/service2.svg') }}" alt="Research" class="img-fluid" />
                         </div>
-                        <h6>Business Process Re-Engineering</h6>
+                        <h2>Business Process Re-Engineering</h2>
                     </div>
                     <div class="services-card">
                         <p> Revitalize your processes for enhanced efficiency. We analyze current workflows, redesign
@@ -91,7 +91,7 @@
                         <div class="">
                             <img src="{{ asset('assets/service3.svg') }}" alt="Research" class="img-fluid" />
                         </div>
-                        <h6>Software Project Management</h6>
+                        <h2>Software Project Management</h2>
                     </div>
                     <div class="services-card">
                         <p>Project success, from initiation to closure. We define goals, create detailed plans, execute,
@@ -108,7 +108,7 @@
                         <div class="">
                             <img src="{{ asset('assets/service4.svg') }}" alt="Research" class="img-fluid" />
                         </div>
-                        <h6>Solution Architecture Design</h6>
+                        <h2>Solution Architecture Design</h2>
                     </div>
                     <div class="services-card">
                         <p>Crafting solutions aligned with business needs. We analyze requirements, design comprehensive
@@ -125,7 +125,7 @@
                         <div class="">
                             <img src="{{ asset('assets/service5.svg') }}" alt="Research" class="img-fluid" />
                         </div>
-                        <h6>Software Documentation</h6>
+                        <h2>Software Documentation</h2>
                     </div>
                     <div class="services-card">
                         <p>
@@ -141,7 +141,7 @@
                         <div class="">
                             <img src="{{ asset('assets/service6.svg') }}" alt="Research" class="img-fluid" />
                         </div>
-                        <h6>Data Analysis</h6>
+                        <h2>Data Analysis</h2>
                     </div>
                     <div class="services-card">
                         <p>Uncover insights through meticulous data analysis. We identify sources, collect data, and apply
@@ -157,7 +157,7 @@
                         <div class="">
                             <img src="{{ asset('assets/service1.svg') }}" alt="Research" class="img-fluid" />
                         </div>
-                        <h6> Digital Adoption Planning</h6>
+                        <h2> Digital Adoption Planning</h2>
                     </div>
                     <div class="services-card">
                         <p>
@@ -176,7 +176,7 @@
                         <div class="">
                             <img src="{{ asset('assets/service2.svg') }}" alt="Research" class="img-fluid" />
                         </div>
-                        <h6>Requirement Elicitation</h6>
+                        <h2>Requirement Elicitation</h2>
                     </div>
                     <div class="services-card">
                         <p>Holistic requirement gathering for a clear understanding of stakeholder needs. We identify
@@ -194,7 +194,7 @@
                         <div class="">
                             <img src="{{ asset('assets/service3.svg') }}" alt="Research" class="img-fluid" />
                         </div>
-                        <h6>Technical Resarch and Development</h6>
+                        <h2>Technical Resarch and Development</h2>
                     </div>
                     <div class="services-card">
                         <p>Incorporate cutting-edge technologies into your projects. We assess technologies, implement
@@ -827,7 +827,7 @@
         <div class="container">
             <div class="w-100 cardsSection standardSection row justify-content-center align-items-center gap-5">
                 <div class="col-lg-5 justify-content-center align-items-center d-flex">
-                    <img src="{{ asset('assets/standardPicture.png') }}" alt="standard" class="img-fluid" />
+                    <img src="{{ asset('assets/standards-sync4tech-follows-for-quality-services.webp') }}" alt="Standards Sync4Tech follows for Quality Services" class="img-fluid" />
                 </div>
                 <div class="col-lg-5 d-flex flex-column gap-3 flex-grow-1 flex-shrink-0 flex-basis-0">
                     <h4 class="text-orange text-lg-start text-center">OUR STANDARDS</h4>
@@ -836,7 +836,7 @@
                     </h3>
                     <div class=" order-md-1 order-2 d-flex flex-column gap-3 flex-grow-1 flex-shrink-0 flex-basis-0 ">
                         <div class="d-flex gap-2 align-items-start ">
-                            <img src="{{ asset('assets/tick.svg') }}" alt="tick" class=" d-md-block">
+                            <img src="{{ asset('assets/tick-mark-icon-image-for-services-page.svg') }}" alt="Tick mark icon image for services page" class=" d-md-block">
                             <div class="brown pe-lg-5 text-md-start partner-ticks">
                                 <p>ISO 9001, a quality management standard, outlines general principles for quality
                                     management systems, applicable to various business processes, including business
@@ -845,14 +845,14 @@
                         </div>
 
                         <div class="d-flex gap-2 align-items-start ">
-                            <img src="{{ asset('assets/tick.svg') }}" alt="tick" class=" d-md-block">
+                            <img src="{{ asset('assets/tick-mark-icon-image-for-services-page.svg') }}" alt="Tick mark icon image for services page" class=" d-md-block">
                             <div class="brown pe-lg-5 text-md-start partner-ticks">
                                 <p>Adherence to project management standards like PMBOK (Project Management Body of
                                     Knowledge) ensures effective project planning, execution, and control.</p>
                             </div>
                         </div>
                         <div class="d-flex gap-2 align-items-start ">
-                            <img src="{{ asset('assets/tick.svg') }}" alt="tick" class=" d-md-block">
+                            <img src="{{ asset('assets/tick-mark-icon-image-for-services-page.svg') }}" alt="Tick mark icon image for services page" class=" d-md-block">
                             <div class="brown pe-lg-5 text-md-start partner-ticks">
                                 <p>Following best practices in software development, such as those outlined by the Software
                                     Engineering Institute's Capability Maturity Model Integration (CMMI), helps ensure
@@ -860,7 +860,7 @@
                             </div>
                         </div>
                         <div class="d-flex gap-2 align-items-start ">
-                            <img src="{{ asset('assets/tick.svg') }}" alt="tick" class=" d-md-block">
+                            <img src="{{ asset('assets/tick-mark-icon-image-for-services-page.svg') }}" alt="Tick mark icon image for services page" class=" d-md-block">
                             <div class="brown pe-lg-5 text-md-start partner-ticks">
                                 <p>Adherence to guidelines and standards set by organizations like the International
                                     Institute of Business Analysis (IIBA) ensures professionalism and consistency in

@@ -4,7 +4,7 @@
     <!-- --------------------BANNER SECTION----------------- -->
     <div class="bannerSection flex-column gap-1 d-flex align-items-start justify-content-center  flex-shrink-0"
         style="
-        background-image: url({{ asset('assets/our-partner-bg.webp') }});
+        background-image: url({{ asset('assets/services-banner.webp') }});
       ">
         <div class="d-flex gap-2 align-items-center justify-content-center">
             <a href="{{ route('frontend.home') }}">
@@ -59,7 +59,7 @@
             </div>
         </div>
         <div class="col-xl-4 col-lg-5 col-md-5 col-12 d-flex justify-content-center align-items-center">
-            <img loading="lazy" width="515" height="445" src="{{ asset('assets/expertPic.webp') }}" alt="expert pic"
+            <img loading="lazy" width="515" height="445" src="{{ asset('assets/RevolutionizingPre-Development.webp') }}" alt="expert pic"
                 class="img-fluid" />
         </div>
     </div>
@@ -430,7 +430,7 @@
                         <div class="">
                             <img src="{{ asset('assets/service1.svg') }}" alt="Research" class="img-fluid" />
                         </div>
-                        <h6>Software Business Analyst</h6>
+                        <h2>Software Business Analyst</h2>
                     </div>
                     <div class="services-card">
                         <p>
@@ -448,7 +448,7 @@
                         <div class="">
                             <img src="{{ asset('assets/service2.svg') }}" alt="Research" class="img-fluid" />
                         </div>
-                        <h6>Business Process Re-Engineering</h6>
+                        <h2>Business Process Re-Engineering</h2>
                     </div>
                     <div class="services-card">
                         <p> Revitalize your processes for enhanced efficiency. We analyze current workflows, redesign
@@ -464,7 +464,7 @@
                         <div class="">
                             <img src="{{ asset('assets/service3.svg') }}" alt="Research" class="img-fluid" />
                         </div>
-                        <h6>Project Management</h6>
+                        <h2>Project Management</h2>
                     </div>
                     <div class="services-card">
                         <p>Project success, from initiation to closure. We define goals, create detailed plans, execute,
@@ -480,7 +480,7 @@
                         <div class="">
                             <img src="{{ asset('assets/service4.svg') }}" alt="Research" class="img-fluid" />
                         </div>
-                        <h6>Solution Architecture Design</h6>
+                        <h2>Solution Architecture Design</h2>
                     </div>
                     <div class="services-card">
                         <p>Crafting solutions aligned with business needs. We analyze requirements, design comprehensive
@@ -497,7 +497,7 @@
                         <div class="">
                             <img src="{{ asset('assets/service5.svg') }}" alt="Research" class="img-fluid" />
                         </div>
-                        <h6>Software Documentation</h6>
+                        <h2>Software Documentation</h2>
                     </div>
                     <div class="services-card">
                         <p>
@@ -512,7 +512,7 @@
                         <div class="">
                             <img src="{{ asset('assets/service6.svg') }}" alt="Research" class="img-fluid" />
                         </div>
-                        <h6>Data Analysis</h6>
+                        <h2>Data Analysis</h2>
                     </div>
                     <div class="services-card">
                         <p>Uncover insights through meticulous data analysis. We identify sources, collect data, and apply
@@ -544,7 +544,7 @@
                                 <tbody>
                                     <tr class="d-flex gap-2 ">
                                         <td>
-                                            <img src="{{ asset('assets/tick.svg') }}" alt="tick"
+                                            <img src="{{ asset('assets/tick-mark-icon-image-for-services-page.svg') }}" alt="Tick mark icon image for services page"
                                                 class=" d-md-block">
                                         </td>
                                         <td class="brown pe-lg-5 text-md-start partner-ticks">
@@ -557,7 +557,7 @@
                                     </tr>
                                     <tr class="d-flex gap-2">
                                         <td>
-                                            <img src="{{ asset('assets/tick.svg') }}" alt="tick"
+                                            <img src="{{ asset('assets/tick-mark-icon-image-for-services-page.svg') }}" alt="Tick mark icon image for services page"
                                                 class=" d-md-block ">
                                         </td>
                                         <td class="brown pe-lg-5 text-md-start partner-ticks">
@@ -567,7 +567,7 @@
                                     </tr>
                                     <tr class="d-flex gap-2">
                                         <td>
-                                            <img src="{{ asset('assets/tick.svg') }}" alt="tick"
+                                            <img src="{{ asset('assets/tick-mark-icon-image-for-services-page.svg') }}" alt="Tick mark icon image for services page"
                                                 class=" d-md-block">
                                         </td>
                                         <td class="brown pe-lg-5 text-md-start partner-ticks">
@@ -577,7 +577,7 @@
                                     </tr>
                                     <tr class="d-flex gap-2">
                                         <td>
-                                            <img src="{{ asset('assets/tick.svg') }}" alt="tick" class="d-md-block">
+                                            <img src="{{ asset('assets/tick-mark-icon-image-for-services-page.svg') }}" alt="Tick mark icon image for services page" class="d-md-block">
                                         </td>
                                         <td class="brown pe-lg-5 text-md-start partner-ticks">
                                             <p>Technology Compatibility</p>
@@ -586,7 +586,7 @@
                                     </tr>
                                     <tr class="d-flex gap-2">
                                         <td>
-                                            <img src="{{ asset('assets/tick.svg') }}" alt="tick"
+                                            <img src="{{ asset('assets/tick-mark-icon-image-for-services-page.svg') }}" alt="Tick mark icon image for services page"
                                                 class=" d-md-block ">
                                         </td>
                                         <td class="brown pe-lg-5 text-md-start partner-ticks">
@@ -596,7 +596,7 @@
                                     </tr>
                                     <tr class="d-flex gap-2">
                                         <td>
-                                            <img src="{{ asset('assets/tick.svg') }}" alt="tick" class="d-md-block">
+                                            <img src="{{ asset('assets/tick-mark-icon-image-for-services-page.svg') }}" alt="Tick mark icon image for services page" class="d-md-block">
                                         </td>
                                         <td class="brown pe-lg-5 text-md-start partner-ticks">
                                             <p>Joint Marketing Actvities</p>
@@ -736,7 +736,7 @@
 
                 </div>
                 <div class="col-md-5 d-flex justify-content-end order-md-2 order-1">
-                    <img src="{{ asset('assets/standardPicture.png') }}" alt="standard" class="img-fluid" />
+                    <img src="{{ asset('assets/standards-sync4tech-follows-for-quality-services.webp') }}" alt="Standards Sync4Tech follows for Quality Services" class="img-fluid" />
                 </div>
             </div>
         </div>

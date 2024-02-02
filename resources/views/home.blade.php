@@ -5,13 +5,11 @@
         <div class="container">
             <div class="hero-content">
                 <h1 class="text-white text-center">
-                    We Boost Your Tech Ventures With Tailored
-                    <span class="text-orange">Business Solutions</span>
+                    Crafting Your Tech Future with 
+                    <span class="text-orange">Customized Solutions</span>
                 </h1>
                 <p class="business-p">
-                    Our team empowers your strategy with comprehensive business analysis services. We specialize in
-                    streamlined requirement gathering, process improvement, and data analysis, ensuring optimal operations
-                    for your business success.
+                    Power your success story with our comprehensive services. We excel in streamlined requirement gathering, meticulous software documentation, and expert project management. Embrace the digital era confidently with our tailored plans, robust system architecture, and optimized processes.
                 </p>
                 <div class="Partner-button">
                     <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="scrollToSection2" type="button">
@@ -622,7 +620,7 @@
                         class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
                         <div class="position-relative w-100"
                             style="
-                background-image: url({{ asset('assets/allblogone.webp') }});
+                background-image: url({{ asset('assets/1-number-icon-representing-sync4tech-blog-1-information.webp') }});
                 background-size: cover;
                 background-position: center;
                 max-height: 400px;
@@ -666,7 +664,7 @@
                         href="{{ route('frontend.blogs.ensuring-project-success-in-software-development') }}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
                         <div class="position-relative w-100"
                             style="
-                background-image: url({{ asset('assets/allblogtwo.webp') }});
+                background-image: url({{ asset('assets/2-number-icon-representing-sync4tech-blo-4-numerical-information.webp') }});
                 background-size: cover;
                 background-position: center;
                 max-height: 400px;
@@ -712,7 +710,7 @@
                         href="{{ route('frontend.blogs.the-benefits-of-docs-in-software-development') }}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
                         <div class="position-relative w-100"
                             style="
-                background-image: url({{ asset('assets/allblogthree.webp') }});
+                background-image: url({{ asset('assets/doc-blogs.webp') }});
                 background-size: cover;
                 background-position: center;
                 max-height: 400px;
@@ -819,7 +817,7 @@
                     <div class="frm-info-bg">
                         <div class="contect-office">
                             <h5>Pakistan Office</h5>
-                            <p> 240 FF, DHA Phase 4, Lahore, Pakistan</p>
+                            <p> 4th Floor, Plaza No. 144/2, Block B, Bankers Town, Lahore</p>
                             <a href="mailto:Info.pk@zaptatech.com">Info.pk@sync4tech.co</a>
                         </div>
                         <div class="contect-office">

@@ -476,138 +476,146 @@
   <div class="cardsSection d-flex flex-column justify-content-center gap-5" style="background-color: #e7ebec">
     <!-- ------------BLOG CONTENT SECTION---------------- -->
     <div class="contentSection blogContentSection px-3 d-flex flex-column gap-3">
-      <h3 class="dark-black text-lg-start text-center fw-bold">
-        Related Blogs
-      </h3>
+        <h2 class="dark-black text-lg-start text-center fw-bold">
+            Related Blogs
+        </h2>
     </div>
     <!-- -----------BLOG POST------------ -->
     <div class="row d-flex  justify-content-center blogzoom flex-md-row flex-column gap-3 w-100">
-      <div class="blogCard d-flex blogPost flex-column  p-3">
-        <a href="{{route('frontend.blogs.agile-methodology-and-business-analysis')}}"
-          class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
-          <div class="position-relative w-100" style="
-              background-image: url({{asset('assets/allblogone.webp')}});
-              background-size: cover;
-              background-position: center;
-              max-height: 400px;
-              height: 300px;">
-            <button class="position-absolute py-1 px-4 border-0" style=" top: 6%; right: 4%;
-                background: rgba(255, 255, 255, 0.64);
-                backdrop-filter: blur(2px);">
-              <span style="color: #0d3642" class="fw-bold">Business Analysis</span>
-            </button>
-          </div>
+        <div class="blogCard d-flex blogPost flex-column  p-3">
+            <a href="{{ route('frontend.blogs.agile-methodology-and-business-analysis') }}"
+                class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
+                <div class="position-relative w-100"
+                    style="
+          background-image: url({{ asset('assets/1-number-icon-representing-sync4tech-blog-1-information.webp') }});
+          background-size: cover;
+          background-position: center;
+          max-height: 400px;
+          height: 300px;">
+                    <button class="position-absolute py-1 px-4 border-0"
+                        style=" top: 6%; right: 4%;
+            background: rgba(255, 255, 255, 0.64);
+            backdrop-filter: blur(2px);">
+                        <span style="color: #0d3642" class="fw-bold">Business Analysis</span>
+                    </button>
+                </div>
 
-          <h3 class="dark-black text-start ">Agile Methodology and Business Analysis</h3>
+                <h3 class="dark-black text-start ">Agile Methodology and Business Analysis</h3>
 
-          <h4 class="brown text-start ">
-            Curious about how business analysis and agile development go hand-in-hand?...
-            <span class="text-orange">Read More</span>
-          </h4>
-        </a>
-        <div class="w-100 d-flex justify-content-between align-items-center mt-3">
-          <div class="d-flex gap-2 justify-content-center align-items-center">
-            <p style="color: #0d3642">Rene Wells •</p>
-            <p style="color: #828282">August 12, 2023</p>
-          </div>
-          <div class="d-lg-flex gap-xl-3 gap-2 position-relative z-3"
-            style="width: 25px;height: 24px;text-align: center;display: flex !important;background: #DBE1E3;justify-items: center;justify-content: center;align-items: center;border-radius: 40px;">
-            <svg  data-bs-toggle="modal" data-bs-target="#shareModal"
-              xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14" fill="none">
-              <path
-                d="M10.5605 9.59603C10.0492 9.59603 9.58776 9.79721 9.24057 10.1197L4.66159 7.4545C4.69403 7.30524 4.71999 7.15598 4.71999 7.00024C4.71999 6.84449 4.69403 6.69523 4.66159 6.54597L9.23668 3.87879C9.58711 4.20326 10.0479 4.40444 10.5605 4.40444C11.6378 4.40444 12.5074 3.53485 12.5074 2.45759C12.5074 1.38033 11.6378 0.510742 10.5605 0.510742C9.48328 0.510742 8.61369 1.38033 8.61369 2.45759C8.61369 2.61334 8.63965 2.7626 8.67209 2.91185L4.097 5.57904C3.74657 5.25456 3.28581 5.05339 2.77314 5.05339C1.69589 5.05339 0.826294 5.92298 0.826294 7.00024C0.826294 8.07749 1.69589 8.94709 2.77314 8.94709C3.28581 8.94709 3.74657 8.74591 4.097 8.42144L8.67079 11.0938C8.63425 11.2408 8.61508 11.3915 8.61369 11.5429C8.61369 11.9279 8.72787 12.3043 8.94179 12.6245C9.15571 12.9447 9.45977 13.1942 9.81551 13.3415C10.1712 13.4889 10.5627 13.5274 10.9403 13.4523C11.318 13.3772 11.6649 13.1918 11.9372 12.9195C12.2094 12.6472 12.3949 12.3003 12.47 11.9227C12.5451 11.545 12.5065 11.1536 12.3592 10.7979C12.2118 10.4421 11.9623 10.1381 11.6421 9.92414C11.322 9.71021 10.9456 9.59603 10.5605 9.59603Z"
-                fill="#FB7A00" />
-            </svg>
-          </div>
+                <h4 class="brown text-start ">
+                    Curious about how business analysis and agile development go hand-in-hand?...
+                    <span class="text-orange">Read More</span>
+                </h4>
+            </a>
+            <div class="w-100 d-flex justify-content-between align-items-center mt-3">
+                <div class="d-flex gap-2 justify-content-center align-items-center">
+                    <p style="color: #0d3642">Rene Wells •</p>
+                    <p style="color: #828282">August 12, 2023</p>
+                </div>
+                <div class="d-lg-flex gap-xl-3 gap-2 position-relative z-3"
+                    style="width: 25px;height: 24px;text-align: center;display: flex !important;background: #DBE1E3;justify-items: center;justify-content: center;align-items: center;border-radius: 40px;">
+                    <svg data-bs-toggle="modal" data-bs-target="#shareModal" xmlns="http://www.w3.org/2000/svg"
+                        width="13" height="14" viewBox="0 0 13 14" fill="none">
+                        <path
+                            d="M10.5605 9.59603C10.0492 9.59603 9.58776 9.79721 9.24057 10.1197L4.66159 7.4545C4.69403 7.30524 4.71999 7.15598 4.71999 7.00024C4.71999 6.84449 4.69403 6.69523 4.66159 6.54597L9.23668 3.87879C9.58711 4.20326 10.0479 4.40444 10.5605 4.40444C11.6378 4.40444 12.5074 3.53485 12.5074 2.45759C12.5074 1.38033 11.6378 0.510742 10.5605 0.510742C9.48328 0.510742 8.61369 1.38033 8.61369 2.45759C8.61369 2.61334 8.63965 2.7626 8.67209 2.91185L4.097 5.57904C3.74657 5.25456 3.28581 5.05339 2.77314 5.05339C1.69589 5.05339 0.826294 5.92298 0.826294 7.00024C0.826294 8.07749 1.69589 8.94709 2.77314 8.94709C3.28581 8.94709 3.74657 8.74591 4.097 8.42144L8.67079 11.0938C8.63425 11.2408 8.61508 11.3915 8.61369 11.5429C8.61369 11.9279 8.72787 12.3043 8.94179 12.6245C9.15571 12.9447 9.45977 13.1942 9.81551 13.3415C10.1712 13.4889 10.5627 13.5274 10.9403 13.4523C11.318 13.3772 11.6649 13.1918 11.9372 12.9195C12.2094 12.6472 12.3949 12.3003 12.47 11.9227C12.5451 11.545 12.5065 11.1536 12.3592 10.7979C12.2118 10.4421 11.9623 10.1381 11.6421 9.92414C11.322 9.71021 10.9456 9.59603 10.5605 9.59603Z"
+                            fill="#FB7A00" />
+                    </svg>
+                </div>
+            </div>
         </div>
-      </div>
-      <!-- card-2 -->
-      <div class="blogCard d-flex blogPost flex-column align-items-start justify-content-center gap-lg-3 gap-1 p-3">
-        <a href="{{route('frontend.blogs.ensuring-project-success-in-software-development')}}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
-        <div class="position-relative w-100" style="
-              background-image: url({{asset('assets/allblogtwo.webp')}});
-              background-size: cover;
-              background-position: center;
-              max-height: 400px;
-              height: 300px;
-            ">
-          <button class="position-absolute py-1 px-4 border-0" style="
-                top: 6%;
-                right: 4%;
-                background: rgba(255, 255, 255, 0.64);
-                backdrop-filter: blur(2px);
-              ">
-            <span style="color: #0d3642" class="fw-bold">Agile Development</span>
-          </button>
+        <!-- card-2 -->
+        <div class="blogCard d-flex blogPost flex-column align-items-start justify-content-center gap-lg-3 gap-1 p-3">
+            <a
+                href="{{ route('frontend.blogs.ensuring-project-success-in-software-development') }}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
+                <div class="position-relative w-100"
+                    style="
+          background-image: url({{ asset('assets/2-number-icon-representing-sync4tech-blo-4-numerical-information.webp') }});
+          background-size: cover;
+          background-position: center;
+          max-height: 400px;
+          height: 300px;
+        ">
+                    <button class="position-absolute py-1 px-4 border-0"
+                        style="
+            top: 6%;
+            right: 4%;
+            background: rgba(255, 255, 255, 0.64);
+            backdrop-filter: blur(2px);
+          ">
+                        <span style="color: #0d3642" class="fw-bold">Agile Development</span>
+                    </button>
+                </div>
+                <h3 class="dark-black text-start ">Ensuring Project Success in Software Development</h3>
+                <h4 class="brown text-start">
+                    In the fast-paced world of software development, success hinges on many factors,..
+                    <span class="text-orange">Read More</span>
+                </h4>
+            </a>
+            <div class="w-100 d-flex justify-content-between align-items-center">
+                <div class="d-flex gap-2 justify-content-center align-items-center">
+                    <p style="color: #0d3642">Rene Wells •</p>
+                    <p style="color: #828282">August 12, 2023</p>
+                </div>
+                <div class="d-lg-flex gap-xl-3 gap-2"
+                    style="width: 25px;height: 24px;text-align: center;display: flex !important;background: #DBE1E3;justify-items: center;justify-content: center;align-items: center;border-radius: 40px;">
+                    <svg data-bs-toggle="modal" data-bs-target="#shareModal" xmlns="http://www.w3.org/2000/svg"
+                        width="13" height="14" viewBox="0 0 13 14" fill="none">
+                        <path
+                            d="M10.5605 9.59603C10.0492 9.59603 9.58776 9.79721 9.24057 10.1197L4.66159 7.4545C4.69403 7.30524 4.71999 7.15598 4.71999 7.00024C4.71999 6.84449 4.69403 6.69523 4.66159 6.54597L9.23668 3.87879C9.58711 4.20326 10.0479 4.40444 10.5605 4.40444C11.6378 4.40444 12.5074 3.53485 12.5074 2.45759C12.5074 1.38033 11.6378 0.510742 10.5605 0.510742C9.48328 0.510742 8.61369 1.38033 8.61369 2.45759C8.61369 2.61334 8.63965 2.7626 8.67209 2.91185L4.097 5.57904C3.74657 5.25456 3.28581 5.05339 2.77314 5.05339C1.69589 5.05339 0.826294 5.92298 0.826294 7.00024C0.826294 8.07749 1.69589 8.94709 2.77314 8.94709C3.28581 8.94709 3.74657 8.74591 4.097 8.42144L8.67079 11.0938C8.63425 11.2408 8.61508 11.3915 8.61369 11.5429C8.61369 11.9279 8.72787 12.3043 8.94179 12.6245C9.15571 12.9447 9.45977 13.1942 9.81551 13.3415C10.1712 13.4889 10.5627 13.5274 10.9403 13.4523C11.318 13.3772 11.6649 13.1918 11.9372 12.9195C12.2094 12.6472 12.3949 12.3003 12.47 11.9227C12.5451 11.545 12.5065 11.1536 12.3592 10.7979C12.2118 10.4421 11.9623 10.1381 11.6421 9.92414C11.322 9.71021 10.9456 9.59603 10.5605 9.59603Z"
+                            fill="#FB7A00" />
+                    </svg>
+                </div>
+            </div>
         </div>
-          <h3 class="dark-black text-start ">Ensuring Project Success in Software Development</h3>
-        <h4 class="brown text-start">
-          In the fast-paced world of software development, success hinges on many factors,..
-          <span class="text-orange">Read More</span>
-        </h4>
-        </a>
-        <div class="w-100 d-flex justify-content-between align-items-center">
-          <div class="d-flex gap-2 justify-content-center align-items-center">
-            <p style="color: #0d3642">Rene Wells •</p>
-            <p style="color: #828282">August 12, 2023</p>
-          </div>
-          <div class="d-lg-flex gap-xl-3 gap-2"
-            style="width: 25px;height: 24px;text-align: center;display: flex !important;background: #DBE1E3;justify-items: center;justify-content: center;align-items: center;border-radius: 40px;">
-            <svg  data-bs-toggle="modal" data-bs-target="#shareModal"
-              xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14" fill="none">
-              <path
-                d="M10.5605 9.59603C10.0492 9.59603 9.58776 9.79721 9.24057 10.1197L4.66159 7.4545C4.69403 7.30524 4.71999 7.15598 4.71999 7.00024C4.71999 6.84449 4.69403 6.69523 4.66159 6.54597L9.23668 3.87879C9.58711 4.20326 10.0479 4.40444 10.5605 4.40444C11.6378 4.40444 12.5074 3.53485 12.5074 2.45759C12.5074 1.38033 11.6378 0.510742 10.5605 0.510742C9.48328 0.510742 8.61369 1.38033 8.61369 2.45759C8.61369 2.61334 8.63965 2.7626 8.67209 2.91185L4.097 5.57904C3.74657 5.25456 3.28581 5.05339 2.77314 5.05339C1.69589 5.05339 0.826294 5.92298 0.826294 7.00024C0.826294 8.07749 1.69589 8.94709 2.77314 8.94709C3.28581 8.94709 3.74657 8.74591 4.097 8.42144L8.67079 11.0938C8.63425 11.2408 8.61508 11.3915 8.61369 11.5429C8.61369 11.9279 8.72787 12.3043 8.94179 12.6245C9.15571 12.9447 9.45977 13.1942 9.81551 13.3415C10.1712 13.4889 10.5627 13.5274 10.9403 13.4523C11.318 13.3772 11.6649 13.1918 11.9372 12.9195C12.2094 12.6472 12.3949 12.3003 12.47 11.9227C12.5451 11.545 12.5065 11.1536 12.3592 10.7979C12.2118 10.4421 11.9623 10.1381 11.6421 9.92414C11.322 9.71021 10.9456 9.59603 10.5605 9.59603Z"
-                fill="#FB7A00" />
-            </svg>
-          </div>
-        </div>
-      </div>
-      <!-- card-3 -->
-      <div class="blogCard d-flex blogPost flex-column align-items-start justify-content-center gap-lg-3 gap-1 p-3">
-        <a href="{{route('frontend.blogs.the-benefits-of-docs-in-software-development')}}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
-        <div class="position-relative w-100" style="
-              background-image: url({{asset('assets/allblogthree.webp')}});
-              background-size: cover;
-              background-position: center;
-              max-height: 400px;
-              height: 300px;
-            ">
-          <button class="position-absolute py-1 px-4 border-0" style="
-                top: 6%;
-                right: 4%;
-                background: rgba(255, 255, 255, 0.64);
-                backdrop-filter: blur(2px);
-              ">
-            <span style="color: #0d3642" class="fw-bold">Technical Writing</span>
-          </button>
-        </div>
-        
-         <h3 class="dark-black text-start">The Benefits of docs in Software Development</h3>
-      
-      <h4 class="brown text-start ">
-          Simply believing that software development is solely about writing code to solve...
-          <span class="text-orange">Read More</span>
-        </h4>
-        </a>
+        <!-- card-3 -->
+        <div class="blogCard d-flex blogPost flex-column align-items-start justify-content-center gap-lg-3 gap-1 p-3">
+            <a
+                href="{{ route('frontend.blogs.the-benefits-of-docs-in-software-development') }}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
+                <div class="position-relative w-100"
+                    style="
+          background-image: url({{ asset('assets/3-number-icon-representing-sync4tech-blog-3-information.webp') }});
+          background-size: cover;
+          background-position: center;
+          max-height: 400px;
+          height: 300px;
+        ">
+                    <button class="position-absolute py-1 px-4 border-0"
+                        style="
+            top: 6%;
+            right: 4%;
+            background: rgba(255, 255, 255, 0.64);
+            backdrop-filter: blur(2px);
+          ">
+                        <span style="color: #0d3642" class="fw-bold">Technical Writing</span>
+                    </button>
+                </div>
 
-        <div class="w-100 d-flex justify-content-between align-items-center">
-          <div class="d-flex gap-2 justify-content-center align-items-center">
-            <p style="color: #0d3642">Rene Wells •</p>
-            <p style="color: #828282">August 12, 2023</p>
-          </div>
-          <div class="d-lg-flex gap-xl-3 gap-2"
-            style="width: 25px;height: 24px;text-align: center;display: flex !important;background: #DBE1E3;justify-items: center;justify-content: center;align-items: center;border-radius: 40px;">
-            <svg  data-bs-toggle="modal" data-bs-target="#shareModal"
-              xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14" fill="none">
-              <path
-                d="M10.5605 9.59603C10.0492 9.59603 9.58776 9.79721 9.24057 10.1197L4.66159 7.4545C4.69403 7.30524 4.71999 7.15598 4.71999 7.00024C4.71999 6.84449 4.69403 6.69523 4.66159 6.54597L9.23668 3.87879C9.58711 4.20326 10.0479 4.40444 10.5605 4.40444C11.6378 4.40444 12.5074 3.53485 12.5074 2.45759C12.5074 1.38033 11.6378 0.510742 10.5605 0.510742C9.48328 0.510742 8.61369 1.38033 8.61369 2.45759C8.61369 2.61334 8.63965 2.7626 8.67209 2.91185L4.097 5.57904C3.74657 5.25456 3.28581 5.05339 2.77314 5.05339C1.69589 5.05339 0.826294 5.92298 0.826294 7.00024C0.826294 8.07749 1.69589 8.94709 2.77314 8.94709C3.28581 8.94709 3.74657 8.74591 4.097 8.42144L8.67079 11.0938C8.63425 11.2408 8.61508 11.3915 8.61369 11.5429C8.61369 11.9279 8.72787 12.3043 8.94179 12.6245C9.15571 12.9447 9.45977 13.1942 9.81551 13.3415C10.1712 13.4889 10.5627 13.5274 10.9403 13.4523C11.318 13.3772 11.6649 13.1918 11.9372 12.9195C12.2094 12.6472 12.3949 12.3003 12.47 11.9227C12.5451 11.545 12.5065 11.1536 12.3592 10.7979C12.2118 10.4421 11.9623 10.1381 11.6421 9.92414C11.322 9.71021 10.9456 9.59603 10.5605 9.59603Z"
-                fill="#FB7A00" />
-            </svg>
-          </div>
+                <h3 class="dark-black text-start">The Benefits of docs in Software Development</h3>
+
+                <h4 class="brown text-start ">
+                    Simply believing that software development is solely about writing code to solve...
+                    <span class="text-orange">Read More</span>
+                </h4>
+            </a>
+
+            <div class="w-100 d-flex justify-content-between align-items-center">
+                <div class="d-flex gap-2 justify-content-center align-items-center">
+                    <p style="color: #0d3642">Rene Wells •</p>
+                    <p style="color: #828282">August 12, 2023</p>
+                </div>
+                <div class="d-lg-flex gap-xl-3 gap-2"
+                    style="width: 25px;height: 24px;text-align: center;display: flex !important;background: #DBE1E3;justify-items: center;justify-content: center;align-items: center;border-radius: 40px;">
+                    <svg data-bs-toggle="modal" data-bs-target="#shareModal" xmlns="http://www.w3.org/2000/svg"
+                        width="13" height="14" viewBox="0 0 13 14" fill="none">
+                        <path
+                            d="M10.5605 9.59603C10.0492 9.59603 9.58776 9.79721 9.24057 10.1197L4.66159 7.4545C4.69403 7.30524 4.71999 7.15598 4.71999 7.00024C4.71999 6.84449 4.69403 6.69523 4.66159 6.54597L9.23668 3.87879C9.58711 4.20326 10.0479 4.40444 10.5605 4.40444C11.6378 4.40444 12.5074 3.53485 12.5074 2.45759C12.5074 1.38033 11.6378 0.510742 10.5605 0.510742C9.48328 0.510742 8.61369 1.38033 8.61369 2.45759C8.61369 2.61334 8.63965 2.7626 8.67209 2.91185L4.097 5.57904C3.74657 5.25456 3.28581 5.05339 2.77314 5.05339C1.69589 5.05339 0.826294 5.92298 0.826294 7.00024C0.826294 8.07749 1.69589 8.94709 2.77314 8.94709C3.28581 8.94709 3.74657 8.74591 4.097 8.42144L8.67079 11.0938C8.63425 11.2408 8.61508 11.3915 8.61369 11.5429C8.61369 11.9279 8.72787 12.3043 8.94179 12.6245C9.15571 12.9447 9.45977 13.1942 9.81551 13.3415C10.1712 13.4889 10.5627 13.5274 10.9403 13.4523C11.318 13.3772 11.6649 13.1918 11.9372 12.9195C12.2094 12.6472 12.3949 12.3003 12.47 11.9227C12.5451 11.545 12.5065 11.1536 12.3592 10.7979C12.2118 10.4421 11.9623 10.1381 11.6421 9.92414C11.322 9.71021 10.9456 9.59603 10.5605 9.59603Z"
+                            fill="#FB7A00" />
+                    </svg>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
+</div>
   <!-- --------------TELL US SECTION-------------------- -->
 
   <div

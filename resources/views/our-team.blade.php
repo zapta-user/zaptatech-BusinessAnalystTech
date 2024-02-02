@@ -4,7 +4,7 @@
     <!-- --------------------BANNER SECTION----------------- -->
     <div class="bannerSection flex-column gap-lg-4 gap-3 d-flex align-items-lg-start justify-content-center flex-shrink-0"
         style="
-        background-image: url({{ asset('assets/our-team-bg.jpg') }});
+        background-image: url({{ asset('assets/our-team-banner.webp') }});
         background-size: cover;
       ">
         <div class="d-flex gap-2 align-items-center">
@@ -109,7 +109,7 @@
                             Competitor
                             Analysis / Defining Business Processes</p>
                     </div>
-                    <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
+                    {{-- <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                     style="max-width: 386px;width: 100%;">
                     <img loading="lazy" width="355" height="355" src="./assets/KN.webp" alt="Team six"
                         class="img-fluid m-auto" />
@@ -117,8 +117,8 @@
                     <p style="color: #FB7A00; font-weight: 500">Requirement Engineer</p>
                     <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Technical Documentation / Digital
                         Adoption Strategies / Domain Analysis / Data Analysis</p>
-                </div>
-                    <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
+                </div> --}}
+                    {{-- <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                         style="max-width: 386px;width: 100%;">
                         <img loading="lazy" width="355" height="355" src="./assets/ZJ.webp" alt="Team five"
                             class="img-fluid m-auto" />
@@ -126,7 +126,7 @@
                         <p style="color: #FB7A00; font-weight: 500">Software Business Analyst</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Requirements Gathering / Analysis and
                             Problem-Solving / Communication</p>
-                    </div>
+                    </div> --}}
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                     style="max-width: 386px;width: 100%;">
                     <img src="./assets/WJ2.webp" alt="Team six" class="img-fluid m-auto" />
@@ -159,32 +159,11 @@
                 <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Workflow Design / Requirement Analysis / Technology Adoption</p>
             </div>
 
-                    <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
-                        style="max-width: 386px;width: 100%;">
-                        <img src="./assets/K2.webp" alt="Team six" class="img-fluid m-auto" />
-                        <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Aqsa Farooq kayani</h1>
-                        <p style="color: #FB7A00; font-weight: 500">Business Developer</p>
-                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Lead Generation / LinkedIn / Self-Built Ventures & Growth Strategies</p>
-                    </div>
+                    
                    
-                    <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
-                        style="max-width: 386px;width: 100%;">
-                        <img src="./assets/US2.webp" alt="Team six" class="img-fluid m-auto" />
-                        <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Muhammad Usama Saleem</h1>
-                        <p style="color: #FB7A00; font-weight: 500">Business Developer</p>
-                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Lead Generation / Lead Maturation /
-                            Lead closing / Research & Strategy</p>
-                    </div>
+                   
 
-                    <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
-                        style="max-width: 386px;width: 100%;">
-                        <img src="./assets/SA2.webp" alt="Team six" class="img-fluid m-auto" />
-                        <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Sadia Jaan</h1>
-                        <p style="color: #FB7A00; font-weight: 500">Business Developer</p>
-                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Sales and Negotiation, Lead
-                            Generation,
-                            Relationship Building, Market</p>
-                    </div>
+                   
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                         style="max-width: 386px;width: 100%;">
                         <img src="./assets/EB2.webp" alt="Team six" class="img-fluid m-auto" />
@@ -199,6 +178,30 @@
                     <p style="color: #FB7A00; font-weight: 500">Requirement Engineer</p>
                     <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">User Documentation / User training / Requirement Analysis</p>
                 </div>
+                <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
+                        style="max-width: 386px;width: 100%;">
+                        <img src="./assets/K2.webp" alt="Team six" class="img-fluid m-auto" />
+                        <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Aqsa Farooq kayani</h1>
+                        <p style="color: #FB7A00; font-weight: 500">Business Developer</p>
+                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Lead Generation / LinkedIn / Self-Built Ventures & Growth Strategies</p>
+                    </div>
+                    <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
+                    style="max-width: 386px;width: 100%;">
+                    <img src="./assets/US2.webp" alt="Team six" class="img-fluid m-auto" />
+                    <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Muhammad Usama Saleem</h1>
+                    <p style="color: #FB7A00; font-weight: 500">Business Developer</p>
+                    <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Lead Generation / Lead Maturation /
+                        Lead closing / Research & Strategy</p>
+                </div>
+                <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
+                style="max-width: 386px;width: 100%;">
+                <img src="./assets/SA2.webp" alt="Team six" class="img-fluid m-auto" />
+                <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Sadia Jaan</h1>
+                <p style="color: #FB7A00; font-weight: 500">Business Developer</p>
+                <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Sales and Negotiation, Lead
+                    Generation,
+                    Relationship Building, Market</p>
+            </div>
 
                 </div>
 
