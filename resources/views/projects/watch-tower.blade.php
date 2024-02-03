@@ -1,6 +1,11 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+<style>
+  body{
+    overflow-x: hidden;
+  }
+</style>
 @php
  $meta_title = "Sync4Tech | WatchTower";
  $meta_description = " Elevate your risk management capabilities with The Watchtower Application, a powerful web-based system";
@@ -152,7 +157,7 @@
   <div class="container">
     <div class="key-fec-main">
       <div>
-        <img src="{{asset('assets/curr.svg')}}" alt="kutuby" class="img-fluid" />
+        <img src="{{asset('assets/RevolutionizingPre-Development.webp')}}" alt="kutuby" class="img-fluid" />
       </div>
       <div class="key-fec-txt">
         <h2>

@@ -1,6 +1,11 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+<style>
+  body{
+    overflow-x: hidden;
+  }
+</style>
 @php
  $meta_title = "Sync4Tech | Quick Steps";
  $meta_description = "Experience the next level of accounting with QuickSteps, a groundbreaking mobile and web-based software crafted exclusively for small and medium-sized businesses.";
@@ -150,7 +155,7 @@
   <div class="container">
     <div class="key-fec-main">
       <div>
-        <img src="{{asset('assets/curr.svg')}}" alt="kutuby" class="img-fluid" />
+        <img src="{{asset('assets/RevolutionizingPre-Development.webp')}}" alt="kutuby" class="img-fluid" />
       </div>
       <div class="key-fec-txt">
         <h2>

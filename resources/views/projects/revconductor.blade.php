@@ -1,6 +1,11 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+<style>
+  body{
+    overflow-x: hidden;
+  }
+</style>
 @php
  $meta_title = "Sync4Tech | RevConductor";
  $meta_description = "Elevate your manufacturing operations with RevConductor, a powerful web-based application for secure authentication and bulk product management, with advanced features like chatbot integration and Google Maps.";
@@ -151,7 +156,7 @@
   <div class="container">
     <div class="key-fec-main">
       <div>
-        <img src="{{asset('assets/curr.svg')}}" alt="kutuby" class="img-fluid" />
+        <img src="{{asset('assets/RevolutionizingPre-Development.webp')}}" alt="kutuby" class="img-fluid" />
       </div>
       <div class="key-fec-txt">
         <h2>

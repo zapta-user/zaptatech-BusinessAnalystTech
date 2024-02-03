@@ -4,7 +4,7 @@
     <!-- --------------------BANNER SECTION----------------- -->
     <div class="bannerSection blogsdetails flex-column gap-lg-4 gap-3 d-flex align-items-start justify-content-center flex-shrink-0"
         style="
-        background-image: url({{ asset('assets/blogBanner.png') }});
+        background-image: url({{ asset('assets/services-detail-banner.webp') }});
         background-position: center;
         background-size: cover;
       ">
@@ -56,7 +56,7 @@
                     class="blogCard blogcardsDetails ms-lg-2 d-flex flex-column align-items-sm-start align-items-center justify-content-center gap-g-4 gap-3 p-3">
                     <div class="w-100 blogcardImage"
                         style="
-                background-image: url({{ asset('assets/blogImage.svg') }});
+                background-image: url({{ asset('assets/blogImage1.webp') }});
 
                 background-size: cover;
               ">

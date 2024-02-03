@@ -1,6 +1,11 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+<style>
+  body{
+    overflow-x: hidden;
+  }
+</style>
 @php
  $meta_title = "Sync4Tech | Roomz";
  $meta_description = "Immerse yourself in the world of hospitality and travel with Roomz, a cutting-edge vacation rental application available on web and mobile platforms";
@@ -149,7 +154,7 @@
   <div class="container">
     <div class="key-fec-main">
       <div>
-        <img src="{{asset('assets/curr.svg')}}" alt="kutuby" class="img-fluid" />
+        <img src="{{asset('assets/RevolutionizingPre-Development.webp')}}" alt="kutuby" class="img-fluid" />
       </div>
       <div class="key-fec-txt">
         <h2>

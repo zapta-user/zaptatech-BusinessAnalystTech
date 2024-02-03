@@ -1,10 +1,17 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+<style>
+  body{
+    overflow-x: hidden;
+  }
+</style>
+
 @php
  $meta_title = "Sync4Tech | QME Solutions";
  $meta_description = "Discover the future of queue management with Qme Solutions, a revolutionary mobile application";
 @endphp
+
   <!-- --------------------BANNER SECTION----------------- -->
   <div
     class="bannerSection flex-column gap-1 d-flex align-items-start justify-content-center  flex-shrink-0 ex-paddg"
@@ -154,7 +161,7 @@
   <div class="container">
     <div class="key-fec-main">
       <div>
-        <img src="{{asset('assets/curr.svg')}}" alt="kutuby" class="img-fluid" />
+        <img src="{{asset('assets/JourneyofSync4Tech.webp')}}" alt="kutuby" class="img-fluid" />
       </div>
       <div class="key-fec-txt">
         <h2>

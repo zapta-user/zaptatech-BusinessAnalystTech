@@ -1,6 +1,11 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+<style>
+  body{
+    overflow-x: hidden;
+  }
+</style>
 @php
  $meta_title = "Sync4Tech | InvestMe";
  $meta_description = "Explore the future of investment management with InvestMe, a web application uniting asset owners, investors, and accountants.";
@@ -59,7 +64,7 @@
     <div class="container">
       <div class="pr-st-main">
         <div>
-          <img loading="lazy" width="591" height="400" src="{{asset('assets/P_Detail8.webp')}}" alt="qme" class="img-fluid" style="cursor: pointer" alt="kutuby" class="img-fluid" />
+          <img loading="lazy" width="591" height="400" src="{{asset('assets/Investme-detail.png')}}" alt="qme" class="img-fluid" style="cursor: pointer" alt="kutuby" class="img-fluid" />
       </div>
         <div class="pro-st-txt">
           <h2 class="hidden-title mb-4">Hidden Challenges</h2>
@@ -153,7 +158,7 @@
   <div class="container">
     <div class="key-fec-main">
       <div>
-        <img src="{{asset('assets/curr.svg')}}" alt="kutuby" class="img-fluid" />
+        <img src="{{asset('assets/RevolutionizingPre-Development.webp')}}" alt="kutuby" class="img-fluid" />
       </div>
       <div class="key-fec-txt">
         <h2>
