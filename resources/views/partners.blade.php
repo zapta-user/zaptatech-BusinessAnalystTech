@@ -428,7 +428,8 @@
                 <div class="card serviceCard1">
                     <div class="business-Process">
                         <div class="">
-                            <img src="{{ asset('assets/service1.svg') }}" alt="Research" class="img-fluid" />
+                            <img loading="lazy" width="80" height="80" src="{{ asset('assets/icon-1-for-service.svg') }}"
+                                alt="Icon 1 for service" class="img-fluid" />
                         </div>
                         <h2>Software Business Analyst</h2>
                     </div>
@@ -446,7 +447,7 @@
                 <div class="card serviceCard1">
                     <div class="business-Process">
                         <div class="">
-                            <img src="{{ asset('assets/service2.svg') }}" alt="Research" class="img-fluid" />
+                            <img src="{{ asset('assets/icon-2-for-service.svg') }}" alt="Icon 2 for service" class="img-fluid" />
                         </div>
                         <h2>Business Process Re-Engineering</h2>
                     </div>
@@ -462,7 +463,8 @@
                 <div class="card serviceCard1">
                     <div class="business-Process">
                         <div class="">
-                            <img src="{{ asset('assets/service3.svg') }}" alt="Research" class="img-fluid" />
+                            <img loading="lazy" width="80" height="80" src="{{ asset('assets/icon-3-for-service.svg') }}"
+                                alt="Icon 3 for service" class="img-fluid" />
                         </div>
                         <h2>Project Management</h2>
                     </div>
@@ -478,7 +480,7 @@
                 <div class="card serviceCard1">
                     <div class="business-Process">
                         <div class="">
-                            <img src="{{ asset('assets/service4.svg') }}" alt="Research" class="img-fluid" />
+                            <img src="{{ asset('assets/icon-4-for-service.svg') }}" alt="Icon 4 for service" class="img-fluid" />
                         </div>
                         <h2>Solution Architecture Design</h2>
                     </div>
@@ -495,7 +497,8 @@
                 <div class="card serviceCard1">
                     <div class="business-Process">
                         <div class="">
-                            <img src="{{ asset('assets/service5.svg') }}" alt="Research" class="img-fluid" />
+                            <img loading="lazy" width="80" height="80" src="{{ asset('assets/icon-5-for-service.svg') }}"
+                                alt="Icon 5 for service" class="img-fluid" />
                         </div>
                         <h2>Software Documentation</h2>
                     </div>
@@ -510,7 +513,7 @@
                 <div class="card serviceCard1">
                     <div class="business-Process">
                         <div class="">
-                            <img src="{{ asset('assets/service6.svg') }}" alt="Research" class="img-fluid" />
+                            <img src="{{ asset('assets/icon-6-for-service.svg') }}" alt="Icon 6 for service" class="img-fluid" />
                         </div>
                         <h2>Data Analysis</h2>
                     </div>

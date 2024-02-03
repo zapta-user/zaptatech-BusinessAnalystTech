@@ -383,7 +383,7 @@
                     href="{{ route('frontend.blogs.the-benefits-of-docs-in-software-development') }}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-2">
                     <div class="position-relative w-100"
                         style="
-              background-image: url({{ asset('assets/3-number-icon-representing-sync4tech-blog-3-information.webp') }});
+              background-image: url({{ asset('assets/doc-blogs.webp') }});
               background-size: cover;
               background-position: center;
               max-height: 400px;

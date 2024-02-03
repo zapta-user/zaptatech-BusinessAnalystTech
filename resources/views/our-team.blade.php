@@ -84,7 +84,7 @@
                     </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                         style="max-width: 386px;width: 100%;">
-                        <img src="./assets/AS2.webp" alt="Team six" class="img-fluid m-auto" />
+                        <img src="{{asset('assets/AS2.webp')}}" alt="Team six" class="img-fluid m-auto" />
                         <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Arslan Shafiq</h1>
                         <p style="color: #FB7A00; font-weight: 500">Associate Project Manager</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Agile & Scrum Methodology / Strategic
@@ -129,7 +129,7 @@
                     </div> --}}
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                     style="max-width: 386px;width: 100%;">
-                    <img src="./assets/WJ2.webp" alt="Team six" class="img-fluid m-auto" />
+                    <img src="{{asset('assets/WJ2.webp')}}" alt="Team six" class="img-fluid m-auto" />
                     <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Waqar Jamil</h1>
                     <p style="color: #FB7A00; font-weight: 500">Business Analystt</p>
                     <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">System Analysis / Business Process
@@ -137,7 +137,7 @@
                 </div>
                 <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                 style="max-width: 386px;width: 100%;">
-                <img src="./assets/SFB2.webp" alt="Team six" class="img-fluid m-auto" />
+                <img src="{{asset('assets/SFB2.webp')}}" alt="Team six" class="img-fluid m-auto" />
                 <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Syeda Farwa Batool</h1>
                 <p style="color: #FB7A00; font-weight: 500">Associate Software Business Analyst</p>
                 <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Business Analysis / Research Analysis
@@ -146,14 +146,14 @@
             </div>
             <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                 style="max-width: 386px;width: 100%;">
-                <img src="./assets/SS2.webp" alt="Team six" class="img-fluid m-auto" />
+                <img src="{{asset('assets/SS2.webp')}}" alt="Team six" class="img-fluid m-auto" />
                 <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Sikandar Salam</h1>
                 <p style="color: #FB7A00; font-weight: 500">Requirements Engineer</p>
                 <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Digital Transformation / Business Process Modeling / Technical Analysis</p>
             </div>
             <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                 style="max-width: 386px;width: 100%;">
-                <img src="./assets/HC2.webp" alt="Team six" class="img-fluid m-auto" />
+                <img src="{{asset('assets/HC2.webp')}}" alt="Team six" class="img-fluid m-auto" />
                 <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Hassan Chaudhry</h1>
                 <p style="color: #FB7A00; font-weight: 500">Associate Business Analyst</p>
                 <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Workflow Design / Requirement Analysis / Technology Adoption</p>
@@ -166,28 +166,28 @@
                    
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                         style="max-width: 386px;width: 100%;">
-                        <img src="./assets/EB2.webp" alt="Team six" class="img-fluid m-auto" />
+                        <img src="{{asset('assets/EB2.webp')}}" alt="Team six" class="img-fluid m-auto" />
                         <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Ehtsham Bhatti</h1>
                         <p style="color: #FB7A00; font-weight: 500">Associate Business Analyst</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">User Story Mapping / Agile Methodology / Requirement Analysis</p>
                     </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                     style="max-width: 386px;width: 100%;">
-                    <img src="./assets/MS2.webp" alt="Team six" class="img-fluid m-auto" />
+                    <img src="{{asset('assets/MS2.webp')}}" alt="Team six" class="img-fluid m-auto" />
                     <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Muzdulfah Sandhu</h1>
                     <p style="color: #FB7A00; font-weight: 500">Requirement Engineer</p>
                     <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">User Documentation / User training / Requirement Analysis</p>
                 </div>
                 <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                         style="max-width: 386px;width: 100%;">
-                        <img src="./assets/K2.webp" alt="Team six" class="img-fluid m-auto" />
+                        <img src="{{asset('assets/K2.webp')}}" alt="Team six" class="img-fluid m-auto" />
                         <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Aqsa Farooq kayani</h1>
                         <p style="color: #FB7A00; font-weight: 500">Business Developer</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Lead Generation / LinkedIn / Self-Built Ventures & Growth Strategies</p>
                     </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                     style="max-width: 386px;width: 100%;">
-                    <img src="./assets/US2.webp" alt="Team six" class="img-fluid m-auto" />
+                    <img src="{{asset('assets/US2.webp')}}" alt="Team six" class="img-fluid m-auto" />
                     <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Muhammad Usama Saleem</h1>
                     <p style="color: #FB7A00; font-weight: 500">Business Developer</p>
                     <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Lead Generation / Lead Maturation /
@@ -195,7 +195,7 @@
                 </div>
                 <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                 style="max-width: 386px;width: 100%;">
-                <img src="./assets/SA2.webp" alt="Team six" class="img-fluid m-auto" />
+                <img src="{{asset('assets/SA2.webp')}}" alt="Team six" class="img-fluid m-auto" />
                 <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Sadia Jaan</h1>
                 <p style="color: #FB7A00; font-weight: 500">Business Developer</p>
                 <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Sales and Negotiation, Lead
@@ -840,7 +840,7 @@
                                         </svg>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center align-items-center mt-4">
-                                        <img loading="lazy" width="212" height="40" src="./assets/home-logo.svg"
+                                        <img loading="lazy" width="212" height="40" src="{{asset('assets/home-logo.svg')}}"
                                             alt="logo" class="img-fluid" />
                                     </div>
                                     <div class="d-flex flex-column align-items-start px-3 mt-5 gap-4">
