@@ -4,7 +4,7 @@
     <!-- --------------------BANNER SECTION----------------- -->
     <div class="bannerSection focusBlog flex-column gap-1 d-flex align-items-start justify-content-center  flex-shrink-0"
         style="
-        background-image: url('{{ asset('assets/blogBanner.png') }}');
+        background-image: url('{{ asset('assets/blogs-banner.webp') }}');
         background-size: cover;
         background-position: center;
       ">
@@ -293,7 +293,7 @@
                     class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-2">
                     <div class="position-relative w-100"
                         style="
-              background-image: url({{ asset('assets/allblogone.webp') }});
+              background-image: url({{ asset('assets/1-number-icon-representing-sync4tech-blog-1-information.webp') }});
               background-size: cover;
               background-position: center;
               max-height: 400px;
@@ -337,7 +337,7 @@
                     href="{{ route('frontend.blogs.ensuring-project-success-in-software-development') }}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-2">
                     <div class="position-relative w-100"
                         style="
-              background-image: url({{ asset('assets/allblogtwo.webp') }});
+              background-image: url({{ asset('assets/2-number-icon-representing-sync4tech-blo-4-numerical-information.webp') }});
               background-size: cover;
               background-position: center;
               max-height: 400px;
@@ -383,7 +383,7 @@
                     href="{{ route('frontend.blogs.the-benefits-of-docs-in-software-development') }}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-2">
                     <div class="position-relative w-100"
                         style="
-              background-image: url({{ asset('assets/allblogthree.webp') }});
+              background-image: url({{ asset('assets/doc-blogs.webp') }});
               background-size: cover;
               background-position: center;
               max-height: 400px;
@@ -432,7 +432,7 @@
                     href="{{ route('frontend.blogs.the-power-of-business-analysis-in-accelerating') }}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-2">
                     <div class="position-relative w-100"
                         style="
-            background-image: url({{ asset('assets/allblogfour.webp') }});
+            background-image: url({{ asset('assets/2-number-icon-representing-sync4tech-blo-4-numerical-information.webp') }});
             background-size: cover;
             background-position: center;
             max-height: 400px;
@@ -480,7 +480,7 @@
                     href="{{ route('frontend.blogs.how-to-create-effective-software-documentation') }}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-2">
                     <div class="position-relative w-100"
                         style="
-          background-image: url({{ asset('assets/allblogfive.webp') }});
+          background-image: url({{ asset('assets/3-number-icon-representing-sync4tech-blog-3-information.webp') }});
           background-size: cover;
           background-position: center;
           max-height: 400px;
@@ -520,7 +520,7 @@
                     href="{{ route('frontend.blogs.how-to-implement-agile-requirement-gathering') }}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-2">
                     <div class="position-relative w-100"
                         style="
-        background-image: url({{ asset('assets/allblogsix.webp') }});
+        background-image: url({{ asset('assets/1-number-icon-representing-sync4tech-blog-1-information.webp') }});
         background-size: cover;
         background-position: center;
         max-height: 400px;
