@@ -194,16 +194,16 @@
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="58" height="70" src="{{ asset('assets/office-1.svg') }}"
-                                alt="office-1" class="img-fluid" />
+                            <img loading="lazy" width="58" height="70" src="{{ asset('assets/microsoft-office-icon.svg') }}"
+                                alt="Microsoft office icon" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Microsoft Suite</p>
                         </div>
                     </div>
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="47" height="70" src="{{ asset('assets/figma-5.svg') }}"
-                                alt="figma-5" class="img-fluid" />
+                            <img loading="lazy" width="47" height="70" src="{{ asset('assets/tools-we-use-leveraging-figma-for-collaborative-design-at-sync4tech.svg') }}"
+                                alt="Tools We Use - Leveraging Figma for Collaborative Design at Sync4Tech" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Figma</p>
                         </div>
                     </div>
@@ -211,7 +211,7 @@
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                             <img loading="lazy" width="70" height="70"
-                                src="{{ asset('assets/smileyface.svg') }}" alt="smileyface" class="img-fluid" />
+                                src="{{ asset('assets/smiley-face-icon-for-displaying-a-logo.svg') }}" alt="Smiley face icon for displaying a logo" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Balsamic</p>
                         </div>
                     </div>
@@ -219,31 +219,31 @@
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                             <img loading="lazy" width="60" height="60"
-                                src="{{ asset('assets/microsoftsuite.svg') }}" alt="microsoftsuite" class="img-fluid" />
+                                src="{{ asset('assets/microsoft-suite-logo-for-tools-we-use-section.svg') }}" alt="Microsoft suite logo for tools we use section" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Google Docs</p>
                         </div>
                     </div>
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="70" height="70" src="{{ asset('assets/base.svg') }}"
-                                alt="basecamp" class="img-fluid" />
+                            <img loading="lazy" width="70" height="70" src="{{ asset('assets/tools-we-use-featuring-project-management-with-basecamp.svg') }}"
+                                alt="Tools We Use - Featuring Project Management with Basecamp" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Base Camp</p>
                         </div>
                     </div>
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="58" height="70" src="{{ asset('assets/office-1.svg') }}"
-                                alt="office-1" class="img-fluid" />
+                            <img loading="lazy" width="58" height="70" src="{{ asset('assets/microsoft-office-icon.svg') }}"
+                                alt="Microsoft office icon" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Microsoft Suite</p>
                         </div>
                     </div>
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="47" height="70" src="{{ asset('assets/figma-5.svg') }}"
-                                alt="figma-5" class="img-fluid" />
+                            <img loading="lazy" width="47" height="70" src="{{ asset('assets/tools-we-use-leveraging-figma-for-collaborative-design-at-sync4tech.svg') }}"
+                                alt="Tools We Use - Leveraging Figma for Collaborative Design at Sync4Tech" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Figma</p>
                         </div>
                     </div>
@@ -251,7 +251,7 @@
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                             <img loading="lazy" width="70" height="70"
-                                src="{{ asset('assets/smileyface.svg') }}" alt="smileyface" class="img-fluid" />
+                                src="{{ asset('assets/smiley-face-icon-for-displaying-a-logo.svg') }}" alt="Smiley face icon for displaying a logo" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Balsamic</p>
                         </div>
                     </div>
@@ -259,31 +259,31 @@
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                             <img loading="lazy" width="60" height="60"
-                                src="{{ asset('assets/microsoftsuite.svg') }}" alt="microsoftsuite" class="img-fluid" />
+                                src="{{ asset('assets/microsoft-suite-logo-for-tools-we-use-section.svg') }}" alt="Microsoft suite logo for tools we use section" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Google Docs</p>
                         </div>
                     </div>
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="70" height="70" src="{{ asset('assets/base.svg') }}"
-                                alt="basecamp" class="img-fluid" />
+                            <img loading="lazy" width="70" height="70" src="{{ asset('assets/tools-we-use-featuring-project-management-with-basecamp.svg') }}"
+                                alt="Tools We Use - Featuring Project Management with Basecamp" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Base Camp</p>
                         </div>
                     </div>
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="58" height="70" src="{{ asset('assets/office-1.svg') }}"
-                                alt="office-1" class="img-fluid" />
+                            <img loading="lazy" width="58" height="70" src="{{ asset('assets/microsoft-office-icon.svg') }}"
+                                alt="Microsoft office icon" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Microsoft Suite</p>
                         </div>
                     </div>
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="47" height="70" src="{{ asset('assets/figma-5.svg') }}./"
-                                alt="figma-5" class="img-fluid" />
+                            <img loading="lazy" width="47" height="70" src="{{ asset('assets/tools-we-use-leveraging-figma-for-collaborative-design-at-sync4tech.svg') }}"
+                                alt="Tools We Use - Leveraging Figma for Collaborative Design at Sync4Tech" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Figma</p>
                         </div>
                     </div>
@@ -291,7 +291,7 @@
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                             <img loading="lazy" width="70" height="70"
-                                src="{{ asset('assets/smileyface.svg') }}" alt="smileyface" class="img-fluid" />
+                                src="{{ asset('assets/smiley-face-icon-for-displaying-a-logo.svg') }}" alt="Smiley face icon for displaying a logo" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Balsamic</p>
                         </div>
                     </div>
@@ -299,23 +299,23 @@
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                             <img loading="lazy" width="60" height="60"
-                                src="{{ asset('assets/microsoftsuite.svg') }}" alt="microsoftsuite" class="img-fluid" />
+                            src="{{ asset('assets/microsoft-suite-logo-for-tools-we-use-section.svg') }}" alt="Microsoft suite logo for tools we use section" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Google Docs</p>
                         </div>
                     </div>
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="70" height="70" src="{{ asset('assets/base.svg') }}"
-                                alt="basecamp" class="img-fluid" />
+                            <img loading="lazy" width="70" height="70" src="{{ asset('assets/tools-we-use-featuring-project-management-with-basecamp.svg') }}"
+                                alt="Tools We Use - Featuring Project Management with Basecamp" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Base Camp</p>
                         </div>
                     </div>
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="47" height="70" src="{{ asset('assets/figma-5.svg') }}"
-                                alt="figma-5" class="img-fluid" />
+                            <img loading="lazy" width="47" height="70" src="{{ asset('assets/tools-we-use-leveraging-figma-for-collaborative-design-at-sync4tech.svg') }}"
+                                alt="Tools We Use - Leveraging Figma for Collaborative Design at Sync4Tech" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Figma</p>
                         </div>
                     </div>
@@ -455,15 +455,15 @@
                         <!-- <img loading="lazy" class="w-100" src="assets/sw-slide2.png"> -->
                         <a target="_blank" href="https://en.wikipedia.org/wiki/Abu_Dhabi">
                             <img loading="lazy" width="137" height="137"
-                                src="{{ asset('assets/abu-dabi-logo1.png') }}" alt="abu-dabi-logo1">
+                                src="{{ asset('assets/sync4tech-customer-abu-dabi-company-logo-strengthening-partnerships.png') }}" alt="Sync4Tech Customer Abu Dabi Company Logo, strengthening partnerships">
                         </a>
                         <a target="_blank" href="https://www.walmart.com/">
                             <img loading="lazy" width="137" height="33"
-                                src="{{ asset('assets/abu-dabi-logo2.png') }}" alt="abu-dabi-logo2">
+                                src="{{ asset('assets/sync4tech-customer-walmart-leading-retail-chain-logo.png') }}" alt="Sync4Tech Customer Walmart - Leading Retail Chain Logo">
                         </a>
                         <a target="_blank" href="https://www.cisco.com/">
                             <img loading="lazy" width="137" height="72"
-                                src="{{ asset('assets/abu-dabi-logo3.png') }}" alt="abu-dabi-logo3">
+                                src="{{ asset('assets/sync4tech-customer-cisco-networking-and-technology-solutions-provider-logo.png') }}" alt="Sync4Tech Customer Cisco - Networking and Technology Solutions Provider Logo">
                         </a>
                     </div>
                 </div>
@@ -472,13 +472,13 @@
                         <!-- <img loading="lazy" class="w-100" src="assets/sw-slide1.png"> -->
                         <a target="_blank" href="https://www.att.com/">
                             <img loading="lazy" width="134" height="50"
-                                src="{{ asset('assets/abu-dabi-logo4.png') }}" alt="abu-dabi-logo">
+                                src="{{ asset('assets/sync4tech-customeratt-telecommunications-company-logo.png') }}" alt="Sync4Tech CustomerAtt - Telecommunications Company Logo">
                         </a> <a target="_blank" href="https://www.vodafone.com/">
                             <img loading="lazy" width="174" height="50"
-                                src="{{ asset('assets/abu-dabi-logo5.png') }}" alt="abu-dabi-logo5">
+                                src="{{ asset('assets/sync4tech-customer-vodafone-telecommunications-company-logo.png') }}" alt="Sync4Tech Customer  Vodafone- Telecommunications Company Logo">
                         </a> <a target="_blank" href="https://www.ibm.com/us-en">
                             <img loading="lazy" width="148" height="48"
-                                src="{{ asset('assets/abu-dabi-logo6.png') }}" alt="abu-dabi-logo6">
+                                src="{{ asset('assets/sync4tech-customer-ibm-global-technology-company-logo.png') }}" alt="Sync4Tech Customer IBM- Global Technology Company Logo">
                         </a>
 
                     </div>
@@ -493,16 +493,16 @@
             <div class="sliderUse">
                 <div class="slide-track-use">
                     <div class="slideUse">
-                        <img loading="lazy" width="129" height="30" src="{{ asset('assets/log1.svg') }}"
-                            alt="quick_step" class="img-fluid fab" />
+                        <img loading="lazy" width="129" height="30" src="{{ asset('assets/image-displaying-myquicksteps-logo.svg') }}"
+                            alt="Image displaying MyQuickSteps Logo" class="img-fluid fab" />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="172" height="40" src="{{ asset('assets/log2.svg') }}"
-                            alt="techHouse" class="img-fluid fab " />
+                        <img loading="lazy" width="172" height="40" src="{{ asset('assets/image-displaying-tech-house-logo.svg') }}"
+                            alt="Image displaying tech-house logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="178" height="27" src="{{ asset('assets/log3.svg') }}"
-                            alt="Saudi_Bank_Digital" class="img-fluid fab " />
+                        <img loading="lazy" width="178" height="27" src="{{ asset('assets/saudi-bank-digital-digital-banking-solutions-logo.svg') }}"
+                            alt="Saudi Bank Digital - Digital Banking Solutions Logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
                         <!-- <img loading="lazy" class="kutbay-img" src="./assets/log4.svg" alt="Kutuby" class="img-fluid fab " /> -->
@@ -527,28 +527,28 @@
 
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="178" height="29" src="{{ asset('assets/log5.svg') }}"
-                            alt="ExpressText" class="img-fluid fab " />
+                        <img loading="lazy" width="178" height="29" src="{{ asset('assets/image-displaying-express-text-logo.svg') }}"
+                            alt="Image displaying express-text logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="178" height="39" src="{{ asset('assets/log6.svg') }}"
-                            alt="Lahebo" class="img-fluid fab" />
+                        <img loading="lazy" width="178" height="39" src="{{ asset('assets/image-displaying-lahebo-logo.svg') }}"
+                            alt="Image displaying Lahebo logo" class="img-fluid fab" />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="53" height="40" src="{{ asset('assets/log7.svg') }}"
-                            alt="TAMIMI" class="img-fluid fab " />
+                        <img loading="lazy" width="53" height="40" src="{{ asset('assets/image-displaying-tamimi-logo.svg') }}"
+                            alt="Image displaying Tamimi logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="129" height="30" src="{{ asset('assets/log1.svg') }}"
-                            alt="quick_step" class="img-fluid fab" />
+                        <img loading="lazy" width="129" height="30" src="{{ asset('assets/image-displaying-myquicksteps-logo.svg') }}"
+                            alt="Image displaying MyQuickSteps Logo" class="img-fluid fab" />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="172" height="40" src="{{ asset('assets/log2.svg') }}"
-                            alt="techHouse" class="img-fluid fab " />
+                        <img loading="lazy" width="172" height="40" src="{{ asset('assets/image-displaying-tech-house-logo.svg') }}"
+                            alt="Image displaying tech-house logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="178" height="27" src="{{ asset('assets/log3.svg') }}./"
-                            alt="Saudi_Bank_Digital" class="img-fluid fab " />
+                        <img loading="lazy" width="178" height="27" src="{{ asset('assets/saudi-bank-digital-digital-banking-solutions-logo.svg') }}"
+                            alt="Saudi Bank Digital - Digital Banking Solutions Logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
                         <!-- <img loading="lazy" src="./assets/log4.svg" alt="Kutuby" class="img-fluid fab " /> -->
@@ -572,24 +572,24 @@
                         </svg>
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="178" height="29" src="{{ asset('assets/log5.svg') }}./"
-                            alt="ExpressText" class="img-fluid fab " />
+                        <img loading="lazy" width="178" height="29" src="{{ asset('assets/image-displaying-express-text-logo.svg') }}"
+                            alt="Image displaying express-text logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="178" height="39" src="{{ asset('assets/log6.svg') }}"
-                            alt="Lahebo" class="img-fluid fab" />
+                        <img loading="lazy" width="178" height="39" src="{{ asset('assets/image-displaying-lahebo-logo.svg') }}"
+                            alt="Image displaying Lahebo logo" class="img-fluid fab" />
                     </div>
                     <div class="slideUse">
                         <img loading="lazy" width="53" height="40" src="{{ asset('assets/log7.svg') }}"
                             alt="TAMIMI" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" src="{{ asset('assets/log1.svg') }}" alt="QuickSteps"
-                            class="img-fluid fab" />
+                        <img loading="lazy" width="129" height="30" src="{{ asset('assets/image-displaying-myquicksteps-logo.svg') }}"
+                        alt="Image displaying MyQuickSteps Logo" class="img-fluid fab" />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="172" height="40" src="{{ asset('assets/log2.svg') }}"
-                            alt="techHouse" class="img-fluid fab " />
+                        <img loading="lazy" width="172" height="40" src="{{ asset('assets/image-displaying-tech-house-logo.svg') }}"
+                            alt="Image displaying tech-house logo" class="img-fluid fab " />
                     </div>
 
                 </div>

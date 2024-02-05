@@ -90,16 +90,16 @@
                     <div class="section-1">
                         <!-- <img loading="lazy" class="w-100" src="assets/sw-slide2.png"> -->
                         <a target="_blank" href="https://en.wikipedia.org/wiki/Abu_Dhabi">
-                            <img loading="lazy" width="137" height="137" src="{{ asset('assets/abu-dabi-logo1.png') }}"
-                                alt="abu-dabi-logo1">
+                            <img loading="lazy" width="137" height="137"
+                                src="{{ asset('assets/sync4tech-customer-abu-dabi-company-logo-strengthening-partnerships.png') }}" alt="Sync4Tech Customer Abu Dabi Company Logo, strengthening partnerships">
                         </a>
                         <a target="_blank" href="https://www.walmart.com/">
-                            <img loading="lazy" width="137" height="33" src="{{ asset('assets/abu-dabi-logo2.png') }}"
-                                alt="abu-dabi-logo2">
+                            <img loading="lazy" width="137" height="33"
+                                src="{{ asset('assets/sync4tech-customer-walmart-leading-retail-chain-logo.png') }}" alt="Sync4Tech Customer Walmart - Leading Retail Chain Logo">
                         </a>
                         <a target="_blank" href="https://www.cisco.com/">
-                            <img loading="lazy" width="137" height="72" src="{{ asset('assets/abu-dabi-logo3.png') }}"
-                                alt="abu-dabi-logo3">
+                            <img loading="lazy" width="137" height="72"
+                                src="{{ asset('assets/sync4tech-customer-cisco-networking-and-technology-solutions-provider-logo.png') }}" alt="Sync4Tech Customer Cisco - Networking and Technology Solutions Provider Logo">
                         </a>
                     </div>
                 </div>
@@ -107,14 +107,14 @@
                     <div class="section-1">
                         <!-- <img loading="lazy" class="w-100" src="assets/sw-slide1.png"> -->
                         <a target="_blank" href="https://www.att.com/">
-                            <img loading="lazy" width="134" height="50" src="{{ asset('assets/abu-dabi-logo4.png') }}"
-                                alt="abu-dabi-logo">
+                            <img loading="lazy" width="134" height="50"
+                                src="{{ asset('assets/sync4tech-customeratt-telecommunications-company-logo.png') }}" alt="Sync4Tech CustomerAtt - Telecommunications Company Logo">
                         </a> <a target="_blank" href="https://www.vodafone.com/">
-                            <img loading="lazy" width="174" height="50" src="{{ asset('assets/abu-dabi-logo5.png') }}"
-                                alt="abu-dabi-logo5">
+                            <img loading="lazy" width="174" height="50"
+                                src="{{ asset('assets/sync4tech-customer-vodafone-telecommunications-company-logo.png') }}" alt="Sync4Tech Customer  Vodafone- Telecommunications Company Logo">
                         </a> <a target="_blank" href="https://www.ibm.com/us-en">
                             <img loading="lazy" width="148" height="48"
-                                src="{{ asset('assets/abu-dabi-logo6.png') }}" alt="abu-dabi-logo6">
+                                src="{{ asset('assets/sync4tech-customer-ibm-global-technology-company-logo.png') }}" alt="Sync4Tech Customer IBM- Global Technology Company Logo">
                         </a>
 
                     </div>
@@ -1379,7 +1379,7 @@
                                     </div>
                                     <div class="d-flex flex-column justify-content-center align-items-center mt-4">
                                         <img loading="lazy" width="212" height="40"
-                                            src="{{ asset('assets/home-logo.svg') }}" alt="logo"
+                                            src="{{ asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}" alt="Sync4Tech Homepage Logo - Your Gateway to Technological Excellence"
                                             class="img-fluid" />
                                     </div>
                                     <div class="d-flex flex-column align-items-start px-3 mt-5 gap-4">

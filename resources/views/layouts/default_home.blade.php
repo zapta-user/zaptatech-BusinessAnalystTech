@@ -51,7 +51,7 @@
         <div class="container">
             <navbar class="navbar">
                 <a class="navbar-brand d-lg-block d-none" href="{{ route('frontend.home') }}" id="defaultlogo">
-                    <img loading="lazy" width="216" height="40" src="{{ asset('assets/home-logo.svg') }}"
+                    <img loading="lazy" width="216" height="40" src="{{ asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}"
                         alt="logo" class="img-fluid" />
                 </a>
                 <a class="navbar-brand d-lg-none d-block" href="{{ route('frontend.home') }}" id="blacklogo">

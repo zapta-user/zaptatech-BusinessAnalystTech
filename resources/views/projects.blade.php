@@ -70,8 +70,8 @@
                     <div class="col-md-6 d-flex justify-content-center align-items-center">
                         <a href="{{ route('frontend.projects.qme-solutions') }}"
                             class="d-flex justify-content-md-start justify-content-center align-items-center">
-                            <img loading="lazy" width="591" height="400" src="{{ asset('assets/Qme1Mockuppp.webp') }}"
-                                alt="qme" class="img-fluid" style="cursor: pointer" />
+                            <img loading="lazy" width="591" height="400" src="{{ asset('assets/qme-project-mobile-mockup.webp') }}"
+                                alt="QME project mobile mockup" class="img-fluid" style="cursor: pointer" />
                         </a>
                     </div>
                     <div class="col-md-5 d-flex flex-column gap-md-3 gap-2">
@@ -126,8 +126,8 @@
                     <div class="col-md-6 d-flex order-md-2 order-1 justify-content-center align-items-center">
                         <a href="{{ route('frontend.projects.quicksteps') }}"
                             class="d-flex justify-content-center align-items-center">
-                            <img loading="lazy" width="591" height="400" src="{{ asset('assets/Qme2Mockuppp.webp') }}"
-                                style="cursor: pointer" alt="quick steps Mockup" class="img-fluid" />
+                            <img loading="lazy" width="591" height="400" src="{{ asset('assets/myquicksteps-sync4tech-project-banner-image.webp') }}"
+                                style="cursor: pointer" alt="myQuicksteps sync4tech project banner image" class="img-fluid" />
                         </a>
                     </div>
                 </div>
@@ -138,8 +138,8 @@
                     <div class="col-md-5 d-flex justify-content-center align-items-center">
                         <a href="{{ route('frontend.projects.kutuby') }}"
                             class="d-flex justify-content-md-start justify-content-center align-items-center">
-                            <img loading="lazy" width="591" height="400" src="{{ asset('assets/Qme3Mockuppp.webp') }}"
-                                alt="Kutuby Mockup" class="img-fluid" style="cursor: pointer" />
+                            <img loading="lazy" width="591" height="400" src="{{ asset('assets/kutuby-logo-a-project-by-sync4tech-portfolio.webp') }}"
+                                alt="Kutuby logo a Project by Sync4Tech portfolio" class="img-fluid" style="cursor: pointer" />
                         </a>
                     </div>
                     <div class="col-md-6 d-flex flex-column gap-md-3 gap-2">
@@ -197,7 +197,7 @@
                         <a href="{{ route('frontend.projects.roomz') }}"
                             class="d-flex align-items-center justify-content-center">
                             <img loading="lazy" width="480" height="380"
-                                src="{{ asset('assets/RoomzMockup.webp') }}" alt="express text" class="img-fluid"
+                                src="{{ asset('assets/roomz-sync4tech-portfolio-banner-image.webp') }}" alt="Roomz Sync4Tech portfolio banner image" class="img-fluid"
                                 style="cursor: pointer" />
                         </a>
                     </div>
@@ -223,8 +223,8 @@
                     <div class="col-md-5 d-flex justify-content-center align-items-center">
                         <a href="{{ route('frontend.projects.investme') }}"
                             class="d-flex justify-content-md-start justify-content-center align-items-center">
-                            <img loading="lazy" width="591" height="400" src="{{ asset('assets/InvestMe.webp') }}"
-                                alt="Kutuby Mockup" class="img-fluid" style="cursor: pointer" />
+                            <img loading="lazy" width="591" height="400" src="{{ asset('assets/invest-me-a-project-by-sync4tech-portfolio-mockup.webp') }}"
+                                alt="Invest Me a Project by Sync4Tech portfolio mockup" class="img-fluid" style="cursor: pointer" />
                         </a>
                     </div>
                     <div class="col-md-6 d-flex flex-column gap-md-3 gap-2">
@@ -280,7 +280,7 @@
                         <a href="{{ route('frontend.projects.watch-tower') }}"
                             class="d-flex align-items-center justify-content-center">
                             <img loading="lazy" width="480" height="380"
-                                src="{{ asset('assets/WatchTower.webp') }}" alt="express text" class="img-fluid"
+                                src="{{ asset('assets/watchtower-sync4tech-portfolio-mockup-image.webp') }}" alt="WatchTower Sync4Tech portfolio mockup image" class="img-fluid"
                                 style="cursor: pointer" />
                         </a>
                     </div>
@@ -293,7 +293,7 @@
                         <a href="{{ route('frontend.projects.united-master') }}"
                             class="d-flex justify-content-md-start justify-content-center align-items-center">
                             <img loading="lazy" width="480" height="390"
-                                src="{{ asset('assets/UnitedMasterMockup.webp') }}" alt="Kutuby Mockup"
+                                src="{{ asset('assets/united-masters-sync4tech-portfolio-mockup-image.webp') }}" alt="United Masters Sync4Tech portfolio mockup image"
                                 class="img-fluid" style="cursor: pointer" />
                         </a>
                     </div>
@@ -350,7 +350,7 @@
                         <a href="{{ route('frontend.projects.lahebo') }}"
                             class="d-flex align-items-center justify-content-center">
                             <img loading="lazy" width="480" height="380"
-                                src="{{ asset('assets/LaheboMockup.webp') }}" alt="express text" class="img-fluid"
+                                src="{{ asset('assets/lahebo-project-details-by-sync4tech-portfolio-logo.webp') }}" alt="Lahebo Project details by Sync4Tech portfolio logo" class="img-fluid"
                                 style="cursor: pointer" />
                         </a>
                     </div>
@@ -363,7 +363,7 @@
                         <a href="{{ route('frontend.projects.revconductor') }}"
                             class="d-flex justify-content-md-start justify-content-center align-items-center">
                             <img loading="lazy" width="480" height="380"
-                                src="{{ asset('assets/RevConductorMockup.webp') }}" alt="Kutuby Mockup"
+                                src="{{ asset('assets/revconductor-sync4tech-portfolio-mockup-image.webp') }}" alt="RevConductor Sync4Tech portfolio mockup image"
                                 class="img-fluid" style="cursor: pointer" />
                         </a>
                     </div>
@@ -1049,8 +1049,10 @@
                                     </div>
                                     <div class="d-flex flex-column justify-content-center align-items-center mt-4">
                                         <img loading="lazy" width="212" height="40"
-                                            src="{{ asset('assets/home-logo.svg') }}" alt="logo"
+                                            src="{{ asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}" alt="Sync4Tech Homepage Logo - Your Gateway to Technological Excellence"
                                             class="img-fluid" />
+
+                                            
                                     </div>
                                     <div class="d-flex flex-column align-items-start px-3 mt-5 gap-4">
                                         <div class="d-flex gap-3 justify-content-center align-items-center">
