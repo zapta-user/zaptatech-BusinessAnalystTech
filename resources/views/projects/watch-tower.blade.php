@@ -1,6 +1,11 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+<style>
+  body{
+    overflow-x: hidden;
+  }
+</style>
 @php
  $meta_title = "Sync4Tech | WatchTower";
  $meta_description = " Elevate your risk management capabilities with The Watchtower Application, a powerful web-based system";

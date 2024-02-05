@@ -1,6 +1,11 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+<style>
+  body{
+    overflow-x: hidden;
+  }
+</style>
 @php
  $meta_title = "Sync4Tech | Kutuby";
  $meta_description = "Embark on an educational revolution with Kutuby, the innovative Learning Management System (LMS).";

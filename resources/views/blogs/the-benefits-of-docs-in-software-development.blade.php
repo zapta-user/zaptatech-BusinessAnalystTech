@@ -4,7 +4,7 @@
     <!-- --------------------BANNER SECTION----------------- -->
     <div class="bannerSection blogsdetails flex-column gap-lg-4 gap-3 d-flex align-items-start justify-content-center flex-shrink-0""
         style="
-        background-image: url({{ asset('assets/blogBanner.png') }});
+        background-image: url({{ asset('assets/services-detail-banner.webp') }});
         background-position: center;
         background-size: cover;
       ">
@@ -58,7 +58,7 @@
                     <a href="{{ route('frontend.blogs.agile-methodology-and-business-analysis') }}"
                         class="w-100 blogcardImage"
                         style="
-                background-image: url({{ asset('assets/blogImage.svg') }});
+                background-image: url({{ asset('assets/blogImage1.webp') }});
 
                 background-size: cover;
               "></a>

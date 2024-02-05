@@ -1,10 +1,17 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+<style>
+  body{
+    overflow-x: hidden;
+  }
+</style>
+
 @php
  $meta_title = "Sync4Tech | QME Solutions";
  $meta_description = "Discover the future of queue management with Qme Solutions, a revolutionary mobile application";
 @endphp
+
   <!-- --------------------BANNER SECTION----------------- -->
   <div
     class="bannerSection flex-column gap-1 d-flex align-items-start justify-content-center  flex-shrink-0 ex-paddg"

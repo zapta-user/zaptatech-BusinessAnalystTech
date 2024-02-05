@@ -8,7 +8,7 @@
     <!-- --------------------BANNER SECTION----------------- -->
     <div class="bannerSection flex-column gap-1 d-flex align-items-start justify-content-center  flex-shrink-0"
         style="
-        background-image: url({{ asset('assets/projectbanner.png') }});
+        background-image: url({{ asset('assets/projectbanner.webp') }});
         background-size: cover;
         background-position: center;
       ">
@@ -374,7 +374,7 @@
                             Web App
                         </button>
                         <p class="brown text-md-start text-center px-md-0 px-2">
-                            RecConductor is a web-based application for manufacturers, offering secure authentication,
+                            RevConductor is a web-based application for manufacturers, offering secure authentication,
                             efficient bulk product management, and advanced features like chatbot integration and Google
                             Maps. It is a Manufacturing Software Solution that simplifies customer interactions, and POS
                             data analysis, and boasts user-friendly functionalities such as organization and user

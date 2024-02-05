@@ -1,6 +1,11 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+<style>
+  body{
+    overflow-x: hidden;
+  }
+</style>
 @php
  $meta_title = "Sync4Tech | United Master";
  $meta_description = "Empower your musical journey with UnitedMasters, a revolutionary web application dedicated to artists seamlessly distributing your music on top platforms like Spotify.";

@@ -1,6 +1,11 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+<style>
+  body{
+    overflow-x: hidden;
+  }
+</style>
 @php
  $meta_title = "Sync4Tech | Quick Steps";
  $meta_description = "Experience the next level of accounting with QuickSteps, a groundbreaking mobile and web-based software crafted exclusively for small and medium-sized businesses.";

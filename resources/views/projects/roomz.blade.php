@@ -1,6 +1,11 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+<style>
+  body{
+    overflow-x: hidden;
+  }
+</style>
 @php
  $meta_title = "Sync4Tech | Roomz";
  $meta_description = "Immerse yourself in the world of hospitality and travel with Roomz, a cutting-edge vacation rental application available on web and mobile platforms";

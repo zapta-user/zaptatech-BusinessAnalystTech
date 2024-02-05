@@ -47,7 +47,7 @@
                             <div class="position-relative w-100">
                                 <div class="w-100 blogcardImage"
                                     style="
-                    background-image: url({{ asset('assets/blogImage.svg') }});
+                    background-image: url({{ asset('assets/blogImage1.webp') }});
                     background-size: cover;
                   ">
                                 </div>

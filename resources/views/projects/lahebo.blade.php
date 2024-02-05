@@ -1,6 +1,11 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+<style>
+  body{
+    overflow-x: hidden;
+  }
+</style>
 @php
  $meta_title = "Sync4Tech | Lahebo";
  $meta_description = "Lahebo, designed with modules for Internal Audit, Inspection, and Document Templates, Lahebo offers a seamless and efficient auditing solution";

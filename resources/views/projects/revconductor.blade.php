@@ -1,6 +1,11 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+<style>
+  body{
+    overflow-x: hidden;
+  }
+</style>
 @php
  $meta_title = "Sync4Tech | RevConductor";
  $meta_description = "Elevate your manufacturing operations with RevConductor, a powerful web-based application for secure authentication and bulk product management, with advanced features like chatbot integration and Google Maps.";

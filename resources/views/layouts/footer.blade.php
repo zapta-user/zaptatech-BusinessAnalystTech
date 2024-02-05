@@ -345,8 +345,9 @@
         class="modal-dialog modal-dialog-centered modal-lg modal-dialog-centered d-flex justify-content-center align-items-center">
         <div class="flex-column modal-content scrollable-modal-content partnerForm px-lg-5 px-md-4 px-3 py-5 gap-3">
             <div class="d-flex w-100 justify-content-between align-items-center">
-                <h3 style="display: flex; justify-content: center;margin: 0 auto 16px;color:#FB7A00;">Become Our
-                    Partner</h3>
+                <h3 style="display: flex; justify-content: center;margin: 0 auto 16px;color:#FB7A00;">
+                     Let's join hands!
+                </h3>
                 <svg data-bs-dismiss="modal" class="cancelform" xmlns="http://www.w3.org/2000/svg" width="27"
                     height="27" viewBox="0 0 27 27" fill="none"
                     style="cursor: pointer;position: absolute;top: 0;right: 0;margin: 20px !important;">
@@ -359,8 +360,8 @@
             <form action="#" class="becomepartform text-start d-flex flex-column gap-xl-4 gap-3 w-100 ex-respon">
                 <div class="flex-column gap-1">
                     <label for="Partner"
-                        style="font-size: 18px !important;color: #5F5F5F !important;font-weight: 600 !important;">Want
-                        to become our Partner as:</label>
+                        style="font-size: 18px !important;color: #5F5F5F !important;font-weight: 800 !important;">
+                        Partnership as</label>
                     <div class="d-flex gap-5 mt-4 align-items-center">
                         <div class="d-flex gap-2 radio-partner" style="display: flex;gap: 50px;">
                             <label class="radio-container">
@@ -392,7 +393,7 @@
                     </div>
                 </div>
                 <div class="flex-column gap-1 pos-rev" id="nameselect">
-                    <label for="Name">Name <span class="text-orange">*</span>
+                    <label for="Name">Full Name <span class="text-orange">*</span>
                     </label>
                     <div class="position-relative">
                         <input style="color: #acacac; width: 100%;" type="text" id="Name"
@@ -402,9 +403,9 @@
 
                 <div class="flex-column gap-2 pos-rev" id="repnameselect">
                     <label for="repnameselect"
-                        style="padding-bottom: 20px !important;font-size: 18px !important;">Spokesperson
+                        style="padding-bottom: 20px !important;font-size: 18px !important; font-weight: 800 !important;">Spokesperson
                         Details</label>
-                    <label for="representativeName">Name
+                    <label for="representativeName">Full Name
                         <span class="text-orange">*</span>
                     </label>
                     <div class="position-relative">
@@ -597,7 +598,12 @@
                                         <p>Trading and Business</p>
                                     </div>
                                 </td>
-
+                                <td class="pt-2">
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <input type="checkbox" name="domains" id="domains17" />
+                                        <p>Other</p>
+                                    </div>
+                                </td>
                             </tr>
                             <td class="pt-2">
                                 <div class="d-flex gap-2 align-items-center">
@@ -843,7 +849,7 @@
                                 d="M11.0671 23.0665L4.93377 16.9332C4.80044 16.7999 4.70577 16.6554 4.64977 16.4999C4.59377 16.3443 4.56666 16.1776 4.56844 15.9999C4.56844 15.8221 4.59644 15.6554 4.65244 15.4999C4.70844 15.3443 4.80222 15.1999 4.93377 15.0665L11.1004 8.89987C11.3449 8.65543 11.6449 8.5332 12.0004 8.5332C12.356 8.5332 12.6671 8.66654 12.9338 8.9332C13.1782 9.17765 13.3004 9.48876 13.3004 9.86654C13.3004 10.2443 13.1782 10.5554 12.9338 10.7999L9.06711 14.6665H26.6671C27.0449 14.6665 27.3618 14.7945 27.6178 15.0505C27.8738 15.3065 28.0013 15.623 28.0004 15.9999C28.0004 16.3776 27.8724 16.6945 27.6164 16.9505C27.3604 17.2065 27.044 17.3341 26.6671 17.3332H9.06711L12.9671 21.2332C13.2116 21.4776 13.3338 21.7776 13.3338 22.1332C13.3338 22.4888 13.2004 22.7999 12.9338 23.0665C12.6893 23.311 12.3782 23.4332 12.0004 23.4332C11.6227 23.4332 11.3116 23.311 11.0671 23.0665Z"
                                 fill="#0D3642" />
                         </svg>
-                        <h2 style="color: #333" class="fw-bold mt-5" style="padding-top: 10px !important">
+                        <h2 style="color: #333" class="fw-bold mt-3 mb-2" style="padding-top: 10px !important">
                             Enter Details
                         </h2>
                         <form action="#" id="bookconsultform"
@@ -910,7 +916,7 @@
                                 </div>
                             </div>
                             <div class="d-flex flex-column gap-1 w-100">
-                                <label for="message" class="text-start">Please share meeting note</label>
+                                <label for="message" class="text-start">Meeting Agenda Points</label>
                                 <textarea name="message" id="message" cols="5" class="border-0 p-2 text-orange form-control" rows="5"
                                     placeholder="Share anything here..."
                                     style="
@@ -923,7 +929,7 @@
 
                       "></textarea>
                             </div>
-                            <div class="d-flex gap-3">
+                            <div class="d-flex gap-3 mt-3">
                                 <button type="submit" id="scrollToSection2 schedule"
                                     class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-4 px-3 align-items-center gap-3">
                                     <a class="text-white">Schedule Event</a>

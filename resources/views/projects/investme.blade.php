@@ -1,6 +1,11 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
+<style>
+  body{
+    overflow-x: hidden;
+  }
+</style>
 @php
  $meta_title = "Sync4Tech | InvestMe";
  $meta_description = "Explore the future of investment management with InvestMe, a web application uniting asset owners, investors, and accountants.";
