@@ -380,7 +380,7 @@
                     <div class="w-100 p-3 d-flex justify-content-between gap-4 align-items-center"
                         style="border-top: 1px solid #bebebe">
                         <div class="d-flex justify-content-start align-items-center gap-2">
-                            <img src="{{ asset('assets/Avatar.svg') }}" alt="avatar" class="img-fluid" />
+                            <img src="{{ asset('assets/avatar-picture-sync4tech-profile-image.svg') }}" alt="Avatar Picture -  Sync4Tech Profile Image" class="img-fluid" />
                             <div class="d-flex flex-column gap-1 blogdetailsheading">
                                 <p class="fw-bold" style="color: #101828">Rene Wells</p>
                                 <p style="color: #667085"> Author</p>
@@ -477,7 +477,7 @@
                         <a href="{{ route('frontend.blogs.agile-methodology-and-business-analysis') }}">
                             <div class="d-flex gap-xl-3 gap-2 py-3 px-2 w-100 align-items-center"
                                 style="border-bottom: 1px solid #ddd">
-                                <img src="{{ asset('assets/onetrend.svg') }}" alt="one" class="img-fluid" />
+                                <img src="{{ asset('assets/1-number-icon-representing-sync4tech-blog-1-information.svg') }}" alt="1 Number Icon - Representing Sync4Tech Blog 1 Information" class="img-fluid" />
                                 <div class="d-flex flex-column">
                                     <p class="blog-heading fw-medium">
                                         Agile Methodology and Business Analysis
@@ -489,7 +489,7 @@
                         <a href="{{ route('frontend.blogs.ensuring-project-success-in-software-development') }}">
                             <div class="d-flex gap-xl-3 gap-2 py-3 px-2 w-100 align-items-center"
                                 style="border-bottom: 1px solid #ddd">
-                                <img src="{{ asset('assets/twotrend.svg') }}" alt="two" class="img-fluid" />
+                                <img src="{{ asset('assets/2-number-icon-representing-sync4tech-blog-4-numerical-information.svg') }}" alt="2 Number Icon - Representing Sync4Tech Blog 4 Numerical Information" class="img-fluid" />
                                 <div class="d-flex flex-column">
                                     <p class="blog-heading fw-medium">
                                         Ensuring Project Success in Software Development
@@ -501,7 +501,7 @@
                         <a href="{{ route('frontend.blogs.the-benefits-of-docs-in-software-development') }}">
                             <div class="d-flex gap-xl-3 gap-2 py-3 px-2 w-100 align-items-center"
                                 style="border-bottom: 1px solid #ddd">
-                                <img src="{{ asset('assets/threetrend.svg') }}" alt="three" class="img-fluid" />
+                                <img src="{{ asset('assets/3-number-icon-representing-sync4tech-blog-3-information.svg') }}" alt="3 Number Icon - Representing Sync4Tech Blog 3 Information" class="img-fluid" />
                                 <div class="d-flex flex-column">
                                     <p class="blog-heading fw-medium">
                                         The Benefits of docs in Software Development
@@ -513,7 +513,7 @@
                         <a href="{{ route('frontend.blogs.the-power-of-business-analysis-in-accelerating') }}">
                             <div class="d-flex gap-xl-3 gap-2 py-3 px-2 w-100 align-items-center"
                                 style="border-bottom: 1px solid #ddd">
-                                <img src="{{ asset('assets/4.svg') }}" alt="three" class="img-fluid" />
+                                <img src="{{ asset('assets/4-number-icon-representing-sync4tech-blog-4-information.svg') }}" alt="4 Number Icon - Representing Sync4Tech Blog 4 Information" class="img-fluid" />
                                 <div class="d-flex flex-column">
                                     <p class="blog-heading fw-medium">
                                         The Power of Business Analysis in Accelerating
@@ -524,7 +524,7 @@
                         </a>
                         <a href="{{ route('frontend.blogs.how-to-create-effective-software-documentation') }}">
                             <div class="d-flex gap-xl-3 gap-2 py-3 px-2 w-100 align-items-center">
-                                <img src="{{ asset('assets/5.svg') }}" alt="three" class="img-fluid" />
+                                <img src="{{ asset('assets/5-number-icon-representing-sync4tech-blog-5-information.svg') }}" alt="5 Number Icon - Representing Sync4Tech Blog 5 Information" class="img-fluid" />
                                 <div class="d-flex flex-column">
                                     <p class="blog-heading fw-medium">
                                         How to Create Effective Software Documentation
@@ -1334,7 +1334,7 @@
                                     </div>
                                     <div class="d-flex flex-column justify-content-center align-items-center mt-4">
                                         <img loading="lazy" width="212" height="40"
-                                            src="{{ asset('assets/home-logo.svg') }}" alt="logo"
+                                            src="{{ asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}" alt="Sync4Tech Homepage Logo - Your Gateway to Technological Excellence"
                                             class="img-fluid" />
                                     </div>
                                     <div class="d-flex flex-column align-items-start px-3 mt-5 gap-4">

@@ -48,7 +48,7 @@
           </p>
         </div>
         <div>
-            <img loading="lazy" width="480" height="380" src="{{asset('assets/QuickDetailPage.webp')}}" alt="qme" class="img-fluid" style="cursor: pointer" />
+            <img loading="lazy" width="480" height="380" src="{{asset('assets/myquicksteps-sync4tech-project-banner-image-2.webp')}}" alt="myQuixksteps sync4tech project banner image 2" class="img-fluid" style="cursor: pointer" />
         </div>
       </div>
     </div>
@@ -59,22 +59,25 @@
     <div class="container">
       <div class="pr-st-main">
         <div>
-          <img loading="lazy" width="591" height="400" src="{{asset('assets/P_Detail7.webp')}}" alt="qme" class="img-fluid" style="cursor: pointer" alt="kutuby" class="img-fluid" />
+          <img loading="lazy" width="591" height="400" src="{{asset('assets/image-for-project-detail-5.webp')}}" alt="Image for project detail 5" class="img-fluid" style="cursor: pointer" alt="kutuby" class="img-fluid" />
       </div>
         <div class="pro-st-txt">
           <h2 class="hidden-title mb-4">Hidden Challenges</h2>
           <div class="d-flex">
-            <img loading="lazy" width="25" height="25" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
+             <img width="24" height="24" loading="lazy"
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
             <p class="hidden-text">
               Offering educational resources and training materials to assist users in understanding and maximizing the capabilities of QuickSteps, facilitating effective utilization.
             </p>
           </div>
           <div class="d-flex">
-            <img loading="lazy" width="25" height="25" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
+             <img width="24" height="24" loading="lazy"
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
             <p class="hidden-text">Ensuring that QuickSteps remains competitive in the dynamic landscape of accounting software solutions, staying abreast of industry trends and user expectations.</p>
           </div>
           <div class="d-flex">
-            <img loading="lazy" width="25" height="25" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
+             <img width="24" height="24" loading="lazy"
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
             <p class="hidden-text">Aligning QuickSteps not just as accounting software but as a strategic partner in business growth, emphasizing its role as a catalyst for success for SMBs.</p>
           </div>
          
@@ -88,7 +91,7 @@
   <div class="cardsSection toolCardSection projectdetails d-flex row justify-content-center align-items-center gap-5"
     style="padding-bottom: 80px !important">
     <div class="col-xl-6 col-md-5 col-sm-8 col-10 d-flex justify-content-center align-items-center">
-      <img src="{{asset('assets/Qme2Mockuppp.webp')}}" alt="kutuby" class="img-fluid" />
+      <img src="{{asset('assets/myquicksteps-sync4tech-project-banner-image.webp')}}" alt="myQuicksteps sync4tech project banner image" class="img-fluid" />
     </div>
     <div class="col-md-5 d-flex flex-column gap-3 justify-content-center">
       <h2 class="fw-bold text-md-start text-center">Proposed Solution</h2>
@@ -99,12 +102,13 @@
     </div>
   </div>
   <!-- ---------------agile section---------------- -->
-  <div class="projectcomponentsection row row-gap-3"
+  <div class="projectcomponentsection"
     style="background-color: #e7ebec">
+    <div class="row row-gap-3">
     <div
       class="col-lg-3">
       <p style="color: #636363" class="text-center font-22-900 mb-2">Domain</p>
-      <h2 class="text-orange text-center text-nowrap font-17">Accounting Software Solutions</h2>
+      <h2 class="text-orange text-center text-nowrap font-17">Education and Learning Management</h2>
     </div>
     <div
       class="col-lg-3">
@@ -114,13 +118,14 @@
     <div
       class="col-lg-3">
       <p style="color: #636363" class="text-center font-22-900 mb-2">Duration</p>
-      <h2 class="text-orange text-center text-nowrap font-17">03 Months</h2>
+      <h2 class="text-orange text-center text-nowrap font-17">1-year</h2>
     </div>
     <div
       class="col-lg-3">
       <p style="color: #636363" class="text-center font-22-900 mb-2">Platform</p>
       <h2 class="text-orange text-center text-nowrap font-17">Hybrid</h2>
     </div>
+  </div>
   </div>
   <!-- ------------TOOLS SECTION---------------- -->
   <!-- ------------TOOLS CONTENT SECTION---------------- -->
@@ -139,7 +144,7 @@
         </div>
         
         <div>
-          <img src="{{asset('assets/specific.png')}}" alt="kutuby" class="img-fluid" />
+          <img src="{{asset('assets/an-image-of-a-laptop-with-graphs-and-a-dashboard-displayed.png')}}" alt="An image of a  laptop with graphs and a dashboard displayed" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -150,7 +155,7 @@
   <div class="container">
     <div class="key-fec-main">
       <div>
-        <img src="{{asset('assets/curr.svg')}}" alt="kutuby" class="img-fluid" />
+        <img src="{{asset('assets/projects-collage-showcasing-a-variety-of-successful-endeavors-at-sync4tech.svg')}}" alt="Projects Collage - Showcasing a Variety of Successful Endeavors at Sync4Tech" class="img-fluid" />
       </div>
       <div class="key-fec-txt">
         <h2>
@@ -181,7 +186,7 @@
         </div>
         
         <div>
-          <img src="{{asset('assets/specific.png')}}" alt="kutuby" class="img-fluid" />
+          <img src="{{asset('assets/an-image-of-a-laptop-with-graphs-and-a-dashboard-displayed.png')}}" alt="An image of a  laptop with graphs and a dashboard displayed" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -802,7 +807,7 @@
                     </svg>
                   </div>
                   <div class="d-flex flex-column justify-content-center align-items-center mt-4">
-                     <img loading="lazy" width="212" height="40" src="{{asset('assets/home-logo.svg')}}" alt="logo" class="img-fluid" />
+                     <img loading="lazy" width="212" height="40" src="{{asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}" alt="Sync4Tech Homepage Logo - Your Gateway to Technological Excellence" class="img-fluid" />
                   </div>
                   <div class="d-flex flex-column align-items-start px-3 mt-5 gap-4">
                     <div class="d-flex gap-3 justify-content-center align-items-center">

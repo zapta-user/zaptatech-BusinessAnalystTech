@@ -342,7 +342,7 @@
                         <div class="viewproject d-flex justify-content-center align-items-center w-100"
                             style="
             height: 315px;
-            background-image: url({{ asset('assets/Quick-Stepsport1.webp') }});
+            background-image: url({{ asset('assets/quicksteps-portfolio-banner-image.webp') }});
             background-position: center;
             background-size: cover;
           ">
