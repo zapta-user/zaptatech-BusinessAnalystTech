@@ -62,7 +62,8 @@
         <div class="grid-process pb-lg-3">
           <div class="process-content">
             <div class="content-header">
-              <img width="60" height="60" src="{{asset('assets/discover1.svg')}}" alt="file icon">
+              <img width="60" height="60"
+                           src="{{asset('assets/discover-icon-image-1.svg')}}" alt="Discover icon image 1">
               <h2 class="content-title">Initiation</h3>
             </div>
             <ul class="process-list">
@@ -75,24 +76,27 @@
             </ul>
           </div>
           <div class="process-illustration">
-            <img width="625" height="414" style="max-width: 625px;" src="{{asset('assets/Initiation5.webp')}}">
+            <img width="625" height="414" style="max-width: 625px;"
+                       src="{{asset('assets/step-1-of-sync4tech-service-1.webp')}}" alt="Step 1 of Sync4Tech Service 1">
           </div>
         </div>
 
         <div class="row">
           <div class="wireframe col-12 text-center">
 
-            <img width="190" height="214" class="" src="{{asset('assets/wireframe2.svg')}}" alt="timeline">
+            <img width="190" height="214" class=""
+                        src="{{asset('assets/dotted-line-image-for-the-services-page.svg')}}" alt="Dotted line Image  for the services page">
           </div>
         </div>
 
         <div class="grid-process pt-lg-3 pb-lg-3">
           <div class="process-illustration">
-            <img width="625" height="414" style="max-width: 625px;" src="{{asset('assets/Initiation2.webp')}}" alt="illustration">
+            <img width="625" height="414" style="max-width: 625px;"
+                        src="{{asset('assets/step-2-of-sync4tech-service-1.webp')}}" alt="Step 2 of Sync4Tech Service 1">
           </div>
           <div class="process-content">
             <div class="content-header">
-              <img width="60" height="60" src="{{asset('assets/discover2.svg')}}" alt="file icon">
+              <img width="60" height="60" src="{{asset('assets/discover-icon-image-2.svg')}}" alt="Discover Icon image 2">
               <h2 class="content-title">Requirement Gathering</h3>
             </div>
             <ul class="process-list">
@@ -108,14 +112,16 @@
 
         <div class="row">
           <div class="wireframe col-12 text-center">
-            <img width="190" height="214" src="{{asset('assets/wireframe1.svg')}}" alt="timeline">
+            <img width="190" height="214" src="{{asset('assets/dotted-line-2-Image-for-the-services-page.svg')}}"
+                        alt="Dotted line 2 Image  for the services page">
           </div>
         </div>
 
         <div class="grid-process pt-lg-3 pb-lg-3">
           <div class="process-content">
             <div class="content-header">
-              <img width="60" height="60" src="{{asset('assets/discover3.svg')}}" alt="file icon">
+              <img width="60" height="60"
+                            src="{{asset('assets/discover-Icon-image-3.svg')}}" alt="Discover Icon image 3">
               <h2 class="content-title">Analysis</h3>
             </div>
             <ul class="process-list">
@@ -128,13 +134,21 @@
             </ul>
           </div>
           <div class="process-illustration">
-            <img width="625" height="414" style="max-width: 625px;" src="{{asset('assets/Initiation3.webp')}}" alt="illustration">
+            <div class="process-illustration">
+                    <img width="625" height="414" style="max-width: 625px;"
+                        src="{{asset('assets/step-3-of-sync4tech-service-1.webp')}}" alt="Step 3 of Sync4Tech Service 1">
           </div>
         </div>
 
+        </div>
+
+
+
+        
         <div class="row">
           <div class="wireframe col-12 text-center">
-            <img width="190" height="214" src="{{asset('assets/wireframe2.svg')}}" alt="timeline">
+            <img width="190" height="214" class=""
+                        src="{{asset('assets/dotted-line-image-for-the-services-page.svg')}}" alt="Dotted line Image  for the services page">
           </div>
         </div>
 
@@ -144,7 +158,8 @@
           </div>
           <div class="process-content">
             <div class="content-header">
-              <img width="60" height="60" src="{{asset('assets/discover4.svg')}}" alt="file icon">
+              <img width="625" height="414" style="max-width: 625px;"
+                      src="{{asset('assets/discover-icon-image-4.svg')}}" alt="Discover icon Image 4">
               <h2 class="content-title">Validation</h3>
             </div>
             <ul class="process-list">
@@ -154,7 +169,10 @@
             </ul>
           </div>
         </div>
+
+
       </div>
+      
     </div>
   </section>
 
@@ -162,7 +180,7 @@
     <div class="container">
       <div class="outcome-card">
         <div class="outcom-p">
-          <img src="{{asset('assets/outcome1.svg')}}">
+          <img src="{{asset('assets/outcome-1-of-sync4tech-service-1.svg')}}" alt="Outcome 1 of Sync4Tech Service 1">
           <div class="out-ul">
             <h3>Outcomes</h3>
             <ul style="padding-left: 1rem;">
@@ -175,7 +193,7 @@
           </div>
         </div>
         <div class="outcom-p">
-          <img src="{{asset('assets/outcome2.svg')}}">
+          <img src="{{asset('assets/outcome-2-of-sync4tech-service-1.svg')}}" alt="Outcome 2 of Sync4Tech Service 1">
           <div class="out-ul">
             <h3>Deliverables</h3>
             <ul style="padding-left: 1rem;">
@@ -911,7 +929,7 @@
                     </svg>
                   </div>
                   <div class="d-flex flex-column justify-content-center align-items-center mt-4">
-                     <img loading="lazy" width="212" height="40" src="{{asset('assets/home-logo.svg')}}" alt="logo" class="img-fluid" />
+                     <img loading="lazy" width="212" height="40" src="{{asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}" alt="Sync4Tech Homepage Logo - Your Gateway to Technological Excellence" class="img-fluid" />
                   </div>
                   <div class="d-flex flex-column align-items-start px-3 mt-5 gap-4">
                     <div class="d-flex gap-3 justify-content-center align-items-center">

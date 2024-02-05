@@ -55,7 +55,7 @@
           </p>
         </div>
         <div>
-          <img width="480" height="380" src="{{asset('assets/kutubyprojectpage.svg')}}" alt="kutuby" class="img-fluid" />
+          <img width="480" height="380" src="{{asset('assets/kutuby-logo-a-project-by-sync4tech-portfolio-2.svg')}}" alt="Kutuby logo a Project by Sync4Tech portfolio 2" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -66,23 +66,26 @@
     <div class="container">
       <div class="pr-st-main">
         <div>
-          <img loading="lazy" width="591" height="400" src="{{asset('https://assets-global.website-files.com/63dcf9306bbe5b2e5fbb8677/646bbd7ef8c07bb115fda420_Selling_Image.svg')}}" alt="qme" class="img-fluid" style="cursor: pointer" alt="kutuby" class="img-fluid" />
+          <img loading="lazy" width="591" height="400" src="{{asset('assets/image-for-project-detail-2.webp')}}" alt="Image for project detail 2" class="img-fluid" style="cursor: pointer" alt="kutuby" class="img-fluid" />
       </div>
         <div class="pro-st-txt">
           <h2 class="hidden-title mb-4">Hidden Challenges</h2>
           <div class="d-flex">
-            <img loading="lazy" width="25" height="25" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
+             <img width="24" height="24" loading="lazy"
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
             <p class="hidden-text">
               Lack of a centralized platform for parents to monitor and engage in their children's learning.
             </p>
           </div>
           <div class="d-flex">
-            <img loading="lazy" width="25" height="25" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
+             <img width="24" height="24" loading="lazy"
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
             <p class="hidden-text">Limited options for children to access and complete lessons and quizzes independently.
             </p>
         </div>
         <div class="d-flex">
-          <img loading="lazy" width="25" height="25" src="{{asset('assets/iconamoon_arrow-up-2.svg')}}" alt="">
+           <img width="24" height="24" loading="lazy"
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
           <p class="hidden-text">Absence of a streamlined system for administrators to manage and update course content efficiently.</p>
       </div>
         </div>
@@ -94,7 +97,7 @@
     class="cardsSection toolCardSection projectdetails d-flex row justify-content-lg-between justify-content-center align-items-center gap-5"
     style="padding-bottom: 80px !important">
     <div class="col-xl-6 col-md-5 col-sm-8 col-10 d-flex justify-content-center align-items-center">
-      <img width="480" height="380" src="{{asset('assets/Kutuby Mockuppp.svg')}}" alt="kutuby" class="img-fluid" />
+      <img width="480" height="380" src="{{asset('assets/kutuby-logo-a-project-by-sync4tech-portfolio.webp')}}" alt="Kutuby logo a Project by Sync4Tech portfolio" class="img-fluid" />
     </div>
     <div class="col-md-5 d-flex flex-column gap-3 justify-content-center">
       <h2 class="fw-bold text-md-start text-center">Proposed Solution</h2>
@@ -106,8 +109,9 @@
     </div>
   </div>
   <!-- ---------------agile section---------------- -->
-  <div class="projectcomponentsection row row-gap-3"
+  <div class="projectcomponentsection"
     style="background-color: #e7ebec">
+    <div class="row row-gap-3">
     <div
       class="col-lg-3">
       <p style="color: #636363" class="text-center font-22-900 mb-2">Domain</p>
@@ -129,6 +133,7 @@
       <h2 class="text-orange text-center text-nowrap font-17">Hybrid</h2>
     </div>
   </div>
+  </div>
   <!-- ------------TOOLS SECTION---------------- -->
   <!-- ------------TOOLS CONTENT SECTION---------------- -->
   <section class="key-fec-sec">
@@ -146,7 +151,7 @@
         </div>
         
         <div>
-          <img src="{{asset('assets/specific.png')}}" alt="kutuby" class="img-fluid" />
+          <img src="{{asset('assets/an-image-of-a-laptop-with-graphs-and-a-dashboard-displayed.png')}}" alt="An image of a  laptop with graphs and a dashboard displayed" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -157,7 +162,7 @@
   <div class="container">
     <div class="key-fec-main">
       <div>
-        <img src="{{asset('assets/RevolutionizingPre-Development.webp')}}" alt="kutuby" class="img-fluid" />
+        <img src="{{asset('assets/projects-collage-showcasing-a-variety-of-successful-endeavors-at-sync4tech.svg')}}" alt="Projects Collage - Showcasing a Variety of Successful Endeavors at Sync4Tech" class="img-fluid" />
       </div>
       <div class="key-fec-txt">
         <h2>
@@ -189,7 +194,7 @@
         </div>
         
         <div>
-          <img src="{{asset('assets/specific.png')}}" alt="kutuby" class="img-fluid" />
+          <img src="{{asset('assets/an-image-of-a-laptop-with-graphs-and-a-dashboard-displayed.png')}}" alt="An image of a  laptop with graphs and a dashboard displayed" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -804,7 +809,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
                   </svg>
                 </div>
                 <div class="d-flex flex-column justify-content-center align-items-center mt-4">
-                   <img loading="lazy" width="212" height="40" src="{{asset('assets/home-logo.svg')}}" alt="logo" class="img-fluid" />
+                   <img loading="lazy" width="212" height="40" src="{{asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}" alt="Sync4Tech Homepage Logo - Your Gateway to Technological Excellence" class="img-fluid" />
                 </div>
                 <div class="d-flex flex-column align-items-start px-3 mt-5 gap-4">
                   <div class="d-flex gap-3 justify-content-center align-items-center">
