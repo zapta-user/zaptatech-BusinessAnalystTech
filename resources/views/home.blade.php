@@ -5,11 +5,13 @@
         <div class="container">
             <div class="hero-content">
                 <h1 class="text-white text-center">
-                    Crafting Your Tech Future with 
-                    <span class="text-orange">Customized Solutions</span>
+                    Drafting Business Ideas into
+                    <span class="text-orange">Digital Solutions</span>
                 </h1>
                 <p class="business-p">
-                    Power your success story with our comprehensive services. We excel in streamlined requirement gathering, meticulous software documentation, and expert project management. Embrace the digital era confidently with our tailored plans, robust system architecture, and optimized processes.
+                    A project without a manager and a product without documentation is at risk to fail.<br>
+                    So we are here to save you! 
+                    {{-- Power your success story with our comprehensive services. We excel in streamlined requirement gathering, meticulous software documentation, and expert project management. Embrace the digital era confidently with our tailored plans, robust system architecture, and optimized processes. --}}
                 </p>
                 <div class="Partner-button">
                     <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="scrollToSection2" type="button">
@@ -56,6 +58,7 @@
                 </p>
                 <h2>Providing Best Services</h2>
                 <p class="provide-business">
+                    We are a team of business analyst 
                     Empower your business with our expertise in process improvement, data analysis, project management, and
                     more. We redefine operations for success through tailored solutions
                 </p>

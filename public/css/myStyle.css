@@ -52,7 +52,7 @@ a {
     width: 100%;
     background: 0 0;
     transition: .3s linear;
-    border-bottom: 1px solid #0f4757;
+    /* border-bottom: 1px solid #0f4757; */
     z-index: 1000
 }
 
@@ -138,20 +138,20 @@ a {
     font-size: 52px;
     font-weight: 700;
     line-height: 74px;
-    max-width: 930px;
+    max-width: 665px;
     margin: 0 auto
 }
 
 .hero-section .hero-content .business-p {
     width: 100%;
-    max-width: 750px;
+    max-width: 753px;
     margin: 0 auto;
     color: #fff;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 28px;
-    padding-top: 18px
+    padding-top: 25px
 }
 
 .Partner-button {
