@@ -5,7 +5,7 @@
         <div class="footer-main">
             <div class="f-location">
                 <a class="footerimg" href="{{ route('frontend.home') }}">
-                    <img loading="lazy" src="{{ asset('assets/home-logo.svg') }}" alt="logo" class="img-fluid" />
+                    <img loading="lazy" src="{{ asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}" alt="Sync4Tech Homepage Logo - Your Gateway to Technological Excellence" class="img-fluid" />
                 </a>
                 <p style="text-align: justify;">Sync4Tech, your trusted tech business analyst partner thet empowers your
                     business through insightful
@@ -33,27 +33,27 @@
                 <h2>Services</h2>
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
-                        src="{{ asset('assets/iconamoon_arrow-up-2.svg') }}" alt="">
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
                     <p class="f-linkstag" style="line-height: 27px !important"> Software Business Analysis</p>
                 </div>
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
-                        src="{{ asset('assets/iconamoon_arrow-up-2.svg') }}" alt="">
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
                     <p class="f-linkstag" style="line-height: 25px !important">Project Management</p>
                 </div>
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
-                        src="{{ asset('assets/iconamoon_arrow-up-2.svg') }}" alt="">
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
                     <p class="f-linkstag" style="line-height: 25px !important">Solution Architecture Design</p>
                 </div>
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
-                        src="{{ asset('assets/iconamoon_arrow-up-2.svg') }}" alt="">
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
                     <p class="f-linkstag" style="line-height: 25px !important">Technical Search and Development</p>
                 </div>
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
-                        src="{{ asset('assets/iconamoon_arrow-up-2.svg') }}" alt="">
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
                     <p class="f-linkstag" style="line-height: 25px !important">Data Analysis</p>
                 </div>
             </div>
@@ -61,27 +61,27 @@
                 <h2>Quick Links</h2>
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
-                        src="{{ asset('assets/iconamoon_arrow-up-2.svg') }}" alt="">
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
                     <a class="f-linkstag" href="{{ route('frontend.aboutUs') }}">About Us</a>
                 </div>
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
-                        src="{{ asset('assets/iconamoon_arrow-up-2.svg') }}" alt="">
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
                     <a class="f-linkstag" href="{{ route('frontend.blogs') }}">Blog</a>
                 </div>
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
-                        src="{{ asset('assets/iconamoon_arrow-up-2.svg') }}" alt="">
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
                     <a class="f-linkstag" href="{{ route('frontend.projects') }}">Projects</a>
                 </div>
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
-                        src="{{ asset('assets/iconamoon_arrow-up-2.svg') }}" alt="">
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
                     <a class="f-linkstag" href="{{ route('frontend.partners') }}">Partners</a>
                 </div>
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
-                        src="{{ asset('assets/iconamoon_arrow-up-2.svg') }}" alt="">
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
                     <a class="f-linkstag" data-bs-toggle="modal" data-bs-target="#staticBackdropcon"
                         href="">Contact Us</a>
                 </div>
@@ -91,7 +91,7 @@
                 <div class="f-main-location"
                     style="display: flex !important; align-items: end !important; padding-top: 10px;">
                     <a href="tel:+923015892528" style="display: flex;">
-                        <img loading="lazy" src="{{ asset('assets/typcn_phone.svg') }}" alt="typcn_phone"
+                        <img loading="lazy" src="{{ asset('assets/contact-us-icon.svg') }}" alt="Contact us icon"
                             class="img-fluid" />
                         <p style="padding-top: 0 !important;">+923015892528</p>
                     </a>
@@ -99,14 +99,14 @@
                 <div class="f-main-location"
                     style="display: flex !important; align-items: end !important; padding-top: 10px;">
                     <a href="mailto:contact@zaptatech.com" style="display: flex;">
-                        <img loading="lazy" src="{{ asset('assets/fluent_mail-20-filled.svg') }}"
-                            alt="fluent_mail-20-filled" class="img-fluid" />
+                        <img loading="lazy" src="{{ asset('assets/mail-icon-symbolizing-email-communication.svg') }}"
+                            alt="Mail Icon - Symbolizing Email Communication" class="img-fluid" />
                         <p style="padding-left: 11px !important; padding-top: 0px !important;">info@sync4tech.co</p>
                     </a>
                 </div>
                 <div class="f-main-location">
                     <a href="https://maps.app.goo.gl/MaFm3ZZRrDGkxx3f6" target="_blank" style="display: flex;">
-                        <img loading="lazy" src="{{ asset('assets/mdi_location.svg') }}" alt="mdi_location"
+                        <img loading="lazy" src="{{ asset('assets/icon-displaying-location-sign.svg') }}" alt="Icon displaying location sign"
                             class="img-fluid" style="margin-top: 10px !important;" />
                         <p style="max-width: 274px;">4th Floor, Plaza No. 144/2, Block B, Bankers Town, Lahore
                         </p>

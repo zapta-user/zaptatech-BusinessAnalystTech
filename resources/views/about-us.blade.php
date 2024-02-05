@@ -22,7 +22,7 @@
                 </a>
             </div>
             <h2 class="text-white text-start fw-bold">
-                Get to Know Your Strategic Business Ally and Software Development Partner.
+                ABOUT US
             </h2>
             <p class="text-start pt-2" style="color: #dfdfdf">
                 An Insight into Our Story and Journey. Explore the unique blend of creativity and precision that defines our journey. Let's shape the future of your business together.
@@ -143,16 +143,16 @@
                 <div class="service-cli-col-cards">
 
                     <div class="ser-col-card card1">
-                        <img loading="lazy" width="100" height="100" src="{{ asset('assets/business-step1.svg') }}"
-                            alt="cli-card-1">
+                        <img loading="lazy" width="100" height="100" src="{{ asset('assets/sync4tech-business-process-step-1-requirement-gathering.svg') }}"
+                            alt="Sync4Tech Business Process Step 1- requirement gathering">
                         <h2 style="color: #FFFFFF;padding-top: 16px !important;">Requirement Gathering</h2>
                         <p style="color: #C1C1C1;padding-top: 4px !important;">Delve deep into your business processes,
                             objectives, and challenges. Our goal is to collect crucial data, establishing a solid foundation
                             for a comprehensive analysis of your needs.</p>
                     </div>
                     <div class="ser-col-card card2" style="position: relative;">
-                        <img loading="lazy" width="100" height="100" src="{{ asset('assets/business-step2.svg') }}"
-                            alt="cli-card-1">
+                        <img loading="lazy" width="100" height="100" src="{{ asset('assets/sync4tech-business-process-step-2-expert-consultation.svg') }}"
+                            alt="Sync4Tech Business Process Step 2 - expert consultation">
                         <h2 style="color: #FFFFFF;padding-top: 16px !important;">Expert Consultation</h2>
                         <p style="color: #C1C1C1;padding-top: 4px !important;">Count on our team of experienced professional
                             advisors for guidance and recommendations. Their expertise ensures a highly informed and
@@ -160,8 +160,8 @@
                     </div>
 
                     <div class="ser-col-card card3" style="position: relative;">
-                        <img loading="lazy" width="100" height="100" src="{{ asset('assets/business-step3.svg') }}"
-                            alt="cli-card-1">
+                        <img loading="lazy" width="100" height="100" src="{{ asset('assets/sync4tech-business-process-step-3-comprehensive-business-analysis.svg') }}"
+                            alt="Sync4Tech Business Process Step 3 - comprehensive business analysis">
 
                         <h2 style="color: #FFFFFF;padding-top: 16px !important;">Comprehensive Business Analysis</h2>
                         <p style="color: #C1C1C1;padding-top: 4px !important;">Building upon the insights gained through
@@ -200,7 +200,7 @@
     <div class="w-100 cardsSection row d-flex justify-content-center justify-content-lg-around align-items-center"
         id="ceoSection">
         <div class="col-lg-4 col-md-5 col-12 d-flex justify-content-center align-items-center">
-            <img loading="lazy" width="500" height="552" src="{{ asset('assets/ceo2.webp') }}" alt="CEO"
+            <img loading="lazy" width="500" height="552" src="{{ asset('assets/sync4tech-ceo-ateeq-ur-rehman-visionary-leader-driving-innovation-collaboration-and-excellence.webp') }}" alt="Sync4Tech CEO Ateeq Ur Rehman - Visionary Leader Driving Innovation, Collaboration and Excellence"
                 class="img-fluid" />
         </div>
         <div class="col-lg-6 col-md-6 expertContent d-flex flex-column gap-1">
@@ -211,8 +211,8 @@
                 CEO’s Message
             </h2>
             <div class="d-flex align-items-center ceoimage">
-                <img loading="lazy" width="51" height="51" src="{{ asset('assets/QuoteIcon.svg') }}"
-                    alt="quote" class="img-fluid" />
+                <img loading="lazy" width="51" height="51" src="{{ asset('assets/quote-icon-enhancing-content-with-testimonials-and-insights.svg') }}"
+                    alt="Quote Icon - Enhancing Content with Testimonials and Insights" class="img-fluid" />
             </div>
             <p class="content-color text-md-start px-lg-0 px-md-3">
                 As we step into a new era, I want to emphasize our commitment to innovation, collaboration, and excellence.
@@ -224,28 +224,28 @@
       font-size: 18px; font-weight: 500;"
                 class="content-color text-md-start px-lg-0 m-0">Let’s focus on:</p>
             <p class="content-color text-md-start px-lg-0 m-0">
-                <img loading="lazy" width="25" height="25" src="{{ asset('assets/iconamoon_arrow-up-2.svg') }}"
-                    alt="">
+                <img width="24" height="24" loading="lazy"
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
                 Innovation - Embrace creativity and emerging tech.
             </p>
             <p class="content-color text-md-start px-lg-0 m-0">
-                <img loading="lazy" width="25" height="25" src="{{ asset('assets/iconamoon_arrow-up-2.svg') }}"
-                    alt="">
+                <img width="24" height="24" loading="lazy"
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
                 Collaboration - Foster a culture of teamwork and support.
             </p>
             <p class="content-color text-md-start px-lg-0 m-0">
-                <img loading="lazy" width="25" height="25" src="{{ asset('assets/iconamoon_arrow-up-2.svg') }}"
-                    alt="">
+                <img width="24" height="24" loading="lazy"
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
                 Excellence - Maintain our high-quality standard.
             </p>
             <p class="content-color text-md-start px-lg-0 m-0">
-                <img loading="lazy" width="25" height="25" src="{{ asset('assets/iconamoon_arrow-up-2.svg') }}"
-                    alt="">
+                <img width="24" height="24" loading="lazy"
+                src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
                 User-Centric Approach - Anticipate client’s needs.
             </p>
             <p class="content-color text-md-start px-lg-0 m-0">
-                <img loading="lazy" width="25" height="25" src="{{ asset('assets/iconamoon_arrow-up-2.svg') }}"
-                    alt="">
+                <img width="24" height="24" loading="lazy"
+                        src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
                 Learning and Growth - Invest in personal and company growth.
             </p>
         </div>
@@ -270,8 +270,8 @@
 
                     <div class="blogCard team-cards  d-flex flex-column p-lg-3 p-2 align-items-lg-start "
                         style="max-width: 386px;width: 100%;">
-                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/ZH.webp') }}"
-                            alt="Team One" class="img-fluid m-auto" />
+                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/zulqarnain-haider-technical-project-manager-at-sync4tech.webp') }}"
+                            alt="Zulqarnain Haider - Technical Project Manager at Sync4Tech" class="img-fluid m-auto" />
                         <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Zulqarnain Haider</h3>
                         <p style="color: #FB7A00; font-weight: 500">Technical Project Manager</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Technical Project Management /
@@ -280,8 +280,8 @@
                     </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
                         style="max-width: 386px;width: 100%;">
-                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/RN2.webp') }}"
-                            alt="Team six" class="img-fluid m-auto" />
+                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/rimsha-naz-associate-project-manager-executing-successful-project-deliveries-at-sync4tech.webp') }}"
+                            alt="Rimsha Naz, Associate Project Manager - Executing Successful Project Deliveries at Sync4Tech" class="img-fluid m-auto" />
                         <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Rimsha Naz</h3>
                         <p style="color: #FB7A00; font-weight: 500">Project Manager</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Project Management / Resource
@@ -299,7 +299,7 @@
                     </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                         style="max-width: 386px;width: 100%;">
-                        <img src="./assets/AS2.webp" alt="Team six" class="img-fluid m-auto" />
+                        <img src="./assets/arsalan-shafiq-project-manager-leading-agile-software-development-for-successful-project-delivery.webp" alt="Arsalan Shafiq project manager - leading agile software development for successful project delivery" class="img-fluid m-auto" />
                         <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Arslan Shafiq</h1>
                         <p style="color: #FB7A00; font-weight: 500">Associate Project Manager</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Agile & Scrum Methodology / Strategic
@@ -307,8 +307,8 @@
                     </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
                         style="max-width: 386px;width: 100%;">
-                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/HN.webp') }}"
-                            alt="Team six" class="img-fluid m-auto" />
+                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/hifza-nasreen-senior-business-analyst-leading-the-way-in-strategic-analysis-in-sync4tech.webp') }}"
+                            alt="Hifza Nasreen, Senior Business Analyst - Leading the Way in Strategic Analysis in Sync4Tech" class="img-fluid m-auto" />
                         <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Hifza Nasreen</h3>
                         <p style="color: #FB7A00; font-weight: 500">Senior Business Analyst</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Process Optimization / Data-Driven /
@@ -316,8 +316,8 @@
                     </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
                         style="max-width: 386px;width: 100%;">
-                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/MA2.webp') }}"
-                            alt="Team six" class="img-fluid m-auto" />
+                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/muhammad-amjad-associate-business-analyst-driving-business-insight-and-strategy-at-sync4tech.webp') }}"
+                            alt="Muhammad Amjad, Associate Business Analyst - Driving Business Insight and Strategy at Sync4Tech" class="img-fluid m-auto" />
                         <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Muhammad Amjad</h3>
                         <p style="color: #FB7A00; font-weight: 500">Associate Business Analyst</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Software Analysis / Software
@@ -970,8 +970,9 @@
                                     </div>
                                     <div class="d-flex flex-column justify-content-center align-items-center mt-4">
                                         <img loading="lazy" width="212" height="40"
-                                            src="{{ asset('assets/home-logo.svg') }}" alt="logo"
+                                            src="{{ asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}" alt="Sync4Tech Homepage Logo - Your Gateway to Technological Excellence"
                                             class="img-fluid" />
+
                                     </div>
                                     <div class="d-flex flex-column align-items-start px-3 mt-5 gap-4">
                                         <div class="d-flex gap-3 justify-content-center align-items-center">
