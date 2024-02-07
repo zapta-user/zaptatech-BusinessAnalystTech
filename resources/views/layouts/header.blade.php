@@ -10,7 +10,7 @@
     <meta name="Description" content="<?php echo $meta_description ?? ''; ?>">
     <meta name="keywords"
         content="Business Analysis, Data Analysis, Data-driven Decision Making, Business Insights,Market Intelligence Consulting" />
-    <meta name="robots" content="index, follow" />
+    {{-- <meta name="robots" content="index, follow" /> --}}
     <!-- -------------------EXTERNAL STYLESHEET------------------ -->
 
     <link rel="stylesheet" href="{{ asset('css/style.css') }}" />

@@ -124,7 +124,7 @@ a {
 }
 
 .hero-section {
-    background-image: url(../assets/homepage-banner-welcome-to-sync4tech-your-global-business-and-software-development-partner.webp);
+    background-image: url(../assets/HOMEBANNER01.webp);
     background-size: cover;
     background-position: center;
     min-height: 100vh
@@ -134,7 +134,7 @@ a {
     padding: 76px 0 70px
 }
 
-.hero-section .hero-content h1 {
+.hero-section .hero-content h2 {
     font-size: 52px;
     font-weight: 700;
     line-height: 74px;

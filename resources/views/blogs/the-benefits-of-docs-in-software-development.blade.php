@@ -4,7 +4,7 @@
     <!-- --------------------BANNER SECTION----------------- -->
     <div class="bannerSection blogsdetails flex-column gap-lg-4 gap-3 d-flex align-items-start justify-content-center flex-shrink-0""
         style="
-        background-image: url({{ asset('assets/services-detail-banner.webp') }});
+        background-image: url({{ asset('assets/4-blog-bg.webp') }});
         background-position: center;
         background-size: cover;
       ">
@@ -103,7 +103,7 @@
                     <a href="{{ route('frontend.blogs.ensuring-project-success-in-software-development') }}"
                         class="w-100 blogcardImage"
                         style="
-              background-image: url({{ asset('assets/Image.svg') }});
+              background-image: url({{ asset('assets/blogImage2.webp') }});
 
               background-size: cover;
             "></a>
@@ -472,10 +472,11 @@
                   <div class="position-relative w-100"
                       style="
             background-image: url({{ asset('assets/1-number-icon-representing-sync4tech-blog-1-information.webp') }});
-            background-size: cover;
-            background-position: center;
-            max-height: 400px;
-            height: 300px;">
+            background-size: 100% 100%;
+        background-position: center;
+        /* max-height: 400px; */
+        height: 222px;
+        background-repeat: no-repeat;">
                       <button class="position-absolute py-1 px-4 border-0"
                           style=" top: 6%; right: 4%;
               background: rgba(255, 255, 255, 0.64);
@@ -514,10 +515,11 @@
                   <div class="position-relative w-100"
                       style="
             background-image: url({{ asset('assets/2-number-icon-representing-sync4tech-blo-4-numerical-information.webp') }});
-            background-size: cover;
-            background-position: center;
-            max-height: 400px;
-            height: 300px;
+            background-size: 100% 100%;
+        background-position: center;
+        /* max-height: 400px; */
+        height: 222px;
+        background-repeat: no-repeat;
           ">
                       <button class="position-absolute py-1 px-4 border-0"
                           style="
@@ -557,11 +559,12 @@
                   href="{{ route('frontend.blogs.the-benefits-of-docs-in-software-development') }}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
                   <div class="position-relative w-100"
                       style="
-            background-image: url({{ asset('assets/3-number-icon-representing-sync4tech-blog-3-information.webp') }});
-            background-size: cover;
-            background-position: center;
-            max-height: 400px;
-            height: 300px;
+            background-image: url({{ asset('assets/4-number-icon-representing-sync4tech-blo-4-numerical-information.webp') }});
+            background-size: 100% 100%;
+        background-position: center;
+        /* max-height: 400px; */
+        height: 222px;
+        background-repeat: no-repeat;
           ">
                       <button class="position-absolute py-1 px-4 border-0"
                           style="
@@ -1130,7 +1133,7 @@
                                             d="M11.0671 23.0665L4.93377 16.9332C4.80044 16.7999 4.70577 16.6554 4.64977 16.4999C4.59377 16.3443 4.56666 16.1776 4.56844 15.9999C4.56844 15.8221 4.59644 15.6554 4.65244 15.4999C4.70844 15.3443 4.80222 15.1999 4.93377 15.0665L11.1004 8.89987C11.3449 8.65543 11.6449 8.5332 12.0004 8.5332C12.356 8.5332 12.6671 8.66654 12.9338 8.9332C13.1782 9.17765 13.3004 9.48876 13.3004 9.86654C13.3004 10.2443 13.1782 10.5554 12.9338 10.7999L9.06711 14.6665H26.6671C27.0449 14.6665 27.3618 14.7945 27.6178 15.0505C27.8738 15.3065 28.0013 15.623 28.0004 15.9999C28.0004 16.3776 27.8724 16.6945 27.6164 16.9505C27.3604 17.2065 27.044 17.3341 26.6671 17.3332H9.06711L12.9671 21.2332C13.2116 21.4776 13.3338 21.7776 13.3338 22.1332C13.3338 22.4888 13.2004 22.7999 12.9338 23.0665C12.6893 23.311 12.3782 23.4332 12.0004 23.4332C11.6227 23.4332 11.3116 23.311 11.0671 23.0665Z"
                                             fill="#0D3642" />
                                     </svg>
-                                    <h2 style="color: #333" class="fw-bold mt-5" style="padding-top: 10px !important">
+                                    <h2 style="color: #333;padding-top: 10px !important" class="fw-bold mt-5">
                                         Enter Details
                                     </h2>
                                     <form action="#" id="bookconsultform"

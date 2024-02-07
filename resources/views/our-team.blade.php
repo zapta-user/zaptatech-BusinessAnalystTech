@@ -55,8 +55,8 @@
 
                     <div class="blogCard team-cards  d-flex flex-column p-lg-3 p-2 align-items-lg-start "
                         style="max-width: 386px;width: 100%;">
-                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/ZH.webp') }}"
-                            alt="Team One" class="img-fluid m-auto" />
+                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/zulqarnain-haider-technical-project-manager-at-sync4tech.webp') }}"
+                        alt="Zulqarnain Haider - Technical Project Manager at Sync4Tech" class="img-fluid m-auto" />
                         <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Zulqarnain Haider</h3>
                         <p style="color: #FB7A00; font-weight: 500">Technical Project Manager</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Technical Project Management /
@@ -65,8 +65,8 @@
                     </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
                         style="max-width: 386px;width: 100%;">
-                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/RN2.webp') }}"
-                            alt="Team six" class="img-fluid m-auto" />
+                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/rimsha-naz-associate-project-manager-executing-successful-project-deliveries-at-sync4tech.webp') }}"
+                            alt="Rimsha Naz, Associate Project Manager - Executing Successful Project Deliveries at Sync4Tech" class="img-fluid m-auto" />
                         <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Rimsha Naz</h3>
                         <p style="color: #FB7A00; font-weight: 500">Project Manager</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Project Management / Resource
@@ -84,7 +84,7 @@
                     </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                         style="max-width: 386px;width: 100%;">
-                        <img src="{{asset('assets/AS2.webp')}}" alt="Team six" class="img-fluid m-auto" />
+                        <img src="./assets/arsalan-shafiq-project-manager-leading-agile-software-development-for-successful-project-delivery.webp" alt="Arsalan Shafiq project manager - leading agile software development for successful project delivery" class="img-fluid m-auto" />
                         <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Arslan Shafiq</h1>
                         <p style="color: #FB7A00; font-weight: 500">Associate Project Manager</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Agile & Scrum Methodology / Strategic
@@ -92,8 +92,8 @@
                     </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
                         style="max-width: 386px;width: 100%;">
-                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/HN.webp') }}"
-                            alt="Team six" class="img-fluid m-auto" />
+                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/hifza-nasreen-senior-business-analyst-leading-the-way-in-strategic-analysis-in-sync4tech.webp') }}"
+                            alt="Hifza Nasreen, Senior Business Analyst - Leading the Way in Strategic Analysis in Sync4Tech" class="img-fluid m-auto" />
                         <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Hifza Nasreen</h3>
                         <p style="color: #FB7A00; font-weight: 500">Senior Business Analyst</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Process Optimization / Data-Driven /
@@ -101,8 +101,8 @@
                     </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
                         style="max-width: 386px;width: 100%;">
-                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/MA2.webp') }}"
-                            alt="Team six" class="img-fluid m-auto" />
+                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/muhammad-amjad-associate-business-analyst-driving-business-insight-and-strategy-at-sync4tech.webp') }}"
+                            alt="Muhammad Amjad, Associate Business Analyst - Driving Business Insight and Strategy at Sync4Tech" class="img-fluid m-auto" />
                         <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Muhammad Amjad</h3>
                         <p style="color: #FB7A00; font-weight: 500">Associate Business Analyst</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Software Analysis / Software
@@ -221,7 +221,7 @@
         <div class="d-flex w-100 flex-md-row flex-column mt-0 gap-lg-3 gap-2 justify-content-center align-items-center">
             <div class="button-wrap">
                 <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                    id="scrollToSection2" type="button"
+                    id="" type="button"
                     class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
                     <a href="#" class="text-orange">Become Our Partner</a>
                 </button>
@@ -556,7 +556,7 @@
                 </div>
             </div>
             <div class="button-wrap">
-                <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#bookapp" id="scrollToSection2"
+                <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#bookapp" id=""
                     type="button"
                     class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
                     <a href="#" class="text-orange">Book A Consultation</a>
@@ -579,7 +579,7 @@
                                         </h1>
                                         <div id="calendar" class=""></div>
                                     </div>
-                                    <button type="submit" id="scrollToSection2"
+                                    <button type="submit" id=""
                                         class="btn partnerbutton mt-5 bookSubmit navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3">
                                         <a class="text-white px-4" onclick="showSecondDiv()">Next</a>
                                     </button>
@@ -741,7 +741,7 @@
                                             d="M11.0671 23.0665L4.93377 16.9332C4.80044 16.7999 4.70577 16.6554 4.64977 16.4999C4.59377 16.3443 4.56666 16.1776 4.56844 15.9999C4.56844 15.8221 4.59644 15.6554 4.65244 15.4999C4.70844 15.3443 4.80222 15.1999 4.93377 15.0665L11.1004 8.89987C11.3449 8.65543 11.6449 8.5332 12.0004 8.5332C12.356 8.5332 12.6671 8.66654 12.9338 8.9332C13.1782 9.17765 13.3004 9.48876 13.3004 9.86654C13.3004 10.2443 13.1782 10.5554 12.9338 10.7999L9.06711 14.6665H26.6671C27.0449 14.6665 27.3618 14.7945 27.6178 15.0505C27.8738 15.3065 28.0013 15.623 28.0004 15.9999C28.0004 16.3776 27.8724 16.6945 27.6164 16.9505C27.3604 17.2065 27.044 17.3341 26.6671 17.3332H9.06711L12.9671 21.2332C13.2116 21.4776 13.3338 21.7776 13.3338 22.1332C13.3338 22.4888 13.2004 22.7999 12.9338 23.0665C12.6893 23.311 12.3782 23.4332 12.0004 23.4332C11.6227 23.4332 11.3116 23.311 11.0671 23.0665Z"
                                             fill="#0D3642" />
                                     </svg>
-                                    <h2 style="color: #333" class="fw-bold mt-5" style="padding-top: 10px !important">
+                                    <h2 style="color: #333;padding-top: 10px !important" class="fw-bold mt-5" >
                                         Enter Details
                                     </h2>
                                     <form action="#" id="bookconsultform"
@@ -814,11 +814,11 @@
                         "></textarea>
                                         </div>
                                         <div class="d-flex gap-3">
-                                            <button type="submit" id="scrollToSection2 schedule"
+                                            <button type="submit" id=" schedule"
                                                 class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-4 px-3 align-items-center gap-3">
                                                 <a class="text-white">Schedule Event</a>
                                             </button>
-                                            <!-- <button id="scrollToSection2 discardButton" type="button"
+                                            <!-- <button id=" discardButton" type="button"
                           class="btn navButton text-orange consultaion-button rounded-0 button-color py-2 px-lg-5 px-3 d-flex justify-content-center align-items-center gap-3"
                           data-bs-dismiss="modal">
                           <a class="text-orange">Discard</a>
@@ -908,10 +908,7 @@
                                     Thanks for booking the consultation. Our representative
                                     will get back to you soon.
                                 </p>
-                                <button type="submit" id="scrollToSection2"
-                                    class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3">
-                                    <a class="text-white px-4" onclick="closeFour()">Ok</a>
-                                </button>
+                                <a class="text-white px-4" onclick="closeFour()">Ok</a>
                             </div>
                             <script>
                                 function showSecondDiv() {

@@ -1,24 +1,25 @@
 @extends('layouts.default_home')
+<!-- Link Swiper's CSS -->
+{{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> --}}
 @section('section')
     <!-- hero-section -->
     <section class="hero-section pt-80">
         <div class="container">
             <div class="hero-content">
-                <h1 class="text-white text-center">
+                <h2 class="text-white text-center">
                     Drafting Business Ideas into
                     <span class="text-orange">Digital Solutions</span>
-                </h1>
+                </h2>
                 <p class="business-p">
-                    A project without a manager and a product without documentation is at risk to fail.<br>
-                    So we are here to save you! 
-                    {{-- Power your success story with our comprehensive services. We excel in streamlined requirement gathering, meticulous software documentation, and expert project management. Embrace the digital era confidently with our tailored plans, robust system architecture, and optimized processes. --}}
+                    A project without a manager and a product without documentation is at risk to fail.
+                    So we are here to save you!
                 </p>
                 <div class="Partner-button">
-                    <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="scrollToSection2" type="button">
+                    <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="" type="button">
                         <!-- <a href="#" class="text-orange">Become Our Partner</a> -->
                         Become Our Partner
                     </button>
-                    <button data-bs-toggle="modal" data-bs-target="#bookapp" id="scrollToSection2" type="button">
+                    <button data-bs-toggle="modal" data-bs-target="#bookapp" id="" type="button">
                         <!-- <a href="#" class="text-orange">Book A Consultation</a> -->
                         Book A Consultation
                     </button>
@@ -53,12 +54,11 @@
         <div class="container">
             <!-- ------------SERVICE CONTENT SECTION---------------- -->
             <div class="contentSection">
-                <p class="text-orange text-center">
+                <h1 class="text-orange text-center" style="font-size: 18px">
                     OUR SERVICES
-                </p>
+                </h1>
                 <h2>Providing Best Services</h2>
                 <p class="provide-business">
-                    We are a team of business analyst 
                     Empower your business with our expertise in process improvement, data analysis, project management, and
                     more. We redefine operations for success through tailored solutions
                 </p>
@@ -69,8 +69,9 @@
                 <div class="card serviceCard1">
                     <div class="business-Process">
                         <div class="">
-                            <img loading="lazy" width="80" height="80" src="{{ asset('assets/icon-1-for-service.svg') }}"
-                                alt="Icon 1 for service" class="img-fluid" />
+                            <img loading="lazy" width="80" height="80"
+                                src="{{ asset('assets/icon-1-for-service.svg') }}" alt="Icon 1 for service"
+                                class="img-fluid" />
                         </div>
                         <h2>Software Business Analysis</h2>
                     </div>
@@ -88,7 +89,8 @@
                 <div class="card serviceCard1">
                     <div class="business-Process">
                         <div class="">
-                            <img src="{{ asset('assets/icon-2-for-service.svg') }}" alt="Icon 2 for service" class="img-fluid" />
+                            <img src="{{ asset('assets/icon-2-for-service.svg') }}" alt="Icon 2 for service"
+                                class="img-fluid" />
                         </div>
                         <h2>Business Process Re-Engineering</h2>
                     </div>
@@ -105,8 +107,9 @@
                 <div class="card serviceCard1">
                     <div class="business-Process">
                         <div class="">
-                            <img loading="lazy" width="80" height="80" src="{{ asset('assets/icon-3-for-service.svg') }}"
-                                alt="Icon 3 for service" class="img-fluid" />
+                            <img loading="lazy" width="80" height="80"
+                                src="{{ asset('assets/icon-3-for-service.svg') }}" alt="Icon 3 for service"
+                                class="img-fluid" />
                         </div>
                         <h2>Project Management</h2>
                     </div>
@@ -123,7 +126,8 @@
                 <div class="card serviceCard1">
                     <div class="business-Process">
                         <div class="">
-                            <img src="{{ asset('assets/icon-4-for-service.svg') }}" alt="Icon 4 for service" class="img-fluid" />
+                            <img src="{{ asset('assets/icon-4-for-service.svg') }}" alt="Icon 4 for service"
+                                class="img-fluid" />
                         </div>
                         <h2>Solution Architecture Design</h2>
                     </div>
@@ -140,8 +144,9 @@
                 <div class="card serviceCard1">
                     <div class="business-Process">
                         <div class="">
-                            <img loading="lazy" width="80" height="80" src="{{ asset('assets/icon-5-for-service.svg') }}"
-                                alt="Icon 5 for service" class="img-fluid" />
+                            <img loading="lazy" width="80" height="80"
+                                src="{{ asset('assets/icon-5-for-service.svg') }}" alt="Icon 5 for service"
+                                class="img-fluid" />
                         </div>
                         <h2>Software Documentation</h2>
                     </div>
@@ -157,7 +162,8 @@
                 <div class="card serviceCard1">
                     <div class="business-Process">
                         <div class="">
-                            <img src="{{ asset('assets/icon-6-for-service.svg') }}" alt="Icon 6 for service" class="img-fluid" />
+                            <img src="{{ asset('assets/icon-6-for-service.svg') }}" alt="Icon 6 for service"
+                                class="img-fluid" />
                         </div>
                         <h2>Data Analysis</h2>
                     </div>
@@ -185,25 +191,28 @@
                 <p class="text-orange text-center">TOOLS</p>
                 <h2 class="dark-black text-center fw-bold">Tools We Use</h2>
                 <p class="content-color text-center px-xl-5 pb-5">
-                    Achieve success using the latest, advanced tools for peak performance.
+                    Modern and latest tools we use for Project Managment , Business Analysis and Data Analytics
                 </p>
             </div>
             <!-- ------------CARDS SECTION---------------- -->
-            <div class="sliderUse">
+            {{-- <div class="sliderUse">
                 <div class="slide-track-use">
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="58" height="70" src="{{ asset('assets/microsoft-office-icon.svg') }}"
-                                alt="Microsoft office icon" class="img-fluid" />
+                            <img loading="lazy" width="58" height="70"
+                                src="{{ asset('assets/microsoft-office-icon.svg') }}" alt="Microsoft office icon"
+                                class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Microsoft Suite</p>
                         </div>
                     </div>
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="47" height="70" src="{{ asset('assets/tools-we-use-leveraging-figma-for-collaborative-design-at-sync4tech.svg') }}"
-                                alt="Tools We Use - Leveraging Figma for Collaborative Design at Sync4Tech" class="img-fluid" />
+                            <img loading="lazy" width="47" height="70"
+                                src="{{ asset('assets/tools-we-use-leveraging-figma-for-collaborative-design-at-sync4tech.svg') }}"
+                                alt="Tools We Use - Leveraging Figma for Collaborative Design at Sync4Tech"
+                                class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Figma</p>
                         </div>
                     </div>
@@ -211,7 +220,8 @@
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                             <img loading="lazy" width="70" height="70"
-                                src="{{ asset('assets/smiley-face-icon-for-displaying-a-logo.svg') }}" alt="Smiley face icon for displaying a logo" class="img-fluid" />
+                                src="{{ asset('assets/smiley-face-icon-for-displaying-a-logo.svg') }}"
+                                alt="Smiley face icon for displaying a logo" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Balsamic</p>
                         </div>
                     </div>
@@ -219,14 +229,16 @@
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                             <img loading="lazy" width="60" height="60"
-                                src="{{ asset('assets/microsoft-suite-logo-for-tools-we-use-section.svg') }}" alt="Microsoft suite logo for tools we use section" class="img-fluid" />
+                                src="{{ asset('assets/microsoft-suite-logo-for-tools-we-use-section.svg') }}"
+                                alt="Microsoft suite logo for tools we use section" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Google Docs</p>
                         </div>
                     </div>
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="70" height="70" src="{{ asset('assets/tools-we-use-featuring-project-management-with-basecamp.svg') }}"
+                            <img loading="lazy" width="70" height="70"
+                                src="{{ asset('assets/tools-we-use-featuring-project-management-with-basecamp.svg') }}"
                                 alt="Tools We Use - Featuring Project Management with Basecamp" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Base Camp</p>
                         </div>
@@ -234,16 +246,19 @@
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="58" height="70" src="{{ asset('assets/microsoft-office-icon.svg') }}"
-                                alt="Microsoft office icon" class="img-fluid" />
+                            <img loading="lazy" width="58" height="70"
+                                src="{{ asset('assets/microsoft-office-icon.svg') }}" alt="Microsoft office icon"
+                                class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Microsoft Suite</p>
                         </div>
                     </div>
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="47" height="70" src="{{ asset('assets/tools-we-use-leveraging-figma-for-collaborative-design-at-sync4tech.svg') }}"
-                                alt="Tools We Use - Leveraging Figma for Collaborative Design at Sync4Tech" class="img-fluid" />
+                            <img loading="lazy" width="47" height="70"
+                                src="{{ asset('assets/tools-we-use-leveraging-figma-for-collaborative-design-at-sync4tech.svg') }}"
+                                alt="Tools We Use - Leveraging Figma for Collaborative Design at Sync4Tech"
+                                class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Figma</p>
                         </div>
                     </div>
@@ -251,7 +266,8 @@
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                             <img loading="lazy" width="70" height="70"
-                                src="{{ asset('assets/smiley-face-icon-for-displaying-a-logo.svg') }}" alt="Smiley face icon for displaying a logo" class="img-fluid" />
+                                src="{{ asset('assets/smiley-face-icon-for-displaying-a-logo.svg') }}"
+                                alt="Smiley face icon for displaying a logo" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Balsamic</p>
                         </div>
                     </div>
@@ -259,14 +275,16 @@
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                             <img loading="lazy" width="60" height="60"
-                                src="{{ asset('assets/microsoft-suite-logo-for-tools-we-use-section.svg') }}" alt="Microsoft suite logo for tools we use section" class="img-fluid" />
+                                src="{{ asset('assets/microsoft-suite-logo-for-tools-we-use-section.svg') }}"
+                                alt="Microsoft suite logo for tools we use section" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Google Docs</p>
                         </div>
                     </div>
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="70" height="70" src="{{ asset('assets/tools-we-use-featuring-project-management-with-basecamp.svg') }}"
+                            <img loading="lazy" width="70" height="70"
+                                src="{{ asset('assets/tools-we-use-featuring-project-management-with-basecamp.svg') }}"
                                 alt="Tools We Use - Featuring Project Management with Basecamp" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Base Camp</p>
                         </div>
@@ -274,16 +292,19 @@
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="58" height="70" src="{{ asset('assets/microsoft-office-icon.svg') }}"
-                                alt="Microsoft office icon" class="img-fluid" />
+                            <img loading="lazy" width="58" height="70"
+                                src="{{ asset('assets/microsoft-office-icon.svg') }}" alt="Microsoft office icon"
+                                class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Microsoft Suite</p>
                         </div>
                     </div>
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="47" height="70" src="{{ asset('assets/tools-we-use-leveraging-figma-for-collaborative-design-at-sync4tech.svg') }}"
-                                alt="Tools We Use - Leveraging Figma for Collaborative Design at Sync4Tech" class="img-fluid" />
+                            <img loading="lazy" width="47" height="70"
+                                src="{{ asset('assets/tools-we-use-leveraging-figma-for-collaborative-design-at-sync4tech.svg') }}"
+                                alt="Tools We Use - Leveraging Figma for Collaborative Design at Sync4Tech"
+                                class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Figma</p>
                         </div>
                     </div>
@@ -291,7 +312,8 @@
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                             <img loading="lazy" width="70" height="70"
-                                src="{{ asset('assets/smiley-face-icon-for-displaying-a-logo.svg') }}" alt="Smiley face icon for displaying a logo" class="img-fluid" />
+                                src="{{ asset('assets/smiley-face-icon-for-displaying-a-logo.svg') }}"
+                                alt="Smiley face icon for displaying a logo" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Balsamic</p>
                         </div>
                     </div>
@@ -299,14 +321,16 @@
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                             <img loading="lazy" width="60" height="60"
-                            src="{{ asset('assets/microsoft-suite-logo-for-tools-we-use-section.svg') }}" alt="Microsoft suite logo for tools we use section" class="img-fluid" />
+                                src="{{ asset('assets/microsoft-suite-logo-for-tools-we-use-section.svg') }}"
+                                alt="Microsoft suite logo for tools we use section" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Google Docs</p>
                         </div>
                     </div>
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="70" height="70" src="{{ asset('assets/tools-we-use-featuring-project-management-with-basecamp.svg') }}"
+                            <img loading="lazy" width="70" height="70"
+                                src="{{ asset('assets/tools-we-use-featuring-project-management-with-basecamp.svg') }}"
                                 alt="Tools We Use - Featuring Project Management with Basecamp" class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Base Camp</p>
                         </div>
@@ -314,14 +338,171 @@
                     <div class="slideUse">
                         <div data-animation="fadeIn" data-animation-delay=".3s"
                             class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="47" height="70" src="{{ asset('assets/tools-we-use-leveraging-figma-for-collaborative-design-at-sync4tech.svg') }}"
-                                alt="Tools We Use - Leveraging Figma for Collaborative Design at Sync4Tech" class="img-fluid" />
+                            <img loading="lazy" width="47" height="70"
+                                src="{{ asset('assets/tools-we-use-leveraging-figma-for-collaborative-design-at-sync4tech.svg') }}"
+                                alt="Tools We Use - Leveraging Figma for Collaborative Design at Sync4Tech"
+                                class="img-fluid" />
                             <p class="tool-card text-center fw-medium">Figma</p>
                         </div>
                     </div>
                 </div>
+            </div> --}}
+            <div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="https://app.powerbi.com/" target="_blank"
+                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                            <img loading="lazy" width="58" height="70"
+                                src="{{ asset('assets/Power_BI.png') }}" alt=""
+                                class="img-fluid" />
+                            <p class="tool-card text-center fw-medium">Power BI</p>
+                        </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://selenium.com/" target="_blank"
+                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                            <img loading="lazy" width="58" height="70"
+                                src="{{ asset('assets/selenium.png') }}" alt="Selenium logo"
+                                class="img-fluid" />
+                            <p class="tool-card text-center fw-medium">Selenium</p>
+                        </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.atlassian.com/software/confluence" target="_blank"
+                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                            <img loading="lazy" width="58" height="70"
+                                src="{{ asset('assets/confluence.png') }}" alt="Confluence logo"
+                                class="img-fluid" />
+                            <p class="tool-card text-center fw-medium">Confluence</p>
+                        </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://asana.com/" target="_blank"
+                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                            <img loading="lazy" width="58" height="70"
+                                src="{{ asset('assets/asana.png') }}" alt="Asana"
+                                class="img-fluid" />
+                            <p class="tool-card text-center fw-medium">Asana</p>
+                        </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://trello.com/" target="_blank"
+                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                            <img loading="lazy" width="58" height="70"
+                                src="{{ asset('assets/trello.png') }}" alt=""
+                                class="img-fluid" />
+                            <p class="tool-card text-center fw-medium">Trello</p>
+                        </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://monday.com/" target="_blank"
+                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                            <img loading="lazy" width="58" height="70"
+                                src="{{ asset('assets/moday.png') }}" alt=""
+                                class="img-fluid" />
+                            <p class="tool-card text-center fw-medium">Moday</p>
+                        </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.notion.so/" target="_blank"
+                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                            <img loading="lazy" width="58" height="70"
+                                src="{{ asset('assets/notion.png') }}" alt=""
+                                class="img-fluid" />
+                            <p class="tool-card text-center fw-medium">Notion</p>
+                        </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.drawio.com/" target="_blank" 
+                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                            <img loading="lazy" width="58" height="70"
+                                src="{{ asset('assets/draw_io.png') }}" alt=""
+                                class="img-fluid" />
+                            <p class="tool-card text-center fw-medium">draw.io</p>
+                        </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://swagger.io/" target="_blank"
+                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                            <img loading="lazy" width="58" height="70"
+                                src="{{ asset('assets/swaggar.png') }}" alt=""
+                                class="img-fluid" />
+                            <p class="tool-card text-center fw-medium">Swaggar</p>
+                        </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.lucidchart.com/" target="_blank"
+                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                            <img loading="lazy" width="58" height="70"
+                                src="{{ asset('assets/lucidchart.png') }}" alt=""
+                                class="img-fluid" />
+                            <p class="tool-card text-center fw-medium">Lucidchart</p>
+                        </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.atlassian.com/software/jira" target="_blank"
+                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                            <img loading="lazy" width="58" height="70"
+                                src="{{ asset('assets/jira_software_logo.png') }}" alt=""
+                                class="img-fluid" />
+                            <p class="tool-card text-center fw-medium">Jira</p>
+                        </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.office.com/" target="_blank"
+                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                           <img loading="lazy" width="58" height="70"
+                                src="{{ asset('assets/microsoft-office-icon.svg') }}" alt="Microsoft office icon"
+                                class="img-fluid" />
+                            <p class="tool-card text-center fw-medium">Microsoft Suite</p>
+                        
+                        </div>
+                   
+                </a>
+                        <div class="swiper-slide">
+                            <a href="https://www.figma.com/" target="_blank"
+                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                            <img loading="lazy" width="47" height="70"
+                                src="{{ asset('assets/tools-we-use-leveraging-figma-for-collaborative-design-at-sync4tech.svg') }}"
+                                alt="Tools We Use - Leveraging Figma for Collaborative Design at Sync4Tech"
+                                class="img-fluid" />
+                            <p class="tool-card text-center fw-medium">Figma</p>
+                        </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://balsamiq.com/wireframes/desktop/" target="_blank"
+                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                            <img loading="lazy" width="70" height="70"
+                                src="{{ asset('assets/smiley-face-icon-for-displaying-a-logo.svg') }}"
+                                alt="Smiley face icon for displaying a logo" class="img-fluid" />
+                            <p class="tool-card text-center fw-medium">Balsamic</p>
+                        </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://docs.google.com/" target="_blank"
+                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                            <img loading="lazy" width="60" height="60"
+                                src="{{ asset('assets/microsoft-suite-logo-for-tools-we-use-section.svg') }}"
+                                alt="Microsoft suite logo for tools we use section" class="img-fluid" />
+                            <p class="tool-card text-center fw-medium">Google Docs</p>
+                        </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://basecamp.com/" target="_blank"
+                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                            <img loading="lazy" width="70" height="70"
+                                src="{{ asset('assets/tools-we-use-featuring-project-management-with-basecamp.svg') }}"
+                                alt="Tools We Use - Featuring Project Management with Basecamp" class="img-fluid" />
+                            <p class="tool-card text-center fw-medium">Base Camp</p>
+                        </a>
+                        </div>
+                        
+
+
+                    </div>
+                </div>
             </div>
-        </div>
     </section>
 
     <!-- ------------PROJECT SECTION---------------- -->
@@ -334,8 +515,8 @@
                 <p class="text-orange text-center">PORTFOLIO</p>
                 <h2 class="dark-black text-center fw-bold">Our Recent Projects</h2>
                 <p class="content-color text-center px-xl-5 pb-lg-4 pb-3">
-                    Explore Our Recent Projects, Where Collaborative Excellence Drives Success Stories. Feel the influence
-                    of our custom solutions and commitment to delivering results.
+                    Explore our recent projects for which we have provided our services as Project Managers, Business
+                    Analysts, Soclution Architectes and Data Analysts
                 </p>
             </div>
             <div class="w-100 d-flex flex-wrap flex-sm-row flex-column justify-content-center align-items-center gap-3 grid-container"
@@ -352,7 +533,7 @@
                         </div>
                         <div
                             class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute showbutton top-0">
-                            <button id="scrollToSection2"
+                            <button id=""
                                 style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
                                 class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3">
                                 <a href="{{ route('frontend.projects.quicksteps') }}" class="text-orange">Know More</a>
@@ -371,7 +552,7 @@
                             </div>
                             <div
                                 class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute showbutton top-0">
-                                <button id="scrollToSection2"
+                                <button id=""
                                     style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
                                     class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3">
                                     <a href="{{ route('frontend.projects.investme') }}" class="text-orange">Know More</a>
@@ -389,7 +570,7 @@
                             </div>
                             <div
                                 class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute showbutton top-0">
-                                <button id="scrollToSection2"
+                                <button id=""
                                     style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
                                     class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3">
                                     <a href="{{ route('frontend.projects.qme-solutions') }}" class="text-orange">Know
@@ -411,7 +592,7 @@
                         </div>
                         <div
                             class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute showbutton top-0">
-                            <button id="scrollToSection2"
+                            <button id=""
                                 style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
                                 class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3">
                                 <a href="{{ route('frontend.projects.kutuby') }}" class="text-orange">Know More</a>
@@ -439,8 +620,8 @@
                     Chosen by Customers Worldwide Where Trust Meets Excellence.
                 </h3>
                 <p class="content-color text-center px-xl-5">
-                    Join our global community of delighted customers, relying on Sync4Tech for innovative solutions and
-                    unmatched service excellence.
+                    Our trusted partners we have worked with globally, we have been furtune and proud to work with some
+                    reputed organizations. We have been part of their team and we are servingour partners as well.
                 </p>
             </div>
         </div>
@@ -455,15 +636,18 @@
                         <!-- <img loading="lazy" class="w-100" src="assets/sw-slide2.png"> -->
                         <a target="_blank" href="https://en.wikipedia.org/wiki/Abu_Dhabi">
                             <img loading="lazy" width="137" height="137"
-                                src="{{ asset('assets/sync4tech-customer-abu-dabi-company-logo-strengthening-partnerships.png') }}" alt="Sync4Tech Customer Abu Dabi Company Logo, strengthening partnerships">
+                                src="{{ asset('assets/sync4tech-customer-abu-dabi-company-logo-strengthening-partnerships.png') }}"
+                                alt="Sync4Tech Customer Abu Dabi Company Logo, strengthening partnerships">
                         </a>
                         <a target="_blank" href="https://www.walmart.com/">
                             <img loading="lazy" width="137" height="33"
-                                src="{{ asset('assets/sync4tech-customer-walmart-leading-retail-chain-logo.png') }}" alt="Sync4Tech Customer Walmart - Leading Retail Chain Logo">
+                                src="{{ asset('assets/sync4tech-customer-walmart-leading-retail-chain-logo.png') }}"
+                                alt="Sync4Tech Customer Walmart - Leading Retail Chain Logo">
                         </a>
                         <a target="_blank" href="https://www.cisco.com/">
                             <img loading="lazy" width="137" height="72"
-                                src="{{ asset('assets/sync4tech-customer-cisco-networking-and-technology-solutions-provider-logo.png') }}" alt="Sync4Tech Customer Cisco - Networking and Technology Solutions Provider Logo">
+                                src="{{ asset('assets/sync4tech-customer-cisco-networking-and-technology-solutions-provider-logo.png') }}"
+                                alt="Sync4Tech Customer Cisco - Networking and Technology Solutions Provider Logo">
                         </a>
                     </div>
                 </div>
@@ -472,13 +656,16 @@
                         <!-- <img loading="lazy" class="w-100" src="assets/sw-slide1.png"> -->
                         <a target="_blank" href="https://www.att.com/">
                             <img loading="lazy" width="134" height="50"
-                                src="{{ asset('assets/sync4tech-customeratt-telecommunications-company-logo.png') }}" alt="Sync4Tech CustomerAtt - Telecommunications Company Logo">
+                                src="{{ asset('assets/sync4tech-customeratt-telecommunications-company-logo.png') }}"
+                                alt="Sync4Tech CustomerAtt - Telecommunications Company Logo">
                         </a> <a target="_blank" href="https://www.vodafone.com/">
                             <img loading="lazy" width="174" height="50"
-                                src="{{ asset('assets/sync4tech-customer-vodafone-telecommunications-company-logo.png') }}" alt="Sync4Tech Customer  Vodafone- Telecommunications Company Logo">
+                                src="{{ asset('assets/sync4tech-customer-vodafone-telecommunications-company-logo.png') }}"
+                                alt="Sync4Tech Customer  Vodafone- Telecommunications Company Logo">
                         </a> <a target="_blank" href="https://www.ibm.com/us-en">
                             <img loading="lazy" width="148" height="48"
-                                src="{{ asset('assets/sync4tech-customer-ibm-global-technology-company-logo.png') }}" alt="Sync4Tech Customer IBM- Global Technology Company Logo">
+                                src="{{ asset('assets/sync4tech-customer-ibm-global-technology-company-logo.png') }}"
+                                alt="Sync4Tech Customer IBM- Global Technology Company Logo">
                         </a>
 
                     </div>
@@ -493,15 +680,18 @@
             <div class="sliderUse">
                 <div class="slide-track-use">
                     <div class="slideUse">
-                        <img loading="lazy" width="129" height="30" src="{{ asset('assets/image-displaying-myquicksteps-logo.svg') }}"
+                        <img loading="lazy" width="129" height="30"
+                            src="{{ asset('assets/image-displaying-myquicksteps-logo.svg') }}"
                             alt="Image displaying MyQuickSteps Logo" class="img-fluid fab" />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="172" height="40" src="{{ asset('assets/image-displaying-tech-house-logo.svg') }}"
+                        <img loading="lazy" width="172" height="40"
+                            src="{{ asset('assets/image-displaying-tech-house-logo.svg') }}"
                             alt="Image displaying tech-house logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="178" height="27" src="{{ asset('assets/saudi-bank-digital-digital-banking-solutions-logo.svg') }}"
+                        <img loading="lazy" width="178" height="27"
+                            src="{{ asset('assets/saudi-bank-digital-digital-banking-solutions-logo.svg') }}"
                             alt="Saudi Bank Digital - Digital Banking Solutions Logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
@@ -527,27 +717,33 @@
 
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="178" height="29" src="{{ asset('assets/image-displaying-express-text-logo.svg') }}"
+                        <img loading="lazy" width="178" height="29"
+                            src="{{ asset('assets/image-displaying-express-text-logo.svg') }}"
                             alt="Image displaying express-text logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="178" height="39" src="{{ asset('assets/image-displaying-lahebo-logo.svg') }}"
+                        <img loading="lazy" width="178" height="39"
+                            src="{{ asset('assets/image-displaying-lahebo-logo.svg') }}"
                             alt="Image displaying Lahebo logo" class="img-fluid fab" />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="53" height="40" src="{{ asset('assets/image-displaying-tamimi-logo.svg') }}"
+                        <img loading="lazy" width="53" height="40"
+                            src="{{ asset('assets/image-displaying-tamimi-logo.svg') }}"
                             alt="Image displaying Tamimi logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="129" height="30" src="{{ asset('assets/image-displaying-myquicksteps-logo.svg') }}"
+                        <img loading="lazy" width="129" height="30"
+                            src="{{ asset('assets/image-displaying-myquicksteps-logo.svg') }}"
                             alt="Image displaying MyQuickSteps Logo" class="img-fluid fab" />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="172" height="40" src="{{ asset('assets/image-displaying-tech-house-logo.svg') }}"
+                        <img loading="lazy" width="172" height="40"
+                            src="{{ asset('assets/image-displaying-tech-house-logo.svg') }}"
                             alt="Image displaying tech-house logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="178" height="27" src="{{ asset('assets/saudi-bank-digital-digital-banking-solutions-logo.svg') }}"
+                        <img loading="lazy" width="178" height="27"
+                            src="{{ asset('assets/saudi-bank-digital-digital-banking-solutions-logo.svg') }}"
                             alt="Saudi Bank Digital - Digital Banking Solutions Logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
@@ -572,11 +768,13 @@
                         </svg>
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="178" height="29" src="{{ asset('assets/image-displaying-express-text-logo.svg') }}"
+                        <img loading="lazy" width="178" height="29"
+                            src="{{ asset('assets/image-displaying-express-text-logo.svg') }}"
                             alt="Image displaying express-text logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="178" height="39" src="{{ asset('assets/image-displaying-lahebo-logo.svg') }}"
+                        <img loading="lazy" width="178" height="39"
+                            src="{{ asset('assets/image-displaying-lahebo-logo.svg') }}"
                             alt="Image displaying Lahebo logo" class="img-fluid fab" />
                     </div>
                     <div class="slideUse">
@@ -584,11 +782,13 @@
                             alt="TAMIMI" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="129" height="30" src="{{ asset('assets/image-displaying-myquicksteps-logo.svg') }}"
-                        alt="Image displaying MyQuickSteps Logo" class="img-fluid fab" />
+                        <img loading="lazy" width="129" height="30"
+                            src="{{ asset('assets/image-displaying-myquicksteps-logo.svg') }}"
+                            alt="Image displaying MyQuickSteps Logo" class="img-fluid fab" />
                     </div>
                     <div class="slideUse">
-                        <img loading="lazy" width="172" height="40" src="{{ asset('assets/image-displaying-tech-house-logo.svg') }}"
+                        <img loading="lazy" width="172" height="40"
+                            src="{{ asset('assets/image-displaying-tech-house-logo.svg') }}"
                             alt="Image displaying tech-house logo" class="img-fluid fab " />
                     </div>
 
@@ -615,16 +815,17 @@
             </div>
             <!-- ------------CARDS SECTION---------------- -->
             <div class="row d-flex  justify-content-center blogzoom flex-md-row flex-column gap-3 w-100">
-                <div class="blogCard d-flex blogPost flex-column  p-3">
+                <div class="blogCard d-flex blogPost flex-column p-3">
                     <a href="{{ route('frontend.blogs.agile-methodology-and-business-analysis') }}"
                         class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
                         <div class="position-relative w-100"
                             style="
                 background-image: url({{ asset('assets/1-number-icon-representing-sync4tech-blog-1-information.webp') }});
-                background-size: cover;
-                background-position: center;
-                max-height: 400px;
-                height: 300px;">
+                background-size: 100% 100%;
+        background-position: center;
+        /* max-height: 400px; */
+        height: 222px;
+        background-repeat: no-repeat;">
                             <button class="position-absolute py-1 px-4 border-0"
                                 style=" top: 6%; right: 4%;
                   background: rgba(255, 255, 255, 0.64);
@@ -647,7 +848,7 @@
                         </div>
                         <div class="d-lg-flex gap-xl-3 gap-2 position-relative z-3"
                             style="width: 25px;height: 24px;text-align: center;display: flex !important;background: #DBE1E3;justify-items: center;justify-content: center;align-items: center;border-radius: 40px;">
-                            <svg id="scrollToSection2" data-bs-toggle="modal" data-bs-target="#shareModal"
+                            <svg id="" data-bs-toggle="modal" data-bs-target="#shareModal"
                                 xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
                                 fill="none">
                                 <path
@@ -658,17 +859,17 @@
                     </div>
                 </div>
                 <!-- card-2 -->
-                <div
-                    class="blogCard d-flex blogPost flex-column align-items-md-start align-items-center justify-content-center gap-md-3 gap-1 p-3">
+                <div class="blogCard d-flex blogPost flex-column align-items-md-start align-items-center p-3">
                     <a
                         href="{{ route('frontend.blogs.ensuring-project-success-in-software-development') }}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
                         <div class="position-relative w-100"
                             style="
-                background-image: url({{ asset('assets/2-number-icon-representing-sync4tech-blo-4-numerical-information.webp') }});
-                background-size: cover;
-                background-position: center;
-                max-height: 400px;
-                height: 300px;
+                background-image: url({{ asset('assets/doc-blogs.webp') }});
+                background-size: 100% 100%;
+        background-position: center;
+        /* max-height: 400px; */
+        height: 222px;
+        background-repeat: no-repeat;
               ">
                             <button class="position-absolute py-1 px-4 border-0"
                                 style="
@@ -693,7 +894,7 @@
                         </div>
                         <div class="d-lg-flex gap-xl-3 gap-2"
                             style="width: 25px;height: 24px;text-align: center;display: flex !important;background: #DBE1E3;justify-items: center;justify-content: center;align-items: center;border-radius: 40px;">
-                            <svg id="scrollToSection2" data-bs-toggle="modal" data-bs-target="#shareModal"
+                            <svg id="" data-bs-toggle="modal" data-bs-target="#shareModal"
                                 xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
                                 fill="none">
                                 <path
@@ -704,17 +905,17 @@
                     </div>
                 </div>
                 <!-- card-3 -->
-                <div
-                    class="blogCard d-flex blogPost flex-column align-items-md-start align-items-center justify-content-center gap-md-3 gap-1 p-3">
+                <div class="blogCard d-flex blogPost flex-column align-items-md-start align-items-center p-3">
                     <a
                         href="{{ route('frontend.blogs.the-benefits-of-docs-in-software-development') }}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
                         <div class="position-relative w-100"
                             style="
-                background-image: url({{ asset('assets/doc-blogs.webp') }});
-                background-size: cover;
-                background-position: center;
-                max-height: 400px;
-                height: 300px;
+                background-image: url({{ asset('assets/2-blog-banner.webp') }});
+                background-size: 100% 100%;
+        background-position: center;
+        /* max-height: 400px; */
+        height: 222px;
+        background-repeat: no-repeat;
               ">
                             <button class="position-absolute py-1 px-4 border-0"
                                 style="
@@ -742,7 +943,7 @@
                         </div>
                         <div class="d-lg-flex gap-xl-3 gap-2"
                             style="width: 25px;height: 24px;text-align: center;display: flex !important;background: #DBE1E3;justify-items: center;justify-content: center;align-items: center;border-radius: 40px;">
-                            <svg id="scrollToSection2" data-bs-toggle="modal" data-bs-target="#shareModal"
+                            <svg id="" data-bs-toggle="modal" data-bs-target="#shareModal"
                                 xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
                                 fill="none">
                                 <path
@@ -753,7 +954,7 @@
                     </div>
                 </div>
             </div>
-           
+
 
             <a class="View-More-btn" href="{{ route('frontend.blogs') }}" class="text-orange">View More</a>
 
@@ -858,11 +1059,11 @@
                         </div>
                     </div>
                     <!-- <div class="image-overlay-text position-absolute d-flex flex-column text-white gap-3">
-                                                                                            
-                                                                                            
-                                                                                            
-                                                                                           
-                                                                                          </div> -->
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                               
+                                                                                              </div> -->
                 </div>
                 <div class="subDiv formSection d-flex flex-column gap-2 align-items-md-start align-items-center">
                     <form action="{{ route('frontend.contacts.store') }}"
@@ -916,5 +1117,67 @@
 
     </section>
     <!-- </div> -->
-@endsection
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        // var swiper = new Swiper(".mySwiper", {
+        //     freeMode: true,
+        //     loop: true,
+        //     allowTouchMove: false,
+        //     autoplay: {
+        //     delay: 0,
+        //     disableOnInteraction: false,
+        //     },
+        //     slidesPerView: 5,
+        //     spaceBetween: 20,
+        //     speed: 1000
+        const swiper = new Swiper(".mySwiper", {
+        loop: true,
+        autoplay: {
+            delay: 0,
+            pauseOnMouseEnter: true,        // added
+            disableOnInteraction: false,    // added
+        },
+        speed: 3000,
+        slidesPerView: 5,
+})
+            // pagination: {
+            //     el: ".swiper-pagination",
+            //     clickable: true,
+            // },
 
+            // // Responsive breakpoints
+            // breakpoints: {
+            //     320: {
+            //         slidesPerView: 1,
+
+            //     },
+            //     550: {
+            //         slidesPerView: 1,
+
+            //     },
+            //     768: {
+            //         slidesPerView: 2,
+
+            //     },
+            //     1000: {
+            //         slidesPerView: 2,
+
+            //     },
+            //     1200: {
+            //         slidesPerView: 5,
+
+            //     },
+            //     1500: {
+            //         slidesPerView: 4,
+
+            //     },
+            // },
+
+            // navigation: {
+            //     nextEl: ".swiper-button-next",
+            //     prevEl: ".swiper-button-prev",
+            // },
+        // });
+    </script>
+@endsection
