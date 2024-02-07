@@ -14,29 +14,38 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- intl-tel-input CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/css/intlTelInput.min.css">
-    <meta name="robots" content="noindex, nofollow" />
+    {{-- <meta name="robots" content="noindex, nofollow" /> --}}
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <!----------------------- CSS ------------------------------->
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" async>
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/myStyle.css') }}" async>
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/myStyle.css') }}" >
 
     <meta name="title" content="Sync4Tech: Pre-Development Software Services">
     <meta name="description"
-        content="Discover cutting edge tech business solutions at Sync4Tech, we offer innovative software development, IT consulting, and digital transformation expertise to boost your tech business. Explore now!">
+        content="Discover   cutting   edge   tech   business   solutions   at
+        Sync4Tech, we offer innovative software development, IT
+        consulting, and digital transformation expertise to boost
+        your tech business. Explore now!">
     <link rel="canonical" href="https://www.sync4tech.co">
     <meta property="og:title" content="Sync4Tech: Pre-Development Software Services">
     <meta property="og:site_name" content="Sync4Tech">
     <meta property="og:url" content="https://www.sync4tech.co">
     <meta property="og:description"
-        content="Discover cutting edge tech business solutions at Sync4Tech, we offer innovative software development, IT consulting, and digital transformation expertise to boost your tech business. Explore now!">
+        content="Discover   cutting   edge   tech   business   solutions   at
+        Sync4Tech, we offer innovative software development, IT
+        consulting, and digital transformation expertise to boost
+        your tech business. Explore now!">
     <meta property="og:type" content="Organization">
     <meta property="og:image" content="https://i.ibb.co/r3ypC8y/twitter-meta-logo.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="Sync4Tech">
     <meta name="twitter:title" content="Sync4Tech: Pre-Development Software Services">
     <meta name="twitter:description"
-        content="Discover cutting edge tech business solutions at Sync4Tech, we offer innovative software development, IT consulting, and digital transformation expertise to boost your tech business. Explore now!">
+        content="Discover   cutting   edge   tech   business   solutions   at
+        Sync4Tech, we offer innovative software development, IT
+        consulting, and digital transformation expertise to boost
+        your tech business. Explore now!">
     <meta name="twitter:image" content="https://i.ibb.co/r3ypC8y/twitter-meta-logo.png">
 
     <title>Home Page | Sync4Tech</title>
@@ -49,7 +58,7 @@
     <!-------------------------- ********** Section 1 ********** ------------------------->
     <section class="main-nav">
         <div class="container">
-            <navbar class="navbar">
+            <div class="navbar">
                 <a class="navbar-brand d-lg-block d-none" href="{{ route('frontend.home') }}" id="defaultlogo">
                     <img loading="lazy" width="216" height="40" src="{{ asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}"
                         alt="logo" class="img-fluid" />
@@ -75,7 +84,7 @@
                         data-bs-target="#staticBackdropcon">Contact Us</a>
                     <i class="fa fa-bars" id="nav-toggler"></i>
                 </div>
-            </navbar>
+            </div>
         </div>
     </section>
 

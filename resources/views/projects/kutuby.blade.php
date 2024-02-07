@@ -66,7 +66,7 @@
     <div class="container">
       <div class="pr-st-main">
         <div>
-          <img loading="lazy" width="591" height="400" src="{{asset('assets/image-for-project-detail-2.webp')}}" alt="Image for project detail 2" class="img-fluid" style="cursor: pointer" alt="kutuby" class="img-fluid" />
+          <img loading="lazy" width="591" height="400" src="{{asset('https://assets-global.website-files.com/63dcf9306bbe5b2e5fbb8677/646bbd7ef8c07bb115fda420_Selling_Image.svg')}}" alt="Image for project detail 2" class="img-fluid" style="cursor: pointer" alt="kutuby" class="img-fluid" />
       </div>
         <div class="pro-st-txt">
           <h2 class="hidden-title mb-4">Hidden Challenges</h2>
@@ -151,7 +151,7 @@
         </div>
         
         <div>
-          <img src="{{asset('assets/an-image-of-a-laptop-with-graphs-and-a-dashboard-displayed.png')}}" alt="An image of a  laptop with graphs and a dashboard displayed" class="img-fluid" />
+          <img src="{{asset('assets/journe-of-sync4tech.webp')}}" alt="Journey of Sync4Tech " class="img-fluid" />
         </div>
       </div>
     </div>
@@ -162,7 +162,7 @@
   <div class="container">
     <div class="key-fec-main">
       <div>
-        <img src="{{asset('assets/projects-collage-showcasing-a-variety-of-successful-endeavors-at-sync4tech.svg')}}" alt="Projects Collage - Showcasing a Variety of Successful Endeavors at Sync4Tech" class="img-fluid" />
+        <img src="{{asset('assets/revolutionizin-pre-development.webp')}}" alt="Revolutionizing Pre Development" class="img-fluid" />
       </div>
       <div class="key-fec-txt">
         <h2>
@@ -194,7 +194,7 @@
         </div>
         
         <div>
-          <img src="{{asset('assets/an-image-of-a-laptop-with-graphs-and-a-dashboard-displayed.png')}}" alt="An image of a  laptop with graphs and a dashboard displayed" class="img-fluid" />
+          <img src="{{asset('assets/shape-the-future-with-us.webp')}}" alt="Shape the future with Us" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -720,7 +720,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     d="M11.0671 23.0665L4.93377 16.9332C4.80044 16.7999 4.70577 16.6554 4.64977 16.4999C4.59377 16.3443 4.56666 16.1776 4.56844 15.9999C4.56844 15.8221 4.59644 15.6554 4.65244 15.4999C4.70844 15.3443 4.80222 15.1999 4.93377 15.0665L11.1004 8.89987C11.3449 8.65543 11.6449 8.5332 12.0004 8.5332C12.356 8.5332 12.6671 8.66654 12.9338 8.9332C13.1782 9.17765 13.3004 9.48876 13.3004 9.86654C13.3004 10.2443 13.1782 10.5554 12.9338 10.7999L9.06711 14.6665H26.6671C27.0449 14.6665 27.3618 14.7945 27.6178 15.0505C27.8738 15.3065 28.0013 15.623 28.0004 15.9999C28.0004 16.3776 27.8724 16.6945 27.6164 16.9505C27.3604 17.2065 27.044 17.3341 26.6671 17.3332H9.06711L12.9671 21.2332C13.2116 21.4776 13.3338 21.7776 13.3338 22.1332C13.3338 22.4888 13.2004 22.7999 12.9338 23.0665C12.6893 23.311 12.3782 23.4332 12.0004 23.4332C11.6227 23.4332 11.3116 23.311 11.0671 23.0665Z"
                     fill="#0D3642" />
                 </svg>
-                <h2 style="color: #333" class="fw-bold mt-5" style="padding-top: 10px !important">
+                <h2 style="color: #333;padding-top: 10px !important" class="fw-bold mt-5">
                   Enter Details
                 </h2>
                 <form action="#" id="bookconsultform" class="w-100 d-flex align-items-start flex-column gap-3">

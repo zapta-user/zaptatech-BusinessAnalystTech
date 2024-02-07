@@ -1995,7 +1995,8 @@ form textarea {
     font-size: 23px !important;
 }
 .projectcomponentsection {
-    padding: 60px 70px !important
+    padding: 60px 70px !important;
+    
 }
 @media (max-width:768px) {
 

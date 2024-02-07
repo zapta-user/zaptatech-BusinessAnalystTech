@@ -20,9 +20,12 @@ $(document).ready(function() {
       });
 
       // Scroll to the top of the container
-      container[0].scrollIntoView({
-          behavior: "smooth"
-      });
+      if(container[0]){
+         container[0].scrollIntoView({
+            behavior: "smooth"
+        });
+      }
+   
   }
 
   // Calculate the number of pages based on the number of cards
