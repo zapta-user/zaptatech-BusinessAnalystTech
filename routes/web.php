@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\DomainController;
+use App\Http\Controllers\PartnerController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -60,4 +62,10 @@ Route::name('frontend.')->group(function () {
 
     // Contacts 
     Route::post('contact-us', [ContactController::class, 'store'])->name('contacts.store');
+
+    //Partners
+    Route::post('partners', [PartnerController::class, 'store'])->name('partners.store');
+
+    //DomainController 
+    Route::get('domains', DomainController::class)->name('domains');
 });

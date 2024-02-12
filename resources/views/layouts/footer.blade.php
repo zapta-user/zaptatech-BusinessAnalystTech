@@ -357,7 +357,9 @@
                         fill="#8A8A8A" />
                 </svg>
             </div>
-            <form action="#" class="becomepartform text-start d-flex flex-column gap-xl-4 gap-3 w-100 ex-respon">
+            <form id="becomepartform" action="{{ route('frontend.partners.store') }}"
+                class="ajax-submit becomepartform text-start d-flex flex-column gap-xl-4 gap-3 w-100 ex-respon"
+                check_validate="false" method="POST" data-success-fn="partnerFormSuccess" form-reset="true">
                 <div class="flex-column gap-1">
                     <label for="Partner"
                         style="font-size: 18px !important;color: #5F5F5F !important;font-weight: 800 !important;">
@@ -365,15 +367,15 @@
                     <div class="d-flex gap-5 mt-4 align-items-center">
                         <div class="d-flex gap-2 radio-partner" style="display: flex;gap: 50px;">
                             <label class="radio-container">
-                                <input type="radio" name="radio" checked="checked" id="individual"
-                                    value="2" style="box-shadow: none;" />
+                                <input type="radio" name="type" checked="checked" id="individual"
+                                    value="individual" style="box-shadow: none;" />
                                 <span class="radio-checkmark"></span>
                                 <p>Individual</p>
                             </label>
                         </div>
                         <div class="d-flex gap-2 radio-partner">
                             <label class="radio-container">
-                                <input type="radio" name="radio" id="company" value="1"
+                                <input type="radio" name="type" id="company" value="company"
                                     style="box-shadow: none;" />
                                 <span class="radio-checkmark"></span>
                                 <p>Company</p>
@@ -388,7 +390,7 @@
 
                     <div class="position-relative">
                         <input style="color: #acacac;width: 100%;" type="text" id="companyName"
-                            name="company_name" class="border-0" name="compan_name"
+                            name="company_name" class="border-0" name="company_name"
                             placeholder="Enter Company Name" />
                     </div>
                 </div>
@@ -396,8 +398,8 @@
                     <label for="Name">Full Name <span class="text-orange">*</span>
                     </label>
                     <div class="position-relative">
-                        <input style="color: #acacac; width: 100%;" type="text" id="Name"
-                            name="sponser_name" class="border-0" placeholder="Enter Name" />
+                        <input style="color: #acacac; width: 100%;" type="text" id="Name" name="name"
+                            class="border-0" placeholder="Enter Name" />
                     </div>
                 </div>
 
@@ -415,7 +417,7 @@
                 </div>
                 <script>
                     // Function to handle radio button changes
-                    $("input[name='radio']").change(function() {
+                    $("input[name='type']").change(function() {
                         if (this.id === "company") {
                             // Show the company field and hide the name field
                             $("#companyNameselect").show();
@@ -444,7 +446,7 @@
                         <label for="PhoneNumber" style="">Phone
                             Number</label>
                         <div class="d-flex flex-column">
-                            <input type="tel" name="phoneNumber" placeholder="" id="phoneNumber"
+                            <input type="tel" name="phone_no" placeholder="" id="phoneNumber"
                                 class="form-control ps-5 py-2 rounded-0;"
                                 style="
                   padding-left: 500px !important;
@@ -482,23 +484,23 @@
                         style="color: #5F5F5F !important;font-size: 18px !important;font-weight: 600 !important;padding-top: 10px !important;">Business
                         Domain</label>
                     <div class="table-responsive">
-                        <table>
-                            <tr>
+                        <table id="domainsListing">
+                            {{-- <tr>
                                 <td>
                                     <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains" id="domains1" />
+                                        <input type="checkbox" name="domains[]" id="domains1" />
                                         <p>AI, ML, VR, & AR</p>
                                     </div>
                                 </td>
                                 <td>
                                     <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains" id="domains2" />
+                                        <input type="checkbox" name="domains[]" id="domains2" />
                                         <p>Blockchain</p>
                                     </div>
                                 </td>
                                 <td class="pt-2">
                                     <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains" id="domains3" />
+                                        <input type="checkbox" name="domains[]" id="domains3" />
                                         <p>CRM</p>
                                     </div>
                                 </td>
@@ -508,19 +510,19 @@
 
                                 <td class="pt-2">
                                     <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains" id="domains4" />
+                                        <input type="checkbox" name="domains[]" id="domains4" />
                                         <p>ERP Management</p>
                                     </div>
                                 </td>
                                 <td class="pt-2">
                                     <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains" id="domains5" />
+                                        <input type="checkbox" name="domains[]" id="domains5" />
                                         <p>FinTech</p>
                                     </div>
                                 </td>
                                 <td class="pt-2">
                                     <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains" id="domains6" />
+                                        <input type="checkbox" name="domains[]" id="domains6" />
                                         <p>Hospital and Clinic</p>
                                     </div>
                                 </td>
@@ -528,19 +530,19 @@
                             <tr>
                                 <td class="pt-2">
                                     <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains" id="domains7" />
+                                        <input type="checkbox" name="domains[]" id="domains7" />
                                         <p>eCommerce</p>
                                     </div>
                                 </td>
                                 <td class="pt-2">
                                     <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains" id="domains8" />
+                                        <input type="checkbox" name="domains[]" id="domains8" />
                                         <p>Supply Chain</p>
                                     </div>
                                 </td>
                                 <td class="pt-2">
                                     <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains" id="domains9" />
+                                        <input type="checkbox" name="domains[]" id="domains9" />
                                         <p>Inventory Management
                                         </p>
                                     </div>
@@ -551,20 +553,20 @@
 
                                 <td class="pt-2">
                                     <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains" id="domains10" />
+                                        <input type="checkbox" name="domains[]" id="domains10" />
                                         <p>Property & Land
                                         </p>
                                     </div>
                                 </td>
                                 <td class="pt-2">
                                     <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains" id="domains11" />
+                                        <input type="checkbox" name="domains[]" id="domains11" />
                                         <p>CMS</p>
                                     </div>
                                 </td>
                                 <td class="pt-2">
                                     <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains" id="domains12" />
+                                        <input type="checkbox" name="domains[]" id="domains12" />
                                         <p>Transport and Vehicles</p>
                                     </div>
                                 </td>
@@ -573,19 +575,19 @@
 
                                 <td class="pt-2">
                                     <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains" id="domains13" />
+                                        <input type="checkbox" name="domains[]" id="domains13" />
                                         <p>Education & eLearning</p>
                                     </div>
                                 </td>
                                 <td class="pt-2">
                                     <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains" id="domains14" />
+                                        <input type="checkbox" name="domains[]" id="domains14" />
                                         <p>Hotel Management</p>
                                     </div>
                                 </td>
                                 <td class="pt-2">
                                     <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains" id="domains15" />
+                                        <input type="checkbox" name="domains[]" id="domains15" value="sdsdf" />
                                         <p>Medical & HealthCare</p>
                                     </div>
                                 </td>
@@ -594,7 +596,7 @@
 
                                 <td class="pt-2">
                                     <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains" id="domains16" />
+                                        <input type="checkbox" name="domains[]" id="domains16" value="dssds" />
                                         <p>Trading and Business</p>
                                     </div>
                                 </td>
@@ -611,7 +613,7 @@
                                             style="color: #FB7A00 !important;padding: 0 !important;border: none;"
                                             class="moreless-button">Others ></button></p>
                                 </div>
-                            </td>
+                            </td> --}}
                         </table>
                     </div>
 
@@ -620,44 +622,7 @@
                 <div class="d-flex flex-column gap-1">
                     <label for="Partner" style="padding-top: 10px !important;">What Services are you most Interested
                         in?</label>
-                    <select name="partnertype" id="partner" class="w-100 border-0 align-self-stretch">
-                        <option value="type" disabled selected>
-                            Select Services...
-                        </option>
-                        <option value="Business Process Analysis">
-                            Business Process Modeling
-                        </option>
-                        <option value="Business Process Modelling">
-                            Business Analysis
-                        </option>
-                        <option value="Requirement Engineering">
-                            Software Project Management
-                        </option>
-                        <option value="Company Analysis">
-                            Software Documentation
-                        </option>
-                        <option value="Technical Documentation">
-                            Data Analysis and Data Modelling
-                        </option>
-                        <option value="Data Analysis">API Documentation</option>
-                        <option value="Process Optimization">
-                            Software Product Analysis
-                        </option>
-                        <option value="Process Optimization">
-                            Business KPIs Analysis
-                        </option>
-                        <option value="Process Optimization">
-                            Product Idea Validation
-                        </option>
-                        <option value="Process Optimization">
-                            Software Research and Development
-                        </option>
-                        <option value="Process Optimization">
-                            UX and Wireframing
-                        </option>
-                        <option value="Process Optimization">
-                            Software Architecture Design
-                        </option>
+                    <select name="service" id="partner" class="w-100 border-0 align-self-stretch serviceListing">
                     </select>
                     <div class="error-message" id="partner-error"></div>
                 </div>
@@ -1100,7 +1065,7 @@
                         contacting Us.
                         Our representative will get back to you soon.</p>
                     <button style="background-color: #FB7A00; color: #fff; width: 144px;height: 46px; border: none;"
-                        type="button" class="submit-form mt-3" data-bs-dismiss="modal">Ok</button>
+                        type="button" class="mt-3" data-bs-dismiss="modal">Ok</button>
                 </div>
 
             </div>
@@ -1254,6 +1219,30 @@
         "telephone": "+923015892528",
         "contactType": "HR Contact"
       }
+    }
+</script>
+
+<!-- get domains AND services -->
+<script>
+    $('document').ready(function(e) {
+        $.ajax({
+            url: "{{ route('frontend.domains') }}",
+            method: 'GET',
+            dataType: 'json',
+            success: function(response) {
+                $('#domainsListing').html(response.domainView);
+                $('.serviceListing').html(response.serviceView);
+                console.log(response);
+            },
+            error: function(xhr, status, error) {
+                console.error(error);
+            }
+        });
+
+    })
+
+    function partnerFormSuccess(response) {
+        $("#succesmodel").modal("show");
     }
 </script>
 
