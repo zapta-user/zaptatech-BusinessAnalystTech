@@ -13,12 +13,12 @@ $.validator.addMethod("atLeastOneCheckbox", function (value, element) {
   return $('input[name="domains"]:checked').length > 0;
 }, "Please select at least one domain");
 
-$(".becomepartform").validate({
+$("#becomepartform").validate({
   rules: {
     company_name: {
       required: true,
     },
-    sponser_name: {
+    name: {
       required: true,
     },
     user_name: {
@@ -36,8 +36,8 @@ $(".becomepartform").validate({
     company_name: {
       required: "Enter company name",
     },
-    sponser_name: {
-      required: "Enter sponser name",
+    name: {
+      required: "Enter name",
     },
     user_name: {
       required: "Enter user name",
@@ -52,7 +52,8 @@ $(".becomepartform").validate({
   submitHandler: function (form) {
     formClass = form;
     $(form).closest(".modal").modal("hide");
-    $("#succesmodel").modal("show");
+    $('#becomepartform').attr('check_validate', 'true');
+    // $("#succesmodel").modal("show");
 
   },
 });
