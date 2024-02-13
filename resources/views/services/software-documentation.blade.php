@@ -309,14 +309,14 @@
                <input type="radio" name="radio" checked="checked" id="individual" value="2"
                  style="box-shadow: none;" />
                <span class="radio-checkmark"></span>
-               <p>Individual</p>
+               <span>Individual</span>
              </label>
            </div>
            <div class="d-flex gap-2 radio-partner">
              <label class="radio-container">
                <input type="radio" name="radio" id="company" value="1" style="box-shadow: none;" />
                <span class="radio-checkmark"></span>
-               <p>Company</p>
+               <span>Company</span>
              </label>
            </div>
           
@@ -327,7 +327,7 @@
          </label>
          
          <div class="position-relative">
-           <input style="color: #acacac;width: 100%;" type="text" id="companyName" name="company_name" class="border-0" name="compan_name"
+           <input style="color: #acacac;width: 100%;" type="text" id="companyName" name="company_name" class="border-0"
            placeholder="Enter Company Name" />
          </div>
         </div>
@@ -400,7 +400,7 @@
              // store the instance variable so we can access it in the console e.g. window.iti.getNumber()
              window.iti = iti;
            </script> -->
-             </script>
+             
              <!-- <div class="error-message" id="PhoneNumber-error"></div> -->
            </div>
          </div>
@@ -591,7 +591,7 @@
        </div>
        <button type="submit"
          class="btn navButton rounded-0 cardsButton button-color d-flex justify-content-center align-items-center gap-3">
-         <a class="text-white">Submit</a>
+         Submit
        </button>
      </form>
    </div>
@@ -604,7 +604,7 @@
       </button>
     </div>
     <!-- Modal -->
-    <center>
+    <div>
       <div class="modal fade" id="bookapp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-centered d-flex justify-content-center align-items-center">
@@ -785,7 +785,7 @@
                 </h2>
                 <form action="#" id="bookconsultform" class="w-100 d-flex align-items-start flex-column gap-3">
                   <div class="d-flex flex-column gap-1 w-100 pos-rev">
-                    <label for="name" class="text-start">Full Name <span class="text-orange">*</span>
+                    <label for="name" class="text-start text-orange">Full Name <span>*</span>
                     </label>
                     <input type="text" name="name" id="name" class="form-control p-2" placeholder="Enter Name"
                       style="
@@ -799,7 +799,7 @@
                   </div>
                   <div class="d-flex flex-md-row flex-column gap-2 w-100 ">
                     <div class="d-flex flex-column gap-1 w-100 pos-rev ex-padd">
-                      <label for="email" class="text-start">Email <span class="text-orange">*</span>
+                      <label for="email" class="text-start text-orange">Email <span>*</span>
                       </label>
                       <input name="email" id="email" class="form-control p-2" placeholder="abc@gmail.com" style="
                             border: 1px solid #d0d5dd !important;
@@ -848,7 +848,7 @@
                   <div class="d-flex gap-3">
                     <button type="submit" id=" schedule"
                       class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-4 px-3 align-items-center gap-3">
-                      <a class="text-white">Schedule Event</a>
+                      Schedule Event
                     </button>
                     <!-- <button id=" discardButton" type="button"
                       class="btn navButton text-orange consultaion-button rounded-0 button-color py-2 px-lg-5 px-3 d-flex justify-content-center align-items-center gap-3"
@@ -977,7 +977,7 @@
           </div>
         </div>
       </div>
-    </center>
+    </div>
     <script>
       // Add a click event listener to the SVG
       document

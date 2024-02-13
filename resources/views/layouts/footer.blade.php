@@ -13,7 +13,7 @@
                 <div class="d-flex gap-lg-4 justify-content-sm-start justify-content-center gap-3 pt-3 bottomImg">
                     <a href="https://www.facebook.com/sync4tech.co" target="_blank">
                         <i class="fa-brands fa-facebook-f text-white p-2 rounded-circle border"
-                            style="opacity: 0.6;width: 34px;height: 34;text-align: center;"></i>
+                            style="opacity: 0.6;width: 34px;height: 34px;text-align: center;"></i>
                     </a>
                     <a href="https://twitter.com/sync4tech" target="_blank">
                         <i class="fa-brands fa-x-twitter text-white p-2 rounded-circle border"
@@ -63,23 +63,23 @@
                     <img width="24" height="24" loading="lazy"
                         src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
 
-                    <span id="aboutUsLink" class="footer-link span-link f-linkstag" data-href-value="{{ route('frontend.aboutUs') }}">About Us</span>
+                    <span class="footer-link span-link f-linkstag" data-href-value="{{ route('frontend.aboutUs') }}">About Us</span>
 
                 </div>
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
                         src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
-                    <span id="aboutUsLink" class="footer-link span-link f-linkstag" data-href-value="{{ route('frontend.blogs') }}">Blog</span>
+                    <span class="footer-link span-link f-linkstag" data-href-value="{{ route('frontend.blogs') }}">Blog</span>
                 </div>
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
                         src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
-                    <span id="aboutUsLink" class="footer-link span-link f-linkstag" data-href-value="{{ route('frontend.projects') }}">Projects</span>
+                    <span class="footer-link span-link f-linkstag" data-href-value="{{ route('frontend.projects') }}">Projects</span>
                 </div>
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
                         src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
-                    <span id="aboutUsLink" class="footer-link span-link f-linkstag" data-href-value="{{ route('frontend.partners') }}">Partners</span>
+                    <span class="footer-link span-link f-linkstag" data-href-value="{{ route('frontend.partners') }}">Partners</span>
                 </div>
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
@@ -166,7 +166,7 @@
                                     <a href="https://www.facebook.com/sync4tech.co" target="_blank"
                                         style="text-decoration: none !important; border: none;">
                                         <i class="fa-brands fa-facebook-f text-white p-2 rounded-circle border"
-                                            style="opacity: 0.6;width: 34px;height: 34;text-align: center;"></i>
+                                            style="opacity: 0.6;width: 34px;height: 34px;text-align: center;"></i>
                                     </a>
                                     <a href="https://twitter.com/sync4tech" target="_blank"
                                         style="text-decoration: none !important; border: none;">
@@ -211,7 +211,7 @@
                                 <a href="https://zaptatechnologies.slack.com/" target="_blank"
                                     style="text-decoration: none !important; border: none;">
                                     <i class="fa-brands fa-slack p-2 rounded-circle"
-                                        style="width: 34px;height: 34;text-align: center; border: 1px solid #727375; color:#727375 ;"></i>
+                                        style="width: 34px;height: 34px;text-align: center; border: 1px solid #727375; color:#727375 ;"></i>
                                 </a>
                             </div>
                             <!-- <form action="#" class="d-flex flex-column gap-2 align-items-md-start align-items-center ms-lg-2 w-100"
@@ -261,7 +261,7 @@
                  </div>
                  <button type="submit" style="margin-top: 20px !important;"
                    class="btn navButton rounded-0 cardsButton px-lg-5 button-color d-flex justify-content-center align-items-center gap-3">
-                   <a class="text-white">Send Message</a>
+                  Send Message
                  </button>
                </form> -->
                             <form action="{{ route('frontend.contacts.store') }}"
@@ -320,7 +320,7 @@
 
                                 <button type="submit" style="margin-top: 20px;"
                                     class="btn navButton rounded-0 cardsButton px-lg-5 button-color d-flex justify-content-center align-items-center gap-3">
-                                    <a class="text-white">Send Message</a>
+                                   Send Message
                                 </button>
                             </form>
                         </div>
@@ -332,7 +332,7 @@
 
     <div class="loader"><img loading="lazy"
             style="width: 70px;height: 70px;position: absolute;top: 0;bottom: 0;margin: auto !important;left: 47.8%;"
-            src="https://i.ibb.co/Jygm2yj/Favicon-128-x-128.png"></img>
+            src="https://i.ibb.co/Jygm2yj/Favicon-128-x-128.png" alt="Sync4Tech Favicon">
     </div>
 </div>
 
@@ -372,7 +372,7 @@
                                 <input type="radio" name="type" checked="checked" id="individual"
                                     value="individual" style="box-shadow: none;" />
                                 <span class="radio-checkmark"></span>
-                                <p>Individual</p>
+                                <span>Individual</span>
                             </label>
                         </div>
                         <div class="d-flex gap-2 radio-partner">
@@ -380,7 +380,7 @@
                                 <input type="radio" name="type" id="company" value="company"
                                     style="box-shadow: none;" />
                                 <span class="radio-checkmark"></span>
-                                <p>Company</p>
+                                <span>Company</span>
                             </label>
                         </div>
 
@@ -392,7 +392,7 @@
 
                     <div class="position-relative">
                         <input style="color: #acacac;width: 100%;" type="text" id="companyName"
-                            name="company_name" class="border-0" name="company_name"
+                            name="company_name" class="border-0"
                             placeholder="Enter Company Name" />
                     </div>
                 </div>
@@ -467,7 +467,7 @@
                                 // store the instance variable so we can access it in the console e.g. window.iti.getNumber()
                                 window.iti = iti;
                             </script> -->
-                            </script>
+                            
                             <!-- <div class="error-message" id="PhoneNumber-error"></div> -->
                         </div>
                     </div>
@@ -630,7 +630,7 @@
                 </div>
                 <button type="submit"
                     class="btn navButton rounded-0 cardsButton button-color d-flex justify-content-center align-items-center gap-3">
-                    <a class="text-white">Submit</a>
+                   Submit
                 </button>
             </form>
         </div>
@@ -638,7 +638,7 @@
 </div>
 
 <!-- Modal -->
-<center>
+<div>
     <div class="modal fade" id="bookapp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div
@@ -654,7 +654,7 @@
                             </h2>
                             <div id="calendar" class=""></div>
                         </div>
-                        <button type="submit" id=""
+                        <button type="submit" 
                             class="btn partnerbutton mt-5 bookSubmit navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3">
                             <a class="text-white px-4" onclick="showSecondDiv()">Next</a>
                         </button>
@@ -841,7 +841,7 @@
                             </div>
                             <div class="d-flex flex-md-row flex-column gap-2 w-100 ">
                                 <div class="d-flex flex-column gap-1 w-100 pos-rev ex-padd">
-                                    <label for="email" class="text-start">Email <span class="text-orange">*</span>
+                                    <label for="email" class="text-start text-orange">Email <span>*</span>
                                     </label>
                                     <div class="postion-relative">
                                         <input name="email" id="email" class="form-control p-2"
@@ -899,7 +899,7 @@
                             <div class="d-flex gap-3 mt-3">
                                 <button type="submit" id=" schedule"
                                     class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-4 px-3 align-items-center gap-3">
-                                    <a class="text-white">Schedule Event</a>
+                                   Schedule Event
                                 </button>
                                 <!-- <button id=" discardButton" type="button"
                     class="btn navButton text-orange consultaion-button rounded-0 button-color py-2 px-lg-5 px-3 d-flex justify-content-center align-items-center gap-3"
@@ -922,7 +922,7 @@
                             </svg>
                         </div>
                         <div class="d-flex flex-column justify-content-center align-items-center mt-4">
-                            <img loading="lazy" src="{{asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}" alt="logo"
+                            <img loading="lazy" src="{{asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}" alt="Sync4tech Homepage Logo You Gateway To Technological Excellence"
                                 class="img-fluid" />
                         </div>
                         <div class="d-flex flex-column align-items-start px-3 mt-5 gap-4">
@@ -990,7 +990,7 @@
                         Thanks for booking the consultation. Our representative
                         will get back to you soon.
                     </p>
-                    <button type="submit" id=""
+                    <button type="submit" 
                         class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3">
                         <a class="text-white px-4" onclick="closeFour()">Ok</a>
                     </button>
@@ -1035,7 +1035,7 @@
             </div>
         </div>
     </div>
-</center>
+</div>
 <script>
     // Add a click event listener to the SVG
     document
@@ -1062,7 +1062,7 @@
             <div class="modal-body p-0">
 
                 <div class="text-center">
-                    <img loading="lazy" src="{{ asset('assets/success.svg') }}">
+                    <img loading="lazy" src="{{ asset('assets/success.svg') }}" alt="Success Icon">
                     <p style="font-size: 20px;color: #292929;padding-top: 20px; max-width: 356px;">Thank you for
                         contacting Us.
                         Our representative will get back to you soon.</p>

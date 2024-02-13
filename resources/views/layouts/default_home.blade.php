@@ -61,11 +61,11 @@
             <div class="navbar">
                 <a class="navbar-brand d-lg-block d-none" href="{{ route('frontend.home') }}" id="defaultlogo">
                     <img loading="lazy" width="216" height="40" src="{{ asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}"
-                        alt="logo" class="img-fluid" />
+                        alt="Sync4tech Homepage Logo You Gateway To Technological Excellence" class="img-fluid" />
                 </a>
                 <a class="navbar-brand d-lg-none d-block" href="{{ route('frontend.home') }}" id="blacklogo">
                     <img loading="lazy" width="216" height="40" src="{{ asset('assets/nav-logo.svg') }}"
-                        alt="logo" class="img-fluid" />
+                        alt="Nav Logo" class="img-fluid" />
                 </a>
 
                 <div class="nav-items">
