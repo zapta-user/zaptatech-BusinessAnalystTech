@@ -26,7 +26,7 @@
         <p>Name: {{ $data->name }}</p>
         <p>Phone no: {{ $data->phone_no }}</p>
         <p>Email: {{ $data->email }}</p>
-        <p>Service: {{ $data->service }}</p>
+        {{-- <p>Service: {{ $data->service }}</p> --}}
         <p>Regards,</p>
         <p>Sync4Tech Team</p>
     @endif
