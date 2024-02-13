@@ -24,7 +24,6 @@ class PartnerController extends Controller
             'partner' => $partner->id,
             'domain' => implode(',', $request->domains)
         ]);
-        $partner = Partner::find($partner->id);
         $admin_email = ['ateeqasif1168@gmail.com'];
         Mail::send(new PartnerMail($partner, $request->email, 'user'));
         Mail::send(new PartnerMail($partner, $admin_email, 'admin'));
