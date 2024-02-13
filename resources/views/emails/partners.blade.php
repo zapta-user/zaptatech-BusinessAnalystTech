@@ -19,14 +19,15 @@
         <p>A new partner request has been received from <b>{{ $data->name }}</b>
             Please review the request and take appropriate action.</p>
         <p>Details are as follows:</p>
-        <p>Type:{{ $data->type }}</p>
+        <p><b>Type:</b>{{ $data->type }}</p>
         @if ($data->type == 'company')
-            <p>Company name: {{ $data->company_name }}</p>
+            <p><b>Company name: </b>{{ $data?->company_name }}</p>
         @endif
-        <p>Name: {{ $data->name }}</p>
-        <p>Phone no: {{ $data->phone_no }}</p>
-        <p>Email: {{ $data->email }}</p>
-        <p>Service: {{ $data->service }}</p>
+        <p><b>Name:</b> {{ $data?->name }}</p>
+        <p><b>Phone no:</b> {{ $data?->phone_no }}</p>
+        <p><b>Email:</b> {{ $data?->email }}</p>
+        <p><b>Domains:</b> {{ $data?->domainNames() }}</p>
+        <p><b>Service:</b> {{ optional($data?->serviceName)?->name }}</p>
         <p>Regards,</p>
         <p>Sync4Tech Team</p>
     @endif

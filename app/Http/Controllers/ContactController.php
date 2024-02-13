@@ -21,10 +21,9 @@ class ContactController extends Controller
             'phone_no' => $request->phone_no,
             'message' => $request->message
         ]);
-        $admin_email = 'contactsync4Tech@gmail.com';
+        $admin_email = ['ateeqasif1168@gmail.com'];
         Mail::send(new ContactMail($contact, $request->email, 'user'));
         Mail::send(new ContactMail($contact, $admin_email, 'admin'));
-
         return response()->json(['message' => 'Contact form sent Successfully']);
     }
 }

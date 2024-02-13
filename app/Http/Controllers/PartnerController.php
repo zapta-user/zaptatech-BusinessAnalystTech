@@ -24,7 +24,7 @@ class PartnerController extends Controller
             'partner' => $partner->id,
             'domain' => implode(',', $request->domains)
         ]);
-        $admin_email = 'contactsync4Tech@gmail.com';
+        $admin_email = ['ateeqasif1168@gmail.com'];
         Mail::send(new PartnerMail($partner, $request->email, 'user'));
         Mail::send(new PartnerMail($partner, $admin_email, 'admin'));
         return request()->json(['message' => 'Partner request sent successfully'], 200);
