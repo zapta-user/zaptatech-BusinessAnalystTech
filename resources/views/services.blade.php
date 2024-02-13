@@ -1,5 +1,10 @@
 @extends('layouts.default')
 @section('title', 'Services')
+<style>
+    a{
+        text-decoration: none !important;
+    }
+</style>
 @section('section')
     <!-- --------------------BANNER SECTION----------------- -->
     <div class="bannerSection flex-column gap-lg-4 gap-3 d-flex align-items-start justify-content-center  flex-shrink-0"
@@ -52,6 +57,7 @@
             <div class="main-services-cards">
                 <!-- 1 -->
                 <div class="card serviceCard1">
+                    <a href="{{ route('frontend.services.software-business-analyst') }}">
                     <div class="business-Process">
                         <div class="">
                             <img loading="lazy" width="80" height="80" src="{{ asset('assets/icon-1-for-service.svg') }}"
@@ -66,11 +72,13 @@
                             document requirements, and provide comprehensive
                             ...
                         </p>
-                        <a href="{{ route('frontend.services.software-business-analyst') }}" class="know-more">Know More</a>
+                        
                     </div>
+                </a>
                 </div>
                 <!-- 2 -->
                 <div class="card serviceCard1">
+                    <a href="{{ route('frontend.services.business-process-re-engineering') }}">
                     <div class="business-Process">
                         <div class="">
                             <img src="{{ asset('assets/icon-2-for-service.svg') }}" alt="Icon 2 for service" class="img-fluid" />
@@ -82,12 +90,13 @@
                             optimized
                             processes, and provide a detailed implementation...
                         </p>
-                        <a href="{{ route('frontend.services.business-process-re-engineering') }}" class="know-more">Know
-                            More</a>
+                       
                     </div>
+                </a>
                 </div>
                 <!-- 3 -->
                 <div class="card serviceCard1">
+                    <a href="{{ route('frontend.services.software-project-management') }}">
                     <div class="business-Process">
                         <div class="">
                             <img loading="lazy" width="80" height="80" src="{{ asset('assets/icon-3-for-service.svg') }}"
@@ -100,12 +109,13 @@
                             monitor,
                             and evaluate, ensuring on-time and within-budget delivery.
                             ..</p>
-                        <a href="{{ route('frontend.services.software-project-management') }}" class="know-more">Know
-                            More</a>
+                        
                     </div>
+                </a>
                 </div>
                 <!-- 4 -->
                 <div class="card serviceCard1">
+                    <a href="{{ route('frontend.services.solution-architecture-design') }}">
                     <div class="business-Process">
                         <div class="">
                             <img src="{{ asset('assets/icon-4-for-service.svg') }}" alt="Icon 4 for service" class="img-fluid" />
@@ -117,12 +127,13 @@
                             architecture, and deliver detailed documentation.
                             ..
                         </p>
-                        <a href="{{ route('frontend.services.solution-architecture-design') }}" class="know-more">Know
-                            More</a>
+                       
                     </div>
+                </a>
                 </div>
                 <!-- 5 -->
                 <div class="card serviceCard1">
+                    <a href="{{ route('frontend.services.software-documentation') }}">
                     <div class="business-Process">
                         <div class="">
                             <img loading="lazy" width="80" height="80" src="{{ asset('assets/icon-5-for-service.svg') }}"
@@ -135,11 +146,13 @@
                             Clear, comprehensive documentation for seamless system understanding. We analyze software,
                             identify
                             documentation needs, and deliver user-friendly ...</p>
-                        <a href="{{ route('frontend.services.software-documentation') }}" class="know-more">Know More</a>
+                       
                     </div>
+                </a>
                 </div>
                 <!-- 6 -->
                 <div class="card serviceCard1">
+                    <a href="{{ route('frontend.services.data-analysis') }}">
                     <div class="business-Process">
                         <div class="">
                             <img src="{{ asset('assets/icon-6-for-service.svg') }}" alt="Icon 6 for service" class="img-fluid" />
@@ -151,11 +164,13 @@
                             statistical methods to provide meaningful insights.
                             ..
                         </p>
-                        <a href="{{ route('frontend.services.data-analysis') }}" class="know-more">Know More</a>
+                       
                     </div>
+                </a>
                 </div>
                 <!-- 7 -->
                 <div class="card serviceCard1">
+                    <a href="{{ route('frontend.services.digital-adoption-planning') }}">
                     <div class="business-Process">
                         <div class="">
                             <img loading="lazy" width="80" height="80" src="{{ asset('assets/icon-1-for-service.svg') }}"
@@ -170,12 +185,13 @@
                             a roadmap for successful digital adoption.
                             ..
                         </p>
-                        <a href="{{ route('frontend.services.digital-adoption-planning') }}" class="know-more">Know
-                            More</a>
+                        
                     </div>
+                </a>
                 </div>
                 <!-- 8 -->
                 <div class="card serviceCard1">
+                    <a href="{{ route('frontend.services.requirement-gathering-and-elicitation') }}">
                     <div class="business-Process">
                         <div class="">
                             <img src="{{ asset('assets/icon-2-for-service.svg') }}" alt="Icon 2 for service" class="img-fluid" />
@@ -188,12 +204,13 @@
                             define roles, and employ various elicitation techniques.
                             ..
                         </p>
-                        <a href="{{ route('frontend.services.requirement-gathering-and-elicitation') }}"
-                            class="know-more">Know More</a>
+                       
                     </div>
+                </a>
                 </div>
                 <!-- 9 -->
                 <div class="card serviceCard1">
+                    <a href="{{ route('frontend.services.technical-research-and-development') }}">
                     <div class="business-Process">
                         <div class="">
                             <img loading="lazy" width="80" height="80" src="{{ asset('assets/icon-3-for-service.svg') }}"
@@ -206,9 +223,9 @@
                             solutions,
                             and deliver improved system performance.
                             ..</p>
-                        <a href="{{ route('frontend.services.technical-research-and-development') }}"
-                            class="know-more">Know More</a>
+                        
                     </div>
+                </a>
                 </div>
 
             </div>
@@ -367,7 +384,7 @@ linear-gradient(98.18deg, rgba(55, 58, 73, 0.194867) 14.37%, rgba(60, 44, 63, 0.
                             d="M1068 41.8738C1068 41.8738 956.287 7.96021 864.681 2.7105C735.661 -4.68327 538.484 48.0669 538.484 48.0669C538.484 48.0669 384.696 80.6953 283.86 81.9596C172.523 83.3556 2 48.0669 2 48.0669"
                             stroke="#2B5F68" stroke-width="3" stroke-linecap="square" stroke-dasharray="20 10" />
                         </svg> -->
-                        <svg class="hover-line" height="84" viewBox="0 0 1070 84" fill="none"
+                        <svg width="100%" class="hover-line" height="84" viewBox="0 0 1070 84" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M1068 41.8738C1068 41.8738 956.287 7.96021 864.681 2.7105C735.661 -4.68327 538.484 48.0669 538.484 48.0669C538.484 48.0669 384.696 80.6954 283.86 81.9597C172.523 83.3556 2 48.0669 2 48.0669"
@@ -383,7 +400,7 @@ linear-gradient(98.18deg, rgba(55, 58, 73, 0.194867) 14.37%, rgba(60, 44, 63, 0.
                             d="M1068 41.8738C1068 41.8738 956.287 7.96021 864.681 2.7105C735.661 -4.68327 538.484 48.0669 538.484 48.0669C538.484 48.0669 384.696 80.6954 283.86 81.9597C172.523 83.3556 2 48.0669 2 48.0669"
                             stroke="white" stroke-width="3" stroke-linecap="square" stroke-dasharray="20 10" />
                         </svg> -->
-                        <svg class="hover-white" height="84" viewBox="0 0 1070 84" fill="none"
+                        <svg width="100%" class="hover-white" height="84" viewBox="0 0 1070 84" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M1068 41.8738C1068 41.8738 956.287 7.96021 864.681 2.7105C735.661 -4.68327 538.484 48.0669 538.484 48.0669C538.484 48.0669 384.696 80.6954 283.86 81.9597C172.523 83.3556 2 48.0669 2 48.0669"

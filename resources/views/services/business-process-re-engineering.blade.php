@@ -1,5 +1,10 @@
 @extends('layouts.default')
 @section('title', 'Services')
+<style>
+  a{
+      text-decoration: none !important;
+  }
+</style>
 @section('section')
 @php
  $meta_title ="Sync4Tech | Business Process Re-Engineering";
@@ -247,6 +252,7 @@
 
         <!-- 2 -->
         <div class="card serviceCard1">
+          <a href="{{route('frontend.services.software-business-analyst')}}">
           <div class="business-Process">
             <div class="">
               <img loading="lazy" width="80" height="80" src="{{ asset('assets/icon-1-for-service.svg') }}"
@@ -259,11 +265,12 @@
               document requirements, and provide comprehensive
               ...
             </p>
-            <a href="{{route('frontend.services.software-business-analyst')}}" class="know-more">Know More</a>
           </div>
+        </a>
         </div>
         <!-- 3 -->
         <div class="card serviceCard1">
+          <a href="{{route('frontend.services.business-process-re-engineering')}}">
           <div class="business-Process">
             <div class="">
               <img src="{{ asset('assets/icon-2-for-service.svg') }}" alt="Icon 2 for service" class="img-fluid" />
@@ -273,11 +280,12 @@
           <div class="services-card">
             <p>Revitalize your processes for enhanced efficiency. We analyze current workflows, redesign optimized
               processes, and provide a detailed implementation...</p>
-            <a href="{{route('frontend.services.business-process-re-engineering')}}" class="know-more">Know More</a>
+          </a>
           </div>
         </div>
         <!-- 4 -->
         <div class="card serviceCard1">
+          <a href="{{route('frontend.services.software-project-management')}}">
           <div class="business-Process">
             <div class="">
               <img loading="lazy" width="80" height="80" src="{{ asset('assets/icon-3-for-service.svg') }}"
@@ -290,8 +298,8 @@
               and evaluate, ensuring on-time and within-budget delivery.
               ..
             </p>
-            <a href="{{route('frontend.services.software-project-management')}}" class="know-more">Know More</a>
           </div>
+        </a>
         </div>
 
       </div>

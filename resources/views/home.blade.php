@@ -55,7 +55,7 @@
             <!-- ------------SERVICE CONTENT SECTION---------------- -->
             <div class="contentSection">
                 <h1 class="text-orange text-center" style="font-size: 18px">
-                    OUR SERVICES
+                    Sync4Tech Pre-Development Software Services
                 </h1>
                 <h2>Providing Best Services</h2>
                 <p class="provide-business">
@@ -67,6 +67,7 @@
             <div class="main-services-cards">
                 <!-- 1 -->
                 <div class="card serviceCard1">
+                    <a href="{{ route('frontend.services.software-business-analyst') }}">
                     <div class="business-Process">
                         <div class="">
                             <img loading="lazy" width="80" height="80"
@@ -82,11 +83,13 @@
                             document requirements, and provide comprehensive
                             ...
                         </p>
-                        <a href="{{ route('frontend.services.software-business-analyst') }}" class="know-more">Know More</a>
+                       
                     </div>
+                </a>
                 </div>
                 <!-- 2 -->
                 <div class="card serviceCard1">
+                    <a href="{{ route('frontend.services.business-process-re-engineering') }}">
                     <div class="business-Process">
                         <div class="">
                             <img src="{{ asset('assets/icon-2-for-service.svg') }}" alt="Icon 2 for service"
@@ -99,12 +102,13 @@
                             optimized
                             processes, and provide a detailed implementation...
                         </p>
-                        <a href="{{ route('frontend.services.business-process-re-engineering') }}" class="know-more">Know
-                            More</a>
+                   
                     </div>
+                </a>
                 </div>
                 <!-- 3 -->
                 <div class="card serviceCard1">
+                    <a href="{{ route('frontend.services.software-project-management') }}">
                     <div class="business-Process">
                         <div class="">
                             <img loading="lazy" width="80" height="80"
@@ -118,12 +122,13 @@
                             monitor,
                             and evaluate, ensuring on-time and within-budget delivery.
                             ..</p>
-                        <a href="{{ route('frontend.services.software-project-management') }}" class="know-more">Know
-                            More</a>
+                        
                     </div>
+                </a>
                 </div>
                 <!-- 4 -->
                 <div class="card serviceCard1">
+                    <a href="{{ route('frontend.services.solution-architecture-design') }}">
                     <div class="business-Process">
                         <div class="">
                             <img src="{{ asset('assets/icon-4-for-service.svg') }}" alt="Icon 4 for service"
@@ -136,12 +141,13 @@
                             architecture, and deliver detailed documentation.
                             ..
                         </p>
-                        <a href="{{ route('frontend.services.solution-architecture-design') }}" class="know-more">Know
-                            More</a>
+                        
                     </div>
+                </a>
                 </div>
                 <!-- 5 -->
                 <div class="card serviceCard1">
+                    <a href="{{ route('frontend.services.software-documentation') }}">
                     <div class="business-Process">
                         <div class="">
                             <img loading="lazy" width="80" height="80"
@@ -155,11 +161,13 @@
                             Clear, comprehensive documentation for seamless system understanding. We analyze software,
                             identify
                             documentation needs, and deliver user-friendly ...</p>
-                        <a href="{{ route('frontend.services.software-documentation') }}" class="know-more">Know More</a>
+                       
                     </div>
+                </a>
                 </div>
                 <!-- 6 -->
                 <div class="card serviceCard1">
+                    <a href="{{ route('frontend.services.data-analysis') }}">
                     <div class="business-Process">
                         <div class="">
                             <img src="{{ asset('assets/icon-6-for-service.svg') }}" alt="Icon 6 for service"
@@ -172,8 +180,9 @@
                             statistical methods to provide meaningful insights.
                             ..
                         </p>
-                        <a href="{{ route('frontend.services.data-analysis') }}" class="know-more">Know More</a>
+                       
                     </div>
+                </a>
                 </div>
             </div>
             <!-- 6-card-close -->
@@ -1132,14 +1141,18 @@
         //     spaceBetween: 20,
         //     speed: 1000
         const swiper = new Swiper(".mySwiper", {
+            slidesPerView: "auto",
+        centeredSlides: false,
+        centerInsufficientSlides:true,
+        simulateTouch:false,
+        spaceBetween: 120,
         loop: true,
+        autoplay: true,
         autoplay: {
-            delay: 0,
-            pauseOnMouseEnter: true,        // added
-            disableOnInteraction: false,    // added
+            delay: 0
         },
-        speed: 3000,
-        slidesPerView: 5,
+        // freeMode: true,
+        speed: 2000,
 })
             // pagination: {
             //     el: ".swiper-pagination",

@@ -10,7 +10,7 @@ $('.moreless-button').click(function () {
 });
 
 $.validator.addMethod("atLeastOneCheckbox", function (value, element) {
-  return $('input[name="domains"]:checked').length > 0;
+  return $('input[name="domains[]"]:checked').length > 0; // Ensure correct input name
 }, "Please select at least one domain");
 
 $("#becomepartform").validate({
@@ -28,7 +28,7 @@ $("#becomepartform").validate({
       required: true,
       email: true,
     },
-    domains: {
+    'domains[]': {
       atLeastOneCheckbox: true,
     },
   },
@@ -45,7 +45,7 @@ $("#becomepartform").validate({
     email: {
       required: "Enter email",
     },
-    domains: {
+    'domains[]': {
       atLeastOneCheckbox: "Please select at least one domain",
     },
   },

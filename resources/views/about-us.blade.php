@@ -170,7 +170,7 @@
                     </div>
 
                     <div style="position: absolute;left: 157px;right: 0%;top: 73px;z-index: -1;" class="change-wi">
-                        <svg class="hover-line" height="84" viewBox="0 0 1070 84" fill="none"
+                        <svg width="100%" class="hover-line" height="84" viewBox="0 0 1070 84" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M1068 41.8738C1068 41.8738 956.287 7.96021 864.681 2.7105C735.661 -4.68327 538.484 48.0669 538.484 48.0669C538.484 48.0669 384.696 80.6953 283.86 81.9596C172.523 83.3556 2 48.0669 2 48.0669"
@@ -178,7 +178,7 @@
                         </svg>
                     </div>
                     <div style="position: absolute;left: 157px;right: 0%;top: 73px;z-index: -1;" class="change-wi">
-                        <svg class="hover-white" height="84" viewBox="0 0 1070 84" fill="none"
+                        <svg width="100%" class="hover-white" height="84" viewBox="0 0 1070 84" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M1068 41.8738C1068 41.8738 956.287 7.96021 864.681 2.7105C735.661 -4.68327 538.484 48.0669 538.484 48.0669C538.484 48.0669 384.696 80.6954 283.86 81.9597C172.523 83.3556 2 48.0669 2 48.0669"
