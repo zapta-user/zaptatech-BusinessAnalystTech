@@ -62,22 +62,24 @@
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
                         src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
-                    <a class="f-linkstag" data-href-value="{{ route('frontend.aboutUs') }}">About Us</a>
+
+                    <span id="aboutUsLink" class="footer-link span-link f-linkstag" data-href-value="{{ route('frontend.aboutUs') }}">About Us</span>
+
                 </div>
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
                         src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
-                    <a class="f-linkstag" href="{{ route('frontend.blogs') }}">Blog</a>
+                    <span id="aboutUsLink" class="footer-link span-link f-linkstag" data-href-value="{{ route('frontend.blogs') }}">Blog</span>
                 </div>
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
                         src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
-                    <a class="f-linkstag" href="{{ route('frontend.projects') }}">Projects</a>
+                    <span id="aboutUsLink" class="footer-link span-link f-linkstag" data-href-value="{{ route('frontend.projects') }}">Projects</span>
                 </div>
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
                         src="{{ asset('assets/arrow-icon-indicating-direction-or-navigation.svg') }}" alt="Arrow Icon - Indicating Direction or Navigation">
-                    <a class="f-linkstag" href="{{ route('frontend.partners') }}">Partners</a>
+                    <span id="aboutUsLink" class="footer-link span-link f-linkstag" data-href-value="{{ route('frontend.partners') }}">Partners</span>
                 </div>
                 <div class="f-links">
                     <img width="24" height="24" loading="lazy"
@@ -920,7 +922,7 @@
                             </svg>
                         </div>
                         <div class="d-flex flex-column justify-content-center align-items-center mt-4">
-                            <img loading="lazy" src="{{ asset('assets/home-logo.svg') }}" alt="logo"
+                            <img loading="lazy" src="{{asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}" alt="logo"
                                 class="img-fluid" />
                         </div>
                         <div class="d-flex flex-column align-items-start px-3 mt-5 gap-4">
@@ -1245,7 +1247,80 @@
         $("#succesmodel").modal("show");
     }
 </script>
+<script>
+$(document).ready(function() {
+    var hiddenItems = []; // Variable to store initially hidden items
 
+    $.ajax({
+        url: "{{ route('frontend.domains') }}",
+        method: 'GET',
+        dataType: 'json',
+        success: function(response) {
+            var domainItems = $(response.domainView);
+            var totalItems = domainItems.length;
+
+            // Check if there are more than 12 items
+            if (totalItems > 12) {
+                // Store items beyond 12 in hiddenItems array
+                hiddenItems = domainItems.slice(12);
+                
+                // Only show the first 12 items
+                var slicedItems = domainItems.slice(0, 17);
+                $('#domainsListing').html(slicedItems);
+
+                // Append "Read More" button
+                $('#domainsListing').after('<div class="b-read-mrbtn"><button type="button" class="moreless-button" style="display: block;">Others ></button></div>');
+
+
+            } else {
+                // If there are 12 or fewer items, display all items
+                $('#domainsListing').html(domainItems);
+            }
+
+            // Render serviceListing if needed
+            $('.serviceListing').html(response.serviceView);
+
+            console.log(response);
+        },
+        error: function(xhr, status, error) {
+            console.error(error);
+        }
+    });
+
+    // Add click event listener using event delegation
+    $(document).on('click', '.moreless-button', function() {
+        // Append the hidden items back to the list
+        $('#domainsListing').append(hiddenItems);
+
+        // Remove the "Read More" button
+        $(this).remove();
+    });
+});
+
+</script>
+<script>
+    $(document).ready(function() {
+    // Select all elements with class 'span-link'
+    var spanLinks = $(".span-link");
+    // Check if 'spanLinks' is truthy and iterate over each element
+    if (spanLinks) {
+        spanLinks.each(function() {
+            // Attach click event handler to each 'spanLink' element
+            $(this).on("click", function(event) {
+                // Get the value of 'data-href-value' attribute
+                var hrefValue = $(this).attr("data-href-value");
+                // Open link in new tab if CTRL (Windows/Linux) or CMD (Mac) key is pressed
+                if (event.ctrlKey || event.metaKey) {
+                    window.open(hrefValue, "_blank");
+                } else { // Otherwise, navigate to the link in the current tab
+                    // window.location.href = hrefValue;
+                    window.open(hrefValue, "_blank");
+                }
+            });
+        });
+    }
+});
+</script>
 
 @stack('scripts')
 

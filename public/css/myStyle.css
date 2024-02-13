@@ -246,7 +246,7 @@ a {
     transition: transform .5s
 }
 
-.serviceCard1::after {
+/* .serviceCard1::after {
     position: absolute;
     background-color: rgba(12, 11, 11, .57);
     backdrop-filter: blur(1px);
@@ -255,7 +255,7 @@ a {
     content: "";
     opacity: 0;
     transition: .4s
-}
+} */
 
 .serviceCard1:hover {
     transform: scale(1.02)

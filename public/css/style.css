@@ -1998,6 +1998,41 @@ form textarea {
     padding: 60px 70px !important;
     
 }
+#domainsListing{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* .becomepartform span{
+    display: block;
+} */
+.becomepartform div{
+    display: grid;
+}
+.b-read-mrbtn button{
+    border: none;
+    background-color: transparent;
+    color: #FB7A00;
+    margin-top: 10px;
+    text-align: left;
+}
+.mySwiper {
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+}
+
+.mySwiper .swiper-wrapper {
+    -webkit-transition-timing-function:linear !important; 
+    -o-transition-timing-function:linear !important;
+    transition-timing-function:linear !important;
+}
+
+.mySwiper .swiper-wrapper .swiper-slide{
+    width: fit-content !important;
+}
+.f-links span{
+    cursor: pointer;
+}
 @media (max-width:768px) {
 
     .grid-container .large-div,
@@ -3345,5 +3380,15 @@ form textarea {
 
     to {
         opacity: 0
+    }
+}
+@media (max-width:992px) {
+    #domainsListing{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:767px) {
+    #domainsListing{
+        grid-template-columns: 1fr ;
     }
 }
