@@ -76,11 +76,11 @@
                     <a class="nav-link mx-2 pb-2" href="{{ route('frontend.blogs') }}">Blogs</a>
                     <a class="nav-link mx-2 pb-2" href="{{ route('frontend.projects') }}">Projects</a>
                     <a class="nav-link mx-2 pb-2" href="{{ route('frontend.partners') }}">Partners</a>
-                    <a class="navButton nav-res" href="#" class="text-white" data-bs-toggle="modal"
+                    <a class="navButton nav-res text-white" href="#" data-bs-toggle="modal"
                         data-bs-target="#staticBackdropcon">Contact Us</a>
                 </div>
                 <div>
-                    <a class="navButton main-btn" href="#" class="text-white" data-bs-toggle="modal"
+                    <a class="navButton main-btn text-white" href="#" data-bs-toggle="modal"
                         data-bs-target="#staticBackdropcon">Contact Us</a>
                     <i class="fa fa-bars" id="nav-toggler"></i>
                 </div>

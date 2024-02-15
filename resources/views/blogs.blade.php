@@ -989,10 +989,9 @@
                                         </h3>
                                         <div id="calendar" class=""></div>
                                     </div>
-                                    <button type="submit" 
+                                    <button type="submit" onclick="showSecondDiv()"
                                         class="btn partnerbutton mt-5 bookSubmit navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3">
-                                        <a class="text-white px-4" onclick="showSecondDiv()">Next</a>
-                                    </button>
+                                        <span class="text-orange px-4">Next</span>                                    </button>
                                 </div>
                                 <div class="col-xl-7 col-lg-5 col-12 order-lg-2 order-1 available-slots d-flex flex-column p-4 gap-xl-1 gap-3"
                                     style="background-color: #0d3642">
