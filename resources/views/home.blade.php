@@ -996,7 +996,6 @@
 
     </section>
     <!-- ------------CONTACT SECTION---------------- -->
-
     <section data-animation="fadeIn" data-animation-delay=".3s" id="contactSection"
         class="cardsSection flex-wrap contactSection w-100 toolCardSection d-flex flex-column justify-content-center gap-5"
         style="background-color: #e7ebec; padding-bottom: 80px ;">
