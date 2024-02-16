@@ -562,9 +562,9 @@
                     </h3>
                     <div id="calendar" class=""></div>
                   </div>
-                  <button type="submit" 
+                  <button type="submit" onclick="showSecondDiv()"
                     class="btn partnerbutton mt-5 bookSubmit navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3">
-                    <a class="text-white px-4" onclick="showSecondDiv()">Next</a>
+                    <span class="text-orange px-4">Next</span>
                   </button>
                 </div>
                 <div
@@ -741,7 +741,7 @@
                     </div>
                     <div class="d-flex flex-md-row flex-column gap-2 w-100 ">
                       <div class="d-flex flex-column gap-1 w-100 pos-rev ex-padd">
-                        <label for="email" class="text-start text-orange">Email <span>*</span>
+                        <label for="email" class="text-start">Email <span>*</span>
                         </label>
                         <input name="email" id="email" class="form-control p-2" placeholder="abc@gmail.com" style="
                           border: 1px solid #d0d5dd !important;

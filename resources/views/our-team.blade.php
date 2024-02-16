@@ -579,10 +579,9 @@
                                         </h1>
                                         <div id="calendar" class=""></div>
                                     </div>
-                                    <button type="submit"
+                                    <button type="submit" onclick="showSecondDiv()"
                                         class="btn partnerbutton mt-5 bookSubmit navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3">
-                                        <a class="text-white px-4" onclick="showSecondDiv()">Next</a>
-                                    </button>
+                                        <span class="text-orange px-4">Next</span>                                    </button>
                                 </div>
                                 <div class="col-xl-7 col-lg-5 col-12 order-lg-2 order-1 available-slots d-flex flex-column p-4 gap-xl-1 gap-3"
                                     style="background-color: #0d3642">
@@ -840,8 +839,8 @@
                                         </svg>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center align-items-center mt-4">
-                                        <img loading="lazy" width="212" height="40" src="{{asset('assets/home-logo.svg')}}"
-                                            alt="Home Logo" class="img-fluid" />
+                                        <img loading="lazy" width="212" height="40" src="{{asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg')}}"
+                                            alt="Sync4tech Homepage Logo You Gateway To Technological Excellence.svg" class="img-fluid" />
                                     </div>
                                     <div class="d-flex flex-column align-items-start px-3 mt-5 gap-4">
                                         <div class="d-flex gap-3 justify-content-center align-items-center">

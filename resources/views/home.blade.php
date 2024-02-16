@@ -536,10 +536,10 @@
                         </div>
                         <div
                             class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute showbutton top-0">
-                            <button style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
-                                class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3">
-                                <a href="{{ route('frontend.projects.quicksteps') }}" class="text-orange">Know More</a>
-                            </button>
+                            {{-- <button > --}}
+                                <a style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
+                                class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3" href="{{ route('frontend.projects.quicksteps') }}" class="text-orange">Know More</a>
+                            {{-- </button> --}}
                         </div>
                     </div>
                     <div class="w-100 d-flex flex-sm-row flex-column gap-3 align-items-center" style="height: 315px">
@@ -554,10 +554,10 @@
                             </div>
                             <div
                                 class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute showbutton top-0">
-                                <button style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
-                                    class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3">
-                                    <a href="{{ route('frontend.projects.investme') }}" class="text-orange">Know More</a>
-                                </button>
+                                {{-- <button > --}}
+                                    <a style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
+                                    class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3 text-orange" href="{{ route('frontend.projects.investme') }}">Know More</a>
+                                {{-- </button> --}}
                             </div>
                         </div>
                         <div class="position-relative w-100 viewprojectmain mt-lg-3">
@@ -571,11 +571,11 @@
                             </div>
                             <div
                                 class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute showbutton top-0">
-                                <button style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
-                                    class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3">
-                                    <a href="{{ route('frontend.projects.qme-solutions') }}" class="text-orange">Know
+                                {{-- <button > --}}
+                                    <a style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
+                                    class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3 text-orange" href="{{ route('frontend.projects.qme-solutions') }}">Know
                                         More</a>
-                                </button>
+                                {{-- </button> --}}
                             </div>
                         </div>
                     </div>
@@ -592,10 +592,10 @@
                         </div>
                         <div
                             class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute showbutton top-0">
-                            <button style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
-                                class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3">
-                                <a href="{{ route('frontend.projects.kutuby') }}" class="text-orange">Know More</a>
-                            </button>
+                            {{-- <button > --}}
+                                <a style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
+                                class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3" href="{{ route('frontend.projects.kutuby') }}" class="text-orange">Know More</a>
+                            {{-- </button> --}}
                         </div>
                     </div>
                 </div>
@@ -996,7 +996,6 @@
 
     </section>
     <!-- ------------CONTACT SECTION---------------- -->
-
     <section data-animation="fadeIn" data-animation-delay=".3s" id="contactSection"
         class="cardsSection flex-wrap contactSection w-100 toolCardSection d-flex flex-column justify-content-center gap-5"
         style="background-color: #e7ebec; padding-bottom: 80px ;">
