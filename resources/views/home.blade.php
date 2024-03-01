@@ -2,6 +2,7 @@
 <!-- Link Swiper's CSS -->
 {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> --}}
 @section('section')
+
     <!-- hero-section -->
     <section class="hero-section pt-80">
         <div class="container">
@@ -49,6 +50,8 @@
             </div>
         </div>
     </section>
+    
+
     <!----------- services-section----- -->
     <section class="cardsSection  serviceCardSection">
         <div class="container">
