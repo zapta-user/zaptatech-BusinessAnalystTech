@@ -354,7 +354,12 @@ textarea:focus {
 .navButton:hover {
     background-color: var(--orange-color) !important
 }
-
+.spn__btn:hover{
+    background-color: var(--orange-color) !important
+}
+.navButton:hover span{
+    color: white !important;
+}
 .sliderUse::after,
 .sliderrr::after {
     right: 0;

@@ -15,7 +15,7 @@
                     So we are here to save you!
                 </p>
                 <div class="Partner-button">
-                    <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="" type="button">
+                    <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" type="button">
                         <!-- <a href="#" class="text-orange">Become Our Partner</a> -->
                         Become Our Partner
                     </button>
@@ -46,12 +46,14 @@
                     <a href="https://zaptatechnologies.slack.com/" target="_blank"
                         style="text-decoration: none !important; border: none;">
                         <i class="fa-brands fa-slack text-white p-2 rounded-circle border"
-                            style="opacity: 0.6;width: 34px;height: 34;text-align: center;"></i>
+                            style="opacity: 0.6;width: 34px;height: 34px;text-align: center;"></i>
                     </a>
                 </div>
             </div>
         </div>
     </section>
+
+
     <!----------- services-section----- -->
     <section class="cardsSection  serviceCardSection">
         <div class="container">
@@ -368,7 +370,7 @@
                             <a href="https://app.powerbi.com/" target="_blank"
                                 class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                                 <img loading="lazy" width="58" height="70"
-                                    src="{{ asset('assets/Power_BI.png') }}" alt="" class="img-fluid" />
+                                    src="{{ asset('assets/Power_BI.png') }}" alt="Power BI" class="img-fluid" />
                                 <p class="tool-card text-center fw-medium">Power BI</p>
                             </a>
                         </div>
@@ -401,7 +403,7 @@
                             <a href="https://trello.com/" target="_blank"
                                 class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                                 <img loading="lazy" width="58" height="70"
-                                    src="{{ asset('assets/trello.png') }}" alt="" class="img-fluid" />
+                                    src="{{ asset('assets/trello.png') }}" alt="Trello" class="img-fluid" />
                                 <p class="tool-card text-center fw-medium">Trello</p>
                             </a>
                         </div>
@@ -409,7 +411,7 @@
                             <a href="https://monday.com/" target="_blank"
                                 class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                                 <img loading="lazy" width="58" height="70" src="{{ asset('assets/moday.png') }}"
-                                    alt="" class="img-fluid" />
+                                    alt="Moday" class="img-fluid" />
                                 <p class="tool-card text-center fw-medium">Moday</p>
                             </a>
                         </div>
@@ -417,7 +419,7 @@
                             <a href="https://www.notion.so/" target="_blank"
                                 class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                                 <img loading="lazy" width="58" height="70"
-                                    src="{{ asset('assets/notion.png') }}" alt="" class="img-fluid" />
+                                    src="{{ asset('assets/notion.png') }}" alt="Notion" class="img-fluid" />
                                 <p class="tool-card text-center fw-medium">Notion</p>
                             </a>
                         </div>
@@ -425,7 +427,7 @@
                             <a href="https://www.drawio.com/" target="_blank"
                                 class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                                 <img loading="lazy" width="58" height="70"
-                                    src="{{ asset('assets/draw_io.png') }}" alt="" class="img-fluid" />
+                                    src="{{ asset('assets/draw_io.png') }}" alt="Draw Io" class="img-fluid" />
                                 <p class="tool-card text-center fw-medium">draw.io</p>
                             </a>
                         </div>
@@ -433,7 +435,7 @@
                             <a href="https://swagger.io/" target="_blank"
                                 class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                                 <img loading="lazy" width="58" height="70"
-                                    src="{{ asset('assets/swaggar.png') }}" alt="" class="img-fluid" />
+                                    src="{{ asset('assets/swaggar.png') }}" alt="Swaggar" class="img-fluid" />
                                 <p class="tool-card text-center fw-medium">Swaggar</p>
                             </a>
                         </div>
@@ -441,7 +443,7 @@
                             <a href="https://www.lucidchart.com/" target="_blank"
                                 class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                                 <img loading="lazy" width="58" height="70"
-                                    src="{{ asset('assets/lucidchart.png') }}" alt="" class="img-fluid" />
+                                    src="{{ asset('assets/lucidchart.png') }}" alt="Lucidchart" class="img-fluid" />
                                 <p class="tool-card text-center fw-medium">Lucidchart</p>
                             </a>
                         </div>
@@ -449,7 +451,7 @@
                             <a href="https://www.atlassian.com/software/jira" target="_blank"
                                 class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
                                 <img loading="lazy" width="58" height="70"
-                                    src="{{ asset('assets/jira_software_logo.png') }}" alt=""
+                                    src="{{ asset('assets/jira_software_logo.png') }}" alt="Jira Software Logo"
                                     class="img-fluid" />
                                 <p class="tool-card text-center fw-medium">Jira</p>
                             </a>
@@ -508,6 +510,7 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
     <!-- ------------PROJECT SECTION---------------- -->
@@ -538,11 +541,11 @@
                         </div>
                         <div
                             class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute showbutton top-0">
-                            <button id=""
-                                style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
-                                class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3">
-                                <a href="{{ route('frontend.projects.quicksteps') }}" class="text-orange">Know More</a>
-                            </button>
+                            {{-- <button > --}}
+                            <a style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
+                                class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3"
+                                href="{{ route('frontend.projects.quicksteps') }}" class="text-orange">Know More</a>
+                            {{-- </button> --}}
                         </div>
                     </div>
                     <div class="w-100 d-flex flex-sm-row flex-column gap-3 align-items-center" style="height: 315px">
@@ -557,11 +560,11 @@
                             </div>
                             <div
                                 class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute showbutton top-0">
-                                <button id=""
-                                    style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
-                                    class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3">
-                                    <a href="{{ route('frontend.projects.investme') }}" class="text-orange">Know More</a>
-                                </button>
+                                {{-- <button > --}}
+                                <a style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
+                                    class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3 text-orange"
+                                    href="{{ route('frontend.projects.investme') }}">Know More</a>
+                                {{-- </button> --}}
                             </div>
                         </div>
                         <div class="position-relative w-100 viewprojectmain mt-lg-3">
@@ -575,12 +578,12 @@
                             </div>
                             <div
                                 class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute showbutton top-0">
-                                <button id=""
-                                    style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
-                                    class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3">
-                                    <a href="{{ route('frontend.projects.qme-solutions') }}" class="text-orange">Know
-                                        More</a>
-                                </button>
+                                {{-- <button > --}}
+                                <a style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
+                                    class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3 text-orange"
+                                    href="{{ route('frontend.projects.qme-solutions') }}">Know
+                                    More</a>
+                                {{-- </button> --}}
                             </div>
                         </div>
                     </div>
@@ -597,11 +600,11 @@
                         </div>
                         <div
                             class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute showbutton top-0">
-                            <button id=""
-                                style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
-                                class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3">
-                                <a href="{{ route('frontend.projects.kutuby') }}" class="text-orange">Know More</a>
-                            </button>
+                            {{-- <button > --}}
+                            <a style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
+                                class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3"
+                                href="{{ route('frontend.projects.kutuby') }}" class="text-orange">Know More</a>
+                            {{-- </button> --}}
                         </div>
                     </div>
                 </div>
@@ -687,12 +690,12 @@
                     <div class="slideUse">
                         <img loading="lazy" width="129" height="30"
                             src="{{ asset('assets/image-displaying-myquicksteps-logo.svg') }}"
-                            alt="Image displaying MyQuickSteps Logo" class="img-fluid fab" />
+                            alt="Image Displaying MyQuickSteps Logo" class="img-fluid fab" />
                     </div>
                     <div class="slideUse">
                         <img loading="lazy" width="172" height="40"
                             src="{{ asset('assets/image-displaying-tech-house-logo.svg') }}"
-                            alt="Image displaying tech-house logo" class="img-fluid fab " />
+                            alt="Image Displaying Tech House Logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
                         <img loading="lazy" width="178" height="27"
@@ -724,17 +727,17 @@
                     <div class="slideUse">
                         <img loading="lazy" width="178" height="29"
                             src="{{ asset('assets/image-displaying-express-text-logo.svg') }}"
-                            alt="Image displaying express-text logo" class="img-fluid fab " />
+                            alt="Image Displaying Express Text Logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
                         <img loading="lazy" width="178" height="39"
                             src="{{ asset('assets/image-displaying-lahebo-logo.svg') }}"
-                            alt="Image displaying Lahebo logo" class="img-fluid fab" />
+                            alt="Image Displaying Lahebo Logo" class="img-fluid fab" />
                     </div>
                     <div class="slideUse">
                         <img loading="lazy" width="53" height="40"
                             src="{{ asset('assets/image-displaying-tamimi-logo.svg') }}"
-                            alt="Image displaying Tamimi logo" class="img-fluid fab " />
+                            alt="Image Displaying Tamimi logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
                         <img loading="lazy" width="129" height="30"
@@ -744,7 +747,7 @@
                     <div class="slideUse">
                         <img loading="lazy" width="172" height="40"
                             src="{{ asset('assets/image-displaying-tech-house-logo.svg') }}"
-                            alt="Image displaying tech-house logo" class="img-fluid fab " />
+                            alt="Image Displaying Tech House Logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
                         <img loading="lazy" width="178" height="27"
@@ -775,16 +778,16 @@
                     <div class="slideUse">
                         <img loading="lazy" width="178" height="29"
                             src="{{ asset('assets/image-displaying-express-text-logo.svg') }}"
-                            alt="Image displaying express-text logo" class="img-fluid fab " />
+                            alt="Image Displaying Express Text Logo" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
                         <img loading="lazy" width="178" height="39"
                             src="{{ asset('assets/image-displaying-lahebo-logo.svg') }}"
-                            alt="Image displaying Lahebo logo" class="img-fluid fab" />
+                            alt="Image Displaying Lahebo Logo" class="img-fluid fab" />
                     </div>
                     <div class="slideUse">
                         <img loading="lazy" width="53" height="40" src="{{ asset('assets/log7.svg') }}"
-                            alt="TAMIMI" class="img-fluid fab " />
+                            alt="Logo7" class="img-fluid fab " />
                     </div>
                     <div class="slideUse">
                         <img loading="lazy" width="129" height="30"
@@ -794,7 +797,7 @@
                     <div class="slideUse">
                         <img loading="lazy" width="172" height="40"
                             src="{{ asset('assets/image-displaying-tech-house-logo.svg') }}"
-                            alt="Image displaying tech-house logo" class="img-fluid fab " />
+                            alt="Image Displaying Tech House Logo" class="img-fluid fab " />
                     </div>
 
                 </div>
@@ -853,9 +856,8 @@
                         </div>
                         <div class="d-lg-flex gap-xl-3 gap-2 position-relative z-3"
                             style="width: 25px;height: 24px;text-align: center;display: flex !important;background: #DBE1E3;justify-items: center;justify-content: center;align-items: center;border-radius: 40px;">
-                            <svg id="" data-bs-toggle="modal" data-bs-target="#shareModal"
-                                xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                                fill="none">
+                            <svg data-bs-toggle="modal" data-bs-target="#shareModal" xmlns="http://www.w3.org/2000/svg"
+                                width="13" height="14" viewBox="0 0 13 14" fill="none">
                                 <path
                                     d="M10.5605 9.59603C10.0492 9.59603 9.58776 9.79721 9.24057 10.1197L4.66159 7.4545C4.69403 7.30524 4.71999 7.15598 4.71999 7.00024C4.71999 6.84449 4.69403 6.69523 4.66159 6.54597L9.23668 3.87879C9.58711 4.20326 10.0479 4.40444 10.5605 4.40444C11.6378 4.40444 12.5074 3.53485 12.5074 2.45759C12.5074 1.38033 11.6378 0.510742 10.5605 0.510742C9.48328 0.510742 8.61369 1.38033 8.61369 2.45759C8.61369 2.61334 8.63965 2.7626 8.67209 2.91185L4.097 5.57904C3.74657 5.25456 3.28581 5.05339 2.77314 5.05339C1.69589 5.05339 0.826294 5.92298 0.826294 7.00024C0.826294 8.07749 1.69589 8.94709 2.77314 8.94709C3.28581 8.94709 3.74657 8.74591 4.097 8.42144L8.67079 11.0938C8.63425 11.2408 8.61508 11.3915 8.61369 11.5429C8.61369 11.9279 8.72787 12.3043 8.94179 12.6245C9.15571 12.9447 9.45977 13.1942 9.81551 13.3415C10.1712 13.4889 10.5627 13.5274 10.9403 13.4523C11.318 13.3772 11.6649 13.1918 11.9372 12.9195C12.2094 12.6472 12.3949 12.3003 12.47 11.9227C12.5451 11.545 12.5065 11.1536 12.3592 10.7979C12.2118 10.4421 11.9623 10.1381 11.6421 9.92414C11.322 9.71021 10.9456 9.59603 10.5605 9.59603Z"
                                     fill="#FB7A00" />
@@ -865,8 +867,8 @@
                 </div>
                 <!-- card-2 -->
                 <div class="blogCard d-flex blogPost flex-column align-items-md-start align-items-center p-3">
-                    <a
-                        href="{{ route('frontend.blogs.ensuring-project-success-in-software-development') }}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
+                    <a href="{{ route('frontend.blogs.ensuring-project-success-in-software-development') }}"
+                        class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
                         <div class="position-relative w-100"
                             style="
                 background-image: url({{ asset('assets/doc-blogs.webp') }});
@@ -899,9 +901,8 @@
                         </div>
                         <div class="d-lg-flex gap-xl-3 gap-2"
                             style="width: 25px;height: 24px;text-align: center;display: flex !important;background: #DBE1E3;justify-items: center;justify-content: center;align-items: center;border-radius: 40px;">
-                            <svg id="" data-bs-toggle="modal" data-bs-target="#shareModal"
-                                xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                                fill="none">
+                            <svg data-bs-toggle="modal" data-bs-target="#shareModal" xmlns="http://www.w3.org/2000/svg"
+                                width="13" height="14" viewBox="0 0 13 14" fill="none">
                                 <path
                                     d="M10.5605 9.59603C10.0492 9.59603 9.58776 9.79721 9.24057 10.1197L4.66159 7.4545C4.69403 7.30524 4.71999 7.15598 4.71999 7.00024C4.71999 6.84449 4.69403 6.69523 4.66159 6.54597L9.23668 3.87879C9.58711 4.20326 10.0479 4.40444 10.5605 4.40444C11.6378 4.40444 12.5074 3.53485 12.5074 2.45759C12.5074 1.38033 11.6378 0.510742 10.5605 0.510742C9.48328 0.510742 8.61369 1.38033 8.61369 2.45759C8.61369 2.61334 8.63965 2.7626 8.67209 2.91185L4.097 5.57904C3.74657 5.25456 3.28581 5.05339 2.77314 5.05339C1.69589 5.05339 0.826294 5.92298 0.826294 7.00024C0.826294 8.07749 1.69589 8.94709 2.77314 8.94709C3.28581 8.94709 3.74657 8.74591 4.097 8.42144L8.67079 11.0938C8.63425 11.2408 8.61508 11.3915 8.61369 11.5429C8.61369 11.9279 8.72787 12.3043 8.94179 12.6245C9.15571 12.9447 9.45977 13.1942 9.81551 13.3415C10.1712 13.4889 10.5627 13.5274 10.9403 13.4523C11.318 13.3772 11.6649 13.1918 11.9372 12.9195C12.2094 12.6472 12.3949 12.3003 12.47 11.9227C12.5451 11.545 12.5065 11.1536 12.3592 10.7979C12.2118 10.4421 11.9623 10.1381 11.6421 9.92414C11.322 9.71021 10.9456 9.59603 10.5605 9.59603Z"
                                     fill="#FB7A00" />
@@ -911,8 +912,8 @@
                 </div>
                 <!-- card-3 -->
                 <div class="blogCard d-flex blogPost flex-column align-items-md-start align-items-center p-3">
-                    <a
-                        href="{{ route('frontend.blogs.the-benefits-of-docs-in-software-development') }}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
+                    <a href="{{ route('frontend.blogs.the-benefits-of-docs-in-software-development') }}"
+                        class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
                         <div class="position-relative w-100"
                             style="
                 background-image: url({{ asset('assets/2-blog-banner.webp') }});
@@ -948,9 +949,8 @@
                         </div>
                         <div class="d-lg-flex gap-xl-3 gap-2"
                             style="width: 25px;height: 24px;text-align: center;display: flex !important;background: #DBE1E3;justify-items: center;justify-content: center;align-items: center;border-radius: 40px;">
-                            <svg id="" data-bs-toggle="modal" data-bs-target="#shareModal"
-                                xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                                fill="none">
+                            <svg data-bs-toggle="modal" data-bs-target="#shareModal" xmlns="http://www.w3.org/2000/svg"
+                                width="13" height="14" viewBox="0 0 13 14" fill="none">
                                 <path
                                     d="M10.5605 9.59603C10.0492 9.59603 9.58776 9.79721 9.24057 10.1197L4.66159 7.4545C4.69403 7.30524 4.71999 7.15598 4.71999 7.00024C4.71999 6.84449 4.69403 6.69523 4.66159 6.54597L9.23668 3.87879C9.58711 4.20326 10.0479 4.40444 10.5605 4.40444C11.6378 4.40444 12.5074 3.53485 12.5074 2.45759C12.5074 1.38033 11.6378 0.510742 10.5605 0.510742C9.48328 0.510742 8.61369 1.38033 8.61369 2.45759C8.61369 2.61334 8.63965 2.7626 8.67209 2.91185L4.097 5.57904C3.74657 5.25456 3.28581 5.05339 2.77314 5.05339C1.69589 5.05339 0.826294 5.92298 0.826294 7.00024C0.826294 8.07749 1.69589 8.94709 2.77314 8.94709C3.28581 8.94709 3.74657 8.74591 4.097 8.42144L8.67079 11.0938C8.63425 11.2408 8.61508 11.3915 8.61369 11.5429C8.61369 11.9279 8.72787 12.3043 8.94179 12.6245C9.15571 12.9447 9.45977 13.1942 9.81551 13.3415C10.1712 13.4889 10.5627 13.5274 10.9403 13.4523C11.318 13.3772 11.6649 13.1918 11.9372 12.9195C12.2094 12.6472 12.3949 12.3003 12.47 11.9227C12.5451 11.545 12.5065 11.1536 12.3592 10.7979C12.2118 10.4421 11.9623 10.1381 11.6421 9.92414C11.322 9.71021 10.9456 9.59603 10.5605 9.59603Z"
                                     fill="#FB7A00" />
@@ -1005,7 +1005,6 @@
 
     </section>
     <!-- ------------CONTACT SECTION---------------- -->
-
     <section data-animation="fadeIn" data-animation-delay=".3s" id="contactSection"
         class="cardsSection flex-wrap contactSection w-100 toolCardSection d-flex flex-column justify-content-center gap-5"
         style="background-color: #e7ebec; padding-bottom: 80px ;">
@@ -1043,7 +1042,7 @@
                             <a href="https://www.facebook.com/sync4tech.co" target="_blank"
                                 style="text-decoration: none !important; border: none;">
                                 <i class="fa-brands fa-facebook-f text-white p-2 rounded-circle border"
-                                    style="opacity: 0.6;width: 34px;height: 34;text-align: center;"></i>
+                                    style="opacity: 0.6;width: 34px;height: 34px;text-align: center;"></i>
                             </a>
                             <a href="https://twitter.com/sync4tech" target="_blank"
                                 style="text-decoration: none !important; border: none;">
@@ -1064,11 +1063,11 @@
                         </div>
                     </div>
                     <!-- <div class="image-overlay-text position-absolute d-flex flex-column text-white gap-3">
-                                                                                                                                                                    
-                                                                                                                                                                    
-                                                                                                                                                                    
-                                                                                                                                                                   
-                                                                                                                                                                  </div> -->
+                                                                                                                                                                            
+                                                                                                                                                                            
+                                                                                                                                                                            
+                                                                                                                                                                           
+                                                                                                                                                                          </div> -->
                 </div>
                 <div class="subDiv formSection d-flex flex-column gap-2 align-items-md-start align-items-center">
                     <form action="{{ route('frontend.contacts.store') }}"

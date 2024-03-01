@@ -100,8 +100,7 @@
                         include a clear description of the problem or opportunity the project aims to address, the
                         stakeholders involved, and their requirements, objectives, and expectations. The documentation
                         should also outline the project scope, constraints, risks, and assumptions.</p>
-                    <a href="{{ route('frontend.blogs.ensuring-project-success-in-software-development') }}"
-                        class="w-100 blogcardImage"
+                    <a href="{{ route('frontend.blogs.ensuring-project-success-in-software-development') }}" class="w-100 blogcardImage"
                         style="
               background-image: url({{ asset('assets/blogImage2.webp') }});
 
@@ -511,7 +510,7 @@
           <!-- card-2 -->
           <div class="blogCard d-flex blogPost flex-column align-items-start justify-content-center gap-lg-3 gap-1 p-3">
               <a
-                  href="{{ route('frontend.blogs.ensuring-project-success-in-software-development') }}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
+                  href="{{ route('frontend.blogs.ensuring-project-success-in-software-development') }}" class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
                   <div class="position-relative w-100"
                       style="
             background-image: url({{ asset('assets/2-number-icon-representing-sync4tech-blo-4-numerical-information.webp') }});
@@ -556,7 +555,7 @@
           <!-- card-3 -->
           <div class="blogCard d-flex blogPost flex-column align-items-start justify-content-center gap-lg-3 gap-1 p-3">
               <a
-                  href="{{ route('frontend.blogs.the-benefits-of-docs-in-software-development') }}"class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
+                  href="{{ route('frontend.blogs.the-benefits-of-docs-in-software-development') }}" class="d-flex flex-column align-items-stretch text-decoration-none gap-lg-3 gap-1">
                   <div class="position-relative w-100"
                       style="
             background-image: url({{ asset('assets/4-number-icon-representing-sync4tech-blo-4-numerical-information.webp') }});
@@ -652,7 +651,7 @@
                                             <input type="radio" name="radio" checked="checked" id="individual"
                                                 value="2" style="box-shadow: none;" />
                                             <span class="radio-checkmark"></span>
-                                            <p>Individual</p>
+                                            <span>Individual</span>
                                         </label>
                                     </div>
                                     <div class="d-flex gap-2 radio-partner">
@@ -660,7 +659,7 @@
                                             <input type="radio" name="radio" id="company" value="1"
                                                 style="box-shadow: none;" />
                                             <span class="radio-checkmark"></span>
-                                            <p>Company</p>
+                                            <span>Company</span>
                                         </label>
                                     </div>
 
@@ -672,7 +671,7 @@
 
                                 <div class="position-relative">
                                     <input style="color: #acacac;width: 100%;" type="text" id="companyName"
-                                        name="company_name" class="border-0" name="compan_name"
+                                        name="company_name" class="border-0"
                                         placeholder="Enter Company Name" />
                                 </div>
                             </div>
@@ -942,7 +941,7 @@
                             </div>
                             <button type="submit"
                                 class="btn navButton rounded-0 cardsButton button-color d-flex justify-content-center align-items-center gap-3">
-                                <a class="text-white">Submit</a>
+                                Submit
                             </button>
                         </form>
                     </div>
@@ -955,7 +954,7 @@
                 </button>
             </div>
             <!-- Modal -->
-            <center>
+            <div>
                 <div class="modal fade" id="bookapp" data-bs-backdrop="static" data-bs-keyboard="false"
                     tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div
@@ -971,9 +970,9 @@
                                         </h2>
                                         <div id="calendar" class=""></div>
                                     </div>
-                                    <button type="submit"
+                                    <button type="submit" onclick="showSecondDiv()"
                                         class="btn partnerbutton mt-5 bookSubmit navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3">
-                                        <a class="text-white px-4" onclick="showSecondDiv()">Next</a>
+                                        <span class="text-orange px-4">Next</span>
                                     </button>
                                 </div>
                                 <div class="col-xl-7 col-lg-5 col-12 order-lg-2 order-1 available-slots d-flex flex-column p-4 gap-xl-1 gap-3"
@@ -1208,7 +1207,7 @@
                                         <div class="d-flex gap-3">
                                             <button type="submit" id=" schedule"
                                                 class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-4 px-3 align-items-center gap-3">
-                                                <a class="text-white">Schedule Event</a>
+                                             Schedule Event
                                             </button>
                                             <!-- <button id=" discardButton" type="button"
                         class="btn navButton text-orange consultaion-button rounded-0 button-color py-2 px-lg-5 px-3 d-flex justify-content-center align-items-center gap-3"
@@ -1343,7 +1342,7 @@
                         </div>
                     </div>
                 </div>
-            </center>
+            </div>
             <script>
                 // Add a click event listener to the SVG
                 document

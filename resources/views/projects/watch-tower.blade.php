@@ -53,7 +53,7 @@
           </p>
         </div>
         <div>
-            <img loading="lazy" width="480" height="380" src="{{asset('assets/watchtower-sync4tech-portfolio-mockup-image.webp')}}" alt="qme" class="img-fluid" style="cursor: pointer" alt="WatchTower Sync4Tech portfolio mockup image" class="img-fluid" />
+            <img loading="lazy" width="480" height="380" src="{{asset('assets/watchtower-sync4tech-portfolio-mockup-image.webp')}}" alt="Watchtower Sync4tech Portfolio Mockup Image" class="img-fluid" style="cursor: pointer" />
         </div>
       </div>
     </div>
@@ -64,7 +64,7 @@
     <div class="container">
       <div class="pr-st-main">
         <div>
-          <img loading="lazy" width="591" height="400" src="{{asset('assets/image-for-project-detail-9.webp')}}" alt="qme" class="img-fluid" style="cursor: pointer" alt="Image for project detail 9" class="img-fluid" />
+          <img loading="lazy" width="591" height="400" src="{{asset('assets/image-for-project-detail-9.webp')}}" alt="Image For Project Detail 9" class="img-fluid" style="cursor: pointer" />
       </div>
         <div class="pro-st-txt">
           <h2 class="hidden-title mb-4">Hidden Challenges</h2>
@@ -245,14 +245,14 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
               <input type="radio" name="radio" checked="checked" id="individual" value="2"
                 style="box-shadow: none;" />
               <span class="radio-checkmark"></span>
-              <p>Individual</p>
+              <span>Individual</span>
             </label>
           </div>
           <div class="d-flex gap-2 radio-partner">
             <label class="radio-container">
               <input type="radio" name="radio" id="company" value="1" style="box-shadow: none;" />
               <span class="radio-checkmark"></span>
-              <p>Company</p>
+              <span>Company</span>
             </label>
           </div>
          
@@ -263,7 +263,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
         </label>
         
         <div class="position-relative">
-          <input style="color: #acacac;width: 100%;" type="text" id="companyName" name="company_name" class="border-0" name="compan_name"
+          <input style="color: #acacac;width: 100%;" type="text" id="companyName" name="company_name" class="border-0"
           placeholder="Enter Company Name" />
         </div>
        </div>
@@ -336,7 +336,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
             // store the instance variable so we can access it in the console e.g. window.iti.getNumber()
             window.iti = iti;
           </script> -->
-            </script>
+            
             <!-- <div class="error-message" id="PhoneNumber-error"></div> -->
           </div>
         </div>
@@ -529,7 +529,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
       </div>
       <button type="submit"
         class="btn navButton rounded-0 cardsButton button-color d-flex justify-content-center align-items-center gap-3">
-        <a class="text-white">Submit</a>
+       Submit
       </button>
     </form>
   </div>
@@ -542,7 +542,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
     </button>
   </div>
   <!-- Modal -->
-  <center>
+  <div>
     <div class="modal fade" id="bookapp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
       aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-centered d-flex justify-content-center align-items-center">
@@ -556,9 +556,9 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 </h2>
                 <div id="calendar" class=""></div>
               </div>
-              <button type="submit" 
+              <button type="submit" onclick="showSecondDiv()"
                 class="btn partnerbutton mt-5 bookSubmit navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3">
-                <a class="text-white px-4" onclick="showSecondDiv()">Next</a>
+                <span class="text-orange px-4">Next</span>
               </button>
             </div>
             <div
@@ -737,7 +737,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 </div>
                 <div class="d-flex flex-md-row flex-column gap-2 w-100 ">
                   <div class="d-flex flex-column gap-1 w-100 pos-rev ex-padd">
-                    <label for="email" class="text-start">Email <span class="text-orange">*</span>
+                    <label for="email" class="text-start">Email <span>*</span>
                     </label>
                     <input name="email" id="email" class="form-control p-2" placeholder="abc@gmail.com" style="
                           border: 1px solid #d0d5dd !important;
@@ -786,7 +786,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="d-flex gap-3">
                   <button type="submit" id=" schedule"
                     class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-4 px-3 align-items-center gap-3">
-                    <a class="text-white">Schedule Event</a>
+                    Schedule Event
                   </button>
                   <!-- <button id=" discardButton" type="button"
                     class="btn navButton text-orange consultaion-button rounded-0 button-color py-2 px-lg-5 px-3 d-flex justify-content-center align-items-center gap-3"
@@ -915,7 +915,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
         </div>
       </div>
     </div>
-  </center>
+  </div>
   <script>
     // Add a click event listener to the SVG
     document

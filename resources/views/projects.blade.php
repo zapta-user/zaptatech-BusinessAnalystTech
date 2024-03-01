@@ -60,8 +60,6 @@
         </div>
 
 
-
-
         <!-- ------------CARDS SECTION---------------- -->
         <div class="container">
             <div
@@ -430,7 +428,7 @@
             class="d-flex w-100 flex-md-row flex-column mt-lg-3 mt-md-2 gap-lg-3 gap-2 justify-content-center align-items-center">
             <div class="button-wrap">
                 <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                    id="" type="button"
+                    type="button"
                     class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
                     <a href="#" class="text-orange">Become Our Partner</a>
                 </button>
@@ -467,7 +465,7 @@
                                             <input type="radio" name="radio" checked="checked" id="individual"
                                                 value="2" style="box-shadow: none;" />
                                             <span class="radio-checkmark"></span>
-                                            <p>Individual</p>
+                                            <span>Individual</span>
                                         </label>
                                     </div>
                                     <div class="d-flex gap-2 radio-partner">
@@ -475,7 +473,7 @@
                                             <input type="radio" name="radio" id="company" value="1"
                                                 style="box-shadow: none;" />
                                             <span class="radio-checkmark"></span>
-                                            <p>Company</p>
+                                            <span>Company</span>
                                         </label>
                                     </div>
 
@@ -487,7 +485,7 @@
 
                                 <div class="position-relative">
                                     <input style="color: #acacac;width: 100%;" type="text" id="companyName"
-                                        name="company_name" class="border-0" name="compan_name"
+                                        name="company_name" class="border-0"
                                         placeholder="Enter Company Name" />
                                 </div>
                             </div>
@@ -562,7 +560,7 @@
                                             // store the instance variable so we can access it in the console e.g. window.iti.getNumber()
                                             window.iti = iti;
                                         </script> -->
-                                        </script>
+                                        
                                         <!-- <div class="error-message" id="PhoneNumber-error"></div> -->
                                     </div>
                                 </div>
@@ -757,21 +755,21 @@
                             </div>
                             <button type="submit"
                                 class="btn navButton rounded-0 cardsButton button-color d-flex justify-content-center align-items-center gap-3">
-                                <a class="text-white">Submit</a>
+                                Submit
                             </button>
                         </form>
                     </div>
                 </div>
             </div>
             <div class="button-wrap">
-                <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#bookapp" id=""
+                <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#bookapp"
                     type="button"
                     class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
                     <a href="#" class="text-orange">Book A Consultation</a>
                 </button>
             </div>
             <!-- Modal -->
-            <center>
+            <div>
                 <div class="modal fade" id="bookapp" data-bs-backdrop="static" data-bs-keyboard="false"
                     tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div
@@ -787,9 +785,9 @@
                                         </h3>
                                         <div id="calendar" class=""></div>
                                     </div>
-                                    <button type="submit" id=""
+                                    <button type="submit" onclick="showSecondDiv()"
                                         class="btn partnerbutton mt-5 bookSubmit navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3">
-                                        <a class="text-white px-4" onclick="showSecondDiv()">Next</a>
+                                        <span class="text-orange px-4">Next</span>
                                     </button>
                                 </div>
                                 <div class="col-xl-7 col-lg-5 col-12 order-lg-2 order-1 available-slots d-flex flex-column p-4 gap-xl-1 gap-3"
@@ -1008,7 +1006,7 @@
                                         <div class="d-flex gap-3">
                                             <button type="submit" id=" schedule"
                                                 class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-4 px-3 align-items-center gap-3">
-                                                <a class="text-white">Schedule Event</a>
+                                                Schedule Event
                                             </button>
                                             <!-- <button id=" discardButton" type="button"
                             class="btn navButton text-orange consultaion-button rounded-0 button-color py-2 px-lg-5 px-3 d-flex justify-content-center align-items-center gap-3"
@@ -1145,7 +1143,7 @@
                         </div>
                     </div>
                 </div>
-            </center>
+            </div>
             <script>
                 // Add a click event listener to the SVG
                 document

@@ -63,11 +63,11 @@
                 <a class="navbar-brand d-lg-block d-none" href="{{ route('frontend.home') }}" id="defaultlogo">
                     <img loading="lazy" width="216" height="40"
                         src="{{ asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}"
-                        alt="logo" class="img-fluid" />
+                        alt="Sync4tech Homepage Logo You Gateway To Technological Excellence" class="img-fluid" />
                 </a>
                 <a class="navbar-brand d-lg-none d-block" href="{{ route('frontend.home') }}" id="blacklogo">
                     <img loading="lazy" width="216" height="40" src="{{ asset('assets/nav-logo.svg') }}"
-                        alt="logo" class="img-fluid" />
+                        alt="Nav Logo" class="img-fluid" />
                 </a>
 
                 <div class="nav-items">
@@ -78,11 +78,11 @@
                     <a class="nav-link mx-2 pb-2" href="{{ route('frontend.blogs') }}">Blogs</a>
                     <a class="nav-link mx-2 pb-2" href="{{ route('frontend.projects') }}">Projects</a>
                     <a class="nav-link mx-2 pb-2" href="{{ route('frontend.partners') }}">Partners</a>
-                    <a class="navButton nav-res" href="#" class="text-white" data-bs-toggle="modal"
+                    <a class="navButton nav-res text-white" href="#" data-bs-toggle="modal"
                         data-bs-target="#staticBackdropcon">Contact Us</a>
                 </div>
                 <div>
-                    <a class="navButton main-btn" href="#" class="text-white" data-bs-toggle="modal"
+                    <a class="navButton main-btn text-white" href="#" data-bs-toggle="modal"
                         data-bs-target="#staticBackdropcon">Contact Us</a>
                     <i class="fa fa-bars" id="nav-toggler"></i>
                 </div>
