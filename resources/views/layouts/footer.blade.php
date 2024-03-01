@@ -231,56 +231,7 @@
                                         style="width: 34px;height: 34px;text-align: center; border: 1px solid #727375; color:#727375 ;"></i>
                                 </a>
                             </div>
-                            <!-- <form action="#" class="d-flex flex-column gap-2 align-items-md-start align-items-center ms-lg-2 w-100"
-                 id="myForm2">
-                 <div class="d-flex flex-column gap-2 w-100 pos-rev" style="padding-top: 10px !important;">
-                   <label for="contactname">Full Name <span class="text-orange">*</span>
-                   </label>
-                   <input type="text" name="contactname" id="contactname2" placeholder="Enter Name"
-                     style="border: 1px solid #D0D5DD !important;box-shadow: 0px 1px 2px 0px #1018280D;background-color: #F6F6F6 !important;"
-                     class="form-control py-2 px-3 rounded-0 bg-transparent" />
-                   <div id="contactnameError2" class="text-danger pos-abs"></div>
-                 </div>
-                 <div class="d-flex gap-3 flex-lg-row flex-column" style="width: 100% !important;">
-                   <div class="d-flex flex-column gap-2 w-100 pos-rev" style="width: 100% !important;">
-                     <label for="contactemail">Email <span class="text-orange">*</span>
-                     </label>
-                     <input type="text" name="contactemail" id="contactemail2" placeholder="abc@gmail.com"
-                       style="border: 1px solid #D0D5DD !important;box-shadow: 0px 1px 2px 0px #1018280D;background-color: #F6F6F6 !important;"
-                       class="form-control py-2 px-3 rounded-0 bg-transparent" />
-                     <div id="contactemailError2" class="text-danger pos-abs"></div>
-                   </div>
-                   <div class="d-flex flex-column gap-2 w-100 pos-rev" style="width: 100% !important;">
-                     <label for="contactphoneNum">Phone</label>
-                     <input type="tel" name="contactphoneNum" id="contactphoneNum2"
-                       style="border: 1px solid #D0D5DD !important;box-shadow: 0px 1px 2px 0px #1018280D;background-color: #F6F6F6 !important;"
-                       class="form-control py-2 px-5 rounded-0 bg-transparent" />
-                     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
-                     <script>
-                         var input = document.querySelector("#contactphoneNum2");
-                         var iti = window.intlTelInput(input, {
-                             separateDialCode: true,
-                             utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/js/utils.js",
-                         });
 
-                         window.iti = iti;
-                     </script>
-                     <div id="contactphoneNumError2" class="text-danger pos-abs"></div>
-                   </div>
-                 </div>
-
-                 <div class="d-flex flex-column gap-2 w-100">
-                   <label for="message">Message</label>
-                   <textarea name="message" class="bg-transparent px-3 form-control resize-txt"
-                       style="height: 100px !important;resize: none !important;border: 1px solid #D0D5DD !important;background-color: #F6F6F6 !important;padding-top: 8px !important;"
-                       placeholder="Enter your message here..." id="message2"></textarea>
-                 </div>
-                 <button type="submit" style="margin-top: 20px !important;"
-                   class="btn navButton rounded-0 cardsButton px-lg-5 button-color d-flex justify-content-center align-items-center gap-3">
-                  Send Message
-                 </button>
-               </form> -->
                             <form action="{{ route('frontend.contacts.store') }}"
                                 class="ajax-submit d-flex flex-column gap-2 align-items-md-start align-items-center ms-lg-2 w-100"
                                 check_validate='false' data-success-fn="contactUsSuccess"
@@ -313,8 +264,6 @@
                                         <input type="tel" name="phone_no" id="contactphoneNum2"
                                             style="border: 1px solid #D0D5DD !important;box-shadow: 0px 1px 2px 0px #1018280D;background-color: #F6F6F6 !important;"
                                             class="form-control py-2 px-5 rounded-0 bg-transparent" />
-                                        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                                        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
                                         <script>
                                             var input = document.querySelector("#contactphoneNum2");
                                             var iti = window.intlTelInput(input, {
@@ -471,19 +420,6 @@
                   border-radius: 0px !important;
                 " />
                             <div id="phoneNumber-error" class="error-message pos-abs"></div>
-                            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                            <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
-                            <!-- <script>
-                                var input = document.querySelector("#phoneNumber");
-                                var iti = window.intlTelInput(input, {
-                                    separateDialCode: true,
-                                    utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/js/utils.js",
-                                    initialCountry: "US", // Set the default country to United States
-                                });
-                                // store the instance variable so we can access it in the console e.g. window.iti.getNumber()
-                                window.iti = iti;
-                            </script> -->
-
                             <!-- <div class="error-message" id="PhoneNumber-error"></div> -->
                         </div>
                     </div>
@@ -705,31 +641,35 @@
 <!-- ************************Scripts Start Here*********************************-->
 
 <!--------------------------------- Jquery --------------------------->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+{{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script> --}}
+{{-- <script src="{{ asset('js/jqueryMin.js') }}"></script> --}}
 <!-------------------------------- Jquery Ends------------------------------->
 
 <!--------------------------------- Popper Js ------------------------------->
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
 </script>
+{{-- <script src="{{ asset('js/popper.js') }}"></script> --}}
 <!--------------------------------- Popper Js Ends----------------------------->
 
 <!--------------------------------- Bootstrap 5 cdn ---------------------------->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+{{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-</script>
+</script> --}}
+<script src="{{ asset('js/bootstrap5.js') }}"></script>
 <!------------------------------------ Bootstrap 5 cdn Ends--------------------->
 <!-- intl-tel-input JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/js/intlTelInput.min.js"></script>
-
+{{-- <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/js/intlTelInput.min.js"></script> --}}
+{{-- <script src="{{ asset('js/phoneNumber_input.js') }}"></script>
+<script src="{{ asset('js/phoneNumber2_input.js') }}"></script> --}}
 <!-- intl-tel-input utilsScript JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/js/utils.js"></script>
 <!-- validation -->
-<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="{{ asset('js/jqueryValidation.js') }}"></script>
 <!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="{{ asset('js/swiper.js') }}"></script>
 <!------------------------------- Custom Js ---------------------------------->
 <!-- <script src="./js/script.js"></script> -->
 {{-- <script src="{{ asset('js/availableslot.js') }}"></script> --}}
@@ -747,8 +687,9 @@
 <!------------------------------ BaseAjax Js ends --------------------->
 
 <!------------------------------ Notify Js ends --------------------->
-<script src="{{ asset('assets/js/notify.min.js') }}"></script>
+<script src="{{ asset('js/notify.min.js') }}"></script>
 <!------------------------------ Notify Js ends --------------------->
+
 
 <!-- ******************************Scripts End Here******************************-->
 
@@ -787,14 +728,11 @@
         })
 
         $(window).on('scroll load', function() {
-
             if ($(window).scrollTop() > 0) {
                 $('.main-nav').addClass('bgchange');
             } else {
                 $('.main-nav').removeClass('bgchange');
             }
-
-
         });
 
     });

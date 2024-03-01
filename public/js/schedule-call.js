@@ -83,6 +83,17 @@ function generateHiddenFields(hiddenFields) {
     });
 }
 
+$('#openScheduleModal').click(function (e) {
+    $('#bookconsultform')[0].reset();
+    $('.slot').removeClass('active');
+    $('#calendar .calender-body.current-date').addClass('selected');
+    $('.calendar-body .day.current.selected').removeClass('selected');
+    $('.calendar-body .day.current.current-date').addClass('selected');
+    selectedDate = new Date();
+    getAvailableSlots();
+    backToSecond();
+})
+
 
 async function getAvailableSlots() {
     var formattedDate = selectedDate.getFullYear() + '-' +
@@ -91,7 +102,7 @@ async function getAvailableSlots() {
         ('0' + selectedDate.getHours()).slice(-2) + ':' +
         ('0' + selectedDate.getMinutes()).slice(-2) + ':' +
         ('0' + selectedDate.getSeconds()).slice(-2);
-
+    console.log(formattedDate);
 
     $.ajax({
         headers: {
@@ -107,8 +118,8 @@ async function getAvailableSlots() {
 
         },
         beforeSend: function () {
-            var slotsContainer = $('.' + 'slot-container');
-            if (slotsContainer) $('.slot-container').addClass('section-load');
+            var slotsContainer = $('.' + 'availableslot');
+            if (slotsContainer) $('.availableslot').addClass('section-load');
         },
         //****** Ajax call success function *******
         success: function (data) {
@@ -145,7 +156,7 @@ async function getAvailableSlots() {
                 $(".slot-container.mobile-version").html(htmlForMobile);
             }
 
-            $('.slot-container').removeClass('section-load');
+            $('.availableslot').removeClass('section-load');
 
 
         },
@@ -165,7 +176,7 @@ async function getAvailableSlots() {
                     toastr.error(firstError, 'Error');
                 }
             }
-            $('.slot-container').removeClass('section-load');
+            $('.availableslot').removeClass('section-load');
         },
     });
 }
@@ -203,9 +214,10 @@ $('.scheduleNextBtn').on('click', function (event) {
         if (availableSlots.length != 0) $('.time_slot-error').show();
         event.preventDefault();
         event.stopPropagation();
+        $('.time_slot-error').removeClass('d-none');
         return;
     } else {
-        $('.time_slot-error').remove();
+        $('.time_slot-error').addClass('d-none');
         showSecondDiv();
     }
 })
@@ -215,4 +227,11 @@ function showSecondDiv() {
     const div3 = document.getElementById("div3");
     div1.style.display = "none";
     div3.style.display = "flex";
+}
+
+function backToSecond() {
+    const div1 = document.getElementById("div1");
+    const div3 = document.getElementById("div3");
+    div1.style.display = "flex";
+    div3.style.display = "none";
 }

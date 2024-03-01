@@ -1063,11 +1063,11 @@
                         </div>
                     </div>
                     <!-- <div class="image-overlay-text position-absolute d-flex flex-column text-white gap-3">
-                                                                                                                                                                            
-                                                                                                                                                                            
-                                                                                                                                                                            
-                                                                                                                                                                           
-                                                                                                                                                                          </div> -->
+                                                                                                                                                                                        
+                                                                                                                                                                                        
+                                                                                                                                                                                        
+                                                                                                                                                                                       
+                                                                                                                                                                                      </div> -->
                 </div>
                 <div class="subDiv formSection d-flex flex-column gap-2 align-items-md-start align-items-center">
                     <form action="{{ route('frontend.contacts.store') }}"
@@ -1092,8 +1092,6 @@
                             <label for="contactphoneNum">Phone</label>
                             <input type="tel" name="phone_no" id="contactphoneNum"
                                 class="form-control py-2 px-5 rounded-0 bg-transparent" />
-                            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                            <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
                             <script>
                                 var input = document.querySelector("#contactphoneNum");
                                 var iti = window.intlTelInput(input, {

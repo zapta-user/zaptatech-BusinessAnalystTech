@@ -47,6 +47,8 @@
         consulting, and digital transformation expertise to boost
         your tech business. Explore now!">
     <meta name="twitter:image" content="https://i.ibb.co/r3ypC8y/twitter-meta-logo.png">
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/js/intlTelInput.min.js"></script>
+    <script src="{{ asset('js/jqueryMin.js') }}"></script>
 
     <title>Home Page | Sync4Tech</title>
     @vite(['resources/js/app.js'])

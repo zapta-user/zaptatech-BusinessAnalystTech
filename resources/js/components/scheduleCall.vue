@@ -226,7 +226,7 @@ export default {
     methods: {
         async handleSubmit(event) {
             if (!this.validateForm()) {
-                return; 
+                return;
             }
             const form = event.target;
             const scheduleCallUrl = `/schedule-call`;
@@ -242,10 +242,15 @@ export default {
             };
             try {
                 const response = await API.post(scheduleCallUrl, params);
-                $.notify("Booking is done successfully", "success");
-            } catch (error) {
-                $.notify(error, "error");
+                const svgCloseModal = document.querySelector('.closeScheduleModalPopup');
+                if (svgCloseModal) {
+                    svgCloseModal.click();
+                }
+                this.resetForm(form);
 
+                $.notify('Booking is done successfully', "success");
+            } catch (response) {
+                $.notify("Slot is already booked", "error");
             }
         },
         async initialize() {
@@ -321,7 +326,7 @@ export default {
         },
 
         validateForm() {
-            this.formErrors = {}; // Reset form errors
+            this.formErrors = {}; 
 
             if (!this.formData.name) {
                 this.formErrors.name = 'Name is required.';
@@ -335,12 +340,16 @@ export default {
             return Object.keys(this.formErrors).length === 0; // Validation passes if no errors exist
         },
         backToSecond() {
-          console.log('back function called');
-          const div1 = document.getElementById("div1");
-          const div3 = document.getElementById("div3");
-          div1.style.display = "flex";
-          div3.style.display = "none";
-         }
+            console.log('back function called');
+            const div1 = document.getElementById("div1");
+            const div3 = document.getElementById("div3");
+            div1.style.display = "flex";
+            div3.style.display = "none";
+        },
+        resetForm(form) {
+            // Reset all form fields to their initial state
+            form.reset();
+        }
 
     }
 };

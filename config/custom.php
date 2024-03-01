@@ -3,8 +3,8 @@ return [
     'schedule_call' => [
         'duration' => 30, // 30 minutes
         'timezone' => 'Asia/karachi',
-        'office_start_hour' => '9:0',   // 09 AM
-        'office_end_hour' => '23:00',    // 04:30 PM   always minus duration time form end time
+        'office_start_hour' => '10:0',   // 09 AM
+        'office_end_hour' => '19:00',    // 04:30 PM   always minus duration time form end time
         'weekend_off_days' => ['saturday', 'sunday'],
         'other_off_days' => ['2023-10-09', '2023-10-13'],
     ],

@@ -140,8 +140,6 @@
                           padding-left: 96px !important;border-radius: 0px;
                           height: 42px;
                         " />
-                                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
                                     <script>
                                         var input = document.querySelector("#phnumber");
                                         var iti = window.intlTelInput(input, {

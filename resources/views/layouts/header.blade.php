@@ -25,7 +25,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- -------------------JQUERY CDN------------------ -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     @vite(['resources/js/app.js'])
     <style>
         /* Style the radio container (label) */
