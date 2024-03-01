@@ -19,8 +19,11 @@
                         <!-- <a href="#" class="text-orange">Become Our Partner</a> -->
                         Become Our Partner
                     </button>
-                    <button data-bs-toggle="modal" data-bs-target="#bookapp" id="" type="button">
+                    {{-- <button data-bs-toggle="modal" data-bs-target="#bookapp" id="" type="button">
                         <!-- <a href="#" class="text-orange">Book A Consultation</a> -->
+                        Book A Consultation
+                    </button> --}}
+                    <button id="openScheduleModal" data-bs-toggle="modal" data-bs-target="#bookapp" type="button">
                         Book A Consultation
                     </button>
                 </div>
@@ -68,121 +71,123 @@
                 <!-- 1 -->
                 <div class="card serviceCard1">
                     <a href="{{ route('frontend.services.software-business-analyst') }}">
-                    <div class="business-Process">
-                        <div class="">
-                            <img loading="lazy" width="80" height="80"
-                                src="{{ asset('assets/icon-1-for-service.svg') }}" alt="Icon 1 for service"
-                                class="img-fluid" />
+                        <div class="business-Process">
+                            <div class="">
+                                <img loading="lazy" width="80" height="80"
+                                    src="{{ asset('assets/icon-1-for-service.svg') }}" alt="Icon 1 for service"
+                                    class="img-fluid" />
+                            </div>
+                            <h2>Software Business Analysis</h2>
                         </div>
-                        <h2>Software Business Analysis</h2>
-                    </div>
-                    <div class="services-card">
-                        <p>
-                            Tailored software business analysis to ensure your project's success. We identify stakeholder
-                            needs,
-                            document requirements, and provide comprehensive
-                            ...
-                        </p>
-                       
-                    </div>
-                </a>
+                        <div class="services-card">
+                            <p>
+                                Tailored software business analysis to ensure your project's success. We identify
+                                stakeholder
+                                needs,
+                                document requirements, and provide comprehensive
+                                ...
+                            </p>
+
+                        </div>
+                    </a>
                 </div>
                 <!-- 2 -->
                 <div class="card serviceCard1">
                     <a href="{{ route('frontend.services.business-process-re-engineering') }}">
-                    <div class="business-Process">
-                        <div class="">
-                            <img src="{{ asset('assets/icon-2-for-service.svg') }}" alt="Icon 2 for service"
-                                class="img-fluid" />
+                        <div class="business-Process">
+                            <div class="">
+                                <img src="{{ asset('assets/icon-2-for-service.svg') }}" alt="Icon 2 for service"
+                                    class="img-fluid" />
+                            </div>
+                            <h2>Business Process Re-Engineering</h2>
                         </div>
-                        <h2>Business Process Re-Engineering</h2>
-                    </div>
-                    <div class="services-card">
-                        <p> Revitalize your processes for enhanced efficiency. We analyze current workflows, redesign
-                            optimized
-                            processes, and provide a detailed implementation...
-                        </p>
-                   
-                    </div>
-                </a>
+                        <div class="services-card">
+                            <p> Revitalize your processes for enhanced efficiency. We analyze current workflows, redesign
+                                optimized
+                                processes, and provide a detailed implementation...
+                            </p>
+
+                        </div>
+                    </a>
                 </div>
                 <!-- 3 -->
                 <div class="card serviceCard1">
                     <a href="{{ route('frontend.services.software-project-management') }}">
-                    <div class="business-Process">
-                        <div class="">
-                            <img loading="lazy" width="80" height="80"
-                                src="{{ asset('assets/icon-3-for-service.svg') }}" alt="Icon 3 for service"
-                                class="img-fluid" />
+                        <div class="business-Process">
+                            <div class="">
+                                <img loading="lazy" width="80" height="80"
+                                    src="{{ asset('assets/icon-3-for-service.svg') }}" alt="Icon 3 for service"
+                                    class="img-fluid" />
+                            </div>
+                            <h2>Project Management</h2>
                         </div>
-                        <h2>Project Management</h2>
-                    </div>
-                    <div class="services-card">
-                        <p>Project success, from initiation to closure. We define goals, create detailed plans, execute,
-                            monitor,
-                            and evaluate, ensuring on-time and within-budget delivery.
-                            ..</p>
-                        
-                    </div>
-                </a>
+                        <div class="services-card">
+                            <p>Project success, from initiation to closure. We define goals, create detailed plans, execute,
+                                monitor,
+                                and evaluate, ensuring on-time and within-budget delivery.
+                                ..</p>
+
+                        </div>
+                    </a>
                 </div>
                 <!-- 4 -->
                 <div class="card serviceCard1">
                     <a href="{{ route('frontend.services.solution-architecture-design') }}">
-                    <div class="business-Process">
-                        <div class="">
-                            <img src="{{ asset('assets/icon-4-for-service.svg') }}" alt="Icon 4 for service"
-                                class="img-fluid" />
+                        <div class="business-Process">
+                            <div class="">
+                                <img src="{{ asset('assets/icon-4-for-service.svg') }}" alt="Icon 4 for service"
+                                    class="img-fluid" />
+                            </div>
+                            <h2>Solution Architecture Design</h2>
                         </div>
-                        <h2>Solution Architecture Design</h2>
-                    </div>
-                    <div class="services-card">
-                        <p>Crafting solutions aligned with business needs. We analyze requirements, design comprehensive
-                            architecture, and deliver detailed documentation.
-                            ..
-                        </p>
-                        
-                    </div>
-                </a>
+                        <div class="services-card">
+                            <p>Crafting solutions aligned with business needs. We analyze requirements, design comprehensive
+                                architecture, and deliver detailed documentation.
+                                ..
+                            </p>
+
+                        </div>
+                    </a>
                 </div>
                 <!-- 5 -->
                 <div class="card serviceCard1">
                     <a href="{{ route('frontend.services.software-documentation') }}">
-                    <div class="business-Process">
-                        <div class="">
-                            <img loading="lazy" width="80" height="80"
-                                src="{{ asset('assets/icon-5-for-service.svg') }}" alt="Icon 5 for service"
-                                class="img-fluid" />
+                        <div class="business-Process">
+                            <div class="">
+                                <img loading="lazy" width="80" height="80"
+                                    src="{{ asset('assets/icon-5-for-service.svg') }}" alt="Icon 5 for service"
+                                    class="img-fluid" />
+                            </div>
+                            <h2>Software Documentation</h2>
                         </div>
-                        <h2>Software Documentation</h2>
-                    </div>
-                    <div class="services-card">
-                        <p>
-                            Clear, comprehensive documentation for seamless system understanding. We analyze software,
-                            identify
-                            documentation needs, and deliver user-friendly ...</p>
-                       
-                    </div>
-                </a>
+                        <div class="services-card">
+                            <p>
+                                Clear, comprehensive documentation for seamless system understanding. We analyze software,
+                                identify
+                                documentation needs, and deliver user-friendly ...</p>
+
+                        </div>
+                    </a>
                 </div>
                 <!-- 6 -->
                 <div class="card serviceCard1">
                     <a href="{{ route('frontend.services.data-analysis') }}">
-                    <div class="business-Process">
-                        <div class="">
-                            <img src="{{ asset('assets/icon-6-for-service.svg') }}" alt="Icon 6 for service"
-                                class="img-fluid" />
+                        <div class="business-Process">
+                            <div class="">
+                                <img src="{{ asset('assets/icon-6-for-service.svg') }}" alt="Icon 6 for service"
+                                    class="img-fluid" />
+                            </div>
+                            <h2>Data Analysis</h2>
                         </div>
-                        <h2>Data Analysis</h2>
-                    </div>
-                    <div class="services-card">
-                        <p>Uncover insights through meticulous data analysis. We identify sources, collect data, and apply
-                            statistical methods to provide meaningful insights.
-                            ..
-                        </p>
-                       
-                    </div>
-                </a>
+                        <div class="services-card">
+                            <p>Uncover insights through meticulous data analysis. We identify sources, collect data, and
+                                apply
+                                statistical methods to provide meaningful insights.
+                                ..
+                            </p>
+
+                        </div>
+                    </a>
                 </div>
             </div>
             <!-- 6-card-close -->
@@ -361,152 +366,143 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <a href="https://app.powerbi.com/" target="_blank"
-                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="58" height="70"
-                                src="{{ asset('assets/Power_BI.png') }}" alt=""
-                                class="img-fluid" />
-                            <p class="tool-card text-center fw-medium">Power BI</p>
-                        </a>
+                                class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                                <img loading="lazy" width="58" height="70"
+                                    src="{{ asset('assets/Power_BI.png') }}" alt="" class="img-fluid" />
+                                <p class="tool-card text-center fw-medium">Power BI</p>
+                            </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="https://selenium.com/" target="_blank"
-                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="58" height="70"
-                                src="{{ asset('assets/selenium.png') }}" alt="Selenium logo"
-                                class="img-fluid" />
-                            <p class="tool-card text-center fw-medium">Selenium</p>
-                        </a>
+                                class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                                <img loading="lazy" width="58" height="70"
+                                    src="{{ asset('assets/selenium.png') }}" alt="Selenium logo" class="img-fluid" />
+                                <p class="tool-card text-center fw-medium">Selenium</p>
+                            </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="https://www.atlassian.com/software/confluence" target="_blank"
-                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="58" height="70"
-                                src="{{ asset('assets/confluence.png') }}" alt="Confluence logo"
-                                class="img-fluid" />
-                            <p class="tool-card text-center fw-medium">Confluence</p>
-                        </a>
+                                class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                                <img loading="lazy" width="58" height="70"
+                                    src="{{ asset('assets/confluence.png') }}" alt="Confluence logo"
+                                    class="img-fluid" />
+                                <p class="tool-card text-center fw-medium">Confluence</p>
+                            </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="https://asana.com/" target="_blank"
-                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="58" height="70"
-                                src="{{ asset('assets/asana.png') }}" alt="Asana"
-                                class="img-fluid" />
-                            <p class="tool-card text-center fw-medium">Asana</p>
-                        </a>
+                                class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                                <img loading="lazy" width="58" height="70" src="{{ asset('assets/asana.png') }}"
+                                    alt="Asana" class="img-fluid" />
+                                <p class="tool-card text-center fw-medium">Asana</p>
+                            </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="https://trello.com/" target="_blank"
-                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="58" height="70"
-                                src="{{ asset('assets/trello.png') }}" alt=""
-                                class="img-fluid" />
-                            <p class="tool-card text-center fw-medium">Trello</p>
-                        </a>
+                                class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                                <img loading="lazy" width="58" height="70"
+                                    src="{{ asset('assets/trello.png') }}" alt="" class="img-fluid" />
+                                <p class="tool-card text-center fw-medium">Trello</p>
+                            </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="https://monday.com/" target="_blank"
-                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="58" height="70"
-                                src="{{ asset('assets/moday.png') }}" alt=""
-                                class="img-fluid" />
-                            <p class="tool-card text-center fw-medium">Moday</p>
-                        </a>
+                                class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                                <img loading="lazy" width="58" height="70" src="{{ asset('assets/moday.png') }}"
+                                    alt="" class="img-fluid" />
+                                <p class="tool-card text-center fw-medium">Moday</p>
+                            </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="https://www.notion.so/" target="_blank"
-                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="58" height="70"
-                                src="{{ asset('assets/notion.png') }}" alt=""
-                                class="img-fluid" />
-                            <p class="tool-card text-center fw-medium">Notion</p>
-                        </a>
+                                class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                                <img loading="lazy" width="58" height="70"
+                                    src="{{ asset('assets/notion.png') }}" alt="" class="img-fluid" />
+                                <p class="tool-card text-center fw-medium">Notion</p>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="https://www.drawio.com/" target="_blank" 
-                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="58" height="70"
-                                src="{{ asset('assets/draw_io.png') }}" alt=""
-                                class="img-fluid" />
-                            <p class="tool-card text-center fw-medium">draw.io</p>
-                        </a>
+                            <a href="https://www.drawio.com/" target="_blank"
+                                class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                                <img loading="lazy" width="58" height="70"
+                                    src="{{ asset('assets/draw_io.png') }}" alt="" class="img-fluid" />
+                                <p class="tool-card text-center fw-medium">draw.io</p>
+                            </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="https://swagger.io/" target="_blank"
-                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="58" height="70"
-                                src="{{ asset('assets/swaggar.png') }}" alt=""
-                                class="img-fluid" />
-                            <p class="tool-card text-center fw-medium">Swaggar</p>
-                        </a>
+                                class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                                <img loading="lazy" width="58" height="70"
+                                    src="{{ asset('assets/swaggar.png') }}" alt="" class="img-fluid" />
+                                <p class="tool-card text-center fw-medium">Swaggar</p>
+                            </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="https://www.lucidchart.com/" target="_blank"
-                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="58" height="70"
-                                src="{{ asset('assets/lucidchart.png') }}" alt=""
-                                class="img-fluid" />
-                            <p class="tool-card text-center fw-medium">Lucidchart</p>
-                        </a>
+                                class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                                <img loading="lazy" width="58" height="70"
+                                    src="{{ asset('assets/lucidchart.png') }}" alt="" class="img-fluid" />
+                                <p class="tool-card text-center fw-medium">Lucidchart</p>
+                            </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="https://www.atlassian.com/software/jira" target="_blank"
-                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="58" height="70"
-                                src="{{ asset('assets/jira_software_logo.png') }}" alt=""
-                                class="img-fluid" />
-                            <p class="tool-card text-center fw-medium">Jira</p>
-                        </a>
+                                class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                                <img loading="lazy" width="58" height="70"
+                                    src="{{ asset('assets/jira_software_logo.png') }}" alt=""
+                                    class="img-fluid" />
+                                <p class="tool-card text-center fw-medium">Jira</p>
+                            </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="https://www.office.com/" target="_blank"
-                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                           <img loading="lazy" width="58" height="70"
-                                src="{{ asset('assets/microsoft-office-icon.svg') }}" alt="Microsoft office icon"
-                                class="img-fluid" />
-                            <p class="tool-card text-center fw-medium">Microsoft Suite</p>
-                        
+                                class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                                <img loading="lazy" width="58" height="70"
+                                    src="{{ asset('assets/microsoft-office-icon.svg') }}" alt="Microsoft office icon"
+                                    class="img-fluid" />
+                                <p class="tool-card text-center fw-medium">Microsoft Suite</p>
+
                         </div>
-                   
-                </a>
+
+                        </a>
                         <div class="swiper-slide">
                             <a href="https://www.figma.com/" target="_blank"
-                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="47" height="70"
-                                src="{{ asset('assets/tools-we-use-leveraging-figma-for-collaborative-design-at-sync4tech.svg') }}"
-                                alt="Tools We Use - Leveraging Figma for Collaborative Design at Sync4Tech"
-                                class="img-fluid" />
-                            <p class="tool-card text-center fw-medium">Figma</p>
-                        </a>
+                                class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                                <img loading="lazy" width="47" height="70"
+                                    src="{{ asset('assets/tools-we-use-leveraging-figma-for-collaborative-design-at-sync4tech.svg') }}"
+                                    alt="Tools We Use - Leveraging Figma for Collaborative Design at Sync4Tech"
+                                    class="img-fluid" />
+                                <p class="tool-card text-center fw-medium">Figma</p>
+                            </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="https://balsamiq.com/wireframes/desktop/" target="_blank"
-                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="70" height="70"
-                                src="{{ asset('assets/smiley-face-icon-for-displaying-a-logo.svg') }}"
-                                alt="Smiley face icon for displaying a logo" class="img-fluid" />
-                            <p class="tool-card text-center fw-medium">Balsamic</p>
-                        </a>
+                                class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                                <img loading="lazy" width="70" height="70"
+                                    src="{{ asset('assets/smiley-face-icon-for-displaying-a-logo.svg') }}"
+                                    alt="Smiley face icon for displaying a logo" class="img-fluid" />
+                                <p class="tool-card text-center fw-medium">Balsamic</p>
+                            </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="https://docs.google.com/" target="_blank"
-                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="60" height="60"
-                                src="{{ asset('assets/microsoft-suite-logo-for-tools-we-use-section.svg') }}"
-                                alt="Microsoft suite logo for tools we use section" class="img-fluid" />
-                            <p class="tool-card text-center fw-medium">Google Docs</p>
-                        </a>
+                                class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                                <img loading="lazy" width="60" height="60"
+                                    src="{{ asset('assets/microsoft-suite-logo-for-tools-we-use-section.svg') }}"
+                                    alt="Microsoft suite logo for tools we use section" class="img-fluid" />
+                                <p class="tool-card text-center fw-medium">Google Docs</p>
+                            </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="https://basecamp.com/" target="_blank"
-                            class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img loading="lazy" width="70" height="70"
-                                src="{{ asset('assets/tools-we-use-featuring-project-management-with-basecamp.svg') }}"
-                                alt="Tools We Use - Featuring Project Management with Basecamp" class="img-fluid" />
-                            <p class="tool-card text-center fw-medium">Base Camp</p>
-                        </a>
+                                class="toolCard d-flex flex-column gap-3 justify-content-center align-items-center">
+                                <img loading="lazy" width="70" height="70"
+                                    src="{{ asset('assets/tools-we-use-featuring-project-management-with-basecamp.svg') }}"
+                                    alt="Tools We Use - Featuring Project Management with Basecamp" class="img-fluid" />
+                                <p class="tool-card text-center fw-medium">Base Camp</p>
+                            </a>
                         </div>
-                        
+
 
 
                     </div>
@@ -1068,11 +1064,11 @@
                         </div>
                     </div>
                     <!-- <div class="image-overlay-text position-absolute d-flex flex-column text-white gap-3">
-                                                                                                
-                                                                                                
-                                                                                                
-                                                                                               
-                                                                                              </div> -->
+                                                                                                                                                                    
+                                                                                                                                                                    
+                                                                                                                                                                    
+                                                                                                                                                                   
+                                                                                                                                                                  </div> -->
                 </div>
                 <div class="subDiv formSection d-flex flex-column gap-2 align-items-md-start align-items-center">
                     <form action="{{ route('frontend.contacts.store') }}"
@@ -1124,6 +1120,47 @@
             </div>
         </div>
 
+        {{-- <div class="modal fade" id="bookapp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-centered d-flex justify-content-center align-items-center"
+                id="app">
+                <div> Hello HI </div>
+                <schedule-call />
+            </div>
+        </div> --}}
+
+
+
+
+
+
+
+
+        <div class="modal fade" id="bookapp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div
+                class="modal-dialog modal-dialog-centered modal-xl modal-dialog-centered d-flex justify-content-center align-items-center">
+                <div class="modal-content book-modal-content firstDivModal" id="app">
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </section>
     <!-- </div> -->
     <!-- Swiper JS -->
@@ -1142,55 +1179,55 @@
         //     speed: 1000
         const swiper = new Swiper(".mySwiper", {
             slidesPerView: "auto",
-        centeredSlides: false,
-        centerInsufficientSlides:true,
-        simulateTouch:false,
-        spaceBetween: 120,
-        loop: true,
-        autoplay: true,
-        autoplay: {
-            delay: 0
-        },
-        // freeMode: true,
-        speed: 2000,
-})
-            // pagination: {
-            //     el: ".swiper-pagination",
-            //     clickable: true,
-            // },
+            centeredSlides: false,
+            centerInsufficientSlides: true,
+            simulateTouch: false,
+            spaceBetween: 120,
+            loop: true,
+            autoplay: true,
+            autoplay: {
+                delay: 0
+            },
+            // freeMode: true,
+            speed: 2000,
+        })
+        // pagination: {
+        //     el: ".swiper-pagination",
+        //     clickable: true,
+        // },
 
-            // // Responsive breakpoints
-            // breakpoints: {
-            //     320: {
-            //         slidesPerView: 1,
+        // // Responsive breakpoints
+        // breakpoints: {
+        //     320: {
+        //         slidesPerView: 1,
 
-            //     },
-            //     550: {
-            //         slidesPerView: 1,
+        //     },
+        //     550: {
+        //         slidesPerView: 1,
 
-            //     },
-            //     768: {
-            //         slidesPerView: 2,
+        //     },
+        //     768: {
+        //         slidesPerView: 2,
 
-            //     },
-            //     1000: {
-            //         slidesPerView: 2,
+        //     },
+        //     1000: {
+        //         slidesPerView: 2,
 
-            //     },
-            //     1200: {
-            //         slidesPerView: 5,
+        //     },
+        //     1200: {
+        //         slidesPerView: 5,
 
-            //     },
-            //     1500: {
-            //         slidesPerView: 4,
+        //     },
+        //     1500: {
+        //         slidesPerView: 4,
 
-            //     },
-            // },
+        //     },
+        // },
 
-            // navigation: {
-            //     nextEl: ".swiper-button-next",
-            //     prevEl: ".swiper-button-prev",
-            // },
+        // navigation: {
+        //     nextEl: ".swiper-button-next",
+        //     prevEl: ".swiper-button-prev",
+        // },
         // });
     </script>
 @endsection
