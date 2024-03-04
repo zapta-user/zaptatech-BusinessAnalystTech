@@ -55,8 +55,9 @@
 
                     <div class="blogCard team-cards  d-flex flex-column p-lg-3 p-2 align-items-lg-start "
                         style="max-width: 386px;width: 100%;">
-                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/zulqarnain-haider-technical-project-manager-at-sync4tech.webp') }}"
-                        alt="Zulqarnain Haider - Technical Project Manager at Sync4Tech" class="img-fluid m-auto" />
+                        <img loading="lazy" width="355" height="355"
+                            src="{{ asset('assets/zulqarnain-haider-technical-project-manager-at-sync4tech.webp') }}"
+                            alt="Zulqarnain Haider - Technical Project Manager at Sync4Tech" class="img-fluid m-auto" />
                         <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Zulqarnain Haider</h3>
                         <p style="color: #FB7A00; font-weight: 500">Technical Project Manager</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Technical Project Management /
@@ -65,8 +66,10 @@
                     </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
                         style="max-width: 386px;width: 100%;">
-                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/rimsha-naz-associate-project-manager-executing-successful-project-deliveries-at-sync4tech.webp') }}"
-                            alt="Rimsha Naz, Associate Project Manager - Executing Successful Project Deliveries at Sync4Tech" class="img-fluid m-auto" />
+                        <img loading="lazy" width="355" height="355"
+                            src="{{ asset('assets/rimsha-naz-associate-project-manager-executing-successful-project-deliveries-at-sync4tech.webp') }}"
+                            alt="Rimsha Naz, Associate Project Manager - Executing Successful Project Deliveries at Sync4Tech"
+                            class="img-fluid m-auto" />
                         <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Rimsha Naz</h3>
                         <p style="color: #FB7A00; font-weight: 500">Project Manager</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Project Management / Resource
@@ -84,7 +87,9 @@
                     </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                         style="max-width: 386px;width: 100%;">
-                        <img src="./assets/arsalan-shafiq-project-manager-leading-agile-software-development-for-successful-project-delivery.webp" alt="Arsalan Shafiq project manager - leading agile software development for successful project delivery" class="img-fluid m-auto" />
+                        <img src="./assets/arsalan-shafiq-project-manager-leading-agile-software-development-for-successful-project-delivery.webp"
+                            alt="Arsalan Shafiq project manager - leading agile software development for successful project delivery"
+                            class="img-fluid m-auto" />
                         <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Arslan Shafiq</h1>
                         <p style="color: #FB7A00; font-weight: 500">Associate Project Manager</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Agile & Scrum Methodology / Strategic
@@ -92,8 +97,10 @@
                     </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
                         style="max-width: 386px;width: 100%;">
-                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/hifza-nasreen-senior-business-analyst-leading-the-way-in-strategic-analysis-in-sync4tech.webp') }}"
-                            alt="Hifza Nasreen, Senior Business Analyst - Leading the Way in Strategic Analysis in Sync4Tech" class="img-fluid m-auto" />
+                        <img loading="lazy" width="355" height="355"
+                            src="{{ asset('assets/hifza-nasreen-senior-business-analyst-leading-the-way-in-strategic-analysis-in-sync4tech.webp') }}"
+                            alt="Hifza Nasreen, Senior Business Analyst - Leading the Way in Strategic Analysis in Sync4Tech"
+                            class="img-fluid m-auto" />
                         <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Hifza Nasreen</h3>
                         <p style="color: #FB7A00; font-weight: 500">Senior Business Analyst</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Process Optimization / Data-Driven /
@@ -101,8 +108,10 @@
                     </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-start "
                         style="max-width: 386px;width: 100%;">
-                        <img loading="lazy" width="355" height="355" src="{{ asset('assets/muhammad-amjad-associate-business-analyst-driving-business-insight-and-strategy-at-sync4tech.webp') }}"
-                            alt="Muhammad Amjad, Associate Business Analyst - Driving Business Insight and Strategy at Sync4Tech" class="img-fluid m-auto" />
+                        <img loading="lazy" width="355" height="355"
+                            src="{{ asset('assets/muhammad-amjad-associate-business-analyst-driving-business-insight-and-strategy-at-sync4tech.webp') }}"
+                            alt="Muhammad Amjad, Associate Business Analyst - Driving Business Insight and Strategy at Sync4Tech"
+                            class="img-fluid m-auto" />
                         <h3 style="color: #232323; font-weight: 700;padding-top: 24px;">Muhammad Amjad</h3>
                         <p style="color: #FB7A00; font-weight: 500">Associate Business Analyst</p>
                         <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Software Analysis / Software
@@ -128,80 +137,85 @@
                             Problem-Solving / Communication</p>
                     </div> --}}
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
-                    style="max-width: 386px;width: 100%;">
-                    <img src="{{asset('assets/WJ2.webp')}}" alt="Team six" class="img-fluid m-auto" />
-                    <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Waqar Jamil</h1>
-                    <p style="color: #FB7A00; font-weight: 500">Business Analystt</p>
-                    <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">System Analysis / Business Process
-                        Re-engineering / Requirement Gathering</p>
-                </div>
-                <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
-                style="max-width: 386px;width: 100%;">
-                <img src="{{asset('assets/SFB2.webp')}}" alt="Team six" class="img-fluid m-auto" />
-                <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Syeda Farwa Batool</h1>
-                <p style="color: #FB7A00; font-weight: 500">Associate Software Business Analyst</p>
-                <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Business Analysis / Research Analysis
-                    /
-                    Requirements Elicitation / Analysis</p>
-            </div>
-            <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
-                style="max-width: 386px;width: 100%;">
-                <img src="{{asset('assets/SS2.webp')}}" alt="Team six" class="img-fluid m-auto" />
-                <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Sikandar Salam</h1>
-                <p style="color: #FB7A00; font-weight: 500">Requirements Engineer</p>
-                <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Digital Transformation / Business Process Modeling / Technical Analysis</p>
-            </div>
-            <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
-                style="max-width: 386px;width: 100%;">
-                <img src="{{asset('assets/HC2.webp')}}" alt="Team six" class="img-fluid m-auto" />
-                <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Hassan Chaudhry</h1>
-                <p style="color: #FB7A00; font-weight: 500">Associate Business Analyst</p>
-                <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Workflow Design / Requirement Analysis / Technology Adoption</p>
-            </div>
-
-                    
-                   
-                   
-
-                   
+                        style="max-width: 386px;width: 100%;">
+                        <img src="{{ asset('assets/WJ2.webp') }}" alt="Team six" class="img-fluid m-auto" />
+                        <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Waqar Jamil</h1>
+                        <p style="color: #FB7A00; font-weight: 500">Business Analystt</p>
+                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">System Analysis / Business Process
+                            Re-engineering / Requirement Gathering</p>
+                    </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                         style="max-width: 386px;width: 100%;">
-                        <img src="{{asset('assets/EB2.webp')}}" alt="Team six" class="img-fluid m-auto" />
+                        <img src="{{ asset('assets/SFB2.webp') }}" alt="Team six" class="img-fluid m-auto" />
+                        <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Syeda Farwa Batool</h1>
+                        <p style="color: #FB7A00; font-weight: 500">Associate Software Business Analyst</p>
+                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Business Analysis / Research Analysis
+                            /
+                            Requirements Elicitation / Analysis</p>
+                    </div>
+                    <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
+                        style="max-width: 386px;width: 100%;">
+                        <img src="{{ asset('assets/SS2.webp') }}" alt="Team six" class="img-fluid m-auto" />
+                        <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Sikandar Salam</h1>
+                        <p style="color: #FB7A00; font-weight: 500">Requirements Engineer</p>
+                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Digital Transformation / Business
+                            Process Modeling / Technical Analysis</p>
+                    </div>
+                    <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
+                        style="max-width: 386px;width: 100%;">
+                        <img src="{{ asset('assets/HC2.webp') }}" alt="Team six" class="img-fluid m-auto" />
+                        <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Hassan Chaudhry</h1>
+                        <p style="color: #FB7A00; font-weight: 500">Associate Business Analyst</p>
+                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Workflow Design / Requirement
+                            Analysis / Technology Adoption</p>
+                    </div>
+
+
+
+
+
+
+                    <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
+                        style="max-width: 386px;width: 100%;">
+                        <img src="{{ asset('assets/EB2.webp') }}" alt="Team six" class="img-fluid m-auto" />
                         <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Ehtsham Bhatti</h1>
                         <p style="color: #FB7A00; font-weight: 500">Associate Business Analyst</p>
-                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">User Story Mapping / Agile Methodology / Requirement Analysis</p>
+                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">User Story Mapping / Agile
+                            Methodology / Requirement Analysis</p>
                     </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
-                    style="max-width: 386px;width: 100%;">
-                    <img src="{{asset('assets/MS2.webp')}}" alt="Team six" class="img-fluid m-auto" />
-                    <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Muzdulfah Sandhu</h1>
-                    <p style="color: #FB7A00; font-weight: 500">Requirement Engineer</p>
-                    <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">User Documentation / User training / Requirement Analysis</p>
-                </div>
-                <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
                         style="max-width: 386px;width: 100%;">
-                        <img src="{{asset('assets/K2.webp')}}" alt="Team six" class="img-fluid m-auto" />
+                        <img src="{{ asset('assets/MS2.webp') }}" alt="Team six" class="img-fluid m-auto" />
+                        <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Muzdulfah Sandhu</h1>
+                        <p style="color: #FB7A00; font-weight: 500">Requirement Engineer</p>
+                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">User Documentation / User training /
+                            Requirement Analysis</p>
+                    </div>
+                    <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
+                        style="max-width: 386px;width: 100%;">
+                        <img src="{{ asset('assets/K2.webp') }}" alt="Team six" class="img-fluid m-auto" />
                         <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Aqsa Farooq kayani</h1>
                         <p style="color: #FB7A00; font-weight: 500">Business Developer</p>
-                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Lead Generation / LinkedIn / Self-Built Ventures & Growth Strategies</p>
+                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Lead Generation / LinkedIn /
+                            Self-Built Ventures & Growth Strategies</p>
                     </div>
                     <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
-                    style="max-width: 386px;width: 100%;">
-                    <img src="{{asset('assets/US2.webp')}}" alt="Team six" class="img-fluid m-auto" />
-                    <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Muhammad Usama Saleem</h1>
-                    <p style="color: #FB7A00; font-weight: 500">Business Developer</p>
-                    <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Lead Generation / Lead Maturation /
-                        Lead closing / Research & Strategy</p>
-                </div>
-                <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
-                style="max-width: 386px;width: 100%;">
-                <img src="{{asset('assets/SA2.webp')}}" alt="Team six" class="img-fluid m-auto" />
-                <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Sadia Jaan</h1>
-                <p style="color: #FB7A00; font-weight: 500">Business Developer</p>
-                <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Sales and Negotiation, Lead
-                    Generation,
-                    Relationship Building, Market</p>
-            </div>
+                        style="max-width: 386px;width: 100%;">
+                        <img src="{{ asset('assets/US2.webp') }}" alt="Team six" class="img-fluid m-auto" />
+                        <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Muhammad Usama Saleem</h1>
+                        <p style="color: #FB7A00; font-weight: 500">Business Developer</p>
+                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Lead Generation / Lead Maturation /
+                            Lead closing / Research & Strategy</p>
+                    </div>
+                    <div class="blogCard team-cards d-flex flex-column p-lg-3 p-2 align-items-lg-start"
+                        style="max-width: 386px;width: 100%;">
+                        <img src="{{ asset('assets/SA2.webp') }}" alt="Team six" class="img-fluid m-auto" />
+                        <h1 style="color: #232323; font-weight: 700;padding-top: 24px;">Sadia Jaan</h1>
+                        <p style="color: #FB7A00; font-weight: 500">Business Developer</p>
+                        <p style="color: #5f5f5f; font-weight: 500;padding-top: 8px;">Sales and Negotiation, Lead
+                            Generation,
+                            Relationship Building, Market</p>
+                    </div>
 
                 </div>
 
@@ -220,8 +234,7 @@
         </p>
         <div class="d-flex w-100 flex-md-row flex-column mt-0 gap-lg-3 gap-2 justify-content-center align-items-center">
             <div class="button-wrap">
-                <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                    type="button"
+                <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#staticBackdrop" type="button"
                     class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
                     <a href="#" class="text-orange">Become Our Partner</a>
                 </button>
@@ -279,8 +292,7 @@
 
                                 <div class="position-relative">
                                     <input style="color: #acacac;width: 100%;" type="text" id="companyName"
-                                        name="company_name" class="border-0"
-                                        placeholder="Enter Company Name" />
+                                        name="company_name" class="border-0" placeholder="Enter Company Name" />
                                 </div>
                             </div>
                             <div class="flex-column gap-1 pos-rev" id="nameselect">
@@ -342,8 +354,6 @@
                 border-radius: 0px !important;
               " />
                                         <div id="phoneNumber-error" class="error-message pos-abs"></div>
-                                        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                                        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
                                         <!-- <script>
                                             var input = document.querySelector("#phoneNumber");
                                             var iti = window.intlTelInput(input, {
@@ -354,7 +364,7 @@
                                             // store the instance variable so we can access it in the console e.g. window.iti.getNumber()
                                             window.iti = iti;
                                         </script> -->
-                                        
+
                                         <!-- <div class="error-message" id="PhoneNumber-error"></div> -->
                                     </div>
                                 </div>
@@ -556,8 +566,7 @@
                 </div>
             </div>
             <div class="button-wrap">
-                <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#bookapp" 
-                    type="button"
+                <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#bookapp" type="button"
                     class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
                     <a href="#" class="text-orange">Book A Consultation</a>
                 </button>
@@ -581,7 +590,7 @@
                                     </div>
                                     <button type="submit" onclick="showSecondDiv()"
                                         class="btn partnerbutton mt-5 bookSubmit navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3">
-                                        <span class="text-orange px-4">Next</span>                                    </button>
+                                        <span class="text-orange px-4">Next</span> </button>
                                 </div>
                                 <div class="col-xl-7 col-lg-5 col-12 order-lg-2 order-1 available-slots d-flex flex-column p-4 gap-xl-1 gap-3"
                                     style="background-color: #0d3642">
@@ -740,7 +749,7 @@
                                             d="M11.0671 23.0665L4.93377 16.9332C4.80044 16.7999 4.70577 16.6554 4.64977 16.4999C4.59377 16.3443 4.56666 16.1776 4.56844 15.9999C4.56844 15.8221 4.59644 15.6554 4.65244 15.4999C4.70844 15.3443 4.80222 15.1999 4.93377 15.0665L11.1004 8.89987C11.3449 8.65543 11.6449 8.5332 12.0004 8.5332C12.356 8.5332 12.6671 8.66654 12.9338 8.9332C13.1782 9.17765 13.3004 9.48876 13.3004 9.86654C13.3004 10.2443 13.1782 10.5554 12.9338 10.7999L9.06711 14.6665H26.6671C27.0449 14.6665 27.3618 14.7945 27.6178 15.0505C27.8738 15.3065 28.0013 15.623 28.0004 15.9999C28.0004 16.3776 27.8724 16.6945 27.6164 16.9505C27.3604 17.2065 27.044 17.3341 26.6671 17.3332H9.06711L12.9671 21.2332C13.2116 21.4776 13.3338 21.7776 13.3338 22.1332C13.3338 22.4888 13.2004 22.7999 12.9338 23.0665C12.6893 23.311 12.3782 23.4332 12.0004 23.4332C11.6227 23.4332 11.3116 23.311 11.0671 23.0665Z"
                                             fill="#0D3642" />
                                     </svg>
-                                    <h2 style="color: #333;padding-top: 10px !important" class="fw-bold mt-5" >
+                                    <h2 style="color: #333;padding-top: 10px !important" class="fw-bold mt-5">
                                         Enter Details
                                     </h2>
                                     <form action="#" id="bookconsultform"
@@ -786,7 +795,7 @@
                               rgba(16, 24, 40, 0.05);
                             padding-left: 96px !important;border-radius: 0px;
                           " />
-                                                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
                                                 <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
                                                 <script>
                                                     var input = document.querySelector("#phnumber");
@@ -818,10 +827,10 @@
                                                 Schedule Event
                                             </button>
                                             <!-- <button id=" discardButton" type="button"
-                          class="btn navButton text-orange consultaion-button rounded-0 button-color py-2 px-lg-5 px-3 d-flex justify-content-center align-items-center gap-3"
-                          data-bs-dismiss="modal">
-                          <a class="text-orange">Discard</a>
-                        </button> -->
+                              class="btn navButton text-orange consultaion-button rounded-0 button-color py-2 px-lg-5 px-3 d-flex justify-content-center align-items-center gap-3"
+                              data-bs-dismiss="modal">
+                              <a class="text-orange">Discard</a>
+                            </button> -->
                                         </div>
                                     </form>
                                 </div>
@@ -839,8 +848,10 @@
                                         </svg>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center align-items-center mt-4">
-                                        <img loading="lazy" width="212" height="40" src="{{asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg')}}"
-                                            alt="Sync4tech Homepage Logo You Gateway To Technological Excellence.svg" class="img-fluid" />
+                                        <img loading="lazy" width="212" height="40"
+                                            src="{{ asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}"
+                                            alt="Sync4tech Homepage Logo You Gateway To Technological Excellence.svg"
+                                            class="img-fluid" />
                                     </div>
                                     <div class="d-flex flex-column align-items-start px-3 mt-5 gap-4">
                                         <div class="d-flex gap-3 justify-content-center align-items-center">
@@ -968,21 +979,21 @@
     </div>
 @endsection
 @push('scripts')
-<script>
-  var input = document.querySelector("#phoneNumber");
-  var iti = window.intlTelInput(input, {
-      separateDialCode: true,
-      utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/js/utils.js",
-      initialCountry: "US", // Set the default country to United States
-  });
-  // store the instance variable so we can access it in the console e.g. window.iti.getNumber()
-  window.iti = iti;
-</script>
-<script>
-  // Get the input element
-  var phoneNumberInput = document.querySelector("#phnumber");
+    <script>
+        var input = document.querySelector("#phoneNumber");
+        var iti = window.intlTelInput(input, {
+            separateDialCode: true,
+            utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/js/utils.js",
+            initialCountry: "US", // Set the default country to United States
+        });
+        // store the instance variable so we can access it in the console e.g. window.iti.getNumber()
+        window.iti = iti;
+    </script>
+    <script>
+        // Get the input element
+        var phoneNumberInput = document.querySelector("#phnumber");
 
-  // Set the default USA phone number as the placeholder (adjust as needed)
-  phoneNumberInput.placeholder = "201-555-0123";
-</script>
+        // Set the default USA phone number as the placeholder (adjust as needed)
+        phoneNumberInput.placeholder = "201-555-0123";
+    </script>
 @endpush

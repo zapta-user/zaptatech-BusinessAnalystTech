@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <!----------------------- CSS ------------------------------->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/myStyle.css') }}" >
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/myStyle.css') }}">
 
     <meta name="title" content="Sync4Tech: Pre-Development Software Services">
     <meta name="description"
@@ -47,8 +47,11 @@
         consulting, and digital transformation expertise to boost
         your tech business. Explore now!">
     <meta name="twitter:image" content="https://i.ibb.co/r3ypC8y/twitter-meta-logo.png">
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/js/intlTelInput.min.js"></script>
+    <script src="{{ asset('js/jqueryMin.js') }}"></script>
 
     <title>Home Page | Sync4Tech</title>
+    @vite(['resources/js/app.js'])
 </head>
 
 <body>
@@ -60,7 +63,8 @@
         <div class="container">
             <div class="navbar">
                 <a class="navbar-brand d-lg-block d-none" href="{{ route('frontend.home') }}" id="defaultlogo">
-                    <img loading="lazy" width="216" height="40" src="{{ asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}"
+                    <img loading="lazy" width="216" height="40"
+                        src="{{ asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}"
                         alt="Sync4tech Homepage Logo You Gateway To Technological Excellence" class="img-fluid" />
                 </a>
                 <a class="navbar-brand d-lg-none d-block" href="{{ route('frontend.home') }}" id="blacklogo">

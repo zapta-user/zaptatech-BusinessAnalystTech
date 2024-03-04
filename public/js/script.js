@@ -160,6 +160,7 @@ $("#bookconsultform").validate({
     },
   },
   submitHandler: function (form) {
+    $('#bookconsultform').attr('check_validate', 'true');
     formClass = form;
     $(form).closest(".modal").modal("hide");
     $("#succesmodel").modal("show");

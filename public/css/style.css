@@ -125,7 +125,8 @@ p {
     overflow-y: auto;
     border-radius: 0 !important
 }
-#succesmodel .modal-content{
+
+#succesmodel .modal-content {
     padding: 20px;
 }
 
@@ -430,6 +431,56 @@ footer a:hover {
     background: 0 0
 }
 
+.section-load {
+    pointer-events: none;
+    cursor: not-allowed;
+    position: relative;
+}
+
+.section-load::before {
+    content: "";
+    opacity: 0;
+    transition: opacity 1s .5s;
+    animation: .8s linear infinite rotate;
+    opacity: 1
+}
+
+.section-load::before {
+    position: absolute;
+    top: calc(50% - 35px);
+    left: calc(50% - 35px);
+    width: 70px;
+    height: 70px;
+    border: 10px solid #005BAA;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-radius: 50%;
+    z-index: 5
+}
+
+.section-load::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .1);
+    z-index: 4;
+    user-select: none;
+    pointer-events: none
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
 .animated-btn {
     min-width: 200px;
     height: 55px;
@@ -494,17 +545,20 @@ nav {
 .navButton a {
     color: var(--orange-color) !important
 }
-.navButton{
-    color: var(--orange-color) !important
-}
-.consultaion-button:hover, .navButton:hover{
 
-}
-.navButton{
+.navButton {
     color: var(--orange-color) !important
 }
-.navButton:hover{
-    color: white !important; 
+
+.consultaion-button:hover,
+.navButton:hover {}
+
+.navButton {
+    color: var(--orange-color) !important
+}
+
+.navButton:hover {
+    color: white !important;
 }
 
 .consultaion-button {
@@ -1477,7 +1531,8 @@ form textarea {
 .first-stplines {
     margin-bottom: 100px
 }
-.hidden-title{
+
+.hidden-title {
     font-family: Manrope;
     font-size: 40px !important;
     font-weight: 700 !important;
@@ -1485,8 +1540,9 @@ form textarea {
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF !important;
-}   
-.hidden-text{
+}
+
+.hidden-text {
     font-family: Manrope;
     font-size: 16px !important;
     font-weight: 400 !important;
@@ -1495,13 +1551,16 @@ form textarea {
     text-align: left;
     color: #FFFFFF !important;
 }
-.font-22-900{
+
+.font-22-900 {
     font-size: 22px;
     font-weight: 900;
 }
-.font-17{
+
+.font-17 {
     font-size: 17px;
 }
+
 @media (max-width:1390px) {
     .change-wi {
         width: 75%
@@ -1638,10 +1697,12 @@ form textarea {
     .cd-sec {
         display: unset !important
     }
-    .key-fec-main{
+
+    .key-fec-main {
         flex-wrap: wrap;
         justify-content: center !important;
     }
+
     .cd-sec div {
         width: 400px !important;
         margin: 0 auto !important
@@ -1758,16 +1819,19 @@ form textarea {
     .cd-sec div {
         width: 340px !important
     }
-    .hidden-text{
+
+    .hidden-text {
         font-family: Manrope;
         font-size: 14px !important;
         font-weight: 400 !important;
         line-height: 28px;
 
     }
-    .font-17{
+
+    .font-17 {
         font-size: 12px;
     }
+
     .loader img {
         width: 60px !important;
         height: 60px !important;
@@ -1996,48 +2060,56 @@ form textarea {
     text-decoration: none;
     margin-bottom: 0
 }
-.f23{
+
+.f23 {
     font-size: 23px !important;
 }
+
 .projectcomponentsection {
     padding: 60px 70px !important;
-    
+
 }
-#domainsListing{
+
+#domainsListing {
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 /* .becomepartform span{
     display: block;
 } */
-.becomepartform div{
+.becomepartform div {
     display: grid;
 }
-.b-read-mrbtn button{
+
+.b-read-mrbtn button {
     border: none;
     background-color: transparent;
     color: #FB7A00;
     margin-top: 10px;
     text-align: left;
 }
+
 .mySwiper {
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
 }
 
 .mySwiper .swiper-wrapper {
-    -webkit-transition-timing-function:linear !important; 
-    -o-transition-timing-function:linear !important;
-    transition-timing-function:linear !important;
+    -webkit-transition-timing-function: linear !important;
+    -o-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
 }
 
-.mySwiper .swiper-wrapper .swiper-slide{
+.mySwiper .swiper-wrapper .swiper-slide {
     width: fit-content !important;
 }
-.f-links span{
+
+.f-links span {
     cursor: pointer;
 }
+
 @media (max-width:768px) {
 
     .grid-container .large-div,
@@ -2413,37 +2485,46 @@ form textarea {
     .howWork {
         padding: 50px 12px !important
     }
-    .f23{
+
+    .f23 {
         font-size: 14px !important;
     }
+
     .key-fec-txt p,
-    .pro-st-txt p{
+    .pro-st-txt p {
         font-size: 12px;
         line-height: 24px;
 
     }
-    .pro-st-txt h1{
+
+    .pro-st-txt h1 {
         font-size: 35px;
     }
-    .key-fec-txt h2{
+
+    .key-fec-txt h2 {
         font-size: 27px;
         line-height: 37px;
     }
-    .pr-st-main{
+
+    .pr-st-main {
         gap: 20px;
     }
-    .key-fec-sec{
+
+    .key-fec-sec {
         padding: 20px !important;
     }
-    .key-fec-main{
+
+    .key-fec-main {
         padding-top: 18px !important;
     }
-    .hidden-title{
+
+    .hidden-title {
         font-family: Manrope;
         font-size: 30px !important;
         font-weight: 700 !important;
         text-align: center !important;
     }
+
     .f-linkstag,
     .f-main-location p {
         font-size: 13px !important
@@ -3211,9 +3292,11 @@ form textarea {
     .tellProjectSection h1 {
         font-size: 33px
     }
-    .expertContent h2{
+
+    .expertContent h2 {
         font-size: 20px;
     }
+
     .tellProjectSection h1 {
         line-height: 74px
     }
@@ -3387,13 +3470,15 @@ form textarea {
         opacity: 0
     }
 }
+
 @media (max-width:992px) {
-    #domainsListing{
+    #domainsListing {
         grid-template-columns: 1fr 1fr;
     }
 }
+
 @media (max-width:767px) {
-    #domainsListing{
-        grid-template-columns: 1fr ;
+    #domainsListing {
+        grid-template-columns: 1fr;
     }
 }

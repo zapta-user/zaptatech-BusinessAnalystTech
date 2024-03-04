@@ -2,7 +2,6 @@
 <!-- Link Swiper's CSS -->
 {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> --}}
 @section('section')
-
     <!-- hero-section -->
     <section class="hero-section pt-80">
         <div class="container">
@@ -20,8 +19,11 @@
                         <!-- <a href="#" class="text-orange">Become Our Partner</a> -->
                         Become Our Partner
                     </button>
-                    <button data-bs-toggle="modal" data-bs-target="#bookapp" type="button">
+                    {{-- <button data-bs-toggle="modal" data-bs-target="#bookapp" id="" type="button">
                         <!-- <a href="#" class="text-orange">Book A Consultation</a> -->
+                        Book A Consultation
+                    </button> --}}
+                    <button id="openScheduleModal" data-bs-toggle="modal" data-bs-target="#bookapp" type="button">
                         Book A Consultation
                     </button>
                 </div>
@@ -50,7 +52,7 @@
             </div>
         </div>
     </section>
-    
+
 
     <!----------- services-section----- -->
     <section class="cardsSection  serviceCardSection">
@@ -540,8 +542,9 @@
                         <div
                             class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute showbutton top-0">
                             {{-- <button > --}}
-                                <a style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
-                                class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3" href="{{ route('frontend.projects.quicksteps') }}" class="text-orange">Know More</a>
+                            <a style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
+                                class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3"
+                                href="{{ route('frontend.projects.quicksteps') }}" class="text-orange">Know More</a>
                             {{-- </button> --}}
                         </div>
                     </div>
@@ -558,8 +561,9 @@
                             <div
                                 class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute showbutton top-0">
                                 {{-- <button > --}}
-                                    <a style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
-                                    class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3 text-orange" href="{{ route('frontend.projects.investme') }}">Know More</a>
+                                <a style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
+                                    class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3 text-orange"
+                                    href="{{ route('frontend.projects.investme') }}">Know More</a>
                                 {{-- </button> --}}
                             </div>
                         </div>
@@ -575,9 +579,10 @@
                             <div
                                 class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute showbutton top-0">
                                 {{-- <button > --}}
-                                    <a style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
-                                    class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3 text-orange" href="{{ route('frontend.projects.qme-solutions') }}">Know
-                                        More</a>
+                                <a style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
+                                    class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3 text-orange"
+                                    href="{{ route('frontend.projects.qme-solutions') }}">Know
+                                    More</a>
                                 {{-- </button> --}}
                             </div>
                         </div>
@@ -596,8 +601,9 @@
                         <div
                             class="w-100 h-100 d-flex justify-content-center align-items-center position-absolute showbutton top-0">
                             {{-- <button > --}}
-                                <a style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
-                                class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3" href="{{ route('frontend.projects.kutuby') }}" class="text-orange">Know More</a>
+                            <a style="border: 2px solid #fb7a00 !important;font-weight:600 !important;"
+                                class="btn navButton bg-transparent rounded-0 button-color justify-content-center align-items-center gap-3"
+                                href="{{ route('frontend.projects.kutuby') }}" class="text-orange">Know More</a>
                             {{-- </button> --}}
                         </div>
                     </div>
@@ -1057,11 +1063,11 @@
                         </div>
                     </div>
                     <!-- <div class="image-overlay-text position-absolute d-flex flex-column text-white gap-3">
-                                                                                                        
-                                                                                                        
-                                                                                                        
-                                                                                                       
-                                                                                                      </div> -->
+                                                                                                                                                                                        
+                                                                                                                                                                                        
+                                                                                                                                                                                        
+                                                                                                                                                                                       
+                                                                                                                                                                                      </div> -->
                 </div>
                 <div class="subDiv formSection d-flex flex-column gap-2 align-items-md-start align-items-center">
                     <form action="{{ route('frontend.contacts.store') }}"
@@ -1086,8 +1092,6 @@
                             <label for="contactphoneNum">Phone</label>
                             <input type="tel" name="phone_no" id="contactphoneNum"
                                 class="form-control py-2 px-5 rounded-0 bg-transparent" />
-                            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                            <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
                             <script>
                                 var input = document.querySelector("#contactphoneNum");
                                 var iti = window.intlTelInput(input, {
@@ -1112,6 +1116,47 @@
                 </div>
             </div>
         </div>
+
+        {{-- <div class="modal fade" id="bookapp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-centered d-flex justify-content-center align-items-center"
+                id="app">
+                <div> Hello HI </div>
+                <schedule-call />
+            </div>
+        </div> --}}
+
+
+
+
+
+
+
+
+        <div class="modal fade" id="bookapp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div
+                class="modal-dialog modal-dialog-centered modal-xl modal-dialog-centered d-flex justify-content-center align-items-center">
+                <div class="modal-content book-modal-content firstDivModal" id="app">
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     </section>
     <!-- </div> -->
