@@ -431,7 +431,7 @@ footer a:hover {
     background: 0 0
 }
 
-.section-load {
+.slot-container  {
     pointer-events: none;
     cursor: not-allowed;
     position: relative;
@@ -447,8 +447,8 @@ footer a:hover {
 
 .section-load::before {
     position: absolute;
-    top: calc(50% - 35px);
-    left: calc(50% - 35px);
+    /* top: calc(50% - 35px);
+    left: calc(50% - 35px); */
     width: 70px;
     height: 70px;
     border: 10px solid #005BAA;
@@ -3101,7 +3101,11 @@ form textarea {
         padding: 60px 50px !important
     }
 }
-
+@media (max-width:1200px) {
+    .slot-container{
+        justify-content: center;
+    }
+}
 @media (min-width:1200px) {
     .portfolioSection div button {
         width: 30%
