@@ -176,9 +176,9 @@
         Thanks for booking the consultation. Our representative
         will get back to you soon.
     </p>
-    <button type="submit" id="" class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3">
-        <a class="text-white px-4" onclick="closeFour()">Ok</a>
-    </button>
+        <button type="submit" id="" class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3" onclick="closeFour()">
+            Ok
+        </button>
 </div>
 </template>
 
