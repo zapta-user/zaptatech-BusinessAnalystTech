@@ -431,9 +431,9 @@ footer a:hover {
     background: 0 0
 }
 
-.slot-container  {
-    pointer-events: none;
-    cursor: not-allowed;
+.slot-container{
+    /* pointer-events: none; */
+    /* cursor: not-allowed; */
     position: relative;
 }
 

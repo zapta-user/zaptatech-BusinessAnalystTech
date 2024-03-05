@@ -434,11 +434,11 @@
         /* max-height: 400px; */
         height: 222px;
         background-repeat: no-repeat;">
-                    <button class="position-absolute py-1 px-4 border-0"
+                    <button class="position-absolute py-1 px-4 border-0 fw-bold"
                         style=" top: 6%; right: 4%;
             background: rgba(255, 255, 255, 0.64);
             backdrop-filter: blur(2px);">
-                        <span style="color: #0d3642" class="fw-bold">Business Analysis</span>
+                        <span style="color: #0d3642">Business Analysis</span>
                     </button>
                 </div>
 
