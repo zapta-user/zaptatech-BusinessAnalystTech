@@ -818,7 +818,7 @@
                       "></textarea>
                                         </div>
                                         <div class="d-flex gap-3">
-                                            <button type="submit" id=" schedule"
+                                            <button type="submit" id="schedule"
                                                 class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-4 px-3 align-items-center gap-3">
                                                 Schedule Event
                                             </button>
