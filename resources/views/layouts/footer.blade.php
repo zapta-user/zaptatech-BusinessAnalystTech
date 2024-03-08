@@ -439,135 +439,7 @@
                         Domain</label>
                     <div class="table-responsive">
                         <table id="domainsListing">
-                            {{-- <tr>
-                                <td>
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains[]" id="domains1" />
-                                        <p>AI, ML, VR, & AR</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains[]" id="domains2" />
-                                        <p>Blockchain</p>
-                                    </div>
-                                </td>
-                                <td class="pt-2">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains[]" id="domains3" />
-                                        <p>CRM</p>
-                                    </div>
-                                </td>
-                            </tr>
 
-                            <tr>
-
-                                <td class="pt-2">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains[]" id="domains4" />
-                                        <p>ERP Management</p>
-                                    </div>
-                                </td>
-                                <td class="pt-2">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains[]" id="domains5" />
-                                        <p>FinTech</p>
-                                    </div>
-                                </td>
-                                <td class="pt-2">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains[]" id="domains6" />
-                                        <p>Hospital and Clinic</p>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="pt-2">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains[]" id="domains7" />
-                                        <p>eCommerce</p>
-                                    </div>
-                                </td>
-                                <td class="pt-2">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains[]" id="domains8" />
-                                        <p>Supply Chain</p>
-                                    </div>
-                                </td>
-                                <td class="pt-2">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains[]" id="domains9" />
-                                        <p>Inventory Management
-                                        </p>
-                                    </div>
-                                </td>
-                            </tr>
-
-                            <tr class="moretext">
-
-                                <td class="pt-2">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains[]" id="domains10" />
-                                        <p>Property & Land
-                                        </p>
-                                    </div>
-                                </td>
-                                <td class="pt-2">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains[]" id="domains11" />
-                                        <p>CMS</p>
-                                    </div>
-                                </td>
-                                <td class="pt-2">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains[]" id="domains12" />
-                                        <p>Transport and Vehicles</p>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr class="moretext">
-
-                                <td class="pt-2">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains[]" id="domains13" />
-                                        <p>Education & eLearning</p>
-                                    </div>
-                                </td>
-                                <td class="pt-2">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains[]" id="domains14" />
-                                        <p>Hotel Management</p>
-                                    </div>
-                                </td>
-                                <td class="pt-2">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains[]" id="domains15" value="sdsdf" />
-                                        <p>Medical & HealthCare</p>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr class="moretext">
-
-                                <td class="pt-2">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains[]" id="domains16" value="dssds" />
-                                        <p>Trading and Business</p>
-                                    </div>
-                                </td>
-                                <td class="pt-2">
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <input type="checkbox" name="domains" id="domains17" />
-                                        <p>Other</p>
-                                    </div>
-                                </td>
-                            </tr>
-                            <td class="pt-2">
-                                <div class="d-flex gap-2 align-items-center">
-                                    <p><button type="button"
-                                            style="color: #FB7A00 !important;padding: 0 !important;border: none;"
-                                            class="moreless-button">Others ></button></p>
-                                </div>
-                            </td> --}}
                         </table>
                     </div>
 
@@ -589,31 +461,10 @@
     </div>
 </div>
 
-{{-- @include('partials.schedule-call') --}}
-
 
 <script src="{{ asset('js/schedule-call.js') }}" data-param="{{ route('frontend.getAvailableSlots') }}"
     data-param2="{{ route('frontend.getTimeZones') }}" data-param3="{{ config('custom.schedule_call.duration') }}"
     defer></script>
-
-
-{{-- <script>
-    // Add a click event listener to the SVG
-    document
-        .querySelector(".close-modal")
-        .addEventListener("click", function() {
-            // Find the modal element by its ID
-            var modal = document.getElementById("bookapp");
-            // Close the modal
-            $(modal).modal("hide");
-            // Remove the backdrop manually
-            $(".modal-backdrop").remove();
-        });
-</script> --}}
-<!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#succesmodel">
-  Launch demo modal
-</button> -->
 
 <!--success Modal -->
 <div class="modal fade" id="succesmodel" tabindex="-1" aria-labelledby="succesmodelLabel" aria-hidden="true">
@@ -641,29 +492,17 @@
 <!-- ************************Scripts Start Here*********************************-->
 
 <!--------------------------------- Jquery --------------------------->
-{{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script> --}}
-{{-- <script src="{{ asset('js/jqueryMin.js') }}"></script> --}}
+<script src="{{ asset('js/jqueryMin.js') }}"></script>
 <!-------------------------------- Jquery Ends------------------------------->
 
 <!--------------------------------- Popper Js ------------------------------->
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-</script>
-{{-- <script src="{{ asset('js/popper.js') }}"></script> --}}
+<script src="{{ asset('js/popper.js') }}"></script>
 <!--------------------------------- Popper Js Ends----------------------------->
 
 <!--------------------------------- Bootstrap 5 cdn ---------------------------->
-{{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-</script> --}}
 <script src="{{ asset('js/bootstrap5.js') }}"></script>
 <!------------------------------------ Bootstrap 5 cdn Ends--------------------->
-<!-- intl-tel-input JavaScript -->
-{{-- <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/js/intlTelInput.min.js"></script> --}}
-{{-- <script src="{{ asset('js/phoneNumber_input.js') }}"></script>
-<script src="{{ asset('js/phoneNumber2_input.js') }}"></script> --}}
+
 <!-- intl-tel-input utilsScript JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/js/utils.js"></script>
 <!-- validation -->
@@ -671,9 +510,6 @@
 <!-- Swiper JS -->
 <script src="{{ asset('js/swiper.js') }}"></script>
 <!------------------------------- Custom Js ---------------------------------->
-<!-- <script src="./js/script.js"></script> -->
-{{-- <script src="{{ asset('js/availableslot.js') }}"></script> --}}
-{{-- <script src="{{ asset('js/rolyart-calendar.js') }}"></script> --}}
 <script src="{{ asset('js/app.js') }}"></script>
 <script src="{{ asset('js/index.js') }}"></script>
 <script src="{{ asset('js/script.js') }}"></script>
@@ -692,26 +528,6 @@
 
 
 <!-- ******************************Scripts End Here******************************-->
-
-
-{{-- 
-<script>
-    var swiper = new Swiper(".fadeSwiper", {
-        slidesPerView: 3,
-        slidesPerGroup: 3,
-        spaceBetween: 0,
-        effect: "fade",
-        autoplay: {
-            delay: 1500,
-            pauseOnMouseEnter: true,
-        },
-        loop: true,
-        virtualTranslate: true,
-        autoplayDisableOnInteraction: true,
-
-
-    });
-</script> --}}
 
 <script>
     $(document).ready(function(e) {
@@ -746,20 +562,7 @@
     });
     window.iti = iti;
 </script>
-{{-- <script>
-    var phoneNumberInput = document.querySelector("#phnumber");
-    phoneNumberInput.placeholder = "201-555-0123";
-</script> --}}
-{{-- <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        var phoneInput = document.getElementById("contactphoneNum");
-        phoneInput.placeholder = " 201-555-0123";
-    });
 
-    function contactUsSuccess(response) {
-        $("#succesmodel").modal("show");
-    }
-</script> --}}
 <script type="application/ld+json">
     {
       "@context": "http://schema.org",
@@ -820,8 +623,7 @@
 </script>
 <script>
     $(document).ready(function() {
-        var hiddenItems = []; // Variable to store initially hidden items
-
+        var hiddenItems = [];
         $.ajax({
             url: "{{ route('frontend.domains') }}",
             method: 'GET',
@@ -830,27 +632,16 @@
                 var domainItems = $(response.domainView);
                 var totalItems = domainItems.length;
 
-                // Check if there are more than 12 items
                 if (totalItems > 12) {
-                    // Store items beyond 12 in hiddenItems array
                     hiddenItems = domainItems.slice(12);
-
-                    // Only show the first 12 items
                     var slicedItems = domainItems.slice(0, 17);
                     $('#domainsListing').html(slicedItems);
-
-                    // Append "Read More" button
                     $('#domainsListing').after(
                         '<div class="b-read-mrbtn"><button type="button" class="moreless-button" style="display: block;">Others ></button></div>'
                     );
-
-
                 } else {
-                    // If there are 12 or fewer items, display all items
                     $('#domainsListing').html(domainItems);
                 }
-
-                // Render serviceListing if needed
                 $('.serviceListing').html(response.serviceView);
 
                 console.log(response);
@@ -860,32 +651,22 @@
             }
         });
 
-        // Add click event listener using event delegation
         $(document).on('click', '.moreless-button', function() {
-            // Append the hidden items back to the list
             $('#domainsListing').append(hiddenItems);
-
-            // Remove the "Read More" button
             $(this).remove();
         });
     });
 </script>
 <script>
     $(document).ready(function() {
-        // Select all elements with class 'span-link'
         var spanLinks = $(".span-link");
-        // Check if 'spanLinks' is truthy and iterate over each element
         if (spanLinks) {
             spanLinks.each(function() {
-                // Attach click event handler to each 'spanLink' element
                 $(this).on("click", function(event) {
-                    // Get the value of 'data-href-value' attribute
                     var hrefValue = $(this).attr("data-href-value");
-                    // Open link in new tab if CTRL (Windows/Linux) or CMD (Mac) key is pressed
                     if (event.ctrlKey || event.metaKey) {
                         window.open(hrefValue, "_blank");
-                    } else { // Otherwise, navigate to the link in the current tab
-                        // window.location.href = hrefValue;
+                    } else {
                         window.open(hrefValue, "_blank");
                     }
                 });
