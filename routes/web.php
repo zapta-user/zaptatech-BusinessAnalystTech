@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\DomainController;
+use App\Http\Controllers\MeetingController;
 use App\Http\Controllers\PartnerController;
 use Illuminate\Support\Facades\Route;
 
@@ -68,4 +69,9 @@ Route::name('frontend.')->group(function () {
 
     //DomainController 
     Route::get('domains', DomainController::class)->name('domains');
+
+    //MeetingController
+    Route::post('get-availabe-slots', [MeetingController::class, 'checkAvailableSlots'])->name('getAvailableSlots');
+    Route::post('get-time-zones', [MeetingController::class, 'getTimeZones'])->name('getTimeZones');
+    Route::post('schedule-call', [MeetingController::class, 'scheduleMeeting'])->name('scheduleMeeting.store');
 });

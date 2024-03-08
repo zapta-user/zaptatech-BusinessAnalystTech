@@ -8,7 +8,8 @@
     </style>
     @php
         $meta_title = 'Sync4Tech | RevConductor';
-        $meta_description = 'Elevate your manufacturing operations with RevConductor, a powerful web-based application for secure authentication and bulk product management, with advanced features like chatbot integration and Google Maps.';
+        $meta_description =
+            'Elevate your manufacturing operations with RevConductor, a powerful web-based application for secure authentication and bulk product management, with advanced features like chatbot integration and Google Maps.';
     @endphp
     <!-- --------------------BANNER SECTION----------------- -->
     <div class="bannerSection flex-column gap-1 d-flex align-items-start justify-content-center  flex-shrink-0 ex-paddg"
@@ -363,8 +364,6 @@
               border-radius: 0px !important;
             " />
                                         <div id="phoneNumber-error" class="error-message pos-abs"></div>
-                                        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                                        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
                                         <!-- <script>
                                             var input = document.querySelector("#phoneNumber");
                                             var iti = window.intlTelInput(input, {
@@ -806,8 +805,6 @@
                             rgba(16, 24, 40, 0.05);
                           padding-left: 96px !important;border-radius: 0px;
                         " />
-                                                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                                                <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
                                                 <script>
                                                     var input = document.querySelector("#phnumber");
                                                     var iti = window.intlTelInput(input, {
@@ -833,15 +830,15 @@
                       "></textarea>
                                         </div>
                                         <div class="d-flex gap-3">
-                                            <button type="submit" id=" schedule"
+                                            <button type="submit" id="schedule"
                                                 class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-4 px-3 align-items-center gap-3">
                                                 Schedule Event
                                             </button>
                                             <!-- <button id=" discardButton" type="button"
-                        class="btn navButton text-orange consultaion-button rounded-0 button-color py-2 px-lg-5 px-3 d-flex justify-content-center align-items-center gap-3"
-                        data-bs-dismiss="modal">
-                        <a class="text-orange">Discard</a>
-                      </button> -->
+                                class="btn navButton text-orange consultaion-button rounded-0 button-color py-2 px-lg-5 px-3 d-flex justify-content-center align-items-center gap-3"
+                                data-bs-dismiss="modal">
+                                <a class="text-orange">Discard</a>
+                              </button> -->
                                         </div>
                                     </form>
                                 </div>

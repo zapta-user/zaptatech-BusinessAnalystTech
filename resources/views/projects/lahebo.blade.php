@@ -370,19 +370,6 @@
               border-radius: 0px !important;
             " />
                                         <div id="phoneNumber-error" class="error-message pos-abs"></div>
-                                        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                                        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
-                                        <!-- <script>
-                                            var input = document.querySelector("#phoneNumber");
-                                            var iti = window.intlTelInput(input, {
-                                                separateDialCode: true,
-                                                utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/js/utils.js",
-                                                initialCountry: "US", // Set the default country to United States
-                                            });
-                                            // store the instance variable so we can access it in the console e.g. window.iti.getNumber()
-                                            window.iti = iti;
-                                        </script> -->
-
                                         <!-- <div class="error-message" id="PhoneNumber-error"></div> -->
                                     </div>
                                 </div>
@@ -813,8 +800,6 @@
                             rgba(16, 24, 40, 0.05);
                           padding-left: 96px !important;border-radius: 0px;
                         " />
-                                                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                                                <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
                                                 <script>
                                                     var input = document.querySelector("#phnumber");
                                                     var iti = window.intlTelInput(input, {
@@ -840,7 +825,7 @@
                       "></textarea>
                                         </div>
                                         <div class="d-flex gap-3">
-                                            <button type="submit" id=" schedule"
+                                            <button type="submit" id="schedule"
                                                 class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-4 px-3 align-items-center gap-3">
                                                 Schedule Event
                                             </button>

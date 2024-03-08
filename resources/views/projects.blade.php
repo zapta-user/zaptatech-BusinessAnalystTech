@@ -1,10 +1,11 @@
 @extends('layouts.default')
 @section('title', 'Projects')
 @section('section')
-@php
- $meta_title = "Sync4Tech | Projects";
- $meta_description = "Explore Sync4Tech's diverse portfolio on our Projects page. Discover how our expert team turns ideas into reality, from innovative software solutions to successful digital transformations.";
-@endphp
+    @php
+        $meta_title = 'Sync4Tech | Projects';
+        $meta_description =
+            "Explore Sync4Tech's diverse portfolio on our Projects page. Discover how our expert team turns ideas into reality, from innovative software solutions to successful digital transformations.";
+    @endphp
     <!-- --------------------BANNER SECTION----------------- -->
     <div class="bannerSection flex-column gap-1 d-flex align-items-start justify-content-center  flex-shrink-0"
         style="
@@ -68,8 +69,9 @@
                     <div class="col-md-6 d-flex justify-content-center align-items-center">
                         <a href="{{ route('frontend.projects.qme-solutions') }}"
                             class="d-flex justify-content-md-start justify-content-center align-items-center">
-                            <img loading="lazy" width="591" height="400" src="{{ asset('assets/qme-project-mobile-mockup.webp') }}"
-                                alt="QME project mobile mockup" class="img-fluid" style="cursor: pointer" />
+                            <img loading="lazy" width="591" height="400"
+                                src="{{ asset('assets/qme-project-mobile-mockup.webp') }}" alt="QME project mobile mockup"
+                                class="img-fluid" style="cursor: pointer" />
                         </a>
                     </div>
                     <div class="col-md-5 d-flex flex-column gap-md-3 gap-2">
@@ -90,7 +92,7 @@
                         </p>
                         <div class="d-flex justify-content-center justify-content-md-start align-items-center">
                             <!-- <button
-                        > -->
+                            > -->
                             <a class="rounded-0 btn navButton button-color d-flex justify-content-center align-items-center gap-3"
                                 href="{{ route('frontend.projects.qme-solutions') }}" class="text-white">View Details</a>
                             <!-- </button> -->
@@ -115,7 +117,7 @@
                         </p>
                         <div class="d-flex justify-content-center justify-content-md-start align-items-center">
                             <!-- <button
-                        > -->
+                            > -->
                             <a class="rounded-0 btn navButton button-color d-flex justify-content-center align-items-center gap-3"
                                 href="{{ route('frontend.projects.quicksteps') }}" class="text-white">View Details</a>
                             <!-- </button> -->
@@ -124,8 +126,10 @@
                     <div class="col-md-6 d-flex order-md-2 order-1 justify-content-center align-items-center">
                         <a href="{{ route('frontend.projects.quicksteps') }}"
                             class="d-flex justify-content-center align-items-center">
-                            <img loading="lazy" width="591" height="400" src="{{ asset('assets/myquicksteps-sync4tech-project-banner-image.webp') }}"
-                                style="cursor: pointer" alt="myQuicksteps sync4tech project banner image" class="img-fluid" />
+                            <img loading="lazy" width="591" height="400"
+                                src="{{ asset('assets/myquicksteps-sync4tech-project-banner-image.webp') }}"
+                                style="cursor: pointer" alt="myQuicksteps sync4tech project banner image"
+                                class="img-fluid" />
                         </a>
                     </div>
                 </div>
@@ -136,8 +140,10 @@
                     <div class="col-md-5 d-flex justify-content-center align-items-center">
                         <a href="{{ route('frontend.projects.kutuby') }}"
                             class="d-flex justify-content-md-start justify-content-center align-items-center">
-                            <img loading="lazy" width="591" height="400" src="{{ asset('assets/kutuby-logo-a-project-by-sync4tech-portfolio.webp') }}"
-                                alt="Kutuby logo a Project by Sync4Tech portfolio" class="img-fluid" style="cursor: pointer" />
+                            <img loading="lazy" width="591" height="400"
+                                src="{{ asset('assets/kutuby-logo-a-project-by-sync4tech-portfolio.webp') }}"
+                                alt="Kutuby logo a Project by Sync4Tech portfolio" class="img-fluid"
+                                style="cursor: pointer" />
                         </a>
                     </div>
                     <div class="col-md-6 d-flex flex-column gap-md-3 gap-2">
@@ -156,7 +162,7 @@
                         </p>
                         <div class="d-flex justify-content-center justify-content-md-start align-items-center">
                             <!-- <button
-                        > -->
+                            > -->
                             <a class="rounded-0 btn navButton button-color d-flex justify-content-center align-items-center gap-3"
                                 href="{{ route('frontend.projects.kutuby') }}" class="text-white">View Details</a>
                             <!-- </button> -->
@@ -185,7 +191,7 @@
                         </p>
                         <div class="d-flex justify-content-center justify-content-md-start align-items-center">
                             <!-- <button
-                        > -->
+                            > -->
                             <a class="rounded-0 btn navButton button-color d-flex justify-content-center align-items-center gap-3"
                                 href="{{ route('frontend.projects.roomz') }}" class="text-white">View Details</a>
                             <!-- </button> -->
@@ -195,34 +201,36 @@
                         <a href="{{ route('frontend.projects.roomz') }}"
                             class="d-flex align-items-center justify-content-center">
                             <img loading="lazy" width="480" height="380"
-                                src="{{ asset('assets/roomz-sync4tech-portfolio-banner-image.webp') }}" alt="Roomz Sync4Tech portfolio banner image" class="img-fluid"
-                                style="cursor: pointer" />
+                                src="{{ asset('assets/roomz-sync4tech-portfolio-banner-image.webp') }}"
+                                alt="Roomz Sync4Tech portfolio banner image" class="img-fluid" style="cursor: pointer" />
                         </a>
                     </div>
 
                 </div>
                 <!-- <div class="col-12 flex-md-row gap-3 flex-column align-items-center" data-category="Category03">
-                  <p style="max-width: 700px; margin: 0 auto; text-align: justify;" class="brown px-md-0 px-2">
-                    We appreciate your interest in our website. We've just finished our most recent projects with success, and
-                    we're getting ready for some interesting new ones. Our commitment to delivering exceptional results remains
-                    steadfast.
-                    While we're currently between projects, , our crew is hard at work getting ready for new ventures. We are
-                    always learning new things, experimenting with creative concepts, and looking for fresh ways to add value
-                    for our customers.<br><br>
-                    Please check back soon for updates on our latest projects and initiatives. In the meantime, feel free to
-                    explore our services, get to know our team, or reach out to us with any inquiries or potential
-                    collaborations.
-                    We appreciate your interest in what we do. We're excited to get in touch with you and work on more projects
-                    together in the future!"
-                  </p>
-                </div> -->
+                      <p style="max-width: 700px; margin: 0 auto; text-align: justify;" class="brown px-md-0 px-2">
+                        We appreciate your interest in our website. We've just finished our most recent projects with success, and
+                        we're getting ready for some interesting new ones. Our commitment to delivering exceptional results remains
+                        steadfast.
+                        While we're currently between projects, , our crew is hard at work getting ready for new ventures. We are
+                        always learning new things, experimenting with creative concepts, and looking for fresh ways to add value
+                        for our customers.<br><br>
+                        Please check back soon for updates on our latest projects and initiatives. In the meantime, feel free to
+                        explore our services, get to know our team, or reach out to us with any inquiries or potential
+                        collaborations.
+                        We appreciate your interest in what we do. We're excited to get in touch with you and work on more projects
+                        together in the future!"
+                      </p>
+                    </div> -->
                 <div class="col-12 flex-md-row gap-md-5 gap-3 flex-column justify-content-lg-between justify-content-center align-items-center w-100"
                     data-category="Category02">
                     <div class="col-md-5 d-flex justify-content-center align-items-center">
                         <a href="{{ route('frontend.projects.investme') }}"
                             class="d-flex justify-content-md-start justify-content-center align-items-center">
-                            <img loading="lazy" width="591" height="400" src="{{ asset('assets/invest-me-a-project-by-sync4tech-portfolio-mockup.webp') }}"
-                                alt="Invest Me a Project by Sync4Tech portfolio mockup" class="img-fluid" style="cursor: pointer" />
+                            <img loading="lazy" width="591" height="400"
+                                src="{{ asset('assets/invest-me-a-project-by-sync4tech-portfolio-mockup.webp') }}"
+                                alt="Invest Me a Project by Sync4Tech portfolio mockup" class="img-fluid"
+                                style="cursor: pointer" />
                         </a>
                     </div>
                     <div class="col-md-6 d-flex flex-column gap-md-3 gap-2">
@@ -241,7 +249,7 @@
                         </p>
                         <div class="d-flex justify-content-center justify-content-md-start align-items-center">
                             <!-- <button
-                        > -->
+                            > -->
                             <a class="rounded-0 btn navButton button-color d-flex justify-content-center align-items-center gap-3"
                                 href="{{ route('frontend.projects.investme') }}" class="text-white">View Details</a>
                             <!-- </button> -->
@@ -268,7 +276,7 @@
                         </p>
                         <div class="d-flex justify-content-center justify-content-md-start align-items-center">
                             <!-- <button
-                      > -->
+                          > -->
                             <a class="rounded-0 btn navButton button-color d-flex justify-content-center align-items-center gap-3"
                                 href="{{ route('frontend.projects.watch-tower') }}" class="text-white">View Details</a>
                             <!-- </button> -->
@@ -278,7 +286,8 @@
                         <a href="{{ route('frontend.projects.watch-tower') }}"
                             class="d-flex align-items-center justify-content-center">
                             <img loading="lazy" width="480" height="380"
-                                src="{{ asset('assets/watchtower-sync4tech-portfolio-mockup-image.webp') }}" alt="WatchTower Sync4Tech portfolio mockup image" class="img-fluid"
+                                src="{{ asset('assets/watchtower-sync4tech-portfolio-mockup-image.webp') }}"
+                                alt="WatchTower Sync4Tech portfolio mockup image" class="img-fluid"
                                 style="cursor: pointer" />
                         </a>
                     </div>
@@ -291,8 +300,9 @@
                         <a href="{{ route('frontend.projects.united-master') }}"
                             class="d-flex justify-content-md-start justify-content-center align-items-center">
                             <img loading="lazy" width="480" height="390"
-                                src="{{ asset('assets/united-masters-sync4tech-portfolio-mockup-image.webp') }}" alt="United Masters Sync4Tech portfolio mockup image"
-                                class="img-fluid" style="cursor: pointer" />
+                                src="{{ asset('assets/united-masters-sync4tech-portfolio-mockup-image.webp') }}"
+                                alt="United Masters Sync4Tech portfolio mockup image" class="img-fluid"
+                                style="cursor: pointer" />
                         </a>
                     </div>
                     <div class="col-md-6 d-flex flex-column gap-md-3 gap-2">
@@ -310,7 +320,7 @@
                         </p>
                         <div class="d-flex justify-content-center justify-content-md-start align-items-center">
                             <!-- <button
-                    > -->
+                        > -->
                             <a class="rounded-0 btn navButton button-color d-flex justify-content-center align-items-center gap-3"
                                 href="{{ route('frontend.projects.united-master') }}" class="text-white">View Details</a>
                             <!-- </button> -->
@@ -338,7 +348,7 @@
                         </p>
                         <div class="d-flex justify-content-center justify-content-md-start align-items-center">
                             <!-- <button
-                  > -->
+                      > -->
                             <a class="rounded-0 btn navButton button-color d-flex justify-content-center align-items-center gap-3"
                                 href="{{ route('frontend.projects.lahebo') }}" class="text-white">View Details</a>
                             <!-- </button> -->
@@ -348,7 +358,8 @@
                         <a href="{{ route('frontend.projects.lahebo') }}"
                             class="d-flex align-items-center justify-content-center">
                             <img loading="lazy" width="480" height="380"
-                                src="{{ asset('assets/lahebo-project-details-by-sync4tech-portfolio-logo.webp') }}" alt="Lahebo Project details by Sync4Tech portfolio logo" class="img-fluid"
+                                src="{{ asset('assets/lahebo-project-details-by-sync4tech-portfolio-logo.webp') }}"
+                                alt="Lahebo Project details by Sync4Tech portfolio logo" class="img-fluid"
                                 style="cursor: pointer" />
                         </a>
                     </div>
@@ -361,8 +372,9 @@
                         <a href="{{ route('frontend.projects.revconductor') }}"
                             class="d-flex justify-content-md-start justify-content-center align-items-center">
                             <img loading="lazy" width="480" height="380"
-                                src="{{ asset('assets/revconductor-sync4tech-portfolio-mockup-image.webp') }}" alt="RevConductor Sync4Tech portfolio mockup image"
-                                class="img-fluid" style="cursor: pointer" />
+                                src="{{ asset('assets/revconductor-sync4tech-portfolio-mockup-image.webp') }}"
+                                alt="RevConductor Sync4Tech portfolio mockup image" class="img-fluid"
+                                style="cursor: pointer" />
                         </a>
                     </div>
                     <div class="col-md-6 d-flex flex-column gap-md-3 gap-2">
@@ -381,7 +393,7 @@
                         </p>
                         <div class="d-flex justify-content-center justify-content-md-start align-items-center">
                             <!-- <button
-                > -->
+                    > -->
                             <a class="rounded-0 btn navButton button-color d-flex justify-content-center align-items-center gap-3"
                                 href="{{ route('frontend.projects.revconductor') }}" class="text-white">View Details</a>
                             <!-- </button> -->
@@ -427,8 +439,7 @@
         <div
             class="d-flex w-100 flex-md-row flex-column mt-lg-3 mt-md-2 gap-lg-3 gap-2 justify-content-center align-items-center">
             <div class="button-wrap">
-                <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                    type="button"
+                <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#staticBackdrop" type="button"
                     class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
                     <a href="#" class="text-orange">Become Our Partner</a>
                 </button>
@@ -485,8 +496,7 @@
 
                                 <div class="position-relative">
                                     <input style="color: #acacac;width: 100%;" type="text" id="companyName"
-                                        name="company_name" class="border-0"
-                                        placeholder="Enter Company Name" />
+                                        name="company_name" class="border-0" placeholder="Enter Company Name" />
                                 </div>
                             </div>
                             <div class="flex-column gap-1 pos-rev" id="nameselect">
@@ -548,8 +558,6 @@
               border-radius: 0px !important;
             " />
                                         <div id="phoneNumber-error" class="error-message pos-abs"></div>
-                                        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                                        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
                                         <!-- <script>
                                             var input = document.querySelector("#phoneNumber");
                                             var iti = window.intlTelInput(input, {
@@ -560,7 +568,7 @@
                                             // store the instance variable so we can access it in the console e.g. window.iti.getNumber()
                                             window.iti = iti;
                                         </script> -->
-                                        
+
                                         <!-- <div class="error-message" id="PhoneNumber-error"></div> -->
                                     </div>
                                 </div>
@@ -762,8 +770,7 @@
                 </div>
             </div>
             <div class="button-wrap">
-                <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#bookapp"
-                    type="button"
+                <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#bookapp" type="button"
                     class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
                     <a href="#" class="text-orange">Book A Consultation</a>
                 </button>
@@ -901,7 +908,7 @@
                                             09:30 PM
                                         </div>
                                     </div>
-                                    
+
                                     <h6 class="text-white text-start">Time Zone</h6>
                                     <div class="d-flex p-3 w-100 justify-content-between align-items-center align-self-stretch timezone"
                                         style="background: #f6f6f6">
@@ -977,7 +984,7 @@
                             rgba(16, 24, 40, 0.05);
                           padding-left: 96px !important;border-radius: 0px;
                         " />
-                                                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
                                                 <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
                                                 <script>
                                                     var input = document.querySelector("#phnumber");
@@ -1004,15 +1011,15 @@
                       "></textarea>
                                         </div>
                                         <div class="d-flex gap-3">
-                                            <button type="submit" id=" schedule"
+                                            <button type="submit" id="schedule"
                                                 class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-4 px-3 align-items-center gap-3">
                                                 Schedule Event
                                             </button>
                                             <!-- <button id=" discardButton" type="button"
-                            class="btn navButton text-orange consultaion-button rounded-0 button-color py-2 px-lg-5 px-3 d-flex justify-content-center align-items-center gap-3"
-                            data-bs-dismiss="modal">
-                            <a class="text-orange">Discard</a>
-                          </button> -->
+                                class="btn navButton text-orange consultaion-button rounded-0 button-color py-2 px-lg-5 px-3 d-flex justify-content-center align-items-center gap-3"
+                                data-bs-dismiss="modal">
+                                <a class="text-orange">Discard</a>
+                              </button> -->
                                         </div>
                                     </form>
                                 </div>
@@ -1031,10 +1038,11 @@
                                     </div>
                                     <div class="d-flex flex-column justify-content-center align-items-center mt-4">
                                         <img loading="lazy" width="212" height="40"
-                                            src="{{ asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}" alt="Sync4Tech Homepage Logo - Your Gateway to Technological Excellence"
+                                            src="{{ asset('assets/sync4tech-homepage-logo-you-gateway-to-technological-excellence.svg') }}"
+                                            alt="Sync4Tech Homepage Logo - Your Gateway to Technological Excellence"
                                             class="img-fluid" />
 
-                                            
+
                                     </div>
                                     <div class="d-flex flex-column align-items-start px-3 mt-5 gap-4">
                                         <div class="d-flex gap-3 justify-content-center align-items-center">

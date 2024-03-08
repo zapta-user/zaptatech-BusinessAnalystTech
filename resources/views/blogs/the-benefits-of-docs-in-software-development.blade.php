@@ -476,11 +476,11 @@
         /* max-height: 400px; */
         height: 222px;
         background-repeat: no-repeat;">
-                      <button class="position-absolute py-1 px-4 border-0"
+                      <button class="position-absolute py-1 px-4 border-0 fw-bold"
                           style=" top: 6%; right: 4%;
               background: rgba(255, 255, 255, 0.64);
               backdrop-filter: blur(2px);">
-                          <span style="color: #0d3642" class="fw-bold">Business Analysis</span>
+                          <span style="color: #0d3642">Business Analysis</span>
                       </button>
                   </div>
 
@@ -734,8 +734,6 @@
                 border-radius: 0px !important;
               " />
                                         <div id="phoneNumber-error" class="error-message pos-abs"></div>
-                                        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                                        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
                                         <!-- <script>
                                             var input = document.querySelector("#phoneNumber");
                                             var iti = window.intlTelInput(input, {
@@ -1178,8 +1176,6 @@
                             rgba(16, 24, 40, 0.05);
                           padding-left: 96px !important;border-radius: 0px;
                         " />
-                                                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                                                <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
                                                 <script>
                                                     var input = document.querySelector("#phnumber");
                                                     var iti = window.intlTelInput(input, {
@@ -1205,7 +1201,7 @@
                       "></textarea>
                                         </div>
                                         <div class="d-flex gap-3">
-                                            <button type="submit" id=" schedule"
+                                            <button type="submit" id="schedule"
                                                 class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-4 px-3 align-items-center gap-3">
                                              Schedule Event
                                             </button>
