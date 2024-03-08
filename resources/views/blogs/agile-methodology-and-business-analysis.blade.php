@@ -588,11 +588,11 @@
         /* max-height: 400px; */
         height: 222px;
         background-repeat: no-repeat;">
-                        <button class="position-absolute py-1 px-4 border-0"
+                        <button class="position-absolute py-1 px-4 border-0 fw-bold"
                             style=" top: 6%; right: 4%;
                 background: rgba(255, 255, 255, 0.64);
                 backdrop-filter: blur(2px);">
-                            <span style="color: #0d3642" class="fw-bold">Business Analysis</span>
+                            <span style="color: #0d3642">Business Analysis</span>
                         </button>
                     </div>
 
@@ -1314,7 +1314,7 @@
                       "></textarea>
                                         </div>
                                         <div class="d-flex gap-3">
-                                            <button type="submit" id=" schedule"
+                                            <button type="submit" id="schedule"
                                                 class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-4 px-3 align-items-center gap-3">
                                                 Schedule Event
                                             </button>

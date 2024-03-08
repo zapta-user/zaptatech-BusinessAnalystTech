@@ -36,6 +36,18 @@
                 <option value="(GMT-05:00) Pacific Time - Los Angeles" selected>
                     (GMT-05:00) Pacific Time - Los Angeles
                 </option>
+                <option value="(GMT-05:00) Pacific Time - Los Angeles">
+                    (GMT-05:00) Pacific Time - Pakistan
+                </option>
+                <option value="(GMT-05:00) Pacific Time - Los Angeles">
+                    (GMT-05:00) Pacific Time - India
+                </option>
+                <option value="(GMT-05:00) Pacific Time - Los Angeles">
+                    (GMT-05:00) Pacific Time - China
+                </option>
+                <option value="(GMT-05:00) Pacific Time - Los Angeles">
+                    (GMT-05:00) Pacific Time - Kasur
+                </option>
             </select>
         </div>
     </div>
@@ -111,7 +123,7 @@
                       "></textarea>
             </div>
             <div class="d-flex gap-3 mt-3">
-                <button type="submit" id=" schedule" class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-4 px-3 align-items-center gap-3">
+                <button type="submit" id="schedule" class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-4 px-3 align-items-center gap-3">
                     <a class="text-white">Schedule Event</a>
                 </button>
 
@@ -176,9 +188,9 @@
         Thanks for booking the consultation. Our representative
         will get back to you soon.
     </p>
-    <button type="submit" id="" class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3">
-        <a class="text-white px-4" onclick="closeFour()">Ok</a>
-    </button>
+        <button type="submit" id="" class="btn partnerbutton navButton rounded-0 button-color d-flex justify-content-center py-2 px-lg-5 px-3 align-items-center gap-3" onclick="closeFour()">
+            Ok
+        </button>
 </div>
 </template>
 
