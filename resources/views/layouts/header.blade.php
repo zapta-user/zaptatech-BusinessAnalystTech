@@ -25,6 +25,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- -------------------JQUERY CDN------------------ -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/js/intlTelInput.min.js"></script>
+    <script src="{{ asset('js/jqueryMin.js') }}"></script>
     @vite(['resources/js/app.js'])
     <style>
         /* Style the radio container (label) */
