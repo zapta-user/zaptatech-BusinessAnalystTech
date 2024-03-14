@@ -24,7 +24,8 @@ return [
     'admin' => [
         'email' => 'zaptatest2@gmail.com',
         'calendar' => [
-            'zaptatest2@gmail.com'
+            'zaptatest2@gmail.com',
+            'ateeqasif1168@gmail.com'
         ],
     ],
     'executive_emails' => env('EXECUTIVE_EMAILS', []),

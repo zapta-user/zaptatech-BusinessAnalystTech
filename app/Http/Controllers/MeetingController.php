@@ -33,12 +33,12 @@ class MeetingController extends Controller
 
     public function getTimeZones(Request $request)
     {
-        $query = $request->get('q', '');
+        // $query = $request->get('q', '');
         $timeZones = collect(\App\Helpers\Helpers::getTimeZoneList());
-        $timeZones = $timeZones->filter(function ($item, $key) use ($query) {
-            // Check if the key or the value contains the query as a substring in a case-insensitive manner
-            return stripos($key, $query) !== false || stripos($item, $query) !== false;
-        });
+        // $timeZones = $timeZones->filter(function ($item, $key) use ($query) {
+        //     return stripos($key, $query) !== false || stripos($item, $query) !== false;
+        // });
+        return $timeZones;
         return $this->ajaxSuccessResponse("List of Available Zones", $timeZones);
     }
 
@@ -116,7 +116,6 @@ class MeetingController extends Controller
 
     public function scheduleMeeting(Request $request)
     {
-        // return $request;
         $request->validate([
             'timezone' => 'required|timezone',
             'user_ip' => 'ip|nullable',

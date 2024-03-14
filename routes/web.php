@@ -72,6 +72,6 @@ Route::name('frontend.')->group(function () {
 
     //MeetingController
     Route::post('get-availabe-slots', [MeetingController::class, 'checkAvailableSlots'])->name('getAvailableSlots');
-    Route::post('get-time-zones', [MeetingController::class, 'getTimeZones'])->name('getTimeZones');
+    Route::get('get-time-zones', [MeetingController::class, 'getTimeZones'])->name('getTimeZones');
     Route::post('schedule-call', [MeetingController::class, 'scheduleMeeting'])->name('scheduleMeeting.store');
 });
