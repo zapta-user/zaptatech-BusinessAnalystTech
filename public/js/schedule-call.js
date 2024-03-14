@@ -1,13 +1,26 @@
 
 var userIp = null;
 var timeZone = null;
+var timeZoneUrl = null;
+// var localTimezoneVal = null;
 var selectedDate = new Date();
+
+localTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+localTimezoneVal = new Date().toLocaleString('en-US', {
+    timeZone: localTimezone,
+    timeZoneName: 'short'
+}).split(' ')[3];
+
+if (!localTimezoneVal.includes(':')) {
+    localTimezoneVal = `${localTimezoneVal.toString().padStart(2, '0')}:00` + ' - ' + localTimezone;
+}
 
 document.addEventListener("DOMContentLoaded", function () {
     var scriptTag = document.querySelector('script[src*="schedule-call.js"]');
     scheduleCallUrl = scriptTag.getAttribute("data-param");
     timeZoneUrl = scriptTag.getAttribute("data-param2");
     meetingDuration = scriptTag.getAttribute("data-param3");
+    console.log('timezone', timeZoneUrl);
     getAvailableSlots();
 });
 
@@ -47,7 +60,7 @@ getUserIpAddress()
             }
 
             countryCode = userInfo ? userInfo.country_code : 'pk';
-
+            $('#timezone').val(localTimezoneVal);
         }).catch(error => {
             // phoneInfo = initializeCountry('pk', document.querySelector(".country-select")) // set pk by default if api fail to get countryCode
             // let input = document.querySelector(".country-select-mobile");
@@ -94,6 +107,10 @@ $('#openScheduleModal').click(function (e) {
     backToSecond();
 })
 
+$('#timezone').on('change', function (e) {
+    timeZone = $(this).val();
+    getAvailableSlots();
+})
 
 async function getAvailableSlots() {
     var formattedDate = selectedDate.getFullYear() + '-' +
@@ -112,7 +129,7 @@ async function getAvailableSlots() {
         method: "POST",
         url: scheduleCallUrl,
         data: {
-            timezone: 'Asia/Karachi',
+            timezone: timeZone ?? localTimezone,
             ip: userIp,
             date: formattedDate
 
@@ -184,7 +201,6 @@ async function getAvailableSlots() {
 $(document).on('click', '.slot-container .slot', function () {
 
     var timeSlotValue = $(this).text().trim();
-    console.log('timeslot', timeSlotValue);
     let formattedDate2 = selectedDate.getFullYear() + '-' +
         ('0' + (selectedDate.getMonth() + 1)).slice(-2) + '-' +
         ('0' + selectedDate.getDate()).slice(-2) + ' ' +
@@ -194,8 +210,22 @@ $(document).on('click', '.slot-container .slot', function () {
 
     $('.slot-container .slot').removeClass('active');
     $(this).addClass('active');
+    console.log('timeSlotValuenew', timeSlotValue);
+    var timeSlotValueRange = timeSlotValue;
+    var match = timeSlotValue.match(/(\d+):(\d+)\s+(\w+)/);
+    if (match) {
+        var [_, hour, minute, period] = match;
+        var startTime = new Date(`2000-01-01 ${hour}:${minute}:00 ${period}`);
+        var endTime = new Date(startTime.getTime() + 30 * 60000).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true });
+        let timeRange = `${timeSlotValueRange} - ${endTime}`;
+        $('.meeting-time').text(timeRange + ', ' + new Date(formattedDate2).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }));
+    } else {
+        console.error("Invalid time format");
+    }
+
+    $('.meeting-timezone').text(timeZone ?? localTimezone);
     const hiddenFields = {
-        timezone: 'Asia/Karachi',
+        timezone: timeZone ?? localTimezone,
         user_ip: userIp,
         date: formattedDate2,
         time_slot: timeSlotValue,
@@ -205,18 +235,19 @@ $(document).on('click', '.slot-container .slot', function () {
 })
 
 $('.scheduleNextBtn').on('click', function (event) {
-    console.log('clicked');
     var nearestTimeSlotInput = $('.slot-container').find('.slot.active');
     var timeSlotValue = nearestTimeSlotInput.text();
 
     if (!timeSlotValue || availableSlots.length == 0) {
         console.log("timeSlotValue", timeSlotValue);
+
         if (availableSlots.length != 0) $('.time_slot-error').show();
         event.preventDefault();
         event.stopPropagation();
         $('.time_slot-error').removeClass('d-none');
         return;
     } else {
+        console.log("timeSlotValue", timeSlotValue);
         $('.time_slot-error').addClass('d-none');
         showSecondDiv();
     }
@@ -235,3 +266,4 @@ function backToSecond() {
     div1.style.display = "flex";
     div3.style.display = "none";
 }
+
