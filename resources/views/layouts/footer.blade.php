@@ -462,7 +462,11 @@
     })
 
     function partnerFormSuccess(response) {
-        $("#succesmodel").modal("show");
+        $.notify('Your request has been submitted', 'success');
+    }
+
+    function contactUsSuccess() {
+        $.notify('Contact form submitted successfully', 'success');
     }
 </script>
 <script>
