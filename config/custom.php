@@ -29,7 +29,7 @@ return [
             'ateeqasif1168@gmail.com'
         ],
     ],
-    'executive_emails' => env('EXECUTIVE_EMAILS', []),
+    'executive_emails' => env('EXECUTIVE_EMAILS', 'zaptatest2@gmail.com'),
     'javascript' => [
         'log' => env('JAVASCRIPT_LOG_TRUE', false)
     ],
