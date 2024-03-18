@@ -6,7 +6,7 @@
         <div class="flex-column modal-content scrollable-modal-content partnerForm px-lg-5 px-md-4 px-3 py-5 gap-3">
             <div class="d-flex w-100 justify-content-between align-items-center">
                 <h3 style="display: flex; justify-content: center;margin: 0 auto 16px;color:#FB7A00;">
-                    Let's join hands!
+                    Tell Us About Yourself!
                 </h3>
                 <svg data-bs-dismiss="modal" class="cancelform" xmlns="http://www.w3.org/2000/svg" width="27"
                     height="27" viewBox="0 0 27 27" fill="none"
@@ -138,8 +138,8 @@
                     <div class="error-message pos-abs" id="domainSection-error"></div>
                 </div>
                 <div class="d-flex flex-column gap-1">
-                    <label for="Partner" style="padding-top: 10px !important;">What Services are you most Interested
-                        in?</label>
+                    <label for="Partner" style="padding-top: 10px !important;">Which Service you need from
+                        us?</label>
                     <select name="service" id="partner" class="w-100 border-0 align-self-stretch serviceListing">
                     </select>
                     <div class="error-message" id="partner-error"></div>

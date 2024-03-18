@@ -27,8 +27,8 @@
                     <!-- <h4 class=" text-center pt-md-0 pt-1 mb-0 border-0"></h4> -->
                 </a>
                 <!-- <a style="text-decoration: none; " href="#">
-                                          <h4 class="text-orange text-center pt-md-0 pt-1 m-0">SERVICES</h4>
-                                        </a> -->
+                                              <h4 class="text-orange text-center pt-md-0 pt-1 m-0">SERVICES</h4>
+                                            </a> -->
             </div>
             <h1 class="text-white fw-bold">Services</h1>
             <p class="text-lg-start" style="color: #dfdfdf">
@@ -309,35 +309,35 @@
     <!-- --------------COLLABORATION SECTION-------------------- -->
     <!-- <div class="cardsSection d-flex flex-column justify-content-center align-items-center gap-5">
 
-                                    <div class="contentSection d-flex flex-column justify-content-center align-items-center gap-3">
-                                      <p class="text-orange text-center">OUR COLLABORATIONS</p>
-                                      <h1 class="dark-black text-center fw-bold">
-                                        How We Collaborate With Clients
-                                      </h1>
-                                    </div>
+                                        <div class="contentSection d-flex flex-column justify-content-center align-items-center gap-3">
+                                          <p class="text-orange text-center">OUR COLLABORATIONS</p>
+                                          <h1 class="dark-black text-center fw-bold">
+                                            How We Collaborate With Clients
+                                          </h1>
+                                        </div>
 
-                                   
-                                    <div class="service-cli-col-cards">
-                                      <div class="ser-col-card">
-                                        <img src="./assets/cli-card-1.svg" alt="cli-card-1">
-                                        <h2 style="padding-top: 16px !important;">In-Depth Consultation</h2>
-                                        <p>We initiate collaboration by engaging in an in-depth consultation with you to understand your vision, needs,
-                                          and goals.</p>
-                                      </div>
-                                      <div class="ser-col-card">
-                                        <img src="./assets/cli-card-2.svg" alt="cli-card-1">
-                                        <h2 style="padding-top: 16px !important;">Tailored Strategy Development</h2>
-                                        <p>Building on the insights from our consultation, we craft a customized strategy based on our industry
-                                          expertise</p>
-                                      </div>
-                                      <div class="ser-col-card">
-                                        <img src="./assets/cli-card-3.svg" alt="cli-card-1">
-                                        <h2 style="padding-top: 16px !important;">Seamless Execution and Ongoing Support</h2>
-                                        <p>We work hand in hand with your team to bring the plan to life, providing continuous support and adapting as
-                                          needed.</p>
-                                      </div>
-                                    </div>
-                                  </div> -->
+                                       
+                                        <div class="service-cli-col-cards">
+                                          <div class="ser-col-card">
+                                            <img src="./assets/cli-card-1.svg" alt="cli-card-1">
+                                            <h2 style="padding-top: 16px !important;">In-Depth Consultation</h2>
+                                            <p>We initiate collaboration by engaging in an in-depth consultation with you to understand your vision, needs,
+                                              and goals.</p>
+                                          </div>
+                                          <div class="ser-col-card">
+                                            <img src="./assets/cli-card-2.svg" alt="cli-card-1">
+                                            <h2 style="padding-top: 16px !important;">Tailored Strategy Development</h2>
+                                            <p>Building on the insights from our consultation, we craft a customized strategy based on our industry
+                                              expertise</p>
+                                          </div>
+                                          <div class="ser-col-card">
+                                            <img src="./assets/cli-card-3.svg" alt="cli-card-1">
+                                            <h2 style="padding-top: 16px !important;">Seamless Execution and Ongoing Support</h2>
+                                            <p>We work hand in hand with your team to bring the plan to life, providing continuous support and adapting as
+                                              needed.</p>
+                                          </div>
+                                        </div>
+                                      </div> -->
 
     <div class="cardsSection d-flex flex-column justify-content-center align-items-center gap-3 howWork"
         style="
@@ -375,8 +375,8 @@
                     </div>
                     <div class="ser-col-card card2" style="position: relative;">
                         <!-- <img class="arrow-img ex-arrw"
-                                              style="position: absolute;height: 22px;top: 75px;left: -83px;right: 10%;z-index: -1;transform: rotate(-21deg);"
-                                              src="./assets/blue-arrow.svg" alt="arrow-img"> -->
+                                                  style="position: absolute;height: 22px;top: 75px;left: -83px;right: 10%;z-index: -1;transform: rotate(-21deg);"
+                                                  src="./assets/blue-arrow.svg" alt="arrow-img"> -->
 
                         <img src="{{ asset('assets/sync4tech-business-process-step-02-expert-consultation.svg') }}"
                             alt="Sync4Tech Business Process Step 2 - expert consultation">
@@ -390,8 +390,8 @@
                         <img src="{{ asset('assets/sync4tech-business-process-step-03-expert-consultation.svg') }}"
                             alt="Sync4Tech Business Process Step 3 - comprehensive business analysis">
                         <!-- <img class="arrow-img2 ex-arrw2"
-                                              style="position: absolute;height: 22px;top: 38px;left: 11px;right: 30%;z-index: 1;transform: rotate(10deg);"
-                                              src="./assets/blue-arrow.svg" alt="arrow-img"> -->
+                                                  style="position: absolute;height: 22px;top: 38px;left: 11px;right: 30%;z-index: 1;transform: rotate(10deg);"
+                                                  src="./assets/blue-arrow.svg" alt="arrow-img"> -->
                         <h2 style="color: #232323;padding-top: 16px !important;">Comprehensive Business Analysis</h2>
                         <p style="color: #5F5F5F;padding-top: 4px !important;">Building upon the insights gained through
                             expert consultation, we conduct a careful analysis. This process results in solutions precisely
@@ -400,11 +400,11 @@
 
                     <div style="position: absolute;left: 157px;right: 0%;top: 73px;z-index: -1;" class="change-wi">
                         <!-- <svg class="hover-line" width="" height="84" viewBox="0 0 1070 84" fill="none"
-                                              xmlns="http://www.w3.org/2000/svg">
-                                              <path
-                                                d="M1068 41.8738C1068 41.8738 956.287 7.96021 864.681 2.7105C735.661 -4.68327 538.484 48.0669 538.484 48.0669C538.484 48.0669 384.696 80.6953 283.86 81.9596C172.523 83.3556 2 48.0669 2 48.0669"
-                                                stroke="#2B5F68" stroke-width="3" stroke-linecap="square" stroke-dasharray="20 10" />
-                                            </svg> -->
+                                                  xmlns="http://www.w3.org/2000/svg">
+                                                  <path
+                                                    d="M1068 41.8738C1068 41.8738 956.287 7.96021 864.681 2.7105C735.661 -4.68327 538.484 48.0669 538.484 48.0669C538.484 48.0669 384.696 80.6953 283.86 81.9596C172.523 83.3556 2 48.0669 2 48.0669"
+                                                    stroke="#2B5F68" stroke-width="3" stroke-linecap="square" stroke-dasharray="20 10" />
+                                                </svg> -->
                         <svg width="100%" class="hover-line" height="84" viewBox="0 0 1070 84" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -416,11 +416,11 @@
                     </div>
                     <div style="position: absolute;left: 157px;right: 0%;top: 73px;z-index: -1;" class="change-wi">
                         <!-- <svg class="hover-white" width="" height="84" viewBox="0 0 1070 84" fill="none"
-                                              xmlns="http://www.w3.org/2000/svg">
-                                              <path
-                                                d="M1068 41.8738C1068 41.8738 956.287 7.96021 864.681 2.7105C735.661 -4.68327 538.484 48.0669 538.484 48.0669C538.484 48.0669 384.696 80.6954 283.86 81.9597C172.523 83.3556 2 48.0669 2 48.0669"
-                                                stroke="white" stroke-width="3" stroke-linecap="square" stroke-dasharray="20 10" />
-                                            </svg> -->
+                                                  xmlns="http://www.w3.org/2000/svg">
+                                                  <path
+                                                    d="M1068 41.8738C1068 41.8738 956.287 7.96021 864.681 2.7105C735.661 -4.68327 538.484 48.0669 538.484 48.0669C538.484 48.0669 384.696 80.6954 283.86 81.9597C172.523 83.3556 2 48.0669 2 48.0669"
+                                                    stroke="white" stroke-width="3" stroke-linecap="square" stroke-dasharray="20 10" />
+                                                </svg> -->
                         <svg width="100%" class="hover-white" height="84" viewBox="0 0 1070 84" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -453,7 +453,7 @@
             <div class="button-wrap">
                 <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#staticBackdrop" type="button"
                     class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
-                    <a href="#" class="text-orange">Become Our Partner</a>
+                    <a href="#" class="text-orange">Hire Now!</a>
                 </button>
             </div>
 

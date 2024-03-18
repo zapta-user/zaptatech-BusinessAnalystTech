@@ -89,7 +89,7 @@
                 <div class="d-flex flex-column gap-1 w-100 pos-rev ex-padd">
                     <label for="phnumber" class="text-start">Phone Number</label>
 
-                    <input type="tel" name="phone" id="phnumber" class="form-control py-2" style="
+                    <input type="tel" name="phone" id="phnumber" ref="phoneInput" class="form-control py-2" style="
                           border: 1px solid #d0d5dd !important;
                           background: #f6f6f6;
                           box-shadow: 0px 1px 2px 0px
@@ -97,6 +97,7 @@
                           padding-left: 96px !important;border-radius: 0px;
                           height: 42px;
                         " />
+
                     <span id="phonenumError" class="text-start pos-abs"></span>
                 </div>
             </div>
@@ -209,14 +210,24 @@ export default {
                 email: '',
             },
             formErrors: {
-                name: null, 
-                email: null, 
+                name: null,
+                email: null,
             },
             showModal: false,
             timezones: timezone
         };
     },
     mounted() {
+
+        const input = this.$refs.phoneInput;
+        const iti = window.intlTelInput(input, {
+            separateDialCode: true,
+            utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/js/utils.js",
+        });
+
+        // Optionally, you can assign iti to a Vue data property if you need to access it elsewhere in the component
+        this.$data.iti = iti;
+
         const calendarConfig = {
             container: 'calendar',
             months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
@@ -270,7 +281,7 @@ export default {
                     this.localTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
                     this.localTimezoneVal = this.localTimezone;
                 }
-        
+
                 this.countryCode = userInfo ? userInfo.country_code : 'pk';
             } catch (error) {
                 console.error('Error initializing component:', error);
