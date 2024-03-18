@@ -133,16 +133,16 @@
 
 
                     <!--
-                        <ul class="ms-4 brown">
-                          <li><b>Project Scope</b> What are the boundaries and extent of your project? Requirement gathering helps with defining that. By thoroughly understanding the requirements, your development team can clearly define what should be included and excluded from the project.Additionally, it enables your development team to set realistic and achievable project goals and deliverables and ensures that the project stays within its defined scope. The process will help you significantly avoid delays, increased costs, and decreased customer satisfaction.<br><br></li>
-                          <li>
-                            <b>Timeline</b> Gathering requirements early in your project timeline will also identify potential risks, issues, and dependencies that may impact your project schedule. Similarly, when your development team understands the requirement upfront, they can accurately estimate the time and effort required to complete the project tasks.Moreover, the requirement-gathering process enables you to efficiently plan and schedule tasks and helps you avoid delays caused by unclear or changing requirements during the development phase. With preplanned tasks, you can help your team to deliver the most critical requirements first and meet project deadlines by prioritising the main features and functionalities of the project.<br><br>
-                          </li>
-                          <li>
-                            <b>Budget</b> Gathering software requirements helps you in estimating the budget required for the project accurately. By understanding the requirements and their associated complexities, your development team can estimate the resources, costs, and expenses needed to develop the software. This includes personnel, hardware and software costs, third-party dependencies, and other project-related expenses. The accurate budget estimation will help you secure the necessary funding, allocate resources efficiently, and avoid cost overruns due to changes in requirements during development. It will also help you manage customer expectations and ensure the project is financially viable.
-                          </li>
-                          
-                        </ul> -->
+                            <ul class="ms-4 brown">
+                              <li><b>Project Scope</b> What are the boundaries and extent of your project? Requirement gathering helps with defining that. By thoroughly understanding the requirements, your development team can clearly define what should be included and excluded from the project.Additionally, it enables your development team to set realistic and achievable project goals and deliverables and ensures that the project stays within its defined scope. The process will help you significantly avoid delays, increased costs, and decreased customer satisfaction.<br><br></li>
+                              <li>
+                                <b>Timeline</b> Gathering requirements early in your project timeline will also identify potential risks, issues, and dependencies that may impact your project schedule. Similarly, when your development team understands the requirement upfront, they can accurately estimate the time and effort required to complete the project tasks.Moreover, the requirement-gathering process enables you to efficiently plan and schedule tasks and helps you avoid delays caused by unclear or changing requirements during the development phase. With preplanned tasks, you can help your team to deliver the most critical requirements first and meet project deadlines by prioritising the main features and functionalities of the project.<br><br>
+                              </li>
+                              <li>
+                                <b>Budget</b> Gathering software requirements helps you in estimating the budget required for the project accurately. By understanding the requirements and their associated complexities, your development team can estimate the resources, costs, and expenses needed to develop the software. This includes personnel, hardware and software costs, third-party dependencies, and other project-related expenses. The accurate budget estimation will help you secure the necessary funding, allocate resources efficiently, and avoid cost overruns due to changes in requirements during development. It will also help you manage customer expectations and ensure the project is financially viable.
+                              </li>
+                              
+                            </ul> -->
 
                     <h3 class="link-color">Business Analysis Techniques for Digital Transformation</h3>
                     <div class="w-100 blogcardImage"
@@ -654,7 +654,61 @@
             <div class="button-wrap">
                 <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#staticBackdrop" type="button"
                     class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
-                    <a href="#" class="text-orange">Become Our Partner</a>
+                    <a href="#" class="text-orange"> <!-- --------------TELL US SECTION-------------------- -->
+                        <div
+                            class="tellProjectSection flex-column gap-lg-4 gap-3 d-flex justify-content-center align-items-center flex-shrink-0">
+                            <h4 class="text-orange text-center">STAY CONNECTED</h4>
+                            <h2 class="text-white text-center fw-bold">Tell Us About Your Project</h2>
+                            <p class="text-center w-75 px-lg-2" style="color: #dfdfdf">
+                                Ready to get started on your project? We're here to listen! Tell us
+                                about your project, and together, let's bring your vision to life
+                            </p>
+                            <div
+                                class="d-flex w-100 flex-md-row flex-column mt-lg-3 mt-md-2 gap-lg-3 gap-2 justify-content-center align-items-center">
+                                <div class="button-wrap">
+                                    <button style="margin-top: 0;" data-bs-toggle="modal"
+                                        data-bs-target="#staticBackdrop" type="button"
+                                        class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
+                                        <a href="#" class="text-orange">Hire Now!</a>
+                                    </button>
+                                </div>
+
+
+                                <div class="button-wrap">
+                                    <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#bookapp"
+                                        type="button"
+                                        class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
+                                        <a href="#" class="text-orange">Book A Consultation</a>
+                                    </button>
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="bookapp" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div
+                                        class="modal-dialog modal-dialog-centered modal-xl modal-dialog-centered d-flex justify-content-center align-items-center">
+                                        <div class="modal-content book-modal-content firstDivModal" id="app">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <script>
+                                    // Add a click event listener to the SVG
+                                    document
+                                        .querySelector(".close-modal")
+                                        .addEventListener("click", function() {
+                                            // Find the modal element by its ID
+                                            var modal = document.getElementById("bookapp");
+                                            // Close the modal
+                                            $(modal).modal("hide");
+                                            // Remove the backdrop manually
+                                            $(".modal-backdrop").remove();
+                                        });
+                                </script>
+                            </div>
+
+                        </div>
+                    </a>
                 </button>
             </div>
 
@@ -662,7 +716,7 @@
             <div class="button-wrap">
                 <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#bookapp" type="button"
                     class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
-                    <a href="#" class="text-orange">Hire Now!</a>
+                    <a href="#" class="text-orange">Book A Consultation</a>
                 </button>
             </div>
             <!-- Modal -->
