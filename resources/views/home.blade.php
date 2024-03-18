@@ -17,7 +17,7 @@
                 <div class="Partner-button">
                     <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" type="button">
                         <!-- <a href="#" class="text-orange">Become Our Partner</a> -->
-                        Become Our Partner
+                        Hire Now!
                     </button>
                     {{-- <button data-bs-toggle="modal" data-bs-target="#bookapp" id="" type="button">
                         <!-- <a href="#" class="text-orange">Book A Consultation</a> -->
@@ -1063,11 +1063,11 @@
                         </div>
                     </div>
                     <!-- <div class="image-overlay-text position-absolute d-flex flex-column text-white gap-3">
-                                                                                                                                                                                                    
-                                                                                                                                                                                                    
-                                                                                                                                                                                                    
-                                                                                                                                                                                                   
-                                                                                                                                                                                                  </div> -->
+                                                                                                                                                                                                            
+                                                                                                                                                                                                            
+                                                                                                                                                                                                            
+                                                                                                                                                                                                           
+                                                                                                                                                                                                          </div> -->
                 </div>
                 <div class="subDiv formSection d-flex flex-column gap-2 align-items-md-start align-items-center">
                     <form action="{{ route('frontend.contacts.store') }}"

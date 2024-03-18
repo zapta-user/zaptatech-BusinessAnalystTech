@@ -92,7 +92,7 @@
                         </p>
                         <div class="d-flex justify-content-center justify-content-md-start align-items-center">
                             <!-- <button
-                                                        > -->
+                                                                > -->
                             <a class="rounded-0 btn navButton button-color d-flex justify-content-center align-items-center gap-3"
                                 href="{{ route('frontend.projects.qme-solutions') }}" class="text-white">View Details</a>
                             <!-- </button> -->
@@ -117,7 +117,7 @@
                         </p>
                         <div class="d-flex justify-content-center justify-content-md-start align-items-center">
                             <!-- <button
-                                                        > -->
+                                                                > -->
                             <a class="rounded-0 btn navButton button-color d-flex justify-content-center align-items-center gap-3"
                                 href="{{ route('frontend.projects.quicksteps') }}" class="text-white">View Details</a>
                             <!-- </button> -->
@@ -162,7 +162,7 @@
                         </p>
                         <div class="d-flex justify-content-center justify-content-md-start align-items-center">
                             <!-- <button
-                                                        > -->
+                                                                > -->
                             <a class="rounded-0 btn navButton button-color d-flex justify-content-center align-items-center gap-3"
                                 href="{{ route('frontend.projects.kutuby') }}" class="text-white">View Details</a>
                             <!-- </button> -->
@@ -191,7 +191,7 @@
                         </p>
                         <div class="d-flex justify-content-center justify-content-md-start align-items-center">
                             <!-- <button
-                                                        > -->
+                                                                > -->
                             <a class="rounded-0 btn navButton button-color d-flex justify-content-center align-items-center gap-3"
                                 href="{{ route('frontend.projects.roomz') }}" class="text-white">View Details</a>
                             <!-- </button> -->
@@ -208,20 +208,20 @@
 
                 </div>
                 <!-- <div class="col-12 flex-md-row gap-3 flex-column align-items-center" data-category="Category03">
-                                                  <p style="max-width: 700px; margin: 0 auto; text-align: justify;" class="brown px-md-0 px-2">
-                                                    We appreciate your interest in our website. We've just finished our most recent projects with success, and
-                                                    we're getting ready for some interesting new ones. Our commitment to delivering exceptional results remains
-                                                    steadfast.
-                                                    While we're currently between projects, , our crew is hard at work getting ready for new ventures. We are
-                                                    always learning new things, experimenting with creative concepts, and looking for fresh ways to add value
-                                                    for our customers.<br><br>
-                                                    Please check back soon for updates on our latest projects and initiatives. In the meantime, feel free to
-                                                    explore our services, get to know our team, or reach out to us with any inquiries or potential
-                                                    collaborations.
-                                                    We appreciate your interest in what we do. We're excited to get in touch with you and work on more projects
-                                                    together in the future!"
-                                                  </p>
-                                                </div> -->
+                                                          <p style="max-width: 700px; margin: 0 auto; text-align: justify;" class="brown px-md-0 px-2">
+                                                            We appreciate your interest in our website. We've just finished our most recent projects with success, and
+                                                            we're getting ready for some interesting new ones. Our commitment to delivering exceptional results remains
+                                                            steadfast.
+                                                            While we're currently between projects, , our crew is hard at work getting ready for new ventures. We are
+                                                            always learning new things, experimenting with creative concepts, and looking for fresh ways to add value
+                                                            for our customers.<br><br>
+                                                            Please check back soon for updates on our latest projects and initiatives. In the meantime, feel free to
+                                                            explore our services, get to know our team, or reach out to us with any inquiries or potential
+                                                            collaborations.
+                                                            We appreciate your interest in what we do. We're excited to get in touch with you and work on more projects
+                                                            together in the future!"
+                                                          </p>
+                                                        </div> -->
                 <div class="col-12 flex-md-row gap-md-5 gap-3 flex-column justify-content-lg-between justify-content-center align-items-center w-100"
                     data-category="Category02">
                     <div class="col-md-5 d-flex justify-content-center align-items-center">
@@ -249,7 +249,7 @@
                         </p>
                         <div class="d-flex justify-content-center justify-content-md-start align-items-center">
                             <!-- <button
-                                                        > -->
+                                                                > -->
                             <a class="rounded-0 btn navButton button-color d-flex justify-content-center align-items-center gap-3"
                                 href="{{ route('frontend.projects.investme') }}" class="text-white">View Details</a>
                             <!-- </button> -->
@@ -276,7 +276,7 @@
                         </p>
                         <div class="d-flex justify-content-center justify-content-md-start align-items-center">
                             <!-- <button
-                                                      > -->
+                                                              > -->
                             <a class="rounded-0 btn navButton button-color d-flex justify-content-center align-items-center gap-3"
                                 href="{{ route('frontend.projects.watch-tower') }}" class="text-white">View Details</a>
                             <!-- </button> -->
@@ -320,7 +320,7 @@
                         </p>
                         <div class="d-flex justify-content-center justify-content-md-start align-items-center">
                             <!-- <button
-                                                    > -->
+                                                            > -->
                             <a class="rounded-0 btn navButton button-color d-flex justify-content-center align-items-center gap-3"
                                 href="{{ route('frontend.projects.united-master') }}" class="text-white">View Details</a>
                             <!-- </button> -->
@@ -348,7 +348,7 @@
                         </p>
                         <div class="d-flex justify-content-center justify-content-md-start align-items-center">
                             <!-- <button
-                                                  > -->
+                                                          > -->
                             <a class="rounded-0 btn navButton button-color d-flex justify-content-center align-items-center gap-3"
                                 href="{{ route('frontend.projects.lahebo') }}" class="text-white">View Details</a>
                             <!-- </button> -->
@@ -393,7 +393,7 @@
                         </p>
                         <div class="d-flex justify-content-center justify-content-md-start align-items-center">
                             <!-- <button
-                                                > -->
+                                                        > -->
                             <a class="rounded-0 btn navButton button-color d-flex justify-content-center align-items-center gap-3"
                                 href="{{ route('frontend.projects.revconductor') }}" class="text-white">View Details</a>
                             <!-- </button> -->
@@ -441,7 +441,7 @@
             <div class="button-wrap">
                 <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#staticBackdrop" type="button"
                     class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
-                    <a href="#" class="text-orange">Become Our Partner</a>
+                    <a href="#" class="text-orange">Hire Now!</a>
                 </button>
             </div>
 
