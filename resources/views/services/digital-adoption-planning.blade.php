@@ -41,8 +41,8 @@
                     Digital Adoption Planning
                 </a>
                 <!-- <a style="text-decoration: none; " href="#">
-                <h4 class="text-orange text-center pt-md-0 pt-1 m-0">BUSINESS ANALYSIS</h4>
-              </a> -->
+                    <h4 class="text-orange text-center pt-md-0 pt-1 m-0">BUSINESS ANALYSIS</h4>
+                  </a> -->
             </div>
             <h1 class="text-white fw-bold">Digital Adoption Planning</h1>
             <p class="" style="color: #dfdfdf">
@@ -283,7 +283,7 @@
             <div class="button-wrap">
                 <button style="margin-top: 0;" data-bs-toggle="modal" data-bs-target="#staticBackdrop" type="button"
                     class="btn animated-btn navButton consultaion-button rounded-0 button-color py-lg-3 py-2 px-lg-4 px-3 d-flex justify-content-center align-items-center gap-3">
-                    <a href="#" class="text-orange">Become Our Partner</a>
+                    <a href="#" class="text-orange">Hire Now!</a>
                 </button>
             </div>
 
@@ -873,10 +873,10 @@
                                                 Schedule Event
                                             </button>
                                             <!-- <button id=" discardButton" type="button"
-                          class="btn navButton text-orange consultaion-button rounded-0 button-color py-2 px-lg-5 px-3 d-flex justify-content-center align-items-center gap-3"
-                          data-bs-dismiss="modal">
-                          <a class="text-orange">Discard</a>
-                        </button> -->
+                              class="btn navButton text-orange consultaion-button rounded-0 button-color py-2 px-lg-5 px-3 d-flex justify-content-center align-items-center gap-3"
+                              data-bs-dismiss="modal">
+                              <a class="text-orange">Discard</a>
+                            </button> -->
                                         </div>
                                     </form>
                                 </div>
